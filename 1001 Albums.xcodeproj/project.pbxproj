@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EC677B14285B29A000036C74 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = EC677B13285B29A000036C74 /* README.md */; };
+		EC424B78285B2A920092B071 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = EC424B77285B2A920092B071 /* README.md */; };
 		EC7ADED3285B1D9800F45B1A /* ThousandAlbumsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7ADED2285B1D9800F45B1A /* ThousandAlbumsApp.swift */; };
 		EC7ADED5285B1D9800F45B1A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7ADED4285B1D9800F45B1A /* ContentView.swift */; };
 		EC7ADED7285B1D9900F45B1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC7ADED6285B1D9900F45B1A /* Assets.xcassets */; };
@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EC677B13285B29A000036C74 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../GromovObs/README.md; sourceTree = "<group>"; };
+		EC424B77285B2A920092B071 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		EC7ADECF285B1D9800F45B1A /* 1001 Albums.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "1001 Albums.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC7ADED2285B1D9800F45B1A /* ThousandAlbumsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThousandAlbumsApp.swift; sourceTree = "<group>"; };
 		EC7ADED4285B1D9800F45B1A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -37,7 +37,7 @@
 		EC7ADEC6285B1D9800F45B1A = {
 			isa = PBXGroup;
 			children = (
-				EC677B13285B29A000036C74 /* README.md */,
+				EC424B77285B2A920092B071 /* README.md */,
 				EC7ADED1285B1D9800F45B1A /* 1001 Albums */,
 				EC7ADED0285B1D9800F45B1A /* Products */,
 			);
@@ -128,7 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC677B14285B29A000036C74 /* README.md in Resources */,
+				EC424B78285B2A920092B071 /* README.md in Resources */,
 				EC7ADEDA285B1D9900F45B1A /* Preview Assets.xcassets in Resources */,
 				EC7ADED7285B1D9900F45B1A /* Assets.xcassets in Resources */,
 			);
