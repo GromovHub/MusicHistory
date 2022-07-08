@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Controller {
+class Controller: ObservableObject {
     init() {
         createArray()
     }
