@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0CA3E7D2878483000B735B6 /* json1001raw.json in Resources */ = {isa = PBXBuildFile; fileRef = D0CA3E7C2878483000B735B6 /* json1001raw.json */; };
+		D0CA3E7F2878486100B735B6 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CA3E7E2878486100B735B6 /* Controller.swift */; };
+		D0CA3E8128784DE400B735B6 /* simpleObj.json in Resources */ = {isa = PBXBuildFile; fileRef = D0CA3E8028784DE400B735B6 /* simpleObj.json */; };
 		EC424B78285B2A920092B071 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = EC424B77285B2A920092B071 /* README.md */; };
 		EC7ADED3285B1D9800F45B1A /* ThousandAlbumsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7ADED2285B1D9800F45B1A /* ThousandAlbumsApp.swift */; };
 		EC7ADED5285B1D9800F45B1A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7ADED4285B1D9800F45B1A /* ContentView.swift */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D0CA3E7C2878483000B735B6 /* json1001raw.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = json1001raw.json; sourceTree = "<group>"; };
+		D0CA3E7E2878486100B735B6 /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
+		D0CA3E8028784DE400B735B6 /* simpleObj.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = simpleObj.json; sourceTree = "<group>"; };
 		EC424B77285B2A920092B071 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		EC7ADECF285B1D9800F45B1A /* 1001 Albums.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "1001 Albums.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC7ADED2285B1D9800F45B1A /* ThousandAlbumsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThousandAlbumsApp.swift; sourceTree = "<group>"; };
@@ -54,8 +60,11 @@
 		EC7ADED1285B1D9800F45B1A /* 1001 Albums */ = {
 			isa = PBXGroup;
 			children = (
+				D0CA3E8028784DE400B735B6 /* simpleObj.json */,
+				D0CA3E7C2878483000B735B6 /* json1001raw.json */,
 				EC7ADED2285B1D9800F45B1A /* ThousandAlbumsApp.swift */,
 				EC7ADED4285B1D9800F45B1A /* ContentView.swift */,
+				D0CA3E7E2878486100B735B6 /* Controller.swift */,
 				EC7ADED6285B1D9900F45B1A /* Assets.xcassets */,
 				EC7ADED8285B1D9900F45B1A /* Preview Content */,
 			);
@@ -106,7 +115,7 @@
 				};
 			};
 			buildConfigurationList = EC7ADECA285B1D9800F45B1A /* Build configuration list for PBXProject "1001 Albums" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -128,9 +137,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0CA3E8128784DE400B735B6 /* simpleObj.json in Resources */,
 				EC424B78285B2A920092B071 /* README.md in Resources */,
 				EC7ADEDA285B1D9900F45B1A /* Preview Assets.xcassets in Resources */,
 				EC7ADED7285B1D9900F45B1A /* Assets.xcassets in Resources */,
+				D0CA3E7D2878483000B735B6 /* json1001raw.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0CA3E7F2878486100B735B6 /* Controller.swift in Sources */,
 				EC7ADED5285B1D9800F45B1A /* ContentView.swift in Sources */,
 				EC7ADED3285B1D9800F45B1A /* ThousandAlbumsApp.swift in Sources */,
 			);
@@ -268,6 +280,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"1001 Albums/Preview Content\"";
@@ -279,6 +292,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -288,7 +302,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -297,6 +311,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"1001 Albums/Preview Content\"";
@@ -308,6 +323,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,7 +333,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
