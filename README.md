@@ -1,4 +1,5 @@
 # 1001 Albums App
 * SwiftUI
 
-![trumpet](https://pic.onlinewebfonts.com/svg/img_495316.svg)
+![preview](https://github.com/GromovHub/1001-Albums/blob/main/preview.gif)
+
