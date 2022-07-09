@@ -7,25 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D076696B2879825B00631D79 /* ThousandListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D076696A2879825B00631D79 /* ThousandListView.swift */; };
 		D0CA3E7D2878483000B735B6 /* json1001raw.json in Resources */ = {isa = PBXBuildFile; fileRef = D0CA3E7C2878483000B735B6 /* json1001raw.json */; };
-		D0CA3E7F2878486100B735B6 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CA3E7E2878486100B735B6 /* Controller.swift */; };
+		D0CA3E7F2878486100B735B6 /* JSONViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CA3E7E2878486100B735B6 /* JSONViewModel.swift */; };
 		D0CA3E8128784DE400B735B6 /* simpleObj.json in Resources */ = {isa = PBXBuildFile; fileRef = D0CA3E8028784DE400B735B6 /* simpleObj.json */; };
+		D0DE734B287980C1005ED79E /* FileManagerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DE734A287980C1005ED79E /* FileManagerViewModel.swift */; };
 		EC424B78285B2A920092B071 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = EC424B77285B2A920092B071 /* README.md */; };
 		EC7ADED3285B1D9800F45B1A /* ThousandAlbumsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7ADED2285B1D9800F45B1A /* ThousandAlbumsApp.swift */; };
-		EC7ADED5285B1D9800F45B1A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7ADED4285B1D9800F45B1A /* ContentView.swift */; };
+		EC7ADED5285B1D9800F45B1A /* FileManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7ADED4285B1D9800F45B1A /* FileManagerView.swift */; };
 		EC7ADED7285B1D9900F45B1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC7ADED6285B1D9900F45B1A /* Assets.xcassets */; };
 		EC7ADEDA285B1D9900F45B1A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC7ADED9285B1D9900F45B1A /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D076696A2879825B00631D79 /* ThousandListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThousandListView.swift; sourceTree = "<group>"; };
 		D0CA3E7C2878483000B735B6 /* json1001raw.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = json1001raw.json; sourceTree = "<group>"; };
-		D0CA3E7E2878486100B735B6 /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
+		D0CA3E7E2878486100B735B6 /* JSONViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONViewModel.swift; sourceTree = "<group>"; };
 		D0CA3E8028784DE400B735B6 /* simpleObj.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = simpleObj.json; sourceTree = "<group>"; };
 		D0CA3E8228789E9600B735B6 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D0DE734A287980C1005ED79E /* FileManagerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerViewModel.swift; sourceTree = "<group>"; };
 		EC424B77285B2A920092B071 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		EC7ADECF285B1D9800F45B1A /* 1001 Albums.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "1001 Albums.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC7ADED2285B1D9800F45B1A /* ThousandAlbumsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThousandAlbumsApp.swift; sourceTree = "<group>"; };
-		EC7ADED4285B1D9800F45B1A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EC7ADED4285B1D9800F45B1A /* FileManagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerView.swift; sourceTree = "<group>"; };
 		EC7ADED6285B1D9900F45B1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC7ADED9285B1D9900F45B1A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -41,6 +45,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D0CA3E8528797F9800B735B6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D0CA3E7E2878486100B735B6 /* JSONViewModel.swift */,
+				D0DE734A287980C1005ED79E /* FileManagerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D0CA3E8628797FBA00B735B6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC7ADED4285B1D9800F45B1A /* FileManagerView.swift */,
+				D076696A2879825B00631D79 /* ThousandListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D0CA3E8728797FC600B735B6 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				D0CA3E8028784DE400B735B6 /* simpleObj.json */,
+				D0CA3E7C2878483000B735B6 /* json1001raw.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
 		EC7ADEC6285B1D9800F45B1A = {
 			isa = PBXGroup;
 			children = (
@@ -61,11 +92,10 @@
 		EC7ADED1285B1D9800F45B1A /* 1001 Albums */ = {
 			isa = PBXGroup;
 			children = (
-				D0CA3E8028784DE400B735B6 /* simpleObj.json */,
-				D0CA3E7C2878483000B735B6 /* json1001raw.json */,
 				EC7ADED2285B1D9800F45B1A /* ThousandAlbumsApp.swift */,
-				EC7ADED4285B1D9800F45B1A /* ContentView.swift */,
-				D0CA3E7E2878486100B735B6 /* Controller.swift */,
+				D0CA3E8528797F9800B735B6 /* ViewModel */,
+				D0CA3E8628797FBA00B735B6 /* View */,
+				D0CA3E8728797FC600B735B6 /* JSON */,
 				D0CA3E8228789E9600B735B6 /* MyPlayground.playground */,
 				EC7ADED6285B1D9900F45B1A /* Assets.xcassets */,
 				EC7ADED8285B1D9900F45B1A /* Preview Content */,
@@ -154,8 +184,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0CA3E7F2878486100B735B6 /* Controller.swift in Sources */,
-				EC7ADED5285B1D9800F45B1A /* ContentView.swift in Sources */,
+				D0DE734B287980C1005ED79E /* FileManagerViewModel.swift in Sources */,
+				D0CA3E7F2878486100B735B6 /* JSONViewModel.swift in Sources */,
+				D076696B2879825B00631D79 /* ThousandListView.swift in Sources */,
+				EC7ADED5285B1D9800F45B1A /* FileManagerView.swift in Sources */,
 				EC7ADED3285B1D9800F45B1A /* ThousandAlbumsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

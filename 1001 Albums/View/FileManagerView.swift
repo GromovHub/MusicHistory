@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  FileManagerView.swift
 //  1001 Albums
 //
 //  Created by Vitaly Gromov on 6/16/22.
@@ -7,24 +7,9 @@
 
 import SwiftUI
 
-class FMViewModel: ObservableObject {
-    @Published var image: UIImage? = nil
-    var imageName = "dog"
-    init() {
-        getImageFromAssets()
-    }
-    func getImageFromAssets() {
-        image = UIImage(named: imageName)
-    }
-    func changeName(name: String) {
-        imageName = name
-    }
-}
-
-struct ContentView: View {
+struct FileManagerView: View {
     
-    @StateObject var controller = Controller()
-    @StateObject var vm = FMViewModel()
+    @StateObject var vm = FileManagerViewModel()
     
     var body: some View {
         NavigationView {
@@ -58,6 +43,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        FileManagerView()
     }
 }

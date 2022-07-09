@@ -11,7 +11,8 @@ import SwiftUI
 struct ThousandAlbumsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            FileManagerView()
+            ThousandListView()
         }
     }
 }
