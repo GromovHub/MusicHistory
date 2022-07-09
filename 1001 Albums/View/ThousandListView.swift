@@ -23,7 +23,9 @@ struct ThousandListView: View {
                         }
                         Spacer()
                         Text("\(String(element.releaseDate))")
-                    }.padding()
+                            .padding(.horizontal, CGFloat(5))
+                        Link("Link", destination: URL(string: "https://music.apple.com/us/album/in-the-wee-small-hours/1440815019?uo=4")!)
+                    }
                 }
             }
             .navigationTitle("1001 Albums")

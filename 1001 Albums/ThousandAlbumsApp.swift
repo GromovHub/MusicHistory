@@ -9,10 +9,12 @@ import SwiftUI
 
 @main
 struct ThousandAlbumsApp: App {
+
     var body: some Scene {
         WindowGroup {
-//            FileManagerView()
-            ThousandListView()
+            FileManagerView()
+//            ThousandListView()
+            
         }
     }
 }

@@ -20,4 +20,5 @@ class FileManagerViewModel: ObservableObject {
     func changeName(name: String) {
         imageName = name
     }
+    
 }

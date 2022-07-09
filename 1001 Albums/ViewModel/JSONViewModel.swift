@@ -14,6 +14,7 @@ class JSONViewModel: ObservableObject {
 //        printJSON()
     }
   
+    
     func readLocalJSONFile(forName name: String) -> Data? {
         do {
             if let filePath = Bundle.main.path(forResource: name, ofType: "json") {

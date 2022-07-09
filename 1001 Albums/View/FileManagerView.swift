@@ -23,7 +23,6 @@ struct FileManagerView: View {
                         .cornerRadius(20)
                 }
                 Button {
-                    //button code
                     vm.changeName(name: "cat")
                     vm.getImageFromAssets()
                 } label: {
