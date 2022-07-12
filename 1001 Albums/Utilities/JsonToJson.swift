@@ -52,7 +52,7 @@ struct JsonRawObject: Codable {
     let artist: String
     let album: String
     let date: Int
-    let url: String?
+    let url: String
     
     enum CodingKeys: String, CodingKey {
         case id = "#"
@@ -70,9 +70,9 @@ struct Classic1001Object: Codable {
     let album: String
     let date: Int
     let listened: Bool
-    let url: String?
+    let url: String
     
-    init(id: Int, artist: String, album: String, date: Int, listenedString: String, url: String?) {
+    init(id: Int, artist: String, album: String, date: Int, listenedString: String, url: String) {
         self.id = id
         self.artist = artist
         self.album = album
@@ -80,7 +80,7 @@ struct Classic1001Object: Codable {
         self.url = url
         self.listened = listenedString == "Yes" ? true : false
     }
-    init(id: Int, artist: String, album: String, date: Int, listened: Bool, url: String?) {
+    init(id: Int, artist: String, album: String, date: Int, listened: Bool, url: String) {
         self.id = id
         self.artist = artist
         self.album = album

@@ -19,7 +19,7 @@ class JSONViewModel: ObservableObject {
         do {
             if let filePath = Bundle.main.path(forResource: name, ofType: "json") {
                 let fileUrl = URL(fileURLWithPath: filePath)
-                print(fileUrl)
+//                print(fileUrl)
                 let data = try Data(contentsOf: fileUrl)
                 return data
             }
@@ -31,7 +31,7 @@ class JSONViewModel: ObservableObject {
 
 
     func printJSON() {
-        let x = readLocalJSONFile(forName: "json1001raw")
+        let x = readLocalJSONFile(forName: "Dirty1001Object")
         guard let data = x else {
             print("guard error")
             return
@@ -40,7 +40,7 @@ class JSONViewModel: ObservableObject {
     }
     
     func createArray() {
-        let dataRaw: Data? = readLocalJSONFile(forName: "json1001raw")
+        let dataRaw: Data? = readLocalJSONFile(forName: "Dirty1001Object")
         guard let dataClear = dataRaw else {
             print("guard error")
             return
