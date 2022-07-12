@@ -1,0 +1,8010 @@
+[
+    {
+        "date": 1955,
+        "id": 1,
+        "album": "In The Wee Small Hours",
+        "url": "",
+        "listened": true,
+        "artist": "Frank Sinatra"
+    },
+    {
+        "date": 1956,
+        "id": 2,
+        "album": "Birth of the Cool",
+        "url": "",
+        "listened": true,
+        "artist": "Miles Davis"
+    },
+    {
+        "date": 1956,
+        "id": 3,
+        "album": "Ellington at Newport '56",
+        "url": "",
+        "listened": true,
+        "artist": "Duke Ellington"
+    },
+    {
+        "date": 1956,
+        "id": 4,
+        "album": "Elvis Presley",
+        "url": "",
+        "listened": true,
+        "artist": "Elvis Presley"
+    },
+    {
+        "date": 1956,
+        "id": 5,
+        "album": "Songs For Swingin' Lovers",
+        "url": "",
+        "listened": true,
+        "artist": "Frank Sinatra"
+    },
+    {
+        "date": 1956,
+        "id": 6,
+        "album": "Tragic Songs Of Life",
+        "url": "",
+        "listened": true,
+        "artist": "The Louvin Brothers"
+    },
+    {
+        "date": 1957,
+        "id": 7,
+        "album": "Brilliant Corners",
+        "url": "",
+        "listened": true,
+        "artist": "Thelonious Monk"
+    },
+    {
+        "date": 1957,
+        "id": 8,
+        "album": "Here's Little Richard",
+        "url": "",
+        "listened": true,
+        "artist": "Little Richard"
+    },
+    {
+        "date": 1957,
+        "id": 9,
+        "album": "Kenya",
+        "url": "",
+        "listened": true,
+        "artist": "Machito"
+    },
+    {
+        "date": 1957,
+        "id": 10,
+        "album": "Palo Congo",
+        "url": "",
+        "listened": true,
+        "artist": "Sabu"
+    },
+    {
+        "date": 1957,
+        "id": 11,
+        "album": "The 'Chirping' Crickets",
+        "url": "",
+        "listened": true,
+        "artist": "The Crickets"
+    },
+    {
+        "date": 1957,
+        "id": 12,
+        "album": "The Atomic Mr Basie",
+        "url": "",
+        "listened": true,
+        "artist": "Count Basie"
+    },
+    {
+        "date": 1957,
+        "id": 13,
+        "album": "The Wildest",
+        "url": "",
+        "listened": true,
+        "artist": "Louis Prima"
+    },
+    {
+        "date": 1957,
+        "id": 14,
+        "album": "This is Fats Domino",
+        "url": "",
+        "listened": true,
+        "artist": "Fats Domino"
+    },
+    {
+        "date": 1958,
+        "id": 15,
+        "album": "Dance Mania",
+        "url": "",
+        "listened": true,
+        "artist": "Tito Puente"
+    },
+    {
+        "date": 1958,
+        "id": 16,
+        "album": "Jack Takes the Floor",
+        "url": "",
+        "listened": true,
+        "artist": "Ramblin' Jack Elliott"
+    },
+    {
+        "date": 1958,
+        "id": 17,
+        "album": "Lady in Satin",
+        "url": "",
+        "listened": true,
+        "artist": "Billie Holiday"
+    },
+    {
+        "date": 1958,
+        "id": 18,
+        "album": "Live at Mister Kelly's",
+        "url": "",
+        "listened": true,
+        "artist": "Sarah Vaughan"
+    },
+    {
+        "date": 1959,
+        "id": 19,
+        "album": "George Gershwin Songbook",
+        "url": "",
+        "listened": true,
+        "artist": "Ella Fitzgerald"
+    },
+    {
+        "date": 1959,
+        "id": 20,
+        "album": "Gunfighter Ballads And Trail Songs",
+        "url": "",
+        "listened": true,
+        "artist": "Marty Robbins"
+    },
+    {
+        "date": 1959,
+        "id": 21,
+        "album": "Kind of Blue",
+        "url": "",
+        "listened": true,
+        "artist": "Miles Davis"
+    },
+    {
+        "date": 1959,
+        "id": 22,
+        "album": "The Genius of Ray Charles",
+        "url": "",
+        "listened": true,
+        "artist": "Ray Charles"
+    },
+    {
+        "date": 1959,
+        "id": 23,
+        "album": "Time Out",
+        "url": "",
+        "listened": true,
+        "artist": "Dave Brubeck Quartet"
+    },
+    {
+        "date": 1960,
+        "id": 24,
+        "album": "A Date with the Everly Brothers",
+        "url": "",
+        "listened": true,
+        "artist": "The Everly Bothers"
+    },
+    {
+        "date": 1960,
+        "id": 25,
+        "album": "Elvis is Back!",
+        "url": "",
+        "listened": true,
+        "artist": "Elvis Presley"
+    },
+    {
+        "date": 1960,
+        "id": 26,
+        "album": "Joan Baez",
+        "url": "",
+        "listened": true,
+        "artist": "Joan Baez"
+    },
+    {
+        "date": 1960,
+        "id": 27,
+        "album": "Miriam Makeba",
+        "url": "",
+        "listened": true,
+        "artist": "Miriam Makeba"
+    },
+    {
+        "date": 1960,
+        "id": 28,
+        "album": "Muddy Waters at Newport",
+        "url": "",
+        "listened": true,
+        "artist": "Muddy Waters"
+    },
+    {
+        "date": 1961,
+        "id": 29,
+        "album": "Back at the Chicken Shack",
+        "url": "",
+        "listened": true,
+        "artist": "Jimmy Smith"
+    },
+    {
+        "date": 1961,
+        "id": 30,
+        "album": "Sunday at the Village Vanguard",
+        "url": "",
+        "listened": true,
+        "artist": "Bill Evans"
+    },
+    {
+        "date": 1962,
+        "id": 31,
+        "album": "Green Onions",
+        "url": "",
+        "listened": true,
+        "artist": "Booker T & The MGs"
+    },
+    {
+        "date": 1962,
+        "id": 32,
+        "album": "Jazz Samba",
+        "url": "",
+        "listened": true,
+        "artist": "Stan Getz/Charlie Byrd"
+    },
+    {
+        "date": 1962,
+        "id": 33,
+        "album": "Modern Sounds In Country And Western Music",
+        "url": "",
+        "listened": true,
+        "artist": "Ray Charles"
+    },
+    {
+        "date": 1963,
+        "id": 34,
+        "album": "A Christmas Gift To You",
+        "url": "",
+        "listened": true,
+        "artist": "Phil Spector"
+    },
+    {
+        "date": 1963,
+        "id": 35,
+        "album": "Live at the Apollo",
+        "url": "",
+        "listened": true,
+        "artist": "James Brown"
+    },
+    {
+        "date": 1963,
+        "id": 36,
+        "album": "Live At The Harlem Square Club",
+        "url": "",
+        "listened": true,
+        "artist": "Sam Cooke"
+    },
+    {
+        "date": 1963,
+        "id": 37,
+        "album": "Night Life",
+        "url": "",
+        "listened": true,
+        "artist": "Ray Price"
+    },
+    {
+        "date": 1963,
+        "id": 38,
+        "album": "The Black Saint and the Sinner Lady",
+        "url": "",
+        "listened": true,
+        "artist": "Charles Mingus"
+    },
+    {
+        "date": 1963,
+        "id": 39,
+        "album": "With The Beatles",
+        "url": "",
+        "listened": true,
+        "artist": "The Beatles"
+    },
+    {
+        "date": 1964,
+        "id": 40,
+        "album": "A Girl Called Dusty",
+        "url": "",
+        "listened": true,
+        "artist": "Dusty Springfield"
+    },
+    {
+        "date": 1964,
+        "id": 41,
+        "album": "A Hard Day's Night",
+        "url": "",
+        "listened": true,
+        "artist": "The Beatles"
+    },
+    {
+        "date": 1964,
+        "id": 42,
+        "album": "A Love Supreme",
+        "url": "",
+        "listened": true,
+        "artist": "John Coltrane"
+    },
+    {
+        "date": 1964,
+        "id": 43,
+        "album": "Bert Jansch",
+        "url": "",
+        "listened": true,
+        "artist": "Bert Jansch"
+    },
+    {
+        "date": 1964,
+        "id": 44,
+        "album": "Getz/Gilberto",
+        "url": "",
+        "listened": true,
+        "artist": "Stan Getz/Joao Gilberto"
+    },
+    {
+        "date": 1964,
+        "id": 45,
+        "album": "Olympia '64",
+        "url": "",
+        "listened": true,
+        "artist": "Jacques Brel"
+    },
+    {
+        "date": 1964,
+        "id": 46,
+        "album": "Rock & Soul",
+        "url": "",
+        "listened": true,
+        "artist": "Solomon Burke"
+    },
+    {
+        "date": 1964,
+        "id": 47,
+        "album": "The Freewheelin' Bob Dylan",
+        "url": "",
+        "listened": true,
+        "artist": "Bob Dylan"
+    },
+    {
+        "date": 1964,
+        "id": 48,
+        "album": "The Rolling Stones",
+        "url": "",
+        "listened": true,
+        "artist": "The Rolling Stones"
+    },
+    {
+        "date": 1965,
+        "id": 49,
+        "album": "Bringing It All Back Home",
+        "url": "",
+        "listened": true,
+        "artist": "Bob Dylan"
+    },
+    {
+        "date": 1965,
+        "id": 50,
+        "album": "Here Are The Sonics",
+        "url": "",
+        "listened": true,
+        "artist": "The Sonics"
+    },
+    {
+        "date": 1965,
+        "id": 51,
+        "album": "Highway 61 Revisited",
+        "url": "",
+        "listened": true,
+        "artist": "Bob Dylan"
+    },
+    {
+        "date": 1965,
+        "id": 52,
+        "album": "I've Got A Tiger By The Tail",
+        "url": "",
+        "listened": true,
+        "artist": "Buck Owens"
+    },
+    {
+        "date": 1965,
+        "id": 53,
+        "album": "Live At The Regal",
+        "url": "",
+        "listened": true,
+        "artist": "BB King"
+    },
+    {
+        "date": 1965,
+        "id": 54,
+        "album": "Live At The Star Club, Hamburg",
+        "url": "",
+        "listened": true,
+        "artist": "Jerry Lee Lewis"
+    },
+    {
+        "date": 1965,
+        "id": 55,
+        "album": "Mr Tambourine Man",
+        "url": "",
+        "listened": true,
+        "artist": "The Byrds"
+    },
+    {
+        "date": 1965,
+        "id": 56,
+        "album": "My Generation",
+        "url": "",
+        "listened": true,
+        "artist": "The Who"
+    },
+    {
+        "date": 1965,
+        "id": 57,
+        "album": "Otis Blue",
+        "url": "",
+        "listened": true,
+        "artist": "Otis Redding"
+    },
+    {
+        "date": 1965,
+        "id": 58,
+        "album": "Rubber Soul",
+        "url": "",
+        "listened": true,
+        "artist": "The Beatles"
+    },
+    {
+        "date": 1965,
+        "id": 59,
+        "album": "Today!",
+        "url": "",
+        "listened": true,
+        "artist": "The Beach Boys"
+    },
+    {
+        "date": 1966,
+        "id": 60,
+        "album": "Aftermath",
+        "url": "",
+        "listened": true,
+        "artist": "The Rolling Stones"
+    },
+    {
+        "date": 1966,
+        "id": 61,
+        "album": "Black Monk Time",
+        "url": "",
+        "listened": true,
+        "artist": "The Monks"
+    },
+    {
+        "date": 1966,
+        "id": 62,
+        "album": "Blonde On Blonde",
+        "url": "",
+        "listened": true,
+        "artist": "Bob Dylan"
+    },
+    {
+        "date": 1966,
+        "id": 63,
+        "album": "Bluesbreakers with Eric Clapton",
+        "url": "",
+        "listened": true,
+        "artist": "John Mayall's Bluesbreakers"
+    },
+    {
+        "date": 1966,
+        "id": 64,
+        "album": "Face to Face",
+        "url": "",
+        "listened": true,
+        "artist": "The Kinks"
+    },
+    {
+        "date": 1966,
+        "id": 65,
+        "album": "Fifth Dimension",
+        "url": "",
+        "listened": true,
+        "artist": "The Byrds"
+    },
+    {
+        "date": 1966,
+        "id": 66,
+        "album": "Freak Out!",
+        "url": "",
+        "listened": true,
+        "artist": "Frank Zappa and the Mothers of Invention"
+    },
+    {
+        "date": 1966,
+        "id": 67,
+        "album": "Fred Neil",
+        "url": "",
+        "listened": true,
+        "artist": "Fred Neil"
+    },
+    {
+        "date": 1966,
+        "id": 68,
+        "album": "Mamas And The Papas",
+        "url": "",
+        "listened": true,
+        "artist": "Mamas And The Papas"
+    },
+    {
+        "date": 1966,
+        "id": 69,
+        "album": "Midnight Ride",
+        "url": "",
+        "listened": true,
+        "artist": "Paul Revere and the Raiders"
+    },
+    {
+        "date": 1966,
+        "id": 70,
+        "album": "Parsley, Sage, Rosemary and Thyme",
+        "url": "",
+        "listened": true,
+        "artist": "Simon & Garfunkel"
+    },
+    {
+        "date": 1966,
+        "id": 71,
+        "album": "Pet Sounds",
+        "url": "",
+        "listened": true,
+        "artist": "The Beach Boys"
+    },
+    {
+        "date": 1966,
+        "id": 72,
+        "album": "Revolver",
+        "url": "",
+        "listened": true,
+        "artist": "The Beatles"
+    },
+    {
+        "date": 1966,
+        "id": 73,
+        "album": "Sunshine Superman",
+        "url": "",
+        "listened": true,
+        "artist": "Donovan"
+    },
+    {
+        "date": 1966,
+        "id": 74,
+        "album": "The Psychedelic Sounds of the 13th Floor Elevators",
+        "url": "",
+        "listened": true,
+        "artist": "The 13th Floor Elevators"
+    },
+    {
+        "date": 1966,
+        "id": 75,
+        "album": "Wild is the Wind",
+        "url": "",
+        "listened": true,
+        "artist": "Nina Simone"
+    },
+    {
+        "date": 1966,
+        "id": 76,
+        "album": "Yardbirds",
+        "url": "",
+        "listened": true,
+        "artist": "The Yardbirds"
+    },
+    {
+        "date": 1967,
+        "id": 77,
+        "album": "Are You Experienced?",
+        "url": "",
+        "listened": true,
+        "artist": "The Jimi Hendrix Experience"
+    },
+    {
+        "date": 1967,
+        "id": 78,
+        "album": "Axis: Bold As Love",
+        "url": "",
+        "listened": true,
+        "artist": "The Jimi Hendrix Experience"
+    },
+    {
+        "date": 1967,
+        "id": 79,
+        "album": "Buffalo Springfield Again",
+        "url": "",
+        "listened": true,
+        "artist": "Buffalo Springfield"
+    },
+    {
+        "date": 1967,
+        "id": 80,
+        "album": "Chelsea Girl",
+        "url": "",
+        "listened": true,
+        "artist": "Nico"
+    },
+    {
+        "date": 1967,
+        "id": 81,
+        "album": "Da Capo",
+        "url": "",
+        "listened": true,
+        "artist": "Love"
+    },
+    {
+        "date": 1967,
+        "id": 82,
+        "album": "Disraeli Gears",
+        "url": "",
+        "listened": true,
+        "artist": "Cream"
+    },
+    {
+        "date": 1967,
+        "id": 83,
+        "album": "Don't Come Home A-Drinkin'",
+        "url": "",
+        "listened": true,
+        "artist": "Loretta Lynn"
+    },
+    {
+        "date": 1967,
+        "id": 84,
+        "album": "Electric Music For The Mind And Body",
+        "url": "",
+        "listened": true,
+        "artist": "Country Joe And The Fish"
+    },
+    {
+        "date": 1967,
+        "id": 85,
+        "album": "Forever Changes",
+        "url": "",
+        "listened": true,
+        "artist": "Love"
+    },
+    {
+        "date": 1967,
+        "id": 86,
+        "album": "Francis Albert Sinatra & Antonio Carlos Jobim",
+        "url": "",
+        "listened": true,
+        "artist": "Francis Albert Sinatra & Antonio Carlos Jobim"
+    },
+    {
+        "date": 1967,
+        "id": 87,
+        "album": "Goodbye And Hello",
+        "url": "",
+        "listened": true,
+        "artist": "Tim Buckley"
+    },
+    {
+        "date": 1967,
+        "id": 88,
+        "album": "Groovin'",
+        "url": "",
+        "listened": true,
+        "artist": "The Young Rascals"
+    },
+    {
+        "date": 1967,
+        "id": 89,
+        "album": "Headquarters",
+        "url": "",
+        "listened": true,
+        "artist": "The Monkees"
+    },
+    {
+        "date": 1967,
+        "id": 90,
+        "album": "I Had Too Much to Dream Last Night",
+        "url": "",
+        "listened": true,
+        "artist": "The Electric Prunes"
+    },
+    {
+        "date": 1967,
+        "id": 91,
+        "album": "I Never Loved a Man the Way That I Love You",
+        "url": "",
+        "listened": true,
+        "artist": "Aretha Franklin"
+    },
+    {
+        "date": 1967,
+        "id": 92,
+        "album": "I'm A Lonesome Fugitive",
+        "url": "",
+        "listened": true,
+        "artist": "Merle Haggard"
+    },
+    {
+        "date": 1967,
+        "id": 93,
+        "album": "Moby Grape",
+        "url": "",
+        "listened": true,
+        "artist": "Moby Grape"
+    },
+    {
+        "date": 1967,
+        "id": 94,
+        "album": "Safe As Milk",
+        "url": "",
+        "listened": true,
+        "artist": "Captain Beefheart and His Magic Band"
+    },
+    {
+        "date": 1967,
+        "id": 95,
+        "album": "Sgt Pepper's Lonely Hearts Club Band",
+        "url": "",
+        "listened": true,
+        "artist": "The Beatles"
+    },
+    {
+        "date": 1967,
+        "id": 96,
+        "album": "Something Else by The Kinks",
+        "url": "",
+        "listened": true,
+        "artist": "The Kinks"
+    },
+    {
+        "date": 1967,
+        "id": 97,
+        "album": "Surrealistic Pillow",
+        "url": "",
+        "listened": true,
+        "artist": "Jefferson Airplane"
+    },
+    {
+        "date": 1967,
+        "id": 98,
+        "album": "The Doors",
+        "url": "",
+        "listened": true,
+        "artist": "The Doors"
+    },
+    {
+        "date": 1967,
+        "id": 99,
+        "album": "The Piper at the Gates of Dawn",
+        "url": "",
+        "listened": true,
+        "artist": "Pink Floyd"
+    },
+    {
+        "date": 1967,
+        "id": 100,
+        "album": "The Velvet Underground & Nico",
+        "url": "",
+        "listened": true,
+        "artist": "The Velvet Underground"
+    },
+    {
+        "date": 1967,
+        "id": 101,
+        "album": "The Who Sell Out",
+        "url": "",
+        "listened": true,
+        "artist": "The Who"
+    },
+    {
+        "date": 1967,
+        "id": 102,
+        "album": "Triangle",
+        "url": "",
+        "listened": true,
+        "artist": "The Beau Brummels"
+    },
+    {
+        "date": 1967,
+        "id": 103,
+        "album": "We're Only in it for the Money",
+        "url": "",
+        "listened": true,
+        "artist": "The Mothers of Invention"
+    },
+    {
+        "date": 1967,
+        "id": 104,
+        "album": "White Light/White Heat",
+        "url": "",
+        "listened": true,
+        "artist": "The Velvet Underground"
+    },
+    {
+        "date": 1967,
+        "id": 105,
+        "album": "Younger Than Yesterday",
+        "url": "",
+        "listened": true,
+        "artist": "The Byrds"
+    },
+    {
+        "date": 1968,
+        "id": 106,
+        "album": "Aretha: Lady Soul",
+        "url": "",
+        "listened": true,
+        "artist": "Aretha Franklin"
+    },
+    {
+        "date": 1968,
+        "id": 107,
+        "album": "Beach Samba",
+        "url": "",
+        "listened": true,
+        "artist": "Astrud Gilberto"
+    },
+    {
+        "date": 1968,
+        "id": 108,
+        "album": "Beggars Banquet",
+        "url": "",
+        "listened": true,
+        "artist": "The Rolling Stones"
+    },
+    {
+        "date": 1968,
+        "id": 109,
+        "album": "Bookends",
+        "url": "",
+        "listened": true,
+        "artist": "Simon & Garfunkel"
+    },
+    {
+        "date": 1968,
+        "id": 110,
+        "album": "Caetano Veloso",
+        "url": "",
+        "listened": true,
+        "artist": "Caetano Veloso"
+    },
+    {
+        "date": 1968,
+        "id": 111,
+        "album": "Cheap Thrills",
+        "url": "",
+        "listened": true,
+        "artist": "Big Brother and the Holding Company"
+    },
+    {
+        "date": 1968,
+        "id": 112,
+        "album": "Electric Ladyland",
+        "url": "",
+        "listened": true,
+        "artist": "The Jimi Hendrix Experience"
+    },
+    {
+        "date": 1968,
+        "id": 113,
+        "album": "Eli And The Thirteenth Confession",
+        "url": "",
+        "listened": true,
+        "artist": "Laura Nyro"
+    },
+    {
+        "date": 1968,
+        "id": 114,
+        "album": "Happy Sad",
+        "url": "",
+        "listened": true,
+        "artist": "Tim Buckley"
+    },
+    {
+        "date": 1968,
+        "id": 115,
+        "album": "In-a-gadda-da-vida",
+        "url": "",
+        "listened": true,
+        "artist": "Iron Butterfly"
+    },
+    {
+        "date": 1968,
+        "id": 116,
+        "album": "Johnny Cash at Folsom Prison",
+        "url": "",
+        "listened": true,
+        "artist": "Johnny Cash"
+    },
+    {
+        "date": 1968,
+        "id": 117,
+        "album": "Music from Big Pink",
+        "url": "",
+        "listened": true,
+        "artist": "The Band"
+    },
+    {
+        "date": 1968,
+        "id": 118,
+        "album": "Oar",
+        "url": "",
+        "listened": true,
+        "artist": "Alexander 'Skip' Spence"
+    },
+    {
+        "date": 1968,
+        "id": 119,
+        "album": "Odessey And Oracle",
+        "url": "",
+        "listened": true,
+        "artist": "The Zombies"
+    },
+    {
+        "date": 1968,
+        "id": 120,
+        "album": "Ogden's Nut Gone Flake",
+        "url": "",
+        "listened": true,
+        "artist": "The Small Faces"
+    },
+    {
+        "date": 1968,
+        "id": 121,
+        "album": "Os Mutantes",
+        "url": "",
+        "listened": true,
+        "artist": "Os Mutantes"
+    },
+    {
+        "date": 1968,
+        "id": 122,
+        "album": "Scott 2",
+        "url": "",
+        "listened": true,
+        "artist": "Scott Walker"
+    },
+    {
+        "date": 1968,
+        "id": 123,
+        "album": "SF Sorrow",
+        "url": "",
+        "listened": true,
+        "artist": "The Pretty Things"
+    },
+    {
+        "date": 1968,
+        "id": 124,
+        "album": "Songs Of Leonard Cohen",
+        "url": "",
+        "listened": true,
+        "artist": "Leonard Cohen"
+    },
+    {
+        "date": 1968,
+        "id": 125,
+        "album": "Sweetheart Of The Rodeo",
+        "url": "",
+        "listened": true,
+        "artist": "The Byrds"
+    },
+    {
+        "date": 1968,
+        "id": 126,
+        "album": "The Beatles (White Album)",
+        "url": "",
+        "listened": true,
+        "artist": "The Beatles"
+    },
+    {
+        "date": 1968,
+        "id": 127,
+        "album": "The Call of the Valley",
+        "url": "",
+        "listened": true,
+        "artist": "Shivkumar Sharma/Brijbushan Kabra/Hariprasad Chaurasia"
+    },
+    {
+        "date": 1968,
+        "id": 128,
+        "album": "The Hangman's Beautiful Daughter",
+        "url": "",
+        "listened": true,
+        "artist": "The Incredible String Band"
+    },
+    {
+        "date": 1968,
+        "id": 129,
+        "album": "The Notorious Byrd Brothers",
+        "url": "",
+        "listened": true,
+        "artist": "The Byrds"
+    },
+    {
+        "date": 1968,
+        "id": 130,
+        "album": "The Sounds of India",
+        "url": "",
+        "listened": true,
+        "artist": "Ravi Shankar"
+    },
+    {
+        "date": 1968,
+        "id": 131,
+        "album": "The United States Of America",
+        "url": "",
+        "listened": true,
+        "artist": "The United States Of America"
+    },
+    {
+        "date": 1968,
+        "id": 132,
+        "album": "Tommy",
+        "url": "",
+        "listened": true,
+        "artist": "The Who"
+    },
+    {
+        "date": 1968,
+        "id": 133,
+        "album": "Traffic",
+        "url": "",
+        "listened": true,
+        "artist": "Traffic"
+    },
+    {
+        "date": 1968,
+        "id": 134,
+        "album": "Truth",
+        "url": "",
+        "listened": true,
+        "artist": "Jeff Beck Group"
+    },
+    {
+        "date": 1968,
+        "id": 135,
+        "album": "Village Green Preservation Society",
+        "url": "",
+        "listened": true,
+        "artist": "The Kinks"
+    },
+    {
+        "date": 1968,
+        "id": 136,
+        "album": "Vincebus Eruptum",
+        "url": "",
+        "listened": true,
+        "artist": "Blue Cheer"
+    },
+    {
+        "date": 1969,
+        "id": 137,
+        "album": "Abbey Road",
+        "url": "",
+        "listened": true,
+        "artist": "The Beatles"
+    },
+    {
+        "date": 1969,
+        "id": 138,
+        "album": "Arthur, or the Decline and Fall of the British Empire",
+        "url": "",
+        "listened": true,
+        "artist": "The Kinks"
+    },
+    {
+        "date": 1969,
+        "id": 139,
+        "album": "Astral Weeks",
+        "url": "",
+        "listened": true,
+        "artist": "Van Morrison"
+    },
+    {
+        "date": 1969,
+        "id": 140,
+        "album": "Basket Of Light",
+        "url": "",
+        "listened": true,
+        "artist": "Pentangle"
+    },
+    {
+        "date": 1969,
+        "id": 141,
+        "album": "Bayou Country",
+        "url": "",
+        "listened": true,
+        "artist": "Creedence Clearwater Revival"
+    },
+    {
+        "date": 1969,
+        "id": 142,
+        "album": "Blood, Sweat And Tears",
+        "url": "",
+        "listened": true,
+        "artist": "Blood, Sweat And Tears"
+    },
+    {
+        "date": 1969,
+        "id": 143,
+        "album": "Chicago Transit Authority",
+        "url": "",
+        "listened": true,
+        "artist": "Chicago"
+    },
+    {
+        "date": 1969,
+        "id": 144,
+        "album": "Cloud Nine",
+        "url": "",
+        "listened": true,
+        "artist": "The Temptations"
+    },
+    {
+        "date": 1969,
+        "id": 145,
+        "album": "Crosby, Stills And Nash",
+        "url": "",
+        "listened": true,
+        "artist": "Crosby, Stills And Nash"
+    },
+    {
+        "date": 1969,
+        "id": 146,
+        "album": "Dusty in Memphis",
+        "url": "",
+        "listened": true,
+        "artist": "Dusty Springfield"
+    },
+    {
+        "date": 1969,
+        "id": 147,
+        "album": "Elephant Mountain",
+        "url": "",
+        "listened": true,
+        "artist": "The Youngbloods"
+    },
+    {
+        "date": 1969,
+        "id": 148,
+        "album": "Everybody Knows This Is Nowhere",
+        "url": "",
+        "listened": true,
+        "artist": "Neil Young"
+    },
+    {
+        "date": 1969,
+        "id": 149,
+        "album": "Five Leaves Left",
+        "url": "",
+        "listened": true,
+        "artist": "Nick Drake"
+    },
+    {
+        "date": 1969,
+        "id": 150,
+        "album": "From Elvis in Memphis",
+        "url": "",
+        "listened": true,
+        "artist": "Elvis Presley"
+    },
+    {
+        "date": 1969,
+        "id": 151,
+        "album": "Green River",
+        "url": "",
+        "listened": true,
+        "artist": "Creedence Clearwater Revival"
+    },
+    {
+        "date": 1969,
+        "id": 152,
+        "album": "Gris Gris",
+        "url": "",
+        "listened": true,
+        "artist": "Dr John"
+    },
+    {
+        "date": 1969,
+        "id": 153,
+        "album": "Happy Trails",
+        "url": "",
+        "listened": true,
+        "artist": "Quicksilver Messenger Service"
+    },
+    {
+        "date": 1969,
+        "id": 154,
+        "album": "Hot Buttered Soul",
+        "url": "",
+        "listened": true,
+        "artist": "Isaac Hayes"
+    },
+    {
+        "date": 1969,
+        "id": 155,
+        "album": "Hot Rats",
+        "url": "",
+        "listened": true,
+        "artist": "Frank Zappa"
+    },
+    {
+        "date": 1969,
+        "id": 156,
+        "album": "In A Silent Way",
+        "url": "",
+        "listened": true,
+        "artist": "Miles Davis"
+    },
+    {
+        "date": 1969,
+        "id": 157,
+        "album": "In The Court of the Crimson King",
+        "url": "",
+        "listened": true,
+        "artist": "King Crimson"
+    },
+    {
+        "date": 1969,
+        "id": 158,
+        "album": "Johnny Cash at San Quentin",
+        "url": "",
+        "listened": true,
+        "artist": "Johnny Cash"
+    },
+    {
+        "date": 1969,
+        "id": 159,
+        "album": "Kick Out The Jams",
+        "url": "",
+        "listened": true,
+        "artist": "The MC5"
+    },
+    {
+        "date": 1969,
+        "id": 160,
+        "album": "Led Zeppelin I",
+        "url": "",
+        "listened": true,
+        "artist": "Led Zeppelin"
+    },
+    {
+        "date": 1969,
+        "id": 161,
+        "album": "Led Zeppelin II",
+        "url": "",
+        "listened": true,
+        "artist": "Led Zeppelin"
+    },
+    {
+        "date": 1969,
+        "id": 162,
+        "album": "Let It Bleed",
+        "url": "",
+        "listened": true,
+        "artist": "The Rolling Stones"
+    },
+    {
+        "date": 1969,
+        "id": 163,
+        "album": "Liege And Lief",
+        "url": "",
+        "listened": true,
+        "artist": "Fairport Convention"
+    },
+    {
+        "date": 1969,
+        "id": 164,
+        "album": "Odessa",
+        "url": "",
+        "listened": true,
+        "artist": "The Bee Gees"
+    },
+    {
+        "date": 1969,
+        "id": 165,
+        "album": "Scott 4",
+        "url": "",
+        "listened": true,
+        "artist": "Scott Walker"
+    },
+    {
+        "date": 1969,
+        "id": 166,
+        "album": "Songs From A Room",
+        "url": "",
+        "listened": true,
+        "artist": "Leonard Cohen"
+    },
+    {
+        "date": 1969,
+        "id": 167,
+        "album": "Stand!",
+        "url": "",
+        "listened": true,
+        "artist": "Sly & The Family Stone"
+    },
+    {
+        "date": 1969,
+        "id": 168,
+        "album": "The Band",
+        "url": "",
+        "listened": true,
+        "artist": "The Band"
+    },
+    {
+        "date": 1969,
+        "id": 169,
+        "album": "The Gilded Palace of Sin",
+        "url": "",
+        "listened": true,
+        "artist": "The Flying Burrito Brothers"
+    },
+    {
+        "date": 1969,
+        "id": 170,
+        "album": "The Stooges",
+        "url": "",
+        "listened": true,
+        "artist": "The Stooges"
+    },
+    {
+        "date": 1969,
+        "id": 171,
+        "album": "The Velvet Underground",
+        "url": "",
+        "listened": true,
+        "artist": "The Velvet Underground"
+    },
+    {
+        "date": 1969,
+        "id": 172,
+        "album": "Trout Mask Replica",
+        "url": "",
+        "listened": true,
+        "artist": "Captain Beefheart and His Magic Band"
+    },
+    {
+        "date": 1969,
+        "id": 173,
+        "album": "Unhalfbricking",
+        "url": "",
+        "listened": true,
+        "artist": "Fairport Convention"
+    },
+    {
+        "date": 1970,
+        "id": 174,
+        "album": "Abraxas",
+        "url": "",
+        "listened": true,
+        "artist": "Santana"
+    },
+    {
+        "date": 1970,
+        "id": 175,
+        "album": "After The Goldrush",
+        "url": "",
+        "listened": true,
+        "artist": "Neil Young"
+    },
+    {
+        "date": 1970,
+        "id": 176,
+        "album": "All Things Must Pass",
+        "url": "",
+        "listened": true,
+        "artist": "George Harrison"
+    },
+    {
+        "date": 1970,
+        "id": 177,
+        "album": "American Beauty",
+        "url": "",
+        "listened": true,
+        "artist": "The Grateful Dead"
+    },
+    {
+        "date": 1970,
+        "id": 178,
+        "album": "Ananda Shankar",
+        "url": "",
+        "listened": true,
+        "artist": "Ananda Shankar"
+    },
+    {
+        "date": 1970,
+        "id": 179,
+        "album": "Bitches Brew",
+        "url": "",
+        "listened": true,
+        "artist": "Miles Davis"
+    },
+    {
+        "date": 1970,
+        "id": 180,
+        "album": "Black Sabbath",
+        "url": "",
+        "listened": true,
+        "artist": "Black Sabbath"
+    },
+    {
+        "date": 1970,
+        "id": 181,
+        "album": "Bridge Over Troubled Water",
+        "url": "",
+        "listened": true,
+        "artist": "Simon & Garfunkel"
+    },
+    {
+        "date": 1970,
+        "id": 182,
+        "album": "Bryter Later",
+        "url": "",
+        "listened": true,
+        "artist": "Nick Drake"
+    },
+    {
+        "date": 1970,
+        "id": 183,
+        "album": "Close To You",
+        "url": "",
+        "listened": true,
+        "artist": "The Carpenters"
+    },
+    {
+        "date": 1970,
+        "id": 184,
+        "album": "Deep Purple in Rock",
+        "url": "https://music.apple.com/ru/album/deep-purple-in-rock/1105612887?l=en",
+        "listened": true,
+        "artist": "Deep Purple"
+    },
+    {
+        "date": 1970,
+        "id": 185,
+        "album": "Déjà Vu",
+        "url": "https://music.apple.com/ru/album/d%C3%A9j%C3%A0-vu/321974224?l=en",
+        "listened": true,
+        "artist": "Crosby, Stills, Nash & Young"
+    },
+    {
+        "date": 1970,
+        "id": 186,
+        "album": "Fun House",
+        "url": "https://music.apple.com/ru/album/funhouse/843836692?l=en",
+        "listened": true,
+        "artist": "Iggy Pop & The Stooges"
+    },
+    {
+        "date": 1970,
+        "id": 187,
+        "album": "Gasoline Alley",
+        "url": "https://music.apple.com/ru/album/gasoline-alley/1442951244?l=en",
+        "listened": true,
+        "artist": "Rod Stewart"
+    },
+    {
+        "date": 1970,
+        "id": 188,
+        "album": "John Barleycorn Must Die",
+        "url": "https://music.apple.com/ru/album/john-barleycorn-must-die/1440624238?l=en",
+        "listened": true,
+        "artist": "Traffic"
+    },
+    {
+        "date": 1970,
+        "id": 189,
+        "album": "John Lennon/Plastic Ono Band",
+        "url": "https://music.apple.com/ru/album/john-lennon-plastic-ono-band/1440858209?l=en",
+        "listened": true,
+        "artist": "John Lennon"
+    },
+    {
+        "date": 1970,
+        "id": 190,
+        "album": "Layla And Other Assorted Lovesongs",
+        "url": "https://music.apple.com/ru/album/layla-and-other-assorted-love-songs-40th-anniversary/1440663263?l=en",
+        "listened": true,
+        "artist": "Derek And The Dominos"
+    },
+    {
+        "date": 1970,
+        "id": 191,
+        "album": "Led Zeppelin III",
+        "url": "https://music.apple.com/ru/album/led-zeppelin-iii-remastered/580708279?l=en",
+        "listened": true,
+        "artist": "Led Zeppelin"
+    },
+    {
+        "date": 1970,
+        "id": 192,
+        "album": "Live at Leeds",
+        "url": "https://music.apple.com/ru/album/live-at-leeds-deluxe-edition-2001-remaster/1440859591?l=en",
+        "listened": true,
+        "artist": "The Who"
+    },
+    {
+        "date": 1970,
+        "id": 193,
+        "album": "Live/Dead",
+        "url": "https://music.apple.com/ru/album/live-dead-remastered/20885553?l=en",
+        "listened": true,
+        "artist": "The Grateful Dead"
+    },
+    {
+        "date": 1970,
+        "id": 194,
+        "album": "McCartney",
+        "url": "https://music.apple.com/ru/album/mccartney-2011-remaster/1443150811?l=en",
+        "listened": true,
+        "artist": "McCartney"
+    },
+    {
+        "date": 1970,
+        "id": 195,
+        "album": "Moondance",
+        "url": "https://music.apple.com/ru/album/moondance/712727450?l=en",
+        "listened": true,
+        "artist": "Van Morrison"
+    },
+    {
+        "date": 1970,
+        "id": 196,
+        "album": "Morrison Hotel",
+        "url": "https://music.apple.com/ru/album/morrison-hotel-50th-anniversary-deluxe-edition/1527495025?l=en",
+        "listened": true,
+        "artist": "The Doors"
+    },
+    {
+        "date": 1970,
+        "id": 197,
+        "album": "Paranoid",
+        "url": "https://music.apple.com/ru/album/paranoid-2009-remastered-version/1193826796?l=en",
+        "listened": true,
+        "artist": "Black Sabbath"
+    },
+    {
+        "date": 1970,
+        "id": 198,
+        "album": "Stephen Stills",
+        "url": "https://music.apple.com/ru/album/stephen-stills/121052547?l=en",
+        "listened": true,
+        "artist": "Stephen Stills"
+    },
+    {
+        "date": 1970,
+        "id": 199,
+        "album": "Sweet Baby James",
+        "url": "https://music.apple.com/ru/album/sweet-baby-james-2019-remaster/1480026454?l=en",
+        "listened": true,
+        "artist": "James Taylor"
+    },
+    {
+        "date": 1970,
+        "id": 200,
+        "album": "Tea for the Tillerman",
+        "url": "https://music.apple.com/ru/album/tea-for-the-tillerman-2020-remaster/1535560790?l=en",
+        "listened": true,
+        "artist": "Cat Stevens"
+    },
+    {
+        "date": 1970,
+        "id": 201,
+        "album": "The Madcap Laughs",
+        "url": "",
+        "listened": true,
+        "artist": "Syd Barrett"
+    },
+    {
+        "date": 1970,
+        "id": 202,
+        "album": "Third",
+        "url": "",
+        "listened": true,
+        "artist": "Soft Machine"
+    },
+    {
+        "date": 1970,
+        "id": 203,
+        "album": "Twelve Dreams of Doctor Sardonicus",
+        "url": "https://music.apple.com/ru/album/twelve-dreams-of-dr-sardonicus/157415148?l=en",
+        "listened": true,
+        "artist": "Spirit"
+    },
+    {
+        "date": 1971,
+        "id": 204,
+        "album": "A Nod's As Good As Wink",
+        "url": "",
+        "listened": true,
+        "artist": "The Faces"
+    },
+    {
+        "date": 1971,
+        "id": 205,
+        "album": "American Pie",
+        "url": "https://music.apple.com/ru/album/american-pie/1440834532?l=en",
+        "listened": true,
+        "artist": "Don McLean"
+    },
+    {
+        "date": 1971,
+        "id": 206,
+        "album": "Aqualung",
+        "url": "https://music.apple.com/ru/album/aqualung-1996-bonus-tracks-edition/726371044?l=en",
+        "listened": true,
+        "artist": "Jethro Tull"
+    },
+    {
+        "date": 1971,
+        "id": 207,
+        "album": "Blue",
+        "url": "https://music.apple.com/ru/album/blue/1492263092?l=en",
+        "listened": true,
+        "artist": "Joni Mitchell"
+    },
+    {
+        "date": 1971,
+        "id": 208,
+        "album": "Coat Of Many Colors",
+        "url": "https://music.apple.com/ru/album/coat-of-many-colors/217532812?l=en",
+        "listened": true,
+        "artist": "Dolly Parton"
+    },
+    {
+        "date": 1971,
+        "id": 209,
+        "album": "Cosmo's Factory",
+        "url": "https://music.apple.com/ru/album/cosmos-factory/1440948745?l=en",
+        "listened": true,
+        "artist": "Creedence Clearwater Revival"
+    },
+    {
+        "date": 1971,
+        "id": 210,
+        "album": "Electric Warrior",
+        "url": "https://music.apple.com/ru/album/electric-warrior/1440804752?l=en",
+        "listened": true,
+        "artist": "T Rex"
+    },
+    {
+        "date": 1971,
+        "id": 211,
+        "album": "Every Picture Tells A Story",
+        "url": "https://music.apple.com/ru/album/every-picture-tells-a-story/1469580609?l=en",
+        "listened": true,
+        "artist": "Rod Stewart"
+    },
+    {
+        "date": 1971,
+        "id": 212,
+        "album": "Fragile",
+        "url": "https://music.apple.com/ru/album/fragile/1049008924?l=en",
+        "listened": true,
+        "artist": "Yes"
+    },
+    {
+        "date": 1971,
+        "id": 213,
+        "album": "Histoire de Melody Nelson",
+        "url": "https://music.apple.com/ru/album/histoire-de-melody-nelson/1443118514?l=en",
+        "listened": true,
+        "artist": "Serge Gainsbourg"
+    },
+    {
+        "date": 1971,
+        "id": 214,
+        "album": "If Only I Could Remember My Name",
+        "url": "https://music.apple.com/ru/album/if-i-could-only-remember-my-name/50235531?l=en",
+        "listened": true,
+        "artist": "David Crosby"
+    },
+    {
+        "date": 1971,
+        "id": 215,
+        "album": "Imagine",
+        "url": "https://music.apple.com/ru/album/imagine-the-ultimate-collection/1428571018?l=en",
+        "listened": true,
+        "artist": "John Lennon"
+    },
+    {
+        "date": 1971,
+        "id": 216,
+        "album": "LA Woman",
+        "url": "https://music.apple.com/ru/album/l-a-woman/639380805?l=en",
+        "listened": true,
+        "artist": "The Doors"
+    },
+    {
+        "date": 1971,
+        "id": 217,
+        "album": "Led Zeppelin IV (Four Symbols)",
+        "url": "https://music.apple.com/ru/album/led-zeppelin-iv-remastered/580708175?l=en",
+        "listened": true,
+        "artist": "Led Zeppelin"
+    },
+    {
+        "date": 1971,
+        "id": 218,
+        "album": "Live With Ginger Baker",
+        "url": "https://music.apple.com/ru/album/fela-with-ginger-baker-live/595814962?l=en",
+        "listened": true,
+        "artist": "Fela Kuti"
+    },
+    {
+        "date": 1971,
+        "id": 219,
+        "album": "Madman Across The Water",
+        "url": "https://music.apple.com/ru/album/madman-across-the-water/1440643462?l=en",
+        "listened": true,
+        "artist": "Elton John"
+    },
+    {
+        "date": 1971,
+        "id": 220,
+        "album": "Maggot Brain",
+        "url": "https://music.apple.com/ru/album/maggot-brain/1595227414?l=en",
+        "listened": true,
+        "artist": "Funkadelic"
+    },
+    {
+        "date": 1971,
+        "id": 221,
+        "album": "Nilsson Schmilsson",
+        "url": "https://music.apple.com/ru/album/nilsson-schmilsson/304815001?l=en",
+        "listened": true,
+        "artist": "Harry Nilsson"
+    },
+    {
+        "date": 1971,
+        "id": 222,
+        "album": "Pearl",
+        "url": "https://music.apple.com/ru/album/pearl/917030890?l=en",
+        "listened": true,
+        "artist": "Janis Joplin"
+    },
+    {
+        "date": 1971,
+        "id": 223,
+        "album": "Pictures at an Exhibition",
+        "url": "https://music.apple.com/ru/album/pictures-at-an-exhibition-recorded-live-deluxe/1129326435?l=en",
+        "listened": true,
+        "artist": "Emerson, Lake & Palmer"
+    },
+    {
+        "date": 1971,
+        "id": 224,
+        "album": "Shaft",
+        "url": "https://music.apple.com/ru/album/shaft-music-from-the-soundtrack/1440937741?l=en",
+        "listened": true,
+        "artist": "Isaac Hayes"
+    },
+    {
+        "date": 1971,
+        "id": 225,
+        "album": "Songs of Love and Hate",
+        "url": "https://music.apple.com/ru/album/songs-of-love-and-hate/309477007?l=en",
+        "listened": true,
+        "artist": "Leonard Cohen"
+    },
+    {
+        "date": 1971,
+        "id": 226,
+        "album": "Sticky Fingers",
+        "url": "https://music.apple.com/ru/album/sticky-fingers-2015-remaster/1440812661?l=en",
+        "listened": true,
+        "artist": "The Rolling Stones"
+    },
+    {
+        "date": 1971,
+        "id": 227,
+        "album": "Surf's Up",
+        "url": "https://music.apple.com/ru/album/surfs-up/1440873813?l=en",
+        "listened": true,
+        "artist": "The Beach Boys"
+    },
+    {
+        "date": 1971,
+        "id": 228,
+        "album": "Tago Mago",
+        "url": "https://music.apple.com/ru/album/tago-mago-40th-anniversary-edition/709211421?l=en",
+        "listened": true,
+        "artist": "Can"
+    },
+    {
+        "date": 1971,
+        "id": 229,
+        "album": "Tapestry",
+        "url": "https://music.apple.com/ru/album/tapestry/747087657?l=en",
+        "listened": true,
+        "artist": "Carole King"
+    },
+    {
+        "date": 1971,
+        "id": 230,
+        "album": "Tarkus",
+        "url": "https://music.apple.com/ru/album/tarkus/1143668019?l=en",
+        "listened": true,
+        "artist": "Emerson, Lake & Palmer"
+    },
+    {
+        "date": 1971,
+        "id": 231,
+        "album": "Teenage Head",
+        "url": "https://music.apple.com/ru/album/teenage-head/284497294?l=en",
+        "listened": true,
+        "artist": "The Flamin' Groovies"
+    },
+    {
+        "date": 1971,
+        "id": 232,
+        "album": "The Allman Brothers at Fillmore East",
+        "url": "https://music.apple.com/ru/album/eat-a-peach/1469584912?l=en",
+        "listened": false,
+        "artist": "The Allman Brothers"
+    },
+    {
+        "date": 1971,
+        "id": 233,
+        "album": "The Yes Album",
+        "url": "https://music.apple.com/ru/album/the-yes-album/1049017157?l=en",
+        "listened": false,
+        "artist": "Yes"
+    },
+    {
+        "date": 1971,
+        "id": 234,
+        "album": "There's a Riot Goin' On",
+        "url": "https://music.apple.com/ru/album/theres-a-riot-goin-on/1501778712?l=en",
+        "listened": false,
+        "artist": "Sly and and The Family Stone"
+    },
+    {
+        "date": 1971,
+        "id": 235,
+        "album": "Trafalgar",
+        "url": "https://music.apple.com/ru/album/trafalgar/1444155081?l=en",
+        "listened": false,
+        "artist": "The Bee Gees"
+    },
+    {
+        "date": 1971,
+        "id": 236,
+        "album": "What's Goin' On",
+        "url": "https://music.apple.com/ru/album/whats-going-on/1538081586?l=en",
+        "listened": false,
+        "artist": "Marvin Gaye"
+    },
+    {
+        "date": 1971,
+        "id": 237,
+        "album": "Who's Next",
+        "url": "https://music.apple.com/ru/album/whos-next-deluxe-edition/1440850317?l=en",
+        "listened": false,
+        "artist": "The Who"
+    },
+    {
+        "date": 1972,
+        "id": 238,
+        "album": "All Directions",
+        "url": "https://music.apple.com/ru/album/all-directions/1440851973?l=en",
+        "listened": false,
+        "artist": "The Temptations"
+    },
+    {
+        "date": 1972,
+        "id": 239,
+        "album": "American Gothic",
+        "url": "https://music.apple.com/ru/album/american-gothic/1037587527?l=en",
+        "listened": false,
+        "artist": "David Ackles"
+    },
+    {
+        "date": 1972,
+        "id": 240,
+        "album": "Can't Buy a Thrill",
+        "url": "https://music.apple.com/ru/album/cant-buy-a-thrill/1440496279?l=en",
+        "listened": false,
+        "artist": "Steely Dan"
+    },
+    {
+        "date": 1972,
+        "id": 241,
+        "album": "Close to The Edge",
+        "url": "https://music.apple.com/ru/album/close-to-the-edge/1049014094?l=en",
+        "listened": false,
+        "artist": "Yes"
+    },
+    {
+        "date": 1972,
+        "id": 242,
+        "album": "Clube Da Esquina",
+        "url": "https://music.apple.com/ru/album/clube-da-esquina/1473446573?l=en",
+        "listened": false,
+        "artist": "Milton Nascimento"
+    },
+    {
+        "date": 1972,
+        "id": 243,
+        "album": "Exile on Main Street",
+        "url": "https://music.apple.com/ru/album/exile-on-main-st-2010-remaster/1440872228?l=en",
+        "listened": false,
+        "artist": "The Rolling Stones"
+    },
+    {
+        "date": 1972,
+        "id": 244,
+        "album": "Harvest",
+        "url": "https://music.apple.com/ru/album/harvest/1015739190?l=en",
+        "listened": false,
+        "artist": "Neil Young"
+    },
+    {
+        "date": 1972,
+        "id": 245,
+        "album": "Home is Where the Music Is",
+        "url": "https://music.apple.com/ru/album/home-is-where-the-music-is/1442922965?l=en",
+        "listened": false,
+        "artist": "Hugh Masekela"
+    },
+    {
+        "date": 1972,
+        "id": 246,
+        "album": "Hunky Dory",
+        "url": "https://music.apple.com/ru/album/hunky-dory-remastered/1039798000?l=en",
+        "listened": false,
+        "artist": "David Bowie"
+    },
+    {
+        "date": 1972,
+        "id": 247,
+        "album": "John Prine",
+        "url": "https://music.apple.com/ru/album/john-prine/1018524551?l=en",
+        "listened": false,
+        "artist": "John Prine"
+    },
+    {
+        "date": 1972,
+        "id": 248,
+        "album": "Let's Stay Together",
+        "url": "https://music.apple.com/ru/album/lets-stay-together-single/1606271325?l=en",
+        "listened": false,
+        "artist": "Al Green"
+    },
+    {
+        "date": 1972,
+        "id": 249,
+        "album": "Machine Head",
+        "url": "https://music.apple.com/ru/album/machine-head-remastered/1440787519?l=en",
+        "listened": false,
+        "artist": "Deep Purple"
+    },
+    {
+        "date": 1972,
+        "id": 250,
+        "album": "Marcus Garvey",
+        "url": "https://music.apple.com/ru/album/marcus-garvey/1436091420?l=en",
+        "listened": false,
+        "artist": "Burning Spear"
+    },
+    {
+        "date": 1972,
+        "id": 251,
+        "album": "No.1 Record",
+        "url": "",
+        "listened": false,
+        "artist": "Big Star"
+    },
+    {
+        "date": 1972,
+        "id": 252,
+        "album": "Paul Simon",
+        "url": "",
+        "listened": false,
+        "artist": "Paul Simon"
+    },
+    {
+        "date": 1972,
+        "id": 253,
+        "album": "Pink Moon",
+        "url": "",
+        "listened": false,
+        "artist": "Nick Drake"
+    },
+    {
+        "date": 1972,
+        "id": 254,
+        "album": "Roxy Music",
+        "url": "",
+        "listened": false,
+        "artist": "Roxy Music"
+    },
+    {
+        "date": 1972,
+        "id": 255,
+        "album": "Sail Away",
+        "url": "",
+        "listened": false,
+        "artist": "Randy Newman"
+    },
+    {
+        "date": 1972,
+        "id": 256,
+        "album": "School's Out",
+        "url": "",
+        "listened": false,
+        "artist": "Alice Cooper"
+    },
+    {
+        "date": 1972,
+        "id": 257,
+        "album": "Slayed?",
+        "url": "",
+        "listened": false,
+        "artist": "Slade"
+    },
+    {
+        "date": 1972,
+        "id": 258,
+        "album": "Something/Anything?",
+        "url": "",
+        "listened": false,
+        "artist": "Todd Rundgren"
+    },
+    {
+        "date": 1972,
+        "id": 259,
+        "album": "Superfly",
+        "url": "",
+        "listened": false,
+        "artist": "Curtis Mayfield"
+    },
+    {
+        "date": 1972,
+        "id": 260,
+        "album": "Talking Book",
+        "url": "",
+        "listened": false,
+        "artist": "Stevie Wonder"
+    },
+    {
+        "date": 1972,
+        "id": 261,
+        "album": "The Eagles",
+        "url": "",
+        "listened": false,
+        "artist": "The Eagles"
+    },
+    {
+        "date": 1972,
+        "id": 262,
+        "album": "The Slider",
+        "url": "",
+        "listened": false,
+        "artist": "T Rex"
+    },
+    {
+        "date": 1972,
+        "id": 263,
+        "album": "The World Is A Ghetto",
+        "url": "",
+        "listened": false,
+        "artist": "War"
+    },
+    {
+        "date": 1972,
+        "id": 264,
+        "album": "Transformer",
+        "url": "",
+        "listened": false,
+        "artist": "Lou Reed"
+    },
+    {
+        "date": 1972,
+        "id": 265,
+        "album": "Volume 4",
+        "url": "",
+        "listened": false,
+        "artist": "Black Sabbath"
+    },
+    {
+        "date": 1972,
+        "id": 266,
+        "album": "White Light",
+        "url": "",
+        "listened": false,
+        "artist": "Gene Clark"
+    },
+    {
+        "date": 1972,
+        "id": 267,
+        "album": "Will The Circle Be Unbroken",
+        "url": "",
+        "listened": false,
+        "artist": "Nitty Gritty Dirt Band"
+    },
+    {
+        "date": 1972,
+        "id": 268,
+        "album": "Ziggy Stardust and the Spiders from Mars",
+        "url": "",
+        "listened": false,
+        "artist": "David Bowie"
+    },
+    {
+        "date": 1973,
+        "id": 269,
+        "album": "3+3",
+        "url": "",
+        "listened": false,
+        "artist": "The Isley Bros"
+    },
+    {
+        "date": 1973,
+        "id": 270,
+        "album": "A Wizard, A True Star",
+        "url": "",
+        "listened": false,
+        "artist": "Todd Rundgren"
+    },
+    {
+        "date": 1973,
+        "id": 271,
+        "album": "Aladdin Sane",
+        "url": "",
+        "listened": false,
+        "artist": "David Bowie"
+    },
+    {
+        "date": 1973,
+        "id": 272,
+        "album": "Band On The Run",
+        "url": "",
+        "listened": false,
+        "artist": "Paul McCartney & Wings"
+    },
+    {
+        "date": 1973,
+        "id": 273,
+        "album": "Berlin",
+        "url": "",
+        "listened": false,
+        "artist": "Lou Reed"
+    },
+    {
+        "date": 1973,
+        "id": 274,
+        "album": "Billion Dollar Babies",
+        "url": "",
+        "listened": false,
+        "artist": "Alice Cooper"
+    },
+    {
+        "date": 1973,
+        "id": 275,
+        "album": "Bongo Rock",
+        "url": "",
+        "listened": false,
+        "artist": "Michael Viner's Incredible Bongo Band"
+    },
+    {
+        "date": 1973,
+        "id": 276,
+        "album": "Catch A Fire",
+        "url": "",
+        "listened": false,
+        "artist": "Bob Marley & The Wailers"
+    },
+    {
+        "date": 1973,
+        "id": 277,
+        "album": "Countdown to Ecstasy",
+        "url": "",
+        "listened": false,
+        "artist": "Steely Dan"
+    },
+    {
+        "date": 1973,
+        "id": 278,
+        "album": "Dark Side of the Moon",
+        "url": "",
+        "listened": false,
+        "artist": "Pink Floyd"
+    },
+    {
+        "date": 1973,
+        "id": 279,
+        "album": "Faust IV",
+        "url": "",
+        "listened": false,
+        "artist": "Faust"
+    },
+    {
+        "date": 1973,
+        "id": 280,
+        "album": "For Your Pleasure",
+        "url": "",
+        "listened": false,
+        "artist": "Roxy Music"
+    },
+    {
+        "date": 1973,
+        "id": 281,
+        "album": "Future Days",
+        "url": "",
+        "listened": false,
+        "artist": "Can"
+    },
+    {
+        "date": 1973,
+        "id": 282,
+        "album": "Goodbye Yellow Brick Road",
+        "url": "",
+        "listened": false,
+        "artist": "Elton John"
+    },
+    {
+        "date": 1973,
+        "id": 283,
+        "album": "Grevious Angel",
+        "url": "",
+        "listened": false,
+        "artist": "Gram Parsons"
+    },
+    {
+        "date": 1973,
+        "id": 284,
+        "album": "Honky Tonk Heroes",
+        "url": "",
+        "listened": false,
+        "artist": "Waylon Jennings"
+    },
+    {
+        "date": 1973,
+        "id": 285,
+        "album": "Larks Tongues In Aspic",
+        "url": "",
+        "listened": false,
+        "artist": "King Crimson"
+    },
+    {
+        "date": 1973,
+        "id": 286,
+        "album": "Let's Get It On",
+        "url": "",
+        "listened": false,
+        "artist": "Marvin Gaye"
+    },
+    {
+        "date": 1973,
+        "id": 287,
+        "album": "Made In Japan",
+        "url": "",
+        "listened": false,
+        "artist": "Deep Purple"
+    },
+    {
+        "date": 1973,
+        "id": 288,
+        "album": "Mott",
+        "url": "",
+        "listened": false,
+        "artist": "Mott The Hoople"
+    },
+    {
+        "date": 1973,
+        "id": 289,
+        "album": "Next",
+        "url": "",
+        "listened": false,
+        "artist": "The Sensational Alex Harvey Band"
+    },
+    {
+        "date": 1973,
+        "id": 290,
+        "album": "nnervisions",
+        "url": "",
+        "listened": false,
+        "artist": "Stevie Wonder"
+    },
+    {
+        "date": 1973,
+        "id": 291,
+        "album": "Paris 1919",
+        "url": "",
+        "listened": false,
+        "artist": "John Cale"
+    },
+    {
+        "date": 1973,
+        "id": 292,
+        "album": "Pronounced Leh-nerd Skin-nerd",
+        "url": "",
+        "listened": false,
+        "artist": "Lynyrd Skynyrd"
+    },
+    {
+        "date": 1973,
+        "id": 293,
+        "album": "Raw Power",
+        "url": "",
+        "listened": false,
+        "artist": "Iggy Pop & The Stooges"
+    },
+    {
+        "date": 1973,
+        "id": 294,
+        "album": "Selling England by the Pound",
+        "url": "",
+        "listened": false,
+        "artist": "Genesis"
+    },
+    {
+        "date": 1973,
+        "id": 295,
+        "album": "Solid Air",
+        "url": "",
+        "listened": false,
+        "artist": "John Martyn"
+    },
+    {
+        "date": 1973,
+        "id": 296,
+        "album": "Space Ritual",
+        "url": "",
+        "listened": false,
+        "artist": "Hawkwind"
+    },
+    {
+        "date": 1973,
+        "id": 297,
+        "album": "Stephen Stills",
+        "url": "",
+        "listened": false,
+        "artist": "Manassas"
+    },
+    {
+        "date": 1973,
+        "id": 298,
+        "album": "The New York Dolls",
+        "url": "",
+        "listened": false,
+        "artist": "The New York Dolls"
+    },
+    {
+        "date": 1973,
+        "id": 299,
+        "album": "Tres Hombres",
+        "url": "",
+        "listened": false,
+        "artist": "ZZ Top"
+    },
+    {
+        "date": 1973,
+        "id": 300,
+        "album": "Tubular Bells",
+        "url": "",
+        "listened": false,
+        "artist": "Mike Oldfield"
+    },
+    {
+        "date": 1974,
+        "id": 301,
+        "album": "461 Ocean Boulevard",
+        "url": "",
+        "listened": false,
+        "artist": "Eric Clapton"
+    },
+    {
+        "date": 1974,
+        "id": 302,
+        "album": "Autobahn",
+        "url": "",
+        "listened": false,
+        "artist": "Kraftwerk"
+    },
+    {
+        "date": 1974,
+        "id": 303,
+        "album": "Bad Company",
+        "url": "",
+        "listened": false,
+        "artist": "Bad Company"
+    },
+    {
+        "date": 1974,
+        "id": 304,
+        "album": "Blood On The Tracks",
+        "url": "",
+        "listened": false,
+        "artist": "Bob Dylan"
+    },
+    {
+        "date": 1974,
+        "id": 305,
+        "album": "Country Life",
+        "url": "",
+        "listened": false,
+        "artist": "Roxy Music"
+    },
+    {
+        "date": 1974,
+        "id": 306,
+        "album": "Court And Spark",
+        "url": "",
+        "listened": false,
+        "artist": "Joni Mitchell"
+    },
+    {
+        "date": 1974,
+        "id": 307,
+        "album": "Crime Of The Century",
+        "url": "",
+        "listened": false,
+        "artist": "Supertramp"
+    },
+    {
+        "date": 1974,
+        "id": 308,
+        "album": "Fullfillingness' First Finale",
+        "url": "",
+        "listened": false,
+        "artist": "Stevie Wonder"
+    },
+    {
+        "date": 1974,
+        "id": 309,
+        "album": "Good Old Boys",
+        "url": "",
+        "listened": false,
+        "artist": "Randy Newman"
+    },
+    {
+        "date": 1974,
+        "id": 310,
+        "album": "Headhunters",
+        "url": "",
+        "listened": false,
+        "artist": "Herbie Hancock"
+    },
+    {
+        "date": 1974,
+        "id": 311,
+        "album": "Here Come the Warm Jets",
+        "url": "",
+        "listened": false,
+        "artist": "Brian Eno"
+    },
+    {
+        "date": 1974,
+        "id": 312,
+        "album": "I Want To See The Bright Lights Tonight",
+        "url": "",
+        "listened": false,
+        "artist": "Richard & Linda Thompson"
+    },
+    {
+        "date": 1974,
+        "id": 313,
+        "album": "It's Too Late To Stop Now",
+        "url": "",
+        "listened": false,
+        "artist": "Van Morrison"
+    },
+    {
+        "date": 1974,
+        "id": 314,
+        "album": "Kimono My House",
+        "url": "",
+        "listened": false,
+        "artist": "Sparks"
+    },
+    {
+        "date": 1974,
+        "id": 315,
+        "album": "No Other",
+        "url": "",
+        "listened": false,
+        "artist": "Gene Clark"
+    },
+    {
+        "date": 1974,
+        "id": 316,
+        "album": "On the Beach",
+        "url": "",
+        "listened": false,
+        "artist": "Neil Young"
+    },
+    {
+        "date": 1974,
+        "id": 317,
+        "album": "Pacific Ocean Blue",
+        "url": "",
+        "listened": false,
+        "artist": "Dennis Wilson"
+    },
+    {
+        "date": 1974,
+        "id": 318,
+        "album": "Phaedra",
+        "url": "",
+        "listened": false,
+        "artist": "Tangerine Dream"
+    },
+    {
+        "date": 1974,
+        "id": 319,
+        "album": "Pretzel Logic",
+        "url": "",
+        "listened": false,
+        "artist": "Steely Dan"
+    },
+    {
+        "date": 1974,
+        "id": 320,
+        "album": "Queen II",
+        "url": "",
+        "listened": false,
+        "artist": "Queen"
+    },
+    {
+        "date": 1974,
+        "id": 321,
+        "album": "Rock Bottom",
+        "url": "",
+        "listened": false,
+        "artist": "Robert Wyatt"
+    },
+    {
+        "date": 1974,
+        "id": 322,
+        "album": "Sheer Heart Attack",
+        "url": "",
+        "listened": false,
+        "artist": "Queen"
+    },
+    {
+        "date": 1974,
+        "id": 323,
+        "album": "Sheet Music",
+        "url": "",
+        "listened": false,
+        "artist": "10cc"
+    },
+    {
+        "date": 1974,
+        "id": 324,
+        "album": "The Grand Tour",
+        "url": "",
+        "listened": false,
+        "artist": "George Jones"
+    },
+    {
+        "date": 1974,
+        "id": 325,
+        "album": "The Lamb Lies Down On Broadway",
+        "url": "",
+        "listened": false,
+        "artist": "Genesis"
+    },
+    {
+        "date": 1974,
+        "id": 326,
+        "album": "Winter in America",
+        "url": "",
+        "listened": false,
+        "artist": "Gill Scott-Heron"
+    },
+    {
+        "date": 1975,
+        "id": 327,
+        "album": "A Night At The Opera",
+        "url": "",
+        "listened": false,
+        "artist": "Queen"
+    },
+    {
+        "date": 1975,
+        "id": 328,
+        "album": "Another Green World",
+        "url": "",
+        "listened": false,
+        "artist": "Brian Eno"
+    },
+    {
+        "date": 1975,
+        "id": 329,
+        "album": "Born to be With You",
+        "url": "",
+        "listened": false,
+        "artist": "Dion"
+    },
+    {
+        "date": 1975,
+        "id": 330,
+        "album": "Born to Run",
+        "url": "",
+        "listened": false,
+        "artist": "Bruce Springsteen"
+    },
+    {
+        "date": 1975,
+        "id": 331,
+        "album": "Frampton Comes Alive",
+        "url": "",
+        "listened": false,
+        "artist": "Peter Frampton"
+    },
+    {
+        "date": 1975,
+        "id": 332,
+        "album": "Go Girl Crazy",
+        "url": "",
+        "listened": false,
+        "artist": "The Dictators"
+    },
+    {
+        "date": 1975,
+        "id": 333,
+        "album": "Greetings from LA",
+        "url": "",
+        "listened": false,
+        "artist": "Tim Buckley"
+    },
+    {
+        "date": 1975,
+        "id": 334,
+        "album": "Horses",
+        "url": "",
+        "listened": false,
+        "artist": "Patti Smith"
+    },
+    {
+        "date": 1975,
+        "id": 335,
+        "album": "Inspiration Information",
+        "url": "",
+        "listened": false,
+        "artist": "Shuggie Otis"
+    },
+    {
+        "date": 1975,
+        "id": 336,
+        "album": "Natty Dread",
+        "url": "",
+        "listened": false,
+        "artist": "Bob Marley & The Wailers"
+    },
+    {
+        "date": 1975,
+        "id": 337,
+        "album": "Neu! 75",
+        "url": "",
+        "listened": false,
+        "artist": "Neu!"
+    },
+    {
+        "date": 1975,
+        "id": 338,
+        "album": "Nighthawks at the Diner",
+        "url": "",
+        "listened": false,
+        "artist": "Tom Waits"
+    },
+    {
+        "date": 1975,
+        "id": 339,
+        "album": "Physical Graffiti",
+        "url": "",
+        "listened": false,
+        "artist": "Led Zeppelin"
+    },
+    {
+        "date": 1975,
+        "id": 340,
+        "album": "Pieces Of The Sky",
+        "url": "",
+        "listened": false,
+        "artist": "Emmylou Harris"
+    },
+    {
+        "date": 1975,
+        "id": 341,
+        "album": "Redheaded Stranger",
+        "url": "",
+        "listened": false,
+        "artist": "Willie Nelson"
+    },
+    {
+        "date": 1975,
+        "id": 342,
+        "album": "Shalimar / College Girl",
+        "url": "",
+        "listened": false,
+        "artist": "R.D.Burman / Bappi Lahiri"
+    },
+    {
+        "date": 1975,
+        "id": 343,
+        "album": "That's The Way Of The World",
+        "url": "",
+        "listened": false,
+        "artist": "Earth, Wind & Fire"
+    },
+    {
+        "date": 1975,
+        "id": 344,
+        "album": "The Hissing of Summer Lawns",
+        "url": "",
+        "listened": false,
+        "artist": "Joni Mitchell"
+    },
+    {
+        "date": 1975,
+        "id": 345,
+        "album": "The Köln Concert",
+        "url": "",
+        "listened": false,
+        "artist": "Keith Jarrett"
+    },
+    {
+        "date": 1975,
+        "id": 346,
+        "album": "There's No Place Like America Today",
+        "url": "",
+        "listened": false,
+        "artist": "Curtis Mayfield"
+    },
+    {
+        "date": 1975,
+        "id": 347,
+        "album": "Tonight's the Night",
+        "url": "",
+        "listened": false,
+        "artist": "Neil Young"
+    },
+    {
+        "date": 1975,
+        "id": 348,
+        "album": "Toys in the Attic",
+        "url": "",
+        "listened": false,
+        "artist": "Aerosmith"
+    },
+    {
+        "date": 1975,
+        "id": 349,
+        "album": "Wish You Were Here",
+        "url": "",
+        "listened": false,
+        "artist": "Pink Floyd"
+    },
+    {
+        "date": 1975,
+        "id": 350,
+        "album": "Young Americans",
+        "url": "",
+        "listened": false,
+        "artist": "David Bowie"
+    },
+    {
+        "date": 1976,
+        "id": 351,
+        "album": "2112",
+        "url": "",
+        "listened": false,
+        "artist": "Rush"
+    },
+    {
+        "date": 1976,
+        "id": 352,
+        "album": "Africa/Brasil",
+        "url": "",
+        "listened": false,
+        "artist": "Jorge Ben"
+    },
+    {
+        "date": 1976,
+        "id": 353,
+        "album": "Arrival",
+        "url": "",
+        "listened": false,
+        "artist": "Abba"
+    },
+    {
+        "date": 1976,
+        "id": 354,
+        "album": "Boston",
+        "url": "",
+        "listened": false,
+        "artist": "Boston"
+    },
+    {
+        "date": 1976,
+        "id": 355,
+        "album": "Destroyer",
+        "url": "",
+        "listened": false,
+        "artist": "Kiss"
+    },
+    {
+        "date": 1976,
+        "id": 356,
+        "album": "Hejeira",
+        "url": "",
+        "listened": false,
+        "artist": "Joni Mitchell"
+    },
+    {
+        "date": 1976,
+        "id": 357,
+        "album": "Hotel California",
+        "url": "",
+        "listened": false,
+        "artist": "The Eagles"
+    },
+    {
+        "date": 1976,
+        "id": 358,
+        "album": "Joan Armatrading",
+        "url": "",
+        "listened": false,
+        "artist": "Joan Armatrading"
+    },
+    {
+        "date": 1976,
+        "id": 359,
+        "album": "Legalize It",
+        "url": "",
+        "listened": false,
+        "artist": "Peter Tosh"
+    },
+    {
+        "date": 1976,
+        "id": 360,
+        "album": "Mothership Connection",
+        "url": "",
+        "listened": false,
+        "artist": "Parliament"
+    },
+    {
+        "date": 1976,
+        "id": 361,
+        "album": "Rocks",
+        "url": "",
+        "listened": false,
+        "artist": "Aerosmith"
+    },
+    {
+        "date": 1976,
+        "id": 362,
+        "album": "Songs in the Key of Life",
+        "url": "",
+        "listened": false,
+        "artist": "Stevie Wonder"
+    },
+    {
+        "date": 1976,
+        "id": 363,
+        "album": "Station to Station",
+        "url": "",
+        "listened": false,
+        "artist": "David Bowie"
+    },
+    {
+        "date": 1976,
+        "id": 364,
+        "album": "The Ramones",
+        "url": "",
+        "listened": false,
+        "artist": "The Ramones"
+    },
+    {
+        "date": 1977,
+        "id": 365,
+        "album": "Aja",
+        "url": "",
+        "listened": false,
+        "artist": "Steely Dan"
+    },
+    {
+        "date": 1977,
+        "id": 366,
+        "album": "Before & After Science",
+        "url": "",
+        "listened": false,
+        "artist": "Brian Eno"
+    },
+    {
+        "date": 1977,
+        "id": 367,
+        "album": "C'est Chic",
+        "url": "",
+        "listened": false,
+        "artist": "Chic Manish"
+    },
+    {
+        "date": 1977,
+        "id": 368,
+        "album": "Exodus",
+        "url": "",
+        "listened": false,
+        "artist": "Bob Marley & The Wailers"
+    },
+    {
+        "date": 1977,
+        "id": 369,
+        "album": "Heavy Weather",
+        "url": "",
+        "listened": false,
+        "artist": "Weather Report"
+    },
+    {
+        "date": 1977,
+        "id": 370,
+        "album": "Heroes",
+        "url": "",
+        "listened": false,
+        "artist": "David Bowie"
+    },
+    {
+        "date": 1977,
+        "id": 371,
+        "album": "I",
+        "url": "",
+        "listened": false,
+        "artist": "Peter Gabriel"
+    },
+    {
+        "date": 1977,
+        "id": 372,
+        "album": "Low",
+        "url": "",
+        "listened": false,
+        "artist": "David Bowie"
+    },
+    {
+        "date": 1977,
+        "id": 373,
+        "album": "Lust for Life",
+        "url": "",
+        "listened": false,
+        "artist": "Iggy Pop"
+    },
+    {
+        "date": 1977,
+        "id": 374,
+        "album": "Music From The Penguin Cafe Orchestra",
+        "url": "",
+        "listened": false,
+        "artist": "The Penguin Cafe Orchestra"
+    },
+    {
+        "date": 1977,
+        "id": 375,
+        "album": "My Aim Is True",
+        "url": "",
+        "listened": false,
+        "artist": "Elvis Costello"
+    },
+    {
+        "date": 1977,
+        "id": 376,
+        "album": "Never Mind The Bollocks…",
+        "url": "",
+        "listened": false,
+        "artist": "The Sex Pistols"
+    },
+    {
+        "date": 1977,
+        "id": 377,
+        "album": "New Boots & Panties",
+        "url": "",
+        "listened": false,
+        "artist": "Ian Dury & the Blockheads"
+    },
+    {
+        "date": 1977,
+        "id": 378,
+        "album": "One World",
+        "url": "",
+        "listened": false,
+        "artist": "John Martyn"
+    },
+    {
+        "date": 1977,
+        "id": 379,
+        "album": "Out Of The Blue",
+        "url": "",
+        "listened": false,
+        "artist": "Electric Light Orchestra"
+    },
+    {
+        "date": 1977,
+        "id": 380,
+        "album": "Oxygene",
+        "url": "",
+        "listened": false,
+        "artist": "Jean Michel-Jarre"
+    },
+    {
+        "date": 1977,
+        "id": 381,
+        "album": "Pink Flag",
+        "url": "",
+        "listened": false,
+        "artist": "Wire"
+    },
+    {
+        "date": 1977,
+        "id": 382,
+        "album": "Rattus Norvegicus",
+        "url": "",
+        "listened": false,
+        "artist": "The Stranglers"
+    },
+    {
+        "date": 1977,
+        "id": 383,
+        "album": "Rumours",
+        "url": "",
+        "listened": false,
+        "artist": "Fleetwood Mac"
+    },
+    {
+        "date": 1977,
+        "id": 384,
+        "album": "Suicide",
+        "url": "",
+        "listened": false,
+        "artist": "Suicide"
+    },
+    {
+        "date": 1977,
+        "id": 385,
+        "album": "Talking Heads \"77",
+        "url": "",
+        "listened": false,
+        "artist": "Talking Heads"
+    },
+    {
+        "date": 1977,
+        "id": 386,
+        "album": "The Clash",
+        "url": "",
+        "listened": false,
+        "artist": "The Clash"
+    },
+    {
+        "date": 1977,
+        "id": 387,
+        "album": "The Idiot",
+        "url": "",
+        "listened": false,
+        "artist": "Iggy Pop"
+    },
+    {
+        "date": 1977,
+        "id": 388,
+        "album": "The Modern Dance",
+        "url": "",
+        "listened": false,
+        "artist": "Pere Ubu"
+    },
+    {
+        "date": 1977,
+        "id": 389,
+        "album": "The Modern Lovers",
+        "url": "",
+        "listened": false,
+        "artist": "Jonathan Richman And The Modern Lovers"
+    },
+    {
+        "date": 1977,
+        "id": 390,
+        "album": "The Stranger",
+        "url": "",
+        "listened": false,
+        "artist": "Billy Joel"
+    },
+    {
+        "date": 1977,
+        "id": 391,
+        "album": "Tom Petty & the Heartbreakers",
+        "url": "",
+        "listened": false,
+        "artist": "Tom Petty & the Heartbreakers"
+    },
+    {
+        "date": 1977,
+        "id": 392,
+        "album": "Trans-Europe Express",
+        "url": "",
+        "listened": false,
+        "artist": "Kraftwerk"
+    },
+    {
+        "date": 1977,
+        "id": 393,
+        "album": "Zombie",
+        "url": "",
+        "listened": false,
+        "artist": "Fela Kuti"
+    },
+    {
+        "date": 1978,
+        "id": 394,
+        "album": "All Mod Cons",
+        "url": "",
+        "listened": false,
+        "artist": "The Jam"
+    },
+    {
+        "date": 1978,
+        "id": 395,
+        "album": "Ambient no.1: Music for Airports",
+        "url": "",
+        "listened": false,
+        "artist": "Brian Eno"
+    },
+    {
+        "date": 1978,
+        "id": 396,
+        "album": "Another Music In a Different Kitchen",
+        "url": "",
+        "listened": false,
+        "artist": "Buzzcocks"
+    },
+    {
+        "date": 1978,
+        "id": 397,
+        "album": "At Budokan",
+        "url": "",
+        "listened": false,
+        "artist": "Cheap Trick"
+    },
+    {
+        "date": 1978,
+        "id": 398,
+        "album": "Bat Out of Hell",
+        "url": "",
+        "listened": false,
+        "artist": "Meat Loaf"
+    },
+    {
+        "date": 1978,
+        "id": 399,
+        "album": "Darkness on the Edge of Town",
+        "url": "",
+        "listened": false,
+        "artist": "Bruce Springsteen"
+    },
+    {
+        "date": 1978,
+        "id": 400,
+        "album": "Dire Straits",
+        "url": "",
+        "listened": false,
+        "artist": "Dire Straits"
+    },
+    {
+        "date": 1978,
+        "id": 401,
+        "album": "DOA",
+        "url": "",
+        "listened": false,
+        "artist": "Throbbing Gristle"
+    },
+    {
+        "date": 1978,
+        "id": 402,
+        "album": "Dub Housing",
+        "url": "",
+        "listened": false,
+        "artist": "Pere Ubu"
+    },
+    {
+        "date": 1978,
+        "id": 403,
+        "album": "Duck Stab/Buster & Glen",
+        "url": "",
+        "listened": false,
+        "artist": "The Residents"
+    },
+    {
+        "date": 1978,
+        "id": 404,
+        "album": "Eternally Yours",
+        "url": "",
+        "listened": false,
+        "artist": "The Saints"
+    },
+    {
+        "date": 1978,
+        "id": 405,
+        "album": "Germ-Free Adolescents",
+        "url": "",
+        "listened": false,
+        "artist": "X-Ray Spex"
+    },
+    {
+        "date": 1978,
+        "id": 406,
+        "album": "Hard Again",
+        "url": "",
+        "listened": false,
+        "artist": "Muddy Waters"
+    },
+    {
+        "date": 1978,
+        "id": 407,
+        "album": "Here, My Dear",
+        "url": "",
+        "listened": false,
+        "artist": "Marvin Gaye"
+    },
+    {
+        "date": 1978,
+        "id": 408,
+        "album": "Honky Tonk Masquarade",
+        "url": "",
+        "listened": false,
+        "artist": "Joe Ely"
+    },
+    {
+        "date": 1978,
+        "id": 409,
+        "album": "Live And Dangerous",
+        "url": "",
+        "listened": false,
+        "artist": "Thin Lizzy"
+    },
+    {
+        "date": 1978,
+        "id": 410,
+        "album": "Marquee Moon",
+        "url": "",
+        "listened": false,
+        "artist": "Television"
+    },
+    {
+        "date": 1978,
+        "id": 411,
+        "album": "More Songs About Buildings and Food",
+        "url": "",
+        "listened": false,
+        "artist": "Talking Heads"
+    },
+    {
+        "date": 1978,
+        "id": 412,
+        "album": "One Nation Under A Groove",
+        "url": "",
+        "listened": false,
+        "artist": "Funkadelic"
+    },
+    {
+        "date": 1978,
+        "id": 413,
+        "album": "Parallel Lines",
+        "url": "",
+        "listened": false,
+        "artist": "Blondie"
+    },
+    {
+        "date": 1978,
+        "id": 414,
+        "album": "Public Image",
+        "url": "",
+        "listened": false,
+        "artist": "Public Image"
+    },
+    {
+        "date": 1978,
+        "id": 415,
+        "album": "Q: Are We Not Men? A: We Are Devo!",
+        "url": "",
+        "listened": false,
+        "artist": "Devo"
+    },
+    {
+        "date": 1978,
+        "id": 416,
+        "album": "Real Life",
+        "url": "",
+        "listened": false,
+        "artist": "Magazine"
+    },
+    {
+        "date": 1978,
+        "id": 417,
+        "album": "Siembra",
+        "url": "",
+        "listened": false,
+        "artist": "Ruben Blades & Willie Colón"
+    },
+    {
+        "date": 1978,
+        "id": 418,
+        "album": "Stardust",
+        "url": "",
+        "listened": false,
+        "artist": "Willie Nelson"
+    },
+    {
+        "date": 1978,
+        "id": 419,
+        "album": "The Cars",
+        "url": "",
+        "listened": false,
+        "artist": "The Cars"
+    },
+    {
+        "date": 1978,
+        "id": 420,
+        "album": "The Man Machine",
+        "url": "",
+        "listened": false,
+        "artist": "Kraftwerk"
+    },
+    {
+        "date": 1978,
+        "id": 421,
+        "album": "The Only Ones",
+        "url": "",
+        "listened": false,
+        "artist": "The Only Ones"
+    },
+    {
+        "date": 1978,
+        "id": 422,
+        "album": "The Scream",
+        "url": "",
+        "listened": false,
+        "artist": "Siouxsie And The Banshees"
+    },
+    {
+        "date": 1978,
+        "id": 423,
+        "album": "Third/Sister Lovers",
+        "url": "",
+        "listened": false,
+        "artist": "Big Star"
+    },
+    {
+        "date": 1978,
+        "id": 424,
+        "album": "This Year's Model",
+        "url": "",
+        "listened": false,
+        "artist": "Elvis Costello"
+    },
+    {
+        "date": 1978,
+        "id": 425,
+        "album": "tori amos",
+        "url": "",
+        "listened": false,
+        "artist": "The Adverts"
+    },
+    {
+        "date": 1978,
+        "id": 426,
+        "album": "Van Halen 1",
+        "url": "",
+        "listened": false,
+        "artist": "Van Halen"
+    },
+    {
+        "date": 1978,
+        "id": 427,
+        "album": "Vento De Maio",
+        "url": "",
+        "listened": false,
+        "artist": "Elis Regina"
+    },
+    {
+        "date": 1979,
+        "id": 428,
+        "album": "Armed Forces",
+        "url": "",
+        "listened": false,
+        "artist": "Elvis Costello"
+    },
+    {
+        "date": 1979,
+        "id": 429,
+        "album": "Broken English",
+        "url": "",
+        "listened": false,
+        "artist": "Marianne Faithfull"
+    },
+    {
+        "date": 1979,
+        "id": 430,
+        "album": "Cut",
+        "url": "",
+        "listened": false,
+        "artist": "The Slits"
+    },
+    {
+        "date": 1979,
+        "id": 431,
+        "album": "Entertainment!",
+        "url": "",
+        "listened": false,
+        "artist": "Gang Of Four"
+    },
+    {
+        "date": 1979,
+        "id": 432,
+        "album": "Fear of Music",
+        "url": "",
+        "listened": false,
+        "artist": "Talking Heads"
+    },
+    {
+        "date": 1979,
+        "id": 433,
+        "album": "GI",
+        "url": "",
+        "listened": false,
+        "artist": "Germs"
+    },
+    {
+        "date": 1979,
+        "id": 434,
+        "album": "Highway to Hell",
+        "url": "",
+        "listened": false,
+        "artist": "AC/DC"
+    },
+    {
+        "date": 1979,
+        "id": 435,
+        "album": "Live at the Witch Trials",
+        "url": "",
+        "listened": false,
+        "artist": "The Fall"
+    },
+    {
+        "date": 1979,
+        "id": 436,
+        "album": "London Calling",
+        "url": "",
+        "listened": false,
+        "artist": "The Clash"
+    },
+    {
+        "date": 1979,
+        "id": 437,
+        "album": "Machine Gun Etiquette",
+        "url": "",
+        "listened": false,
+        "artist": "The Damned"
+    },
+    {
+        "date": 1979,
+        "id": 438,
+        "album": "Metal Box/Second Edition",
+        "url": "",
+        "listened": false,
+        "artist": "Public Image"
+    },
+    {
+        "date": 1979,
+        "id": 439,
+        "album": "Movies",
+        "url": "",
+        "listened": false,
+        "artist": "Holger Czukay"
+    },
+    {
+        "date": 1979,
+        "id": 440,
+        "album": "Off The Wall",
+        "url": "",
+        "listened": false,
+        "artist": "Michael Jackson"
+    },
+    {
+        "date": 1979,
+        "id": 441,
+        "album": "Pretenders",
+        "url": "",
+        "listened": false,
+        "artist": "Pretenders"
+    },
+    {
+        "date": 1979,
+        "id": 442,
+        "album": "Quiet Life",
+        "url": "",
+        "listened": false,
+        "artist": "Japan"
+    },
+    {
+        "date": 1979,
+        "id": 443,
+        "album": "Regatta De Blanc",
+        "url": "",
+        "listened": false,
+        "artist": "The Police"
+    },
+    {
+        "date": 1979,
+        "id": 444,
+        "album": "Risqué",
+        "url": "",
+        "listened": false,
+        "artist": "Chic"
+    },
+    {
+        "date": 1979,
+        "id": 445,
+        "album": "Rust Never Sleeps",
+        "url": "",
+        "listened": false,
+        "artist": "Neil Young"
+    },
+    {
+        "date": 1979,
+        "id": 446,
+        "album": "Specials",
+        "url": "",
+        "listened": false,
+        "artist": "The Specials"
+    },
+    {
+        "date": 1979,
+        "id": 447,
+        "album": "Street Life",
+        "url": "",
+        "listened": false,
+        "artist": "The Crusaders"
+    },
+    {
+        "date": 1979,
+        "id": 448,
+        "album": "The B-52's",
+        "url": "",
+        "listened": false,
+        "artist": "The B-52's"
+    },
+    {
+        "date": 1979,
+        "id": 449,
+        "album": "The Pleasure Principle",
+        "url": "",
+        "listened": false,
+        "artist": "Gary Numan"
+    },
+    {
+        "date": 1979,
+        "id": 450,
+        "album": "The Undertones",
+        "url": "",
+        "listened": false,
+        "artist": "The Undertones"
+    },
+    {
+        "date": 1979,
+        "id": 451,
+        "album": "The Wall",
+        "url": "",
+        "listened": false,
+        "artist": "Pink Floyd"
+    },
+    {
+        "date": 1979,
+        "id": 452,
+        "album": "Tusk",
+        "url": "",
+        "listened": false,
+        "artist": "Fleetwood Mac"
+    },
+    {
+        "date": 1979,
+        "id": 453,
+        "album": "Unknown Pleasures",
+        "url": "",
+        "listened": false,
+        "artist": "Joy Division"
+    },
+    {
+        "date": 1979,
+        "id": 454,
+        "album": "We Are Family",
+        "url": "",
+        "listened": false,
+        "artist": "Sister Sledge"
+    },
+    {
+        "date": 1980,
+        "id": 455,
+        "album": "Ace of Spades",
+        "url": "",
+        "listened": false,
+        "artist": "Motörhead"
+    },
+    {
+        "date": 1980,
+        "id": 456,
+        "album": "Arc Of A Diver",
+        "url": "",
+        "listened": false,
+        "artist": "Steve Winwood"
+    },
+    {
+        "date": 1980,
+        "id": 457,
+        "album": "Back in Black",
+        "url": "",
+        "listened": false,
+        "artist": "AC/DC"
+    },
+    {
+        "date": 1980,
+        "id": 458,
+        "album": "British Steel",
+        "url": "",
+        "listened": false,
+        "artist": "Judas Priest"
+    },
+    {
+        "date": 1980,
+        "id": 459,
+        "album": "Closer",
+        "url": "",
+        "listened": false,
+        "artist": "Joy Division"
+    },
+    {
+        "date": 1980,
+        "id": 460,
+        "album": "Crocodiles",
+        "url": "",
+        "listened": false,
+        "artist": "Echo & The Bunnymen"
+    },
+    {
+        "date": 1980,
+        "id": 461,
+        "album": "Fresh Fruit for Rotting Vegetables",
+        "url": "",
+        "listened": false,
+        "artist": "Dead Kennedys"
+    },
+    {
+        "date": 1980,
+        "id": 462,
+        "album": "Group Sex",
+        "url": "",
+        "listened": false,
+        "artist": "Circle Jerks"
+    },
+    {
+        "date": 1980,
+        "id": 463,
+        "album": "Heartattack and Vine",
+        "url": "",
+        "listened": false,
+        "artist": "Tom Waits"
+    },
+    {
+        "date": 1980,
+        "id": 464,
+        "album": "Hypnotised",
+        "url": "",
+        "listened": false,
+        "artist": "The Undertones"
+    },
+    {
+        "date": 1980,
+        "id": 465,
+        "album": "III",
+        "url": "",
+        "listened": false,
+        "artist": "Peter Gabriel"
+    },
+    {
+        "date": 1980,
+        "id": 466,
+        "album": "Iron Maiden",
+        "url": "",
+        "listened": false,
+        "artist": "Iron Maiden"
+    },
+    {
+        "date": 1980,
+        "id": 467,
+        "album": "Kilimanjaro",
+        "url": "",
+        "listened": false,
+        "artist": "Teardrop Explodes"
+    },
+    {
+        "date": 1980,
+        "id": 468,
+        "album": "Killing Joke",
+        "url": "",
+        "listened": false,
+        "artist": "Killing Joke"
+    },
+    {
+        "date": 1980,
+        "id": 469,
+        "album": "Kings Of The Wild Frontier",
+        "url": "",
+        "listened": false,
+        "artist": "Adam & The Ants"
+    },
+    {
+        "date": 1980,
+        "id": 470,
+        "album": "More Specials",
+        "url": "",
+        "listened": false,
+        "artist": "The Specials"
+    },
+    {
+        "date": 1980,
+        "id": 471,
+        "album": "Remain in Light",
+        "url": "",
+        "listened": false,
+        "artist": "Talking Heads"
+    },
+    {
+        "date": 1980,
+        "id": 472,
+        "album": "Searching for the Young Soul Rebels",
+        "url": "",
+        "listened": false,
+        "artist": "Dexys Midnight Runners"
+    },
+    {
+        "date": 1980,
+        "id": 473,
+        "album": "Seventeen Seconds",
+        "url": "",
+        "listened": false,
+        "artist": "The Cure"
+    },
+    {
+        "date": 1980,
+        "id": 474,
+        "album": "Signing Off",
+        "url": "",
+        "listened": false,
+        "artist": "UB40"
+    },
+    {
+        "date": 1980,
+        "id": 475,
+        "album": "Songs The Lord Taught Us",
+        "url": "",
+        "listened": false,
+        "artist": "The Cramps"
+    },
+    {
+        "date": 1980,
+        "id": 476,
+        "album": "Sound Affects",
+        "url": "",
+        "listened": false,
+        "artist": "The Jam"
+    },
+    {
+        "date": 1980,
+        "id": 477,
+        "album": "Underwater Moonlight",
+        "url": "",
+        "listened": false,
+        "artist": "The Soft Boys"
+    },
+    {
+        "date": 1981,
+        "id": 478,
+        "album": "Beauty And The Beat",
+        "url": "",
+        "listened": false,
+        "artist": "Go-Go's"
+    },
+    {
+        "date": 1981,
+        "id": 479,
+        "album": "Damaged",
+        "url": "",
+        "listened": false,
+        "artist": "Black Flag"
+    },
+    {
+        "date": 1981,
+        "id": 480,
+        "album": "Dare",
+        "url": "",
+        "listened": false,
+        "artist": "Human League"
+    },
+    {
+        "date": 1981,
+        "id": 481,
+        "album": "Fire Of Love",
+        "url": "",
+        "listened": false,
+        "artist": "The Gun Club"
+    },
+    {
+        "date": 1981,
+        "id": 482,
+        "album": "Juju",
+        "url": "",
+        "listened": false,
+        "artist": "Siouxsie And The Banshees"
+    },
+    {
+        "date": 1981,
+        "id": 483,
+        "album": "Kollaps",
+        "url": "",
+        "listened": false,
+        "artist": "Einsturzende"
+    },
+    {
+        "date": 1981,
+        "id": 484,
+        "album": "Mask",
+        "url": "",
+        "listened": false,
+        "artist": "Bauhaus"
+    },
+    {
+        "date": 1981,
+        "id": 485,
+        "album": "Moving Pictures",
+        "url": "",
+        "listened": false,
+        "artist": "Rush"
+    },
+    {
+        "date": 1981,
+        "id": 486,
+        "album": "My Life In The Bush Of Ghosts",
+        "url": "",
+        "listened": false,
+        "artist": "Brian Eno"
+    },
+    {
+        "date": 1981,
+        "id": 487,
+        "album": "No Sleep 'til Hammersmith",
+        "url": "",
+        "listened": false,
+        "artist": "Motörhead"
+    },
+    {
+        "date": 1981,
+        "id": 488,
+        "album": "Non-Stop Erotic Cabaret",
+        "url": "",
+        "listened": false,
+        "artist": "Soft Cell"
+    },
+    {
+        "date": 1981,
+        "id": 489,
+        "album": "Penthouse and Pavement",
+        "url": "",
+        "listened": false,
+        "artist": "Heaven 17"
+    },
+    {
+        "date": 1981,
+        "id": 490,
+        "album": "Talk Talk Talk",
+        "url": "",
+        "listened": false,
+        "artist": "Psychedelic Furs"
+    },
+    {
+        "date": 1981,
+        "id": 491,
+        "album": "The Poet",
+        "url": "",
+        "listened": false,
+        "artist": "Bobbie Womack"
+    },
+    {
+        "date": 1981,
+        "id": 492,
+        "album": "The Tom Tom Club",
+        "url": "",
+        "listened": false,
+        "artist": "The Tom Tom Club"
+    },
+    {
+        "date": 1981,
+        "id": 493,
+        "album": "The Visitors",
+        "url": "",
+        "listened": false,
+        "artist": "Abba"
+    },
+    {
+        "date": 1981,
+        "id": 494,
+        "album": "Wild Gift",
+        "url": "",
+        "listened": false,
+        "artist": "X"
+    },
+    {
+        "date": 1982,
+        "id": 495,
+        "album": "1999",
+        "url": "",
+        "listened": false,
+        "artist": "Prince"
+    },
+    {
+        "date": 1982,
+        "id": 496,
+        "album": "Black Metal",
+        "url": "",
+        "listened": false,
+        "artist": "Venom"
+    },
+    {
+        "date": 1982,
+        "id": 497,
+        "album": "Imperial Bedroom",
+        "url": "",
+        "listened": false,
+        "artist": "Elvis Costello"
+    },
+    {
+        "date": 1982,
+        "id": 498,
+        "album": "Junkyard",
+        "url": "",
+        "listened": false,
+        "artist": "The Birthday Party"
+    },
+    {
+        "date": 1982,
+        "id": 499,
+        "album": "Nebraska",
+        "url": "",
+        "listened": false,
+        "artist": "Bruce Springsteen"
+    },
+    {
+        "date": 1982,
+        "id": 500,
+        "album": "New Gold Dream",
+        "url": "",
+        "listened": false,
+        "artist": "Simple Minds"
+    },
+    {
+        "date": 1982,
+        "id": 501,
+        "album": "Number Of The Beast",
+        "url": "",
+        "listened": false,
+        "artist": "Iron Maiden"
+    },
+    {
+        "date": 1982,
+        "id": 502,
+        "album": "Pelican West",
+        "url": "",
+        "listened": false,
+        "artist": "Haircut 100"
+    },
+    {
+        "date": 1982,
+        "id": 503,
+        "album": "Pornography",
+        "url": "",
+        "listened": false,
+        "artist": "The Cure"
+    },
+    {
+        "date": 1982,
+        "id": 504,
+        "album": "Rip It Up",
+        "url": "",
+        "listened": false,
+        "artist": "Orange Juice"
+    },
+    {
+        "date": 1982,
+        "id": 505,
+        "album": "Rise & Fall",
+        "url": "",
+        "listened": false,
+        "artist": "Madness"
+    },
+    {
+        "date": 1982,
+        "id": 506,
+        "album": "Sulk",
+        "url": "",
+        "listened": false,
+        "artist": "The Associates"
+    },
+    {
+        "date": 1982,
+        "id": 507,
+        "album": "The Dreaming",
+        "url": "",
+        "listened": false,
+        "artist": "Kate Bush"
+    },
+    {
+        "date": 1982,
+        "id": 508,
+        "album": "The Lexicon of Love",
+        "url": "",
+        "listened": false,
+        "artist": "ABC"
+    },
+    {
+        "date": 1982,
+        "id": 509,
+        "album": "The Message",
+        "url": "",
+        "listened": false,
+        "artist": "Grand Master Flash & the Furious Five"
+    },
+    {
+        "date": 1982,
+        "id": 510,
+        "album": "The Nightfly",
+        "url": "",
+        "listened": false,
+        "artist": "Donald Fagen"
+    },
+    {
+        "date": 1982,
+        "id": 511,
+        "album": "Thriller",
+        "url": "",
+        "listened": false,
+        "artist": "Michael Jackson"
+    },
+    {
+        "date": 1982,
+        "id": 512,
+        "album": "Too Rye-Ay",
+        "url": "",
+        "listened": false,
+        "artist": "Dexy's Midnight Runners"
+    },
+    {
+        "date": 1982,
+        "id": 513,
+        "album": "Violent Femmes",
+        "url": "",
+        "listened": false,
+        "artist": "Violent Femmes"
+    },
+    {
+        "date": 1983,
+        "id": 514,
+        "album": "Architecture & Morality",
+        "url": "",
+        "listened": false,
+        "artist": "OMD"
+    },
+    {
+        "date": 1983,
+        "id": 515,
+        "album": "Back to Mystery City",
+        "url": "",
+        "listened": false,
+        "artist": "Hanoi Rocks"
+    },
+    {
+        "date": 1983,
+        "id": 516,
+        "album": "Colour By Numbers",
+        "url": "",
+        "listened": false,
+        "artist": "Culture Club"
+    },
+    {
+        "date": 1983,
+        "id": 517,
+        "album": "Duck Rock",
+        "url": "",
+        "listened": false,
+        "artist": "Malcolm McLaren"
+    },
+    {
+        "date": 1983,
+        "id": 518,
+        "album": "Eliminator",
+        "url": "",
+        "listened": false,
+        "artist": "ZZ Top"
+    },
+    {
+        "date": 1983,
+        "id": 519,
+        "album": "Hearts and Bones",
+        "url": "",
+        "listened": false,
+        "artist": "Paul Simon"
+    },
+    {
+        "date": 1983,
+        "id": 520,
+        "album": "Meat Puppets II",
+        "url": "",
+        "listened": false,
+        "artist": "Meat Puppets"
+    },
+    {
+        "date": 1983,
+        "id": 521,
+        "album": "Murmur",
+        "url": "",
+        "listened": false,
+        "artist": "REM"
+    },
+    {
+        "date": 1983,
+        "id": 522,
+        "album": "Out Of Step",
+        "url": "",
+        "listened": false,
+        "artist": "Minor Threat"
+    },
+    {
+        "date": 1983,
+        "id": 523,
+        "album": "Porcupine",
+        "url": "",
+        "listened": false,
+        "artist": "Echo & The Bunnymen"
+    },
+    {
+        "date": 1983,
+        "id": 524,
+        "album": "Pyromania",
+        "url": "",
+        "listened": false,
+        "artist": "Def Leppard"
+    },
+    {
+        "date": 1983,
+        "id": 525,
+        "album": "Rio",
+        "url": "",
+        "listened": false,
+        "artist": "Duran Duran"
+    },
+    {
+        "date": 1983,
+        "id": 526,
+        "album": "Soul Mining",
+        "url": "",
+        "listened": false,
+        "artist": "The The"
+    },
+    {
+        "date": 1983,
+        "id": 527,
+        "album": "Sweet Dreams",
+        "url": "",
+        "listened": false,
+        "artist": "Eurythmics"
+    },
+    {
+        "date": 1983,
+        "id": 528,
+        "album": "Swordfishtrombones",
+        "url": "",
+        "listened": false,
+        "artist": "Tom Waits"
+    },
+    {
+        "date": 1983,
+        "id": 529,
+        "album": "Synchronicity",
+        "url": "",
+        "listened": false,
+        "artist": "The Police"
+    },
+    {
+        "date": 1983,
+        "id": 530,
+        "album": "War",
+        "url": "",
+        "listened": false,
+        "artist": "U2"
+    },
+    {
+        "date": 1984,
+        "id": 531,
+        "album": "1984",
+        "url": "",
+        "listened": false,
+        "artist": "Van Halen"
+    },
+    {
+        "date": 1984,
+        "id": 532,
+        "album": "A Walk Across The Rooftops",
+        "url": "",
+        "listened": false,
+        "artist": "The Blue Nile"
+    },
+    {
+        "date": 1984,
+        "id": 533,
+        "album": "Born in the USA",
+        "url": "",
+        "listened": false,
+        "artist": "Bruce Springsteen"
+    },
+    {
+        "date": 1984,
+        "id": 534,
+        "album": "Café Bleu",
+        "url": "",
+        "listened": false,
+        "artist": "Style Council"
+    },
+    {
+        "date": 1984,
+        "id": 535,
+        "album": "Diamond Life",
+        "url": "",
+        "listened": false,
+        "artist": "Sade"
+    },
+    {
+        "date": 1984,
+        "id": 536,
+        "album": "Double Nickels On The Dime",
+        "url": "",
+        "listened": false,
+        "artist": "Minutemen"
+    },
+    {
+        "date": 1984,
+        "id": 537,
+        "album": "Immigrés",
+        "url": "",
+        "listened": false,
+        "artist": "Youssou N'Dour"
+    },
+    {
+        "date": 1984,
+        "id": 538,
+        "album": "Let It Be",
+        "url": "",
+        "listened": false,
+        "artist": "The Replacements"
+    },
+    {
+        "date": 1984,
+        "id": 539,
+        "album": "Ocean Rain",
+        "url": "",
+        "listened": false,
+        "artist": "Echo & The Bunnymen"
+    },
+    {
+        "date": 1984,
+        "id": 540,
+        "album": "Private Dancer",
+        "url": "",
+        "listened": false,
+        "artist": "Tina Turner"
+    },
+    {
+        "date": 1984,
+        "id": 541,
+        "album": "Purple Rain",
+        "url": "",
+        "listened": false,
+        "artist": "Prince and The Revolution"
+    },
+    {
+        "date": 1984,
+        "id": 542,
+        "album": "Rattlesnakes",
+        "url": "",
+        "listened": false,
+        "artist": "Lloyd Cole And The Commotions"
+    },
+    {
+        "date": 1984,
+        "id": 543,
+        "album": "Run-DMC",
+        "url": "",
+        "listened": false,
+        "artist": "Run-DMC"
+    },
+    {
+        "date": 1984,
+        "id": 544,
+        "album": "She's So Unusual",
+        "url": "",
+        "listened": false,
+        "artist": "Cindy Lauper"
+    },
+    {
+        "date": 1984,
+        "id": 545,
+        "album": "Treasure",
+        "url": "",
+        "listened": false,
+        "artist": "Cocteau Twins"
+    },
+    {
+        "date": 1984,
+        "id": 546,
+        "album": "Welcome to the Pleasuredome",
+        "url": "",
+        "listened": false,
+        "artist": "Frankie Goes To Hollywood"
+    },
+    {
+        "date": 1985,
+        "id": 547,
+        "album": "Brothers In Arms",
+        "url": "",
+        "listened": false,
+        "artist": "Dire Straits"
+    },
+    {
+        "date": 1985,
+        "id": 548,
+        "album": "Cupid and Psyche",
+        "url": "",
+        "listened": false,
+        "artist": "Scritti Politti"
+    },
+    {
+        "date": 1985,
+        "id": 549,
+        "album": "Don't Stand Me Down",
+        "url": "",
+        "listened": false,
+        "artist": "Dexys Midnight Runners"
+    },
+    {
+        "date": 1985,
+        "id": 550,
+        "album": "Fear and Whiskey",
+        "url": "",
+        "listened": false,
+        "artist": "The Mekons"
+    },
+    {
+        "date": 1985,
+        "id": 551,
+        "album": "Hounds of Love",
+        "url": "",
+        "listened": false,
+        "artist": "Kate Bush"
+    },
+    {
+        "date": 1985,
+        "id": 552,
+        "album": "Hunting High And Low",
+        "url": "",
+        "listened": false,
+        "artist": "A-Ha"
+    },
+    {
+        "date": 1985,
+        "id": 553,
+        "album": "Low Life",
+        "url": "",
+        "listened": false,
+        "artist": "New Order"
+    },
+    {
+        "date": 1985,
+        "id": 554,
+        "album": "Meat is Murder",
+        "url": "",
+        "listened": false,
+        "artist": "The Smiths"
+    },
+    {
+        "date": 1985,
+        "id": 555,
+        "album": "Picture Book",
+        "url": "",
+        "listened": false,
+        "artist": "Simply Red"
+    },
+    {
+        "date": 1985,
+        "id": 556,
+        "album": "Psychocandy",
+        "url": "",
+        "listened": false,
+        "artist": "The Jesus & Mary Chain"
+    },
+    {
+        "date": 1985,
+        "id": 557,
+        "album": "Rain Dogs",
+        "url": "",
+        "listened": false,
+        "artist": "Tom Waits"
+    },
+    {
+        "date": 1985,
+        "id": 558,
+        "album": "Rum, Sodomy and the Lash",
+        "url": "",
+        "listened": false,
+        "artist": "The Pogues"
+    },
+    {
+        "date": 1985,
+        "id": 559,
+        "album": "Songs from the Big Chair",
+        "url": "",
+        "listened": false,
+        "artist": "Tears for Fears"
+    },
+    {
+        "date": 1985,
+        "id": 560,
+        "album": "Steve McQueen",
+        "url": "",
+        "listened": false,
+        "artist": "Prefab Sprout"
+    },
+    {
+        "date": 1985,
+        "id": 561,
+        "album": "Suzanne Vega",
+        "url": "",
+        "listened": false,
+        "artist": "Suzanne Vega"
+    },
+    {
+        "date": 1985,
+        "id": 562,
+        "album": "This Nation's Saving Grace",
+        "url": "",
+        "listened": false,
+        "artist": "The Fall"
+    },
+    {
+        "date": 1985,
+        "id": 563,
+        "album": "Water From An Ancient Well",
+        "url": "",
+        "listened": false,
+        "artist": "Abdullah Ibrahim"
+    },
+    {
+        "date": 1986,
+        "id": 564,
+        "album": "Atomizer",
+        "url": "",
+        "listened": false,
+        "artist": "Big Black"
+    },
+    {
+        "date": 1986,
+        "id": 565,
+        "album": "Blood and Chocolate",
+        "url": "",
+        "listened": false,
+        "artist": "Elvis Costello"
+    },
+    {
+        "date": 1986,
+        "id": 566,
+        "album": "EVOL",
+        "url": "",
+        "listened": false,
+        "artist": "Sonic Youth"
+    },
+    {
+        "date": 1986,
+        "id": 567,
+        "album": "Graceland",
+        "url": "",
+        "listened": false,
+        "artist": "Paul Simon"
+    },
+    {
+        "date": 1986,
+        "id": 568,
+        "album": "Guitar Town",
+        "url": "",
+        "listened": false,
+        "artist": "Steve Earle"
+    },
+    {
+        "date": 1986,
+        "id": 569,
+        "album": "I Against I",
+        "url": "",
+        "listened": false,
+        "artist": "Bad Brains"
+    },
+    {
+        "date": 1986,
+        "id": 570,
+        "album": "Infected",
+        "url": "",
+        "listened": false,
+        "artist": "The The"
+    },
+    {
+        "date": 1986,
+        "id": 571,
+        "album": "Last fo the True Believers",
+        "url": "",
+        "listened": false,
+        "artist": "Nanci Griffith"
+    },
+    {
+        "date": 1986,
+        "id": 572,
+        "album": "Licensed to Ill",
+        "url": "",
+        "listened": false,
+        "artist": "Beastie Boys"
+    },
+    {
+        "date": 1986,
+        "id": 573,
+        "album": "Master of Puppets",
+        "url": "",
+        "listened": false,
+        "artist": "Metallica"
+    },
+    {
+        "date": 1986,
+        "id": 574,
+        "album": "Peace Sells... But Who's Buying",
+        "url": "",
+        "listened": false,
+        "artist": "Megadeth"
+    },
+    {
+        "date": 1986,
+        "id": 575,
+        "album": "Planet Rock: The Album",
+        "url": "",
+        "listened": false,
+        "artist": "Afrika Bambaataa"
+    },
+    {
+        "date": 1986,
+        "id": 576,
+        "album": "Raising Hell",
+        "url": "",
+        "listened": false,
+        "artist": "Run-DMC"
+    },
+    {
+        "date": 1986,
+        "id": 577,
+        "album": "Rapture",
+        "url": "",
+        "listened": false,
+        "artist": "Anita Baker"
+    },
+    {
+        "date": 1986,
+        "id": 578,
+        "album": "Reign in Blood",
+        "url": "",
+        "listened": false,
+        "artist": "Slayer"
+    },
+    {
+        "date": 1986,
+        "id": 579,
+        "album": "Skylarking",
+        "url": "",
+        "listened": false,
+        "artist": "XTC"
+    },
+    {
+        "date": 1986,
+        "id": 580,
+        "album": "Slippery When Wet",
+        "url": "",
+        "listened": false,
+        "artist": "Bon Jovi"
+    },
+    {
+        "date": 1986,
+        "id": 581,
+        "album": "So",
+        "url": "",
+        "listened": false,
+        "artist": "Peter Gabriel"
+    },
+    {
+        "date": 1986,
+        "id": 582,
+        "album": "Talking With The Taxman About Poetry",
+        "url": "",
+        "listened": false,
+        "artist": "Billy Bragg"
+    },
+    {
+        "date": 1986,
+        "id": 583,
+        "album": "The Queen is Dead",
+        "url": "",
+        "listened": false,
+        "artist": "The Smiths"
+    },
+    {
+        "date": 1986,
+        "id": 584,
+        "album": "Throwing Muses",
+        "url": "",
+        "listened": false,
+        "artist": "Throwing Muses"
+    },
+    {
+        "date": 1987,
+        "id": 585,
+        "album": "Actually",
+        "url": "",
+        "listened": false,
+        "artist": "Pet Shop Boys"
+    },
+    {
+        "date": 1987,
+        "id": 586,
+        "album": "Among The Living",
+        "url": "",
+        "listened": false,
+        "artist": "Anthrax"
+    },
+    {
+        "date": 1987,
+        "id": 587,
+        "album": "Appetite for Destruction",
+        "url": "",
+        "listened": false,
+        "artist": "Guns N' Roses"
+    },
+    {
+        "date": 1987,
+        "id": 588,
+        "album": "Astor Piazzolla",
+        "url": "",
+        "listened": false,
+        "artist": "The New Tango (with Gary Burton)"
+    },
+    {
+        "date": 1987,
+        "id": 589,
+        "album": "Bad",
+        "url": "",
+        "listened": false,
+        "artist": "Michael Jackson"
+    },
+    {
+        "date": 1987,
+        "id": 590,
+        "album": "Calenture",
+        "url": "",
+        "listened": false,
+        "artist": "The Triffids"
+    },
+    {
+        "date": 1987,
+        "id": 591,
+        "album": "Colour of Spring",
+        "url": "",
+        "listened": false,
+        "artist": "Talk Talk"
+    },
+    {
+        "date": 1987,
+        "id": 592,
+        "album": "Darklands",
+        "url": "",
+        "listened": false,
+        "artist": "The Jesus & Mary Chain"
+    },
+    {
+        "date": 1987,
+        "id": 593,
+        "album": "Document",
+        "url": "",
+        "listened": false,
+        "artist": "REM"
+    },
+    {
+        "date": 1987,
+        "id": 594,
+        "album": "Electric",
+        "url": "",
+        "listened": false,
+        "artist": "The Cult"
+    },
+    {
+        "date": 1987,
+        "id": 595,
+        "album": "Faith",
+        "url": "",
+        "listened": false,
+        "artist": "George Michael"
+    },
+    {
+        "date": 1987,
+        "id": 596,
+        "album": "Floodland",
+        "url": "",
+        "listened": false,
+        "artist": "Sisters of Mercy"
+    },
+    {
+        "date": 1987,
+        "id": 597,
+        "album": "Hysteria",
+        "url": "",
+        "listened": false,
+        "artist": "Def Leppard"
+    },
+    {
+        "date": 1987,
+        "id": 598,
+        "album": "Introducing The Hardline",
+        "url": "",
+        "listened": false,
+        "artist": "Terence Trent D'Arby"
+    },
+    {
+        "date": 1987,
+        "id": 599,
+        "album": "Locust Abortion Technician",
+        "url": "",
+        "listened": false,
+        "artist": "Butthole Surfers"
+    },
+    {
+        "date": 1987,
+        "id": 600,
+        "album": "Music For The Masses",
+        "url": "",
+        "listened": false,
+        "artist": "Depeche Mode"
+    },
+    {
+        "date": 1987,
+        "id": 601,
+        "album": "Opus Dei",
+        "url": "",
+        "listened": false,
+        "artist": "Laibach"
+    },
+    {
+        "date": 1987,
+        "id": 602,
+        "album": "Scum",
+        "url": "",
+        "listened": false,
+        "artist": "Napalm Death"
+    },
+    {
+        "date": 1987,
+        "id": 603,
+        "album": "Shaka Zulu",
+        "url": "",
+        "listened": false,
+        "artist": "Ladysmith Black Mambazo"
+    },
+    {
+        "date": 1987,
+        "id": 604,
+        "album": "Sign o' the Times",
+        "url": "",
+        "listened": false,
+        "artist": "Prince"
+    },
+    {
+        "date": 1987,
+        "id": 605,
+        "album": "Sister",
+        "url": "",
+        "listened": false,
+        "artist": "Sonic Youth"
+    },
+    {
+        "date": 1987,
+        "id": 606,
+        "album": "Spy Vs Spy",
+        "url": "",
+        "listened": false,
+        "artist": "John Zorn"
+    },
+    {
+        "date": 1987,
+        "id": 607,
+        "album": "Strangeways Here We Come",
+        "url": "",
+        "listened": false,
+        "artist": "The Smiths"
+    },
+    {
+        "date": 1987,
+        "id": 608,
+        "album": "The Joshua Tree",
+        "url": "",
+        "listened": false,
+        "artist": "U2"
+    },
+    {
+        "date": 1987,
+        "id": 609,
+        "album": "Trio",
+        "url": "",
+        "listened": false,
+        "artist": "Emmylou Harris, Lisa Rondstadt, Dolly Parton"
+    },
+    {
+        "date": 1987,
+        "id": 610,
+        "album": "Warehouse: Songs & Stories",
+        "url": "",
+        "listened": false,
+        "artist": "Hüsker Dü"
+    },
+    {
+        "date": 1987,
+        "id": 611,
+        "album": "You're Living All Over Me",
+        "url": "",
+        "listened": false,
+        "artist": "Dinosaur Jr"
+    },
+    {
+        "date": 1988,
+        "id": 612,
+        "album": "16 Lover's Lane",
+        "url": "",
+        "listened": false,
+        "artist": "Go-Betweens"
+    },
+    {
+        "date": 1988,
+        "id": 613,
+        "album": "Buenos Noches from a Lonely Room",
+        "url": "",
+        "listened": false,
+        "artist": "Dwight Yoakam"
+    },
+    {
+        "date": 1988,
+        "id": 614,
+        "album": "Bug",
+        "url": "",
+        "listened": false,
+        "artist": "Dinosaur Jr"
+    },
+    {
+        "date": 1988,
+        "id": 615,
+        "album": "Bummed",
+        "url": "",
+        "listened": false,
+        "artist": "Happy Mondays"
+    },
+    {
+        "date": 1988,
+        "id": 616,
+        "album": "California",
+        "url": "",
+        "listened": false,
+        "artist": "American Music Club"
+    },
+    {
+        "date": 1988,
+        "id": 617,
+        "album": "Daydream Nation",
+        "url": "",
+        "listened": false,
+        "artist": "Sonic Youth"
+    },
+    {
+        "date": 1988,
+        "id": 618,
+        "album": "Fisherman's Blues",
+        "url": "",
+        "listened": false,
+        "artist": "The Waterboys"
+    },
+    {
+        "date": 1988,
+        "id": 619,
+        "album": "I'm Your Man",
+        "url": "",
+        "listened": false,
+        "artist": "Leonard Cohen"
+    },
+    {
+        "date": 1988,
+        "id": 620,
+        "album": "Idlewild",
+        "url": "",
+        "listened": false,
+        "artist": "Everything But the Girl"
+    },
+    {
+        "date": 1988,
+        "id": 621,
+        "album": "If I Should Fall from Grace with God",
+        "url": "",
+        "listened": false,
+        "artist": "The Pogues"
+    },
+    {
+        "date": 1988,
+        "id": 622,
+        "album": "Isn't Anything",
+        "url": "",
+        "listened": false,
+        "artist": "My Bloody Valentine"
+    },
+    {
+        "date": 1988,
+        "id": 623,
+        "album": "It Takes a Nation of Millions to Hold Us Back",
+        "url": "",
+        "listened": false,
+        "artist": "Public Enemy"
+    },
+    {
+        "date": 1988,
+        "id": 624,
+        "album": "Life's Too Good",
+        "url": "",
+        "listened": false,
+        "artist": "The Sugarcubes"
+    },
+    {
+        "date": 1988,
+        "id": 625,
+        "album": "Nothing's Shocking",
+        "url": "",
+        "listened": false,
+        "artist": "Jane's Addiction"
+    },
+    {
+        "date": 1988,
+        "id": 626,
+        "album": "Shadowland",
+        "url": "",
+        "listened": false,
+        "artist": "k.d. lang"
+    },
+    {
+        "date": 1988,
+        "id": 627,
+        "album": "Straight Outta Compton",
+        "url": "",
+        "listened": false,
+        "artist": "NWA"
+    },
+    {
+        "date": 1988,
+        "id": 628,
+        "album": "Superfuzz Bigmuff",
+        "url": "",
+        "listened": false,
+        "artist": "Mudhoney"
+    },
+    {
+        "date": 1988,
+        "id": 629,
+        "album": "Surfer Rosa",
+        "url": "",
+        "listened": false,
+        "artist": "The Pixies"
+    },
+    {
+        "date": 1988,
+        "id": 630,
+        "album": "Tank Battles",
+        "url": "",
+        "listened": false,
+        "artist": "Dagmar Krause"
+    },
+    {
+        "date": 1988,
+        "id": 631,
+        "album": "The Trinity Sessions",
+        "url": "",
+        "listened": false,
+        "artist": "Cowboy Junkies"
+    },
+    {
+        "date": 1988,
+        "id": 632,
+        "album": "Tracy Chapman",
+        "url": "",
+        "listened": false,
+        "artist": "Tracy Chapman"
+    },
+    {
+        "date": 1988,
+        "id": 633,
+        "album": "Truth And Soul",
+        "url": "",
+        "listened": false,
+        "artist": "Fishbone"
+    },
+    {
+        "date": 1988,
+        "id": 634,
+        "album": "Viva Hate",
+        "url": "",
+        "listened": false,
+        "artist": "Morrissey"
+    },
+    {
+        "date": 1988,
+        "id": 635,
+        "album": "Vivid",
+        "url": "",
+        "listened": false,
+        "artist": "Living Colour"
+    },
+    {
+        "date": 1988,
+        "id": 636,
+        "album": "… And Justice For All",
+        "url": "",
+        "listened": false,
+        "artist": "Metallica"
+    },
+    {
+        "date": 1989,
+        "id": 637,
+        "album": "809:30:00",
+        "url": "",
+        "listened": false,
+        "artist": "808 State"
+    },
+    {
+        "date": 1989,
+        "id": 638,
+        "album": "All Hail the Queen",
+        "url": "",
+        "listened": false,
+        "artist": "Queen Latifah"
+    },
+    {
+        "date": 1989,
+        "id": 639,
+        "album": "Club Classics Vol. One",
+        "url": "",
+        "listened": false,
+        "artist": "Soul II Soul"
+    },
+    {
+        "date": 1989,
+        "id": 640,
+        "album": "Djam Leeli",
+        "url": "",
+        "listened": false,
+        "artist": "Baaba Maal & Mansour Seck"
+    },
+    {
+        "date": 1989,
+        "id": 641,
+        "album": "Done By the Forces of Nature",
+        "url": "",
+        "listened": false,
+        "artist": "Jungle Brothers"
+    },
+    {
+        "date": 1989,
+        "id": 642,
+        "album": "Doolittle",
+        "url": "",
+        "listened": false,
+        "artist": "The Pixies"
+    },
+    {
+        "date": 1989,
+        "id": 643,
+        "album": "Fromohio",
+        "url": "",
+        "listened": false,
+        "artist": "Firehose"
+    },
+    {
+        "date": 1989,
+        "id": 644,
+        "album": "Green",
+        "url": "",
+        "listened": false,
+        "artist": "REM"
+    },
+    {
+        "date": 1989,
+        "id": 645,
+        "album": "L'eau Rouge",
+        "url": "",
+        "listened": false,
+        "artist": "The Young Gods"
+    },
+    {
+        "date": 1989,
+        "id": 646,
+        "album": "Let Love Rule",
+        "url": "",
+        "listened": false,
+        "artist": "Lenny Kravitz"
+    },
+    {
+        "date": 1989,
+        "id": 647,
+        "album": "Like a Prayer",
+        "url": "",
+        "listened": false,
+        "artist": "Madonna"
+    },
+    {
+        "date": 1989,
+        "id": 648,
+        "album": "Moss Side Story",
+        "url": "",
+        "listened": false,
+        "artist": "Barry Adamson"
+    },
+    {
+        "date": 1989,
+        "id": 649,
+        "album": "Nick of Time",
+        "url": "",
+        "listened": false,
+        "artist": "Bonnie Raitt"
+    },
+    {
+        "date": 1989,
+        "id": 650,
+        "album": "Paul's Boutique",
+        "url": "",
+        "listened": false,
+        "artist": "Beastie Boys"
+    },
+    {
+        "date": 1989,
+        "id": 651,
+        "album": "Playing with Fire",
+        "url": "",
+        "listened": false,
+        "artist": "Spacemen 3"
+    },
+    {
+        "date": 1989,
+        "id": 652,
+        "album": "Pump",
+        "url": "",
+        "listened": false,
+        "artist": "Aerosmith"
+    },
+    {
+        "date": 1989,
+        "id": 653,
+        "album": "Raw Like Sushi",
+        "url": "",
+        "listened": false,
+        "artist": "Neneh Cherry"
+    },
+    {
+        "date": 1989,
+        "id": 654,
+        "album": "Rhythm Nation 1814",
+        "url": "",
+        "listened": false,
+        "artist": "Janet Jackson"
+    },
+    {
+        "date": 1989,
+        "id": 655,
+        "album": "Technique",
+        "url": "",
+        "listened": false,
+        "artist": "New Order"
+    },
+    {
+        "date": 1989,
+        "id": 656,
+        "album": "The Healer",
+        "url": "",
+        "listened": false,
+        "artist": "John Lee Hooker"
+    },
+    {
+        "date": 1989,
+        "id": 657,
+        "album": "The Real Thing",
+        "url": "",
+        "listened": false,
+        "artist": "Faith No More"
+    },
+    {
+        "date": 1989,
+        "id": 658,
+        "album": "The Sensual World",
+        "url": "",
+        "listened": false,
+        "artist": "Kate Bush"
+    },
+    {
+        "date": 1989,
+        "id": 659,
+        "album": "The Stone Roses",
+        "url": "",
+        "listened": false,
+        "artist": "The Stone Roses"
+    },
+    {
+        "date": 1989,
+        "id": 660,
+        "album": "Three Feet High and Rising",
+        "url": "",
+        "listened": false,
+        "artist": "De La Soul"
+    },
+    {
+        "date": 1989,
+        "id": 661,
+        "album": "What's That Noise?",
+        "url": "",
+        "listened": false,
+        "artist": "Coldcut"
+    },
+    {
+        "date": 1990,
+        "id": 662,
+        "album": "AmeriKKKa's Most Wanted",
+        "url": "",
+        "listened": false,
+        "artist": "Ice Cube"
+    },
+    {
+        "date": 1990,
+        "id": 663,
+        "album": "Behaviour",
+        "url": "",
+        "listened": false,
+        "artist": "Pet Shop Boys"
+    },
+    {
+        "date": 1990,
+        "id": 664,
+        "album": "Bossanova",
+        "url": "",
+        "listened": false,
+        "artist": "The Pixies"
+    },
+    {
+        "date": 1990,
+        "id": 665,
+        "album": "Disintegration",
+        "url": "",
+        "listened": false,
+        "artist": "The Cure"
+    },
+    {
+        "date": 1990,
+        "id": 666,
+        "album": "En-Tact",
+        "url": "",
+        "listened": false,
+        "artist": "The Shamen"
+    },
+    {
+        "date": 1990,
+        "id": 667,
+        "album": "Fear Of A Black Planet",
+        "url": "",
+        "listened": false,
+        "artist": "Public Enemy"
+    },
+    {
+        "date": 1990,
+        "id": 668,
+        "album": "Goo",
+        "url": "",
+        "listened": false,
+        "artist": "Sonic Youth"
+    },
+    {
+        "date": 1990,
+        "id": 669,
+        "album": "Heaven or Las Vegas",
+        "url": "",
+        "listened": false,
+        "artist": "Cocteau Twins"
+    },
+    {
+        "date": 1990,
+        "id": 670,
+        "album": "I Do Not Want What I Haven't Got",
+        "url": "",
+        "listened": false,
+        "artist": "Sinead O'Connor"
+    },
+    {
+        "date": 1990,
+        "id": 671,
+        "album": "Listen Without Prejudice",
+        "url": "",
+        "listened": false,
+        "artist": "George Michael"
+    },
+    {
+        "date": 1990,
+        "id": 672,
+        "album": "Mama Said Knock You Out",
+        "url": "",
+        "listened": false,
+        "artist": "LL Cool J"
+    },
+    {
+        "date": 1990,
+        "id": 673,
+        "album": "Nowhere",
+        "url": "",
+        "listened": false,
+        "artist": "Ride"
+    },
+    {
+        "date": 1990,
+        "id": 674,
+        "album": "People's Instinctive Paths",
+        "url": "",
+        "listened": false,
+        "artist": "A Tribe Called Quest"
+    },
+    {
+        "date": 1990,
+        "id": 675,
+        "album": "Pills 'n' Thrills 'n' Bellyaches",
+        "url": "",
+        "listened": false,
+        "artist": "Happy Mondays"
+    },
+    {
+        "date": 1990,
+        "id": 676,
+        "album": "Ragged Glory",
+        "url": "",
+        "listened": false,
+        "artist": "Neil Young"
+    },
+    {
+        "date": 1990,
+        "id": 677,
+        "album": "Repeater",
+        "url": "",
+        "listened": false,
+        "artist": "Fugazi"
+    },
+    {
+        "date": 1990,
+        "id": 678,
+        "album": "Ritual De Lo Habitual",
+        "url": "",
+        "listened": false,
+        "artist": "Jane's Addiction"
+    },
+    {
+        "date": 1990,
+        "id": 679,
+        "album": "Rust In Peace",
+        "url": "",
+        "listened": false,
+        "artist": "Megadeth"
+    },
+    {
+        "date": 1990,
+        "id": 680,
+        "album": "Sex Packets",
+        "url": "",
+        "listened": false,
+        "artist": "Digital Underground"
+    },
+    {
+        "date": 1990,
+        "id": 681,
+        "album": "Shake Your Money Maker",
+        "url": "",
+        "listened": false,
+        "artist": "The Black Crowes"
+    },
+    {
+        "date": 1990,
+        "id": 682,
+        "album": "The La's",
+        "url": "",
+        "listened": false,
+        "artist": "The La's"
+    },
+    {
+        "date": 1990,
+        "id": 683,
+        "album": "The White Room",
+        "url": "",
+        "listened": false,
+        "artist": "KLF"
+    },
+    {
+        "date": 1990,
+        "id": 684,
+        "album": "Violator",
+        "url": "",
+        "listened": false,
+        "artist": "Depeche Mode"
+    },
+    {
+        "date": 1990,
+        "id": 685,
+        "album": "World Clique",
+        "url": "",
+        "listened": false,
+        "artist": "Deee-Lite"
+    },
+    {
+        "date": 1991,
+        "id": 686,
+        "album": "Achtung Baby",
+        "url": "",
+        "listened": false,
+        "artist": "U2"
+    },
+    {
+        "date": 1991,
+        "id": 687,
+        "album": "Apocalypse '91 … The Enemy Strikes Black",
+        "url": "",
+        "listened": false,
+        "artist": "Public Enemy"
+    },
+    {
+        "date": 1991,
+        "id": 688,
+        "album": "Arise",
+        "url": "",
+        "listened": false,
+        "artist": "Sepultura"
+    },
+    {
+        "date": 1991,
+        "id": 689,
+        "album": "Bandwagonesque",
+        "url": "",
+        "listened": false,
+        "artist": "Teenage Fanclub"
+    },
+    {
+        "date": 1991,
+        "id": 690,
+        "album": "Blood Sugar Sex Magik",
+        "url": "",
+        "listened": false,
+        "artist": "Red Hot Chili Peppers"
+    },
+    {
+        "date": 1991,
+        "id": 691,
+        "album": "Blue Lines",
+        "url": "",
+        "listened": false,
+        "artist": "Massive Attack"
+    },
+    {
+        "date": 1991,
+        "id": 692,
+        "album": "Cypress Hill",
+        "url": "",
+        "listened": false,
+        "artist": "Cypress Hill"
+    },
+    {
+        "date": 1991,
+        "id": 693,
+        "album": "Every Good Boy Deserves Fudge",
+        "url": "",
+        "listened": false,
+        "artist": "Mudhoney"
+    },
+    {
+        "date": 1991,
+        "id": 694,
+        "album": "Foxbase Alpha",
+        "url": "",
+        "listened": false,
+        "artist": "Saint Etienne"
+    },
+    {
+        "date": 1991,
+        "id": 695,
+        "album": "Haut de Gamme–Koweit Rive Gauche",
+        "url": "",
+        "listened": false,
+        "artist": "Koffi Olomide"
+    },
+    {
+        "date": 1991,
+        "id": 696,
+        "album": "Loveless",
+        "url": "",
+        "listened": false,
+        "artist": "My Bloody Valentine"
+    },
+    {
+        "date": 1991,
+        "id": 697,
+        "album": "Metallica",
+        "url": "",
+        "listened": false,
+        "artist": "Metallica"
+    },
+    {
+        "date": 1991,
+        "id": 698,
+        "album": "Nevermind",
+        "url": "",
+        "listened": false,
+        "artist": "Nirvana"
+    },
+    {
+        "date": 1991,
+        "id": 699,
+        "album": "O.G. Original Gangster",
+        "url": "",
+        "listened": false,
+        "artist": "Ice-T"
+    },
+    {
+        "date": 1991,
+        "id": 700,
+        "album": "Peggy Suicide",
+        "url": "",
+        "listened": false,
+        "artist": "Julian Cope"
+    },
+    {
+        "date": 1991,
+        "id": 701,
+        "album": "Rising Above Bedlam",
+        "url": "",
+        "listened": false,
+        "artist": "Jah Wobble And the Invaders of the Heart"
+    },
+    {
+        "date": 1991,
+        "id": 702,
+        "album": "Screamadelica",
+        "url": "",
+        "listened": false,
+        "artist": "Primal Scream"
+    },
+    {
+        "date": 1991,
+        "id": 703,
+        "album": "Spiderland",
+        "url": "",
+        "listened": false,
+        "artist": "Slint"
+    },
+    {
+        "date": 1991,
+        "id": 704,
+        "album": "Step in the Arena",
+        "url": "",
+        "listened": false,
+        "artist": "Gang Starr"
+    },
+    {
+        "date": 1991,
+        "id": 705,
+        "album": "The Low End Theory",
+        "url": "",
+        "listened": false,
+        "artist": "A Tribe Called Quest"
+    },
+    {
+        "date": 1991,
+        "id": 706,
+        "album": "Woodface",
+        "url": "",
+        "listened": false,
+        "artist": "Crowded House"
+    },
+    {
+        "date": 1992,
+        "id": 707,
+        "album": "A Vulgar Display Of Power",
+        "url": "",
+        "listened": false,
+        "artist": "Pantera"
+    },
+    {
+        "date": 1992,
+        "id": 708,
+        "album": "Automatic for the People",
+        "url": "",
+        "listened": false,
+        "artist": "REM"
+    },
+    {
+        "date": 1992,
+        "id": 709,
+        "album": "Bizarre Ride II The Pharcyde",
+        "url": "",
+        "listened": false,
+        "artist": "The Pharcyde"
+    },
+    {
+        "date": 1992,
+        "id": 710,
+        "album": "Bone Machine",
+        "url": "",
+        "listened": false,
+        "artist": "Tom Waits"
+    },
+    {
+        "date": 1992,
+        "id": 711,
+        "album": "Connected",
+        "url": "",
+        "listened": false,
+        "artist": "Stereo MC's"
+    },
+    {
+        "date": 1992,
+        "id": 712,
+        "album": "Copper Blue",
+        "url": "",
+        "listened": false,
+        "artist": "Sugar"
+    },
+    {
+        "date": 1992,
+        "id": 713,
+        "album": "Devotional Songs",
+        "url": "",
+        "listened": false,
+        "artist": "Nusrat Fateh Ali Khan & Party"
+    },
+    {
+        "date": 1992,
+        "id": 714,
+        "album": "Dirt",
+        "url": "",
+        "listened": false,
+        "artist": "Alice in Chains"
+    },
+    {
+        "date": 1992,
+        "id": 715,
+        "album": "Dirty",
+        "url": "",
+        "listened": false,
+        "artist": "Sonic Youth"
+    },
+    {
+        "date": 1992,
+        "id": 716,
+        "album": "Dry",
+        "url": "",
+        "listened": false,
+        "artist": "P.J. Harvey"
+    },
+    {
+        "date": 1992,
+        "id": 717,
+        "album": "Henry's Dream",
+        "url": "",
+        "listened": false,
+        "artist": "Nick Cave & the Bad Seeds"
+    },
+    {
+        "date": 1992,
+        "id": 718,
+        "album": "Hiphoprisy Is The Greatest Luxury",
+        "url": "",
+        "listened": false,
+        "artist": "Disposable Heroes of Hiphoprisy"
+    },
+    {
+        "date": 1992,
+        "id": 719,
+        "album": "Ingénue",
+        "url": "",
+        "listened": false,
+        "artist": "k.d. lang"
+    },
+    {
+        "date": 1992,
+        "id": 720,
+        "album": "It's A Shame About Ray",
+        "url": "",
+        "listened": false,
+        "artist": "The Lemonheads"
+    },
+    {
+        "date": 1992,
+        "id": 721,
+        "album": "Lam Toro",
+        "url": "",
+        "listened": false,
+        "artist": "Baaba Maal"
+    },
+    {
+        "date": 1992,
+        "id": 722,
+        "album": "Lazer Guided Melodies",
+        "url": "",
+        "listened": false,
+        "artist": "Spiritualized"
+    },
+    {
+        "date": 1992,
+        "id": 723,
+        "album": "Little Earthquakes",
+        "url": "",
+        "listened": false,
+        "artist": "Tori Amos"
+    },
+    {
+        "date": 1992,
+        "id": 724,
+        "album": "Psalm 69",
+        "url": "",
+        "listened": false,
+        "artist": "Ministry"
+    },
+    {
+        "date": 1992,
+        "id": 725,
+        "album": "Selected Ambient Works '85–'92",
+        "url": "",
+        "listened": false,
+        "artist": "Aphex Twin"
+    },
+    {
+        "date": 1992,
+        "id": 726,
+        "album": "Ten",
+        "url": "",
+        "listened": false,
+        "artist": "Pearl Jam"
+    },
+    {
+        "date": 1992,
+        "id": 727,
+        "album": "Three Years, Five Months, And Two Days In The Life Of...",
+        "url": "",
+        "listened": false,
+        "artist": "Arrested Development"
+    },
+    {
+        "date": 1992,
+        "id": 728,
+        "album": "Your Arsenal",
+        "url": "",
+        "listened": false,
+        "artist": "Morrissey"
+    },
+    {
+        "date": 1993,
+        "id": 729,
+        "album": "Aimee Mann",
+        "url": "",
+        "listened": false,
+        "artist": "Whatever"
+    },
+    {
+        "date": 1993,
+        "id": 730,
+        "album": "Bubble & Scrape",
+        "url": "",
+        "listened": false,
+        "artist": "Sebadoh"
+    },
+    {
+        "date": 1993,
+        "id": 731,
+        "album": "Debut",
+        "url": "",
+        "listened": false,
+        "artist": "Björk"
+    },
+    {
+        "date": 1993,
+        "id": 732,
+        "album": "Doggy Style",
+        "url": "",
+        "listened": false,
+        "artist": "Snoop Doggy Dogg"
+    },
+    {
+        "date": 1993,
+        "id": 733,
+        "album": "Emergency on Planet Earth",
+        "url": "",
+        "listened": false,
+        "artist": "Jamiroquai"
+    },
+    {
+        "date": 1993,
+        "id": 734,
+        "album": "Enter The Wu-Tang",
+        "url": "",
+        "listened": false,
+        "artist": "Wu-Tang Clan"
+    },
+    {
+        "date": 1993,
+        "id": 735,
+        "album": "Fuzzy",
+        "url": "",
+        "listened": false,
+        "artist": "Grant Lee Buffalo"
+    },
+    {
+        "date": 1993,
+        "id": 736,
+        "album": "Gentleman",
+        "url": "",
+        "listened": false,
+        "artist": "The Afghan Whigs"
+    },
+    {
+        "date": 1993,
+        "id": 737,
+        "album": "Giant Steps",
+        "url": "",
+        "listened": false,
+        "artist": "The Boo Radleys"
+    },
+    {
+        "date": 1993,
+        "id": 738,
+        "album": "In Utero",
+        "url": "",
+        "listened": false,
+        "artist": "Nirvana"
+    },
+    {
+        "date": 1993,
+        "id": 739,
+        "album": "Modern Life is Rubbish",
+        "url": "",
+        "listened": false,
+        "artist": "Blur"
+    },
+    {
+        "date": 1993,
+        "id": 740,
+        "album": "New Wave",
+        "url": "",
+        "listened": false,
+        "artist": "Auteurs"
+    },
+    {
+        "date": 1993,
+        "id": 741,
+        "album": "Orbital II",
+        "url": "",
+        "listened": false,
+        "artist": "Orbital"
+    },
+    {
+        "date": 1993,
+        "id": 742,
+        "album": "Qui Seme Le Vent Recolte Le Tempo",
+        "url": "",
+        "listened": false,
+        "artist": "MC Solar"
+    },
+    {
+        "date": 1993,
+        "id": 743,
+        "album": "Rage Against The Machine",
+        "url": "",
+        "listened": false,
+        "artist": "Rage Against The Machine"
+    },
+    {
+        "date": 1993,
+        "id": 744,
+        "album": "Rid Of Me",
+        "url": "",
+        "listened": false,
+        "artist": "P.J. Harvey"
+    },
+    {
+        "date": 1993,
+        "id": 745,
+        "album": "Siamese Dream",
+        "url": "",
+        "listened": false,
+        "artist": "Smashing Pumpkins"
+    },
+    {
+        "date": 1993,
+        "id": 746,
+        "album": "Slanted And Enchanted",
+        "url": "",
+        "listened": false,
+        "artist": "Pavement"
+    },
+    {
+        "date": 1993,
+        "id": 747,
+        "album": "Strange Cargo III",
+        "url": "",
+        "listened": false,
+        "artist": "William Orbit"
+    },
+    {
+        "date": 1993,
+        "id": 748,
+        "album": "Suede",
+        "url": "",
+        "listened": false,
+        "artist": "Suede"
+    },
+    {
+        "date": 1993,
+        "id": 749,
+        "album": "The Chronic",
+        "url": "",
+        "listened": false,
+        "artist": "Dr Dre"
+    },
+    {
+        "date": 1993,
+        "id": 750,
+        "album": "The Infotainment Scan",
+        "url": "",
+        "listened": false,
+        "artist": "The Fall"
+    },
+    {
+        "date": 1993,
+        "id": 751,
+        "album": "The Predator",
+        "url": "",
+        "listened": false,
+        "artist": "Ice Cube"
+    },
+    {
+        "date": 1993,
+        "id": 752,
+        "album": "Tuesday Night Music Club",
+        "url": "",
+        "listened": false,
+        "artist": "Sheryl Crow"
+    },
+    {
+        "date": 1993,
+        "id": 753,
+        "album": "Venus Luxure No1 Baby",
+        "url": "",
+        "listened": false,
+        "artist": "Girls Against Boys"
+    },
+    {
+        "date": 1993,
+        "id": 754,
+        "album": "Very",
+        "url": "",
+        "listened": false,
+        "artist": "Pet Shops Boys"
+    },
+    {
+        "date": 1993,
+        "id": 755,
+        "album": "Wild Wood",
+        "url": "",
+        "listened": false,
+        "artist": "Paul Weller"
+    },
+    {
+        "date": 1994,
+        "id": 756,
+        "album": "Brutal Youth",
+        "url": "",
+        "listened": false,
+        "artist": "Elvis Costello"
+    },
+    {
+        "date": 1994,
+        "id": 757,
+        "album": "Crooked Rain, Crooked Rain",
+        "url": "",
+        "listened": false,
+        "artist": "Pavement"
+    },
+    {
+        "date": 1994,
+        "id": 758,
+        "album": "Definitely Maybe",
+        "url": "",
+        "listened": false,
+        "artist": "Oasis"
+    },
+    {
+        "date": 1994,
+        "id": 759,
+        "album": "Dog Man Star",
+        "url": "",
+        "listened": false,
+        "artist": "Suede"
+    },
+    {
+        "date": 1994,
+        "id": 760,
+        "album": "Dookie",
+        "url": "",
+        "listened": false,
+        "artist": "Green Day"
+    },
+    {
+        "date": 1994,
+        "id": 761,
+        "album": "Dummy",
+        "url": "",
+        "listened": false,
+        "artist": "Portishead"
+    },
+    {
+        "date": 1994,
+        "id": 762,
+        "album": "Exile in Guyville",
+        "url": "",
+        "listened": false,
+        "artist": "Liz Phair"
+    },
+    {
+        "date": 1994,
+        "id": 763,
+        "album": "G Love & Special Sauce",
+        "url": "",
+        "listened": false,
+        "artist": "G Love & Special Sauce"
+    },
+    {
+        "date": 1994,
+        "id": 764,
+        "album": "Haunted Dancehall",
+        "url": "",
+        "listened": false,
+        "artist": "Sabres Of Paradise"
+    },
+    {
+        "date": 1994,
+        "id": 765,
+        "album": "Ill Communication",
+        "url": "",
+        "listened": false,
+        "artist": "Beastie Boys"
+    },
+    {
+        "date": 1994,
+        "id": 766,
+        "album": "Illmatic",
+        "url": "",
+        "listened": false,
+        "artist": "Nas"
+    },
+    {
+        "date": 1994,
+        "id": 767,
+        "album": "Live Through This",
+        "url": "",
+        "listened": false,
+        "artist": "Hole"
+    },
+    {
+        "date": 1994,
+        "id": 768,
+        "album": "Me Against the World",
+        "url": "",
+        "listened": false,
+        "artist": "Tupac Shakur"
+    },
+    {
+        "date": 1994,
+        "id": 769,
+        "album": "Music for the Jilted Generation",
+        "url": "",
+        "listened": false,
+        "artist": "Prodigy"
+    },
+    {
+        "date": 1994,
+        "id": 770,
+        "album": "Parklife",
+        "url": "",
+        "listened": false,
+        "artist": "Blur"
+    },
+    {
+        "date": 1994,
+        "id": 771,
+        "album": "Protection",
+        "url": "",
+        "listened": false,
+        "artist": "Massive Attack"
+    },
+    {
+        "date": 1994,
+        "id": 772,
+        "album": "Ready to Die",
+        "url": "",
+        "listened": false,
+        "artist": "Notorious B.I.G."
+    },
+    {
+        "date": 1994,
+        "id": 773,
+        "album": "Smash",
+        "url": "",
+        "listened": false,
+        "artist": "Offspring"
+    },
+    {
+        "date": 1994,
+        "id": 774,
+        "album": "Snivilisation",
+        "url": "",
+        "listened": false,
+        "artist": "Orbital"
+    },
+    {
+        "date": 1994,
+        "id": 775,
+        "album": "Superunknown",
+        "url": "",
+        "listened": false,
+        "artist": "Soundgarden"
+    },
+    {
+        "date": 1994,
+        "id": 776,
+        "album": "Talking Timbuktu",
+        "url": "",
+        "listened": false,
+        "artist": "Ali Farka Toure with Ry Cooder"
+    },
+    {
+        "date": 1994,
+        "id": 777,
+        "album": "Teenager of the Year",
+        "url": "",
+        "listened": false,
+        "artist": "Frank Black"
+    },
+    {
+        "date": 1994,
+        "id": 778,
+        "album": "The Downward Spiral",
+        "url": "",
+        "listened": false,
+        "artist": "Nine Inch Nails"
+    },
+    {
+        "date": 1994,
+        "id": 779,
+        "album": "The Holy Bible",
+        "url": "",
+        "listened": false,
+        "artist": "The Manic Street Preachers"
+    },
+    {
+        "date": 1994,
+        "id": 780,
+        "album": "The Sun Rises In The East",
+        "url": "",
+        "listened": false,
+        "artist": "Jeru The Damaja"
+    },
+    {
+        "date": 1994,
+        "id": 781,
+        "album": "Tical",
+        "url": "",
+        "listened": false,
+        "artist": "Method Man"
+    },
+    {
+        "date": 1994,
+        "id": 782,
+        "album": "Unplugged",
+        "url": "",
+        "listened": false,
+        "artist": "Nirvana"
+    },
+    {
+        "date": 1994,
+        "id": 783,
+        "album": "Vauxhall and I",
+        "url": "",
+        "listened": false,
+        "artist": "Morrissey"
+    },
+    {
+        "date": 1994,
+        "id": 784,
+        "album": "Yank Crime",
+        "url": "",
+        "listened": false,
+        "artist": "Drive Like Jehu"
+    },
+    {
+        "date": 1995,
+        "id": 785,
+        "album": "(What's The Story) Morning Glory?",
+        "url": "",
+        "listened": false,
+        "artist": "Oasis"
+    },
+    {
+        "date": 1995,
+        "id": 786,
+        "album": "A Northern Soul",
+        "url": "",
+        "listened": false,
+        "artist": "The Verve"
+    },
+    {
+        "date": 1995,
+        "id": 787,
+        "album": "Alien Lanes",
+        "url": "",
+        "listened": false,
+        "artist": "Guided By Voices"
+    },
+    {
+        "date": 1995,
+        "id": 788,
+        "album": "Brown Sugar",
+        "url": "",
+        "listened": false,
+        "artist": "D'Angelo"
+    },
+    {
+        "date": 1995,
+        "id": 789,
+        "album": "CrazySexyCool",
+        "url": "",
+        "listened": false,
+        "artist": "TLC"
+    },
+    {
+        "date": 1995,
+        "id": 790,
+        "album": "Different Class",
+        "url": "",
+        "listened": false,
+        "artist": "Pulp"
+    },
+    {
+        "date": 1995,
+        "id": 791,
+        "album": "Elastica",
+        "url": "",
+        "listened": false,
+        "artist": "Elastica"
+    },
+    {
+        "date": 1995,
+        "id": 792,
+        "album": "Exit Planet Dust",
+        "url": "",
+        "listened": false,
+        "artist": "The Chemical Brothers"
+    },
+    {
+        "date": 1995,
+        "id": 793,
+        "album": "Femi Kuti",
+        "url": "",
+        "listened": false,
+        "artist": "Femi Kuti"
+    },
+    {
+        "date": 1995,
+        "id": 794,
+        "album": "Foo Fighters",
+        "url": "",
+        "listened": false,
+        "artist": "Foo Fighters"
+    },
+    {
+        "date": 1995,
+        "id": 795,
+        "album": "Garbage",
+        "url": "",
+        "listened": false,
+        "artist": "Garbage"
+    },
+    {
+        "date": 1995,
+        "id": 796,
+        "album": "Grace",
+        "url": "",
+        "listened": false,
+        "artist": "Jeff Buckley"
+    },
+    {
+        "date": 1995,
+        "id": 797,
+        "album": "I Should Coco",
+        "url": "",
+        "listened": false,
+        "artist": "Supergrass"
+    },
+    {
+        "date": 1995,
+        "id": 798,
+        "album": "Jagged Little Pill",
+        "url": "",
+        "listened": false,
+        "artist": "Alanis Morissette"
+    },
+    {
+        "date": 1995,
+        "id": 799,
+        "album": "Leftism",
+        "url": "",
+        "listened": false,
+        "artist": "Leftfield"
+    },
+    {
+        "date": 1995,
+        "id": 800,
+        "album": "Liquid Swords",
+        "url": "",
+        "listened": false,
+        "artist": "Genius/GZA"
+    },
+    {
+        "date": 1995,
+        "id": 801,
+        "album": "Maxinquaye",
+        "url": "",
+        "listened": false,
+        "artist": "Tricky"
+    },
+    {
+        "date": 1995,
+        "id": 802,
+        "album": "Mellon Collie and the Infinite Sadness",
+        "url": "",
+        "listened": false,
+        "artist": "Smashing Pumpkins"
+    },
+    {
+        "date": 1995,
+        "id": 803,
+        "album": "Only Built 4 Cuban Linx",
+        "url": "",
+        "listened": false,
+        "artist": "Raekwon"
+    },
+    {
+        "date": 1995,
+        "id": 804,
+        "album": "Scream, Dracula, Scream!",
+        "url": "",
+        "listened": false,
+        "artist": "Rocket From The Crypt"
+    },
+    {
+        "date": 1995,
+        "id": 805,
+        "album": "Smoker's Delight",
+        "url": "",
+        "listened": false,
+        "artist": "Nightmares on Wax"
+    },
+    {
+        "date": 1995,
+        "id": 806,
+        "album": "The Bends",
+        "url": "",
+        "listened": false,
+        "artist": "Radiohead"
+    },
+    {
+        "date": 1995,
+        "id": 807,
+        "album": "Timeless",
+        "url": "",
+        "listened": false,
+        "artist": "Goldie"
+    },
+    {
+        "date": 1996,
+        "id": 808,
+        "album": "1977",
+        "url": "",
+        "listened": false,
+        "artist": "Ash"
+    },
+    {
+        "date": 1996,
+        "id": 809,
+        "album": "Antichrist Superstar",
+        "url": "",
+        "listened": false,
+        "artist": "Marilyn Manson"
+    },
+    {
+        "date": 1996,
+        "id": 810,
+        "album": "Beautiful Freak",
+        "url": "",
+        "listened": false,
+        "artist": "The Eels"
+    },
+    {
+        "date": 1996,
+        "id": 811,
+        "album": "Being There",
+        "url": "",
+        "listened": false,
+        "artist": "Wilco"
+    },
+    {
+        "date": 1996,
+        "id": 812,
+        "album": "Better Living Through Chemistry",
+        "url": "",
+        "listened": false,
+        "artist": "Fatboy Slim"
+    },
+    {
+        "date": 1996,
+        "id": 813,
+        "album": "Casanova",
+        "url": "",
+        "listened": false,
+        "artist": "The Divine Comedy"
+    },
+    {
+        "date": 1996,
+        "id": 814,
+        "album": "Come Find Yourself",
+        "url": "",
+        "listened": false,
+        "artist": "The Fun Lovin' Criminals"
+    },
+    {
+        "date": 1996,
+        "id": 815,
+        "album": "Dr Octagonecologyst",
+        "url": "",
+        "listened": false,
+        "artist": "Dr Octagon"
+    },
+    {
+        "date": 1996,
+        "id": 816,
+        "album": "Dust",
+        "url": "",
+        "listened": false,
+        "artist": "Screaming Trees"
+    },
+    {
+        "date": 1996,
+        "id": 817,
+        "album": "Emperor Tomato Ketchup",
+        "url": "",
+        "listened": false,
+        "artist": "Stereolab"
+    },
+    {
+        "date": 1996,
+        "id": 818,
+        "album": "Endtroducing...",
+        "url": "",
+        "listened": false,
+        "artist": "DJ Shadow"
+    },
+    {
+        "date": 1996,
+        "id": 819,
+        "album": "Everything Must Go",
+        "url": "",
+        "listened": false,
+        "artist": "The Manic Street Preachers"
+    },
+    {
+        "date": 1996,
+        "id": 820,
+        "album": "First Band On The Moon",
+        "url": "",
+        "listened": false,
+        "artist": "The Cardigans"
+    },
+    {
+        "date": 1996,
+        "id": 821,
+        "album": "Fuzzy Logic",
+        "url": "",
+        "listened": false,
+        "artist": "Super Furry Animals"
+    },
+    {
+        "date": 1996,
+        "id": 822,
+        "album": "If You're Feeling Sinister",
+        "url": "",
+        "listened": false,
+        "artist": "Belle & Sebastian"
+    },
+    {
+        "date": 1996,
+        "id": 823,
+        "album": "Logical Progression",
+        "url": "",
+        "listened": false,
+        "artist": "LTJ Bukem"
+    },
+    {
+        "date": 1996,
+        "id": 824,
+        "album": "Maxwell's Urban Hang Suite",
+        "url": "",
+        "listened": false,
+        "artist": "Maxwell"
+    },
+    {
+        "date": 1996,
+        "id": 825,
+        "album": "Millions Now Living Will Never Die",
+        "url": "",
+        "listened": false,
+        "artist": "Tortoise"
+    },
+    {
+        "date": 1996,
+        "id": 826,
+        "album": "Murder Ballads",
+        "url": "",
+        "listened": false,
+        "artist": "Nick Cave & the Bad Seeds"
+    },
+    {
+        "date": 1996,
+        "id": 827,
+        "album": "Now I Got Worry",
+        "url": "",
+        "listened": false,
+        "artist": "Jon Spencer Blues Explosion"
+    },
+    {
+        "date": 1996,
+        "id": 828,
+        "album": "Odelay",
+        "url": "",
+        "listened": false,
+        "artist": "Beck"
+    },
+    {
+        "date": 1996,
+        "id": 829,
+        "album": "Oedipus Schmoedipus",
+        "url": "",
+        "listened": false,
+        "artist": "Barry Adamson"
+    },
+    {
+        "date": 1996,
+        "id": 830,
+        "album": "Roots",
+        "url": "",
+        "listened": false,
+        "artist": "Sepultura"
+    },
+    {
+        "date": 1996,
+        "id": 831,
+        "album": "Second Toughest in the Infants",
+        "url": "",
+        "listened": false,
+        "artist": "Underworld"
+    },
+    {
+        "date": 1996,
+        "id": 832,
+        "album": "Tellin' Stories",
+        "url": "",
+        "listened": false,
+        "artist": "The Charlatans"
+    },
+    {
+        "date": 1996,
+        "id": 833,
+        "album": "The Score",
+        "url": "",
+        "listened": false,
+        "artist": "The Fugees"
+    },
+    {
+        "date": 1996,
+        "id": 834,
+        "album": "Tidal",
+        "url": "",
+        "listened": false,
+        "artist": "Fiona Apple"
+    },
+    {
+        "date": 1996,
+        "id": 835,
+        "album": "Tigermilk",
+        "url": "",
+        "listened": false,
+        "artist": "Belle & Sebastian"
+    },
+    {
+        "date": 1996,
+        "id": 836,
+        "album": "Walking Wounded",
+        "url": "",
+        "listened": false,
+        "artist": "Everything But the Girl"
+    },
+    {
+        "date": 1997,
+        "id": 837,
+        "album": "A Short Album About Love",
+        "url": "",
+        "listened": false,
+        "artist": "The Divine Comedy"
+    },
+    {
+        "date": 1997,
+        "id": 838,
+        "album": "Blur",
+        "url": "",
+        "listened": false,
+        "artist": "Blur"
+    },
+    {
+        "date": 1997,
+        "id": 839,
+        "album": "Buena Vista Social Club",
+        "url": "",
+        "listened": false,
+        "artist": "Buena Vista Social Club"
+    },
+    {
+        "date": 1997,
+        "id": 840,
+        "album": "Butterfly",
+        "url": "",
+        "listened": false,
+        "artist": "Mariah Carey"
+    },
+    {
+        "date": 1997,
+        "id": 841,
+        "album": "Dig Me Out",
+        "url": "",
+        "listened": false,
+        "artist": "Sleater-Kinney"
+    },
+    {
+        "date": 1997,
+        "id": 842,
+        "album": "Dig Your Own Hole",
+        "url": "",
+        "listened": false,
+        "artist": "The Chemical Brothers"
+    },
+    {
+        "date": 1997,
+        "id": 843,
+        "album": "Either/Or",
+        "url": "",
+        "listened": false,
+        "artist": "Elliott Smith"
+    },
+    {
+        "date": 1997,
+        "id": 844,
+        "album": "Homework",
+        "url": "",
+        "listened": false,
+        "artist": "Daft Punk"
+    },
+    {
+        "date": 1997,
+        "id": 845,
+        "album": "In It For The Money",
+        "url": "",
+        "listened": false,
+        "artist": "Supergrass"
+    },
+    {
+        "date": 1997,
+        "id": 846,
+        "album": "Ladies And Gentlemen, We Are Floating in Space",
+        "url": "",
+        "listened": false,
+        "artist": "Spiritualized"
+    },
+    {
+        "date": 1997,
+        "id": 847,
+        "album": "Let's Get Killed",
+        "url": "",
+        "listened": false,
+        "artist": "David Holmes"
+    },
+    {
+        "date": 1997,
+        "id": 848,
+        "album": "Life Thru A Lens",
+        "url": "",
+        "listened": false,
+        "artist": "Robbie Williams"
+    },
+    {
+        "date": 1997,
+        "id": 849,
+        "album": "Maverick A Strike",
+        "url": "",
+        "listened": false,
+        "artist": "Finlay Quaye"
+    },
+    {
+        "date": 1997,
+        "id": 850,
+        "album": "New Forms",
+        "url": "",
+        "listened": false,
+        "artist": "Roni Size/Reprazent"
+    },
+    {
+        "date": 1997,
+        "id": 851,
+        "album": "OK Computer",
+        "url": "",
+        "listened": false,
+        "artist": "Radiohead"
+    },
+    {
+        "date": 1997,
+        "id": 852,
+        "album": "Schleep",
+        "url": "",
+        "listened": false,
+        "artist": "Robert Wyatt"
+    },
+    {
+        "date": 1997,
+        "id": 853,
+        "album": "Supa Dupa Fly",
+        "url": "",
+        "listened": false,
+        "artist": "Missy Elliott"
+    },
+    {
+        "date": 1997,
+        "id": 854,
+        "album": "The Boatman's Call",
+        "url": "",
+        "listened": false,
+        "artist": "Nick Cave and the Bad Seeds"
+    },
+    {
+        "date": 1997,
+        "id": 855,
+        "album": "The Fat of the Land",
+        "url": "",
+        "listened": false,
+        "artist": "Prodigy"
+    },
+    {
+        "date": 1997,
+        "id": 856,
+        "album": "Time Out of Mind",
+        "url": "",
+        "listened": false,
+        "artist": "Bob Dylan"
+    },
+    {
+        "date": 1997,
+        "id": 857,
+        "album": "Urban Hymns",
+        "url": "",
+        "listened": false,
+        "artist": "The Verve"
+    },
+    {
+        "date": 1997,
+        "id": 858,
+        "album": "Vanishing Point",
+        "url": "",
+        "listened": false,
+        "artist": "Primal Scream"
+    },
+    {
+        "date": 1997,
+        "id": 859,
+        "album": "When I Was Born For The 7th Time",
+        "url": "",
+        "listened": false,
+        "artist": "Cornershop"
+    },
+    {
+        "date": 1998,
+        "id": 860,
+        "album": "Apocalypse Dudes",
+        "url": "",
+        "listened": false,
+        "artist": "Turbonegro"
+    },
+    {
+        "date": 1998,
+        "id": 861,
+        "album": "Bob Dylan Live 1966 ('Royal Albert Hall' Bootleg)",
+        "url": "",
+        "listened": false,
+        "artist": "Bob Dylan"
+    },
+    {
+        "date": 1998,
+        "id": 862,
+        "album": "Car Wheels On A Gravel Road",
+        "url": "",
+        "listened": false,
+        "artist": "Lucinda Williams"
+    },
+    {
+        "date": 1998,
+        "id": 863,
+        "album": "Celebrity Skin",
+        "url": "",
+        "listened": false,
+        "artist": "Hole"
+    },
+    {
+        "date": 1998,
+        "id": 864,
+        "album": "Clandestino",
+        "url": "",
+        "listened": false,
+        "artist": "Manu Chao"
+    },
+    {
+        "date": 1998,
+        "id": 865,
+        "album": "Deserter's Songs",
+        "url": "",
+        "listened": false,
+        "artist": "Mercury Rev"
+    },
+    {
+        "date": 1998,
+        "id": 866,
+        "album": "Devil Without A Cause",
+        "url": "",
+        "listened": false,
+        "artist": "Kid Rock"
+    },
+    {
+        "date": 1998,
+        "id": 867,
+        "album": "Follow the Leader",
+        "url": "",
+        "listened": false,
+        "artist": "Korn"
+    },
+    {
+        "date": 1998,
+        "id": 868,
+        "album": "I See A Darkness",
+        "url": "",
+        "listened": false,
+        "artist": "Bonnie 'Prince' Billy"
+    },
+    {
+        "date": 1998,
+        "id": 869,
+        "album": "Kenza",
+        "url": "",
+        "listened": false,
+        "artist": "Khaled"
+    },
+    {
+        "date": 1998,
+        "id": 870,
+        "album": "Mermaid Avenue",
+        "url": "",
+        "listened": false,
+        "artist": "Billy Bragg/Wilco"
+    },
+    {
+        "date": 1998,
+        "id": 871,
+        "album": "Moon Safari",
+        "url": "",
+        "listened": false,
+        "artist": "Air"
+    },
+    {
+        "date": 1998,
+        "id": 872,
+        "album": "Music Has the Right to Children",
+        "url": "",
+        "listened": false,
+        "artist": "Boards of Canada"
+    },
+    {
+        "date": 1998,
+        "id": 873,
+        "album": "OK",
+        "url": "",
+        "listened": false,
+        "artist": "Talvin Singh"
+    },
+    {
+        "date": 1998,
+        "id": 874,
+        "album": "Queens Of The Stone Age",
+        "url": "",
+        "listened": false,
+        "artist": "Queens Of The Stone Age"
+    },
+    {
+        "date": 1998,
+        "id": 875,
+        "album": "Ray of Light",
+        "url": "",
+        "listened": false,
+        "artist": "Madonna"
+    },
+    {
+        "date": 1998,
+        "id": 876,
+        "album": "System Of A Down",
+        "url": "",
+        "listened": false,
+        "artist": "System Of A Down"
+    },
+    {
+        "date": 1998,
+        "id": 877,
+        "album": "The Miseducation Of Lauryn Hill",
+        "url": "",
+        "listened": false,
+        "artist": "Lauryn Hill"
+    },
+    {
+        "date": 1998,
+        "id": 878,
+        "album": "This is Hardcore",
+        "url": "",
+        "listened": false,
+        "artist": "Pulp"
+    },
+    {
+        "date": 1998,
+        "id": 879,
+        "album": "White Ladder",
+        "url": "",
+        "listened": false,
+        "artist": "David Gray"
+    },
+    {
+        "date": 1998,
+        "id": 880,
+        "album": "You've Come a Long Way, Baby",
+        "url": "",
+        "listened": false,
+        "artist": "Fatboy Slim"
+    },
+    {
+        "date": 1999,
+        "id": 881,
+        "album": "69 Love Songs",
+        "url": "",
+        "listened": false,
+        "artist": "The Magnetic Fields"
+    },
+    {
+        "date": 1999,
+        "id": 882,
+        "album": "Agaetis Byrjun",
+        "url": "",
+        "listened": false,
+        "artist": "Sigur Ros"
+    },
+    {
+        "date": 1999,
+        "id": 883,
+        "album": "Apple Venus Vol. 1",
+        "url": "",
+        "listened": false,
+        "artist": "XTC"
+    },
+    {
+        "date": 1999,
+        "id": 884,
+        "album": "Beyond Skin",
+        "url": "",
+        "listened": false,
+        "artist": "Nitin Sawhney"
+    },
+    {
+        "date": 1999,
+        "id": 885,
+        "album": "Californication",
+        "url": "",
+        "listened": false,
+        "artist": "Red Hot Chili Peppers"
+    },
+    {
+        "date": 1999,
+        "id": 886,
+        "album": "Central Reservation",
+        "url": "",
+        "listened": false,
+        "artist": "Beth Orton"
+    },
+    {
+        "date": 1999,
+        "id": 887,
+        "album": "Darkdancer",
+        "url": "",
+        "listened": false,
+        "artist": "Les Rhythmes Digitales"
+    },
+    {
+        "date": 1999,
+        "id": 888,
+        "album": "HMS Fable",
+        "url": "",
+        "listened": false,
+        "artist": "Shack"
+    },
+    {
+        "date": 1999,
+        "id": 889,
+        "album": "Le Tigre",
+        "url": "",
+        "listened": false,
+        "artist": "Le Tigre"
+    },
+    {
+        "date": 1999,
+        "id": 890,
+        "album": "Make Yourself",
+        "url": "",
+        "listened": false,
+        "artist": "Incubus"
+    },
+    {
+        "date": 1999,
+        "id": 891,
+        "album": "Play",
+        "url": "",
+        "listened": false,
+        "artist": "Moby"
+    },
+    {
+        "date": 1999,
+        "id": 892,
+        "album": "Remedy",
+        "url": "",
+        "listened": false,
+        "artist": "Basement Jaxx"
+    },
+    {
+        "date": 1999,
+        "id": 893,
+        "album": "S&M",
+        "url": "",
+        "listened": false,
+        "artist": "Metallica"
+    },
+    {
+        "date": 1999,
+        "id": 894,
+        "album": "Slipknot",
+        "url": "",
+        "listened": false,
+        "artist": "Slipknot"
+    },
+    {
+        "date": 1999,
+        "id": 895,
+        "album": "Suba",
+        "url": "",
+        "listened": false,
+        "artist": "Sao Paulo Tales"
+    },
+    {
+        "date": 1999,
+        "id": 896,
+        "album": "The Contino Sessions",
+        "url": "",
+        "listened": false,
+        "artist": "Death in Vegas"
+    },
+    {
+        "date": 1999,
+        "id": 897,
+        "album": "The Man Who",
+        "url": "",
+        "listened": false,
+        "artist": "Travis"
+    },
+    {
+        "date": 1999,
+        "id": 898,
+        "album": "The Slim Shady LP",
+        "url": "",
+        "listened": false,
+        "artist": "Eminem"
+    },
+    {
+        "date": 1999,
+        "id": 899,
+        "album": "The Soft Bulletin",
+        "url": "",
+        "listened": false,
+        "artist": "Flaming Lips"
+    },
+    {
+        "date": 2000,
+        "id": 900,
+        "album": "All That You Can't Leave Behind",
+        "url": "",
+        "listened": false,
+        "artist": "U2"
+    },
+    {
+        "date": 2000,
+        "id": 901,
+        "album": "Felt Mountain",
+        "url": "",
+        "listened": false,
+        "artist": "Goldfrapp"
+    },
+    {
+        "date": 2000,
+        "id": 902,
+        "album": "Figure 8",
+        "url": "",
+        "listened": false,
+        "artist": "Elliott Smith"
+    },
+    {
+        "date": 2000,
+        "id": 903,
+        "album": "Heartbreaker",
+        "url": "",
+        "listened": false,
+        "artist": "Ryan Adams"
+    },
+    {
+        "date": 2000,
+        "id": 904,
+        "album": "Kid A",
+        "url": "",
+        "listened": false,
+        "artist": "Radiohead"
+    },
+    {
+        "date": 2000,
+        "id": 905,
+        "album": "Like Water For Chocolate",
+        "url": "",
+        "listened": false,
+        "artist": "Common"
+    },
+    {
+        "date": 2000,
+        "id": 906,
+        "album": "Lost Souls",
+        "url": "",
+        "listened": false,
+        "artist": "The Doves"
+    },
+    {
+        "date": 2000,
+        "id": 907,
+        "album": "Mama's Gun",
+        "url": "",
+        "listened": false,
+        "artist": "Erykah Badu"
+    },
+    {
+        "date": 2000,
+        "id": 908,
+        "album": "Music",
+        "url": "",
+        "listened": false,
+        "artist": "Madonna"
+    },
+    {
+        "date": 2000,
+        "id": 909,
+        "album": "Nixon",
+        "url": "",
+        "listened": false,
+        "artist": "Lambchop"
+    },
+    {
+        "date": 2000,
+        "id": 910,
+        "album": "Our Aim is to Satisfy",
+        "url": "",
+        "listened": false,
+        "artist": "Red Snapper"
+    },
+    {
+        "date": 2000,
+        "id": 911,
+        "album": "Parachutes",
+        "url": "",
+        "listened": false,
+        "artist": "Coldplay"
+    },
+    {
+        "date": 2000,
+        "id": 912,
+        "album": "Punishing Kiss",
+        "url": "",
+        "listened": false,
+        "artist": "Ute Lemper"
+    },
+    {
+        "date": 2000,
+        "id": 913,
+        "album": "Red Dirt Girl",
+        "url": "",
+        "listened": false,
+        "artist": "Emmylou Harris"
+    },
+    {
+        "date": 2000,
+        "id": 914,
+        "album": "Since I Left You",
+        "url": "",
+        "listened": false,
+        "artist": "The Avalanches"
+    },
+    {
+        "date": 2000,
+        "id": 915,
+        "album": "Sincere",
+        "url": "",
+        "listened": false,
+        "artist": "MJ Cole"
+    },
+    {
+        "date": 2000,
+        "id": 916,
+        "album": "Stankonia",
+        "url": "",
+        "listened": false,
+        "artist": "Outkast"
+    },
+    {
+        "date": 2000,
+        "id": 917,
+        "album": "Stories From The City, Stories From The Sea",
+        "url": "",
+        "listened": false,
+        "artist": "PJ Harvey"
+    },
+    {
+        "date": 2000,
+        "id": 918,
+        "album": "Tanto Tempo",
+        "url": "",
+        "listened": false,
+        "artist": "Bebel Gilberto"
+    },
+    {
+        "date": 2000,
+        "id": 919,
+        "album": "The Hour Of Bewilderbeast",
+        "url": "",
+        "listened": false,
+        "artist": "Badly Drawn Boy"
+    },
+    {
+        "date": 2000,
+        "id": 920,
+        "album": "The Marshall Mathers LP",
+        "url": "",
+        "listened": false,
+        "artist": "Eminem"
+    },
+    {
+        "date": 2000,
+        "id": 921,
+        "album": "The Virgin Suicides",
+        "url": "",
+        "listened": false,
+        "artist": "Air"
+    },
+    {
+        "date": 2000,
+        "id": 922,
+        "album": "Welcome to the Aftterfuture",
+        "url": "",
+        "listened": false,
+        "artist": "Mike Ladd"
+    },
+    {
+        "date": 2001,
+        "id": 923,
+        "album": "Bright Flight",
+        "url": "",
+        "listened": false,
+        "artist": "Silver Jews"
+    },
+    {
+        "date": 2001,
+        "id": 924,
+        "album": "Gold",
+        "url": "",
+        "listened": false,
+        "artist": "Ryan Adams"
+    },
+    {
+        "date": 2001,
+        "id": 925,
+        "album": "Is This It",
+        "url": "",
+        "listened": false,
+        "artist": "The Strokes"
+    },
+    {
+        "date": 2001,
+        "id": 926,
+        "album": "La Revancha del Tango",
+        "url": "",
+        "listened": false,
+        "artist": "Gotan Project"
+    },
+    {
+        "date": 2001,
+        "id": 927,
+        "album": "Melody A.M.",
+        "url": "",
+        "listened": false,
+        "artist": "Royksopp"
+    },
+    {
+        "date": 2001,
+        "id": 928,
+        "album": "Rings Around the World",
+        "url": "",
+        "listened": false,
+        "artist": "Super Furry Animals"
+    },
+    {
+        "date": 2001,
+        "id": 929,
+        "album": "Southern Rock Opera",
+        "url": "",
+        "listened": false,
+        "artist": "Drive-By Truckers"
+    },
+    {
+        "date": 2001,
+        "id": 930,
+        "album": "The Blueprint",
+        "url": "",
+        "listened": false,
+        "artist": "Jay-Z"
+    },
+    {
+        "date": 2001,
+        "id": 931,
+        "album": "Time (The Revelator)",
+        "url": "",
+        "listened": false,
+        "artist": "Gillian Welch"
+    },
+    {
+        "date": 2001,
+        "id": 932,
+        "album": "Vespertine",
+        "url": "",
+        "listened": false,
+        "artist": "Björk"
+    },
+    {
+        "date": 2001,
+        "id": 933,
+        "album": "White Blood Cells",
+        "url": "",
+        "listened": false,
+        "artist": "The White Stripes"
+    },
+    {
+        "date": 2002,
+        "id": 934,
+        "album": "A Little Deeper",
+        "url": "",
+        "listened": false,
+        "artist": "Ms Dynamite"
+    },
+    {
+        "date": 2002,
+        "id": 935,
+        "album": "A Rush of Blood to the Head",
+        "url": "",
+        "listened": false,
+        "artist": "Coldplay"
+    },
+    {
+        "date": 2002,
+        "id": 936,
+        "album": "American IV: The Man Comes Around",
+        "url": "",
+        "listened": false,
+        "artist": "Johnny Cash"
+    },
+    {
+        "date": 2002,
+        "id": 937,
+        "album": "Come Away With Me",
+        "url": "",
+        "listened": false,
+        "artist": "Norah Jones"
+    },
+    {
+        "date": 2002,
+        "id": 938,
+        "album": "Hotel Yankee Foxtrot",
+        "url": "",
+        "listened": false,
+        "artist": "Wilco"
+    },
+    {
+        "date": 2002,
+        "id": 939,
+        "album": "Phrenology",
+        "url": "",
+        "listened": false,
+        "artist": "The Roots"
+    },
+    {
+        "date": 2002,
+        "id": 940,
+        "album": "Power in Numbers",
+        "url": "",
+        "listened": false,
+        "artist": "Jurassic 5"
+    },
+    {
+        "date": 2002,
+        "id": 941,
+        "album": "Sea Change",
+        "url": "",
+        "listened": false,
+        "artist": "Beck"
+    },
+    {
+        "date": 2002,
+        "id": 942,
+        "album": "The Coral",
+        "url": "",
+        "listened": false,
+        "artist": "The Coral"
+    },
+    {
+        "date": 2002,
+        "id": 943,
+        "album": "The Last Broadcast",
+        "url": "",
+        "listened": false,
+        "artist": "The Doves"
+    },
+    {
+        "date": 2002,
+        "id": 944,
+        "album": "The Rising",
+        "url": "",
+        "listened": false,
+        "artist": "Bruce Springsteen"
+    },
+    {
+        "date": 2002,
+        "id": 945,
+        "album": "Under Construction",
+        "url": "",
+        "listened": false,
+        "artist": "Missy Elliott"
+    },
+    {
+        "date": 2002,
+        "id": 946,
+        "album": "Yoshimi Battles the Pink Robots",
+        "url": "",
+        "listened": false,
+        "artist": "The Flaming Lips"
+    },
+    {
+        "date": 2003,
+        "id": 947,
+        "album": "Boy in da Corner",
+        "url": "",
+        "listened": false,
+        "artist": "Dizzee Rascal"
+    },
+    {
+        "date": 2003,
+        "id": 948,
+        "album": "De-loused at the Crematorium",
+        "url": "",
+        "listened": false,
+        "artist": "The Mars Volta"
+    },
+    {
+        "date": 2003,
+        "id": 949,
+        "album": "Elephant",
+        "url": "",
+        "listened": false,
+        "artist": "The White Stripes"
+    },
+    {
+        "date": 2003,
+        "id": 950,
+        "album": "Fever To Tell",
+        "url": "",
+        "listened": false,
+        "artist": "Yeah Yeah Yeahs"
+    },
+    {
+        "date": 2003,
+        "id": 951,
+        "album": "Speakerboxxx/The Love Below",
+        "url": "",
+        "listened": false,
+        "artist": "Outkast"
+    },
+    {
+        "date": 2003,
+        "id": 952,
+        "album": "Wonderful Rainbow",
+        "url": "",
+        "listened": false,
+        "artist": "Lightning Bolt"
+    },
+    {
+        "date": 2004,
+        "id": 953,
+        "album": "A Grand Don't Come For Free",
+        "url": "",
+        "listened": false,
+        "artist": "The Streets"
+    },
+    {
+        "date": 2004,
+        "id": 954,
+        "album": "Abattoir Blues/The Lyre Of Orpheus",
+        "url": "",
+        "listened": false,
+        "artist": "Nick Cave And The Bad Seeds"
+    },
+    {
+        "date": 2004,
+        "id": 955,
+        "album": "American Idiot",
+        "url": "",
+        "listened": false,
+        "artist": "Green Day"
+    },
+    {
+        "date": 2004,
+        "id": 956,
+        "album": "Cee-Lo Green Is The Soul Machine",
+        "url": "",
+        "listened": false,
+        "artist": "Cee-Lo"
+    },
+    {
+        "date": 2004,
+        "id": 957,
+        "album": "Destroy Rock & Roll",
+        "url": "",
+        "listened": false,
+        "artist": "Mylo"
+    },
+    {
+        "date": 2004,
+        "id": 958,
+        "album": "Franz Ferdinand",
+        "url": "",
+        "listened": false,
+        "artist": "Franz Ferdinand"
+    },
+    {
+        "date": 2004,
+        "id": 959,
+        "album": "Funeral",
+        "url": "",
+        "listened": false,
+        "artist": "Arcade Fire"
+    },
+    {
+        "date": 2004,
+        "id": 960,
+        "album": "Penance Soiree",
+        "url": "",
+        "listened": false,
+        "artist": "The Icarus Line"
+    },
+    {
+        "date": 2004,
+        "id": 961,
+        "album": "Rejoicing in the Hands",
+        "url": "",
+        "listened": false,
+        "artist": "Devendra Banhart"
+    },
+    {
+        "date": 2004,
+        "id": 962,
+        "album": "Street Signs",
+        "url": "",
+        "listened": false,
+        "artist": "Ozomatli"
+    },
+    {
+        "date": 2004,
+        "id": 963,
+        "album": "The College Dropout",
+        "url": "",
+        "listened": false,
+        "artist": "Kanye West"
+    },
+    {
+        "date": 2004,
+        "id": 964,
+        "album": "Want Two",
+        "url": "",
+        "listened": false,
+        "artist": "Rufus Wainwright"
+    },
+    {
+        "date": 2004,
+        "id": 965,
+        "album": "You Are The Quarry",
+        "url": "",
+        "listened": false,
+        "artist": "Morrissey"
+    },
+    {
+        "date": 2005,
+        "id": 966,
+        "album": "Be",
+        "url": "",
+        "listened": false,
+        "artist": "Common"
+    },
+    {
+        "date": 2005,
+        "id": 967,
+        "album": "Cole's Cornes",
+        "url": "",
+        "listened": false,
+        "artist": "Richard Hawley"
+    },
+    {
+        "date": 2005,
+        "id": 968,
+        "album": "Illinois",
+        "url": "",
+        "listened": false,
+        "artist": "Sufjan Stevens"
+    },
+    {
+        "date": 2006,
+        "id": 969,
+        "album": "Back to Black",
+        "url": "",
+        "listened": false,
+        "artist": "Amy Winehouse"
+    },
+    {
+        "date": 2006,
+        "id": 970,
+        "album": "Fishscale",
+        "url": "",
+        "listened": false,
+        "artist": "Ghostface Killah"
+    },
+    {
+        "date": 2006,
+        "id": 971,
+        "album": "Food & Liqour",
+        "url": "",
+        "listened": false,
+        "artist": "Lupe Fiasco"
+    },
+    {
+        "date": 2006,
+        "id": 972,
+        "album": "Savane",
+        "url": "",
+        "listened": false,
+        "artist": "Ali Farka Touré"
+    },
+    {
+        "date": 2006,
+        "id": 973,
+        "album": "Whatever People Say I Am",
+        "url": "",
+        "listened": false,
+        "artist": "Arctic Monkeys"
+    },
+    {
+        "date": 2006,
+        "id": 974,
+        "album": "Ys",
+        "url": "",
+        "listened": false,
+        "artist": "Joanna Newsom"
+    },
+    {
+        "date": 2007,
+        "id": 975,
+        "album": "Cross",
+        "url": "",
+        "listened": false,
+        "artist": "Justice"
+    },
+    {
+        "date": 2007,
+        "id": 976,
+        "album": "In Rainbows",
+        "url": "",
+        "listened": false,
+        "artist": "Radiohead"
+    },
+    {
+        "date": 2007,
+        "id": 977,
+        "album": "Kala",
+        "url": "",
+        "listened": false,
+        "artist": "MIA"
+    },
+    {
+        "date": 2007,
+        "id": 978,
+        "album": "The Sound of Silver",
+        "url": "",
+        "listened": false,
+        "artist": "LCD Soundsystem"
+    },
+    {
+        "date": 2008,
+        "id": 979,
+        "album": "All Hope is Gone",
+        "url": "",
+        "listened": false,
+        "artist": "Slipknot"
+    },
+    {
+        "date": 2008,
+        "id": 980,
+        "album": "Dear Science",
+        "url": "",
+        "listened": false,
+        "artist": "TV on the Radio"
+    },
+    {
+        "date": 2008,
+        "id": 981,
+        "album": "Fleet Foxes",
+        "url": "",
+        "listened": false,
+        "artist": "Fleet Foxes"
+    },
+    {
+        "date": 2008,
+        "id": 982,
+        "album": "Oracular Spectacular",
+        "url": "",
+        "listened": false,
+        "artist": "MGMT"
+    },
+    {
+        "date": 2008,
+        "id": 983,
+        "album": "Seldom See Kid",
+        "url": "",
+        "listened": false,
+        "artist": "Elbow"
+    },
+    {
+        "date": 2008,
+        "id": 984,
+        "album": "The Renaissance",
+        "url": "",
+        "listened": false,
+        "artist": "Q-Tip"
+    },
+    {
+        "date": 2008,
+        "id": 985,
+        "album": "Third",
+        "url": "",
+        "listened": false,
+        "artist": "Portishead"
+    },
+    {
+        "date": 2009,
+        "id": 986,
+        "album": "Bitte Orca",
+        "url": "",
+        "listened": false,
+        "artist": "Dirty Projectors"
+    },
+    {
+        "date": 2009,
+        "id": 987,
+        "album": "Fever Ray",
+        "url": "",
+        "listened": false,
+        "artist": "Fever Ray"
+    },
+    {
+        "date": 2009,
+        "id": 988,
+        "album": "It's Blitz",
+        "url": "",
+        "listened": false,
+        "artist": "Yeah Yeah Yeahs"
+    },
+    {
+        "date": 2009,
+        "id": 989,
+        "album": "Merriweather Post Pavilion",
+        "url": "",
+        "listened": false,
+        "artist": "Animal Collective"
+    },
+    {
+        "date": 2009,
+        "id": 990,
+        "album": "Sometimes I Wish I Were an Eagle",
+        "url": "",
+        "listened": false,
+        "artist": "Bill Callahan"
+    },
+    {
+        "date": 2009,
+        "id": 991,
+        "album": "Two Dancers",
+        "url": "",
+        "listened": false,
+        "artist": "Wild Beasts"
+    },
+    {
+        "date": 2009,
+        "id": 992,
+        "album": "Veckatimest",
+        "url": "",
+        "listened": false,
+        "artist": "Grizzly Bear"
+    },
+    {
+        "date": 2009,
+        "id": 993,
+        "album": "xx",
+        "url": "",
+        "listened": false,
+        "artist": "The xx"
+    },
+    {
+        "date": 2010,
+        "id": 994,
+        "album": "Brothers",
+        "url": "",
+        "listened": false,
+        "artist": "The Black Keys"
+    },
+    {
+        "date": 2010,
+        "id": 995,
+        "album": "Halcyon Digest",
+        "url": "",
+        "listened": false,
+        "artist": "Deerhunter"
+    },
+    {
+        "date": 2010,
+        "id": 996,
+        "album": "High Violet",
+        "url": "",
+        "listened": false,
+        "artist": "The National"
+    },
+    {
+        "date": 2010,
+        "id": 997,
+        "album": "My Beautiful Dark Twisted Fantasy",
+        "url": "",
+        "listened": false,
+        "artist": "Kanye West"
+    },
+    {
+        "date": 2010,
+        "id": 998,
+        "album": "Queen of Denmark",
+        "url": "",
+        "listened": false,
+        "artist": "John Grant"
+    },
+    {
+        "date": 2010,
+        "id": 999,
+        "album": "Teen Dream",
+        "url": "",
+        "listened": false,
+        "artist": "Beach House"
+    },
+    {
+        "date": 2010,
+        "id": 1000,
+        "album": "The ArchAndroid",
+        "url": "",
+        "listened": false,
+        "artist": "Janelle Monae"
+    },
+    {
+        "date": 2010,
+        "id": 1001,
+        "album": "The Suburbs",
+        "url": "",
+        "listened": false,
+        "artist": "Arcade Fire"
+    }
+]

@@ -1,11 +1,13 @@
 //
-//  WriteFile.swift
+//  WriteFileToPath.swift
 //  1001 Albums
 //
 //  Created by Vitaly Gromov on 7/10/22.
 //
 
 import Foundation
+
+// how to write data to file
 
 func writeToFile() {
     

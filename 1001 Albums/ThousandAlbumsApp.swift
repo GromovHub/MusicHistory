@@ -9,11 +9,10 @@ import SwiftUI
 
 @main
 struct ThousandAlbumsApp: App {
-
+    let x: Void = JsonToJson.singleton.convert()
     var body: some Scene {
         WindowGroup {
-            FileManagerView()
-//            ThousandListView()
+            ThousandListView()
             
         }
     }

@@ -7,6 +7,8 @@
 
 import Foundation
 
+// how to parse itunes json file
+
 // https://itunes.apple.com/search?term=Yes+Frank+Sinatra&limit=3
 // https://itunes.apple.com/search?entity=album&term=frank+sinatra
  
