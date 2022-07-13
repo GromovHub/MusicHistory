@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		D00D5703287A046100FEA948 /* JsonDecode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00D5702287A046100FEA948 /* JsonDecode.swift */; };
-		D00D5709287A117F00FEA948 /* sinatra1.json in Resources */ = {isa = PBXBuildFile; fileRef = D00D5708287A117F00FEA948 /* sinatra1.json */; };
 		D00D570B287A1CBB00FEA948 /* ItunesParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00D570A287A1CBB00FEA948 /* ItunesParser.swift */; };
 		D00D570F287A2F8F00FEA948 /* WriteFileToPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00D570E287A2F8F00FEA948 /* WriteFileToPath.swift */; };
 		D076696B2879825B00631D79 /* ThousandListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D076696A2879825B00631D79 /* ThousandListView.swift */; };
@@ -25,7 +24,6 @@
 
 /* Begin PBXFileReference section */
 		D00D5702287A046100FEA948 /* JsonDecode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonDecode.swift; sourceTree = "<group>"; };
-		D00D5708287A117F00FEA948 /* sinatra1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = sinatra1.json; sourceTree = "<group>"; };
 		D00D570A287A1CBB00FEA948 /* ItunesParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesParser.swift; sourceTree = "<group>"; };
 		D00D570E287A2F8F00FEA948 /* WriteFileToPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteFileToPath.swift; sourceTree = "<group>"; };
 		D076696A2879825B00631D79 /* ThousandListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThousandListView.swift; sourceTree = "<group>"; };
@@ -86,7 +84,6 @@
 			children = (
 				D0CA3E7C2878483000B735B6 /* Dirty1001Object.json */,
 				D0853F71287D7CA00079BC38 /* Classic1001Object.json */,
-				D00D5708287A117F00FEA948 /* sinatra1.json */,
 			);
 			path = JSON;
 			sourceTree = "<group>";
@@ -192,7 +189,6 @@
 				D0853F72287D7CA00079BC38 /* Classic1001Object.json in Resources */,
 				EC424B78285B2A920092B071 /* README.md in Resources */,
 				EC7ADEDA285B1D9900F45B1A /* Preview Assets.xcassets in Resources */,
-				D00D5709287A117F00FEA948 /* sinatra1.json in Resources */,
 				EC7ADED7285B1D9900F45B1A /* Assets.xcassets in Resources */,
 				D0CA3E7D2878483000B735B6 /* Dirty1001Object.json in Resources */,
 			);

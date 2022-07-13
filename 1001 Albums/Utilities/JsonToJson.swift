@@ -65,12 +65,13 @@ struct JsonRawObject: Codable {
 }
 // srtruct to create comfortable objects
 struct Classic1001Object: Codable {
-    let id: Int
-    let artist: String
-    let album: String
-    let date: Int
-    let listened: Bool
-    let url: String
+    var id: Int
+    var artist: String
+    var album: String
+    var date: Int
+    var listened: Bool
+    var url: String
+    var compareProblem: Bool?
     
     init(id: Int, artist: String, album: String, date: Int, listenedString: String, url: String) {
         self.id = id
