@@ -1474,7 +1474,7 @@
     {
         "date": 1970,
         "id": 185,
-        "album": "Déjà Vu",
+        "album": "Deja Vu",
         "url": "https://music.apple.com/ru/album/d%C3%A9j%C3%A0-vu/321974224?l=en",
         "listened": true,
         "artist": "Crosby, Stills, Nash & Young"
@@ -2754,7 +2754,7 @@
     {
         "date": 1975,
         "id": 345,
-        "album": "The Köln Concert",
+        "album": "The Koln Concert",
         "url": "",
         "listened": false,
         "artist": "Keith Jarrett"

@@ -28,6 +28,7 @@ class ItunesComparator {
     }
     
     func getItunesJson() {
+        getClassicObjects()
         // https://itunes.apple.com/search?entity=album&term=the+who+who's+next
         /* service */ print("Start ->", Date().description(with: .current))
         /* service */ let testArray = [
@@ -35,18 +36,18 @@ class ItunesComparator {
             Classic1001Object(id: 237, artist: "The Who", album: "Who's Next", date: 1971, listened: false, url: ""),
             Classic1001Object(id: 269, artist: "The Isley Brothers", album: "3+3", date: 1973, listened: false, url: "")]
         // main loop
-    mainLoop: for var i in testArray {
+    mainLoop: for var i in classicObjects {
             // prepare
             let specificAlbumRequest: String = (i.artist + " " + i.album).replacingOccurrences(of: " ", with: "+").lowercased()
             let urlString = "https://itunes.apple.com/search?entity=album&term=\(specificAlbumRequest)"
-            /* service */ print("this line will be requested -> ", urlString)
-            guard let urlRequest = URL(string: urlString) else { print("guard invalid url"); return }
+        /* service */ print("this line will be requested \(i.id) -> ", urlString)
+        guard let urlRequest = URL(string: urlString) else { print("guard invalid url"); writeToFile(); return }
             // request
             let task = URLSession.shared.dataTask(with: urlRequest) { data, response, error in
                 /* service */ print("id: \(i.id) \(i.artist) -> task started")
 //                /* service */ print(String(decoding: data!, as: UTF8.self), "\n\n\n")
                 // decoding itunes data
-                guard let itunesData = data else { print("guard invalid itunes data or not internet"); return }
+                guard let itunesData = data else { print("guard invalid itunes data or not internet"); self.writeToFile(); return }
                 do {
                     let itunesResponseObject = try JSONDecoder().decode(ItunesResponseObjectMain.self, from: itunesData)
                     /* service */ print("id: \(i.id) \(i.artist) -> itunes objects decoded")
@@ -91,7 +92,25 @@ class ItunesComparator {
        /* service */ print("classic objects after loop\n", classicObjectsAfterLoop)
        /* service */ print("after loop array contains \(classicObjectsAfterLoop.count) elements")
        /* service */ print("End ->", Date().description(with: .current))
+        
+        
+        writeToFile()
+        
 
+    }
+    
+    func writeToFile() {
+        let fileToWrite = classicObjectsAfterLoop
+        do {
+            guard let pathToWrite = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first?.appendingPathComponent("file\(String(Int.random(in: 0...1000))).json") else {
+                print("invalid path to write")
+                return
+            }
+            try JSONEncoder().encode(fileToWrite).write(to: pathToWrite)
+            print("file was written to \n", pathToWrite)
+        } catch {
+            print(error)
+        }
     }
 }
 
@@ -113,7 +132,7 @@ struct ItunesResponseObjectResults: Codable {
       var collectionViewUrl      : String
       var artworkUrl60           : String
       var artworkUrl100          : String
-      var collectionPrice        : Double
+      var collectionPrice        : Double?
       var collectionExplicitness : String
       var trackCount             : Int
       var copyright              : String

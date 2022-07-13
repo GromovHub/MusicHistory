@@ -9,7 +9,7 @@ import SwiftUI
 
 @main
 struct ThousandAlbumsApp: App {
-    let x: Void = ItunesComparator.singleton.getItunesJson()
+//    let x: Void = ItunesComparator.singleton.getItunesJson()
     var body: some Scene {
         WindowGroup {
             ThousandListView()
