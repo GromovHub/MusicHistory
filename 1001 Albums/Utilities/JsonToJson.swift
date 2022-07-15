@@ -45,49 +45,4 @@ class JsonToJson {
         }
     }
 }
-// struct do decoding dirty objects
-struct JsonRawObject: Codable {
-    let id: Int
-    var listened: String
-    let artist: String
-    let album: String
-    let date: Int
-    let url: String
-    
-    enum CodingKeys: String, CodingKey {
-        case id = "#"
-        case listened = "✓"
-        case artist = "Artist"
-        case album = "Album Title"
-        case date = "Release Date"
-        case url = "URL"
-    }
-}
-// srtruct to create comfortable objects
-struct Classic1001Object: Codable {
-    var id: Int
-    var artist: String
-    var album: String
-    var date: Int
-    var listened: Bool
-    var url: String
-    var compareProblem: Bool?
-    
-    init(id: Int, artist: String, album: String, date: Int, listenedString: String, url: String) {
-        self.id = id
-        self.artist = artist
-        self.album = album
-        self.date = date
-        self.url = url
-        self.listened = listenedString == "Yes" ? true : false
-    }
-    init(id: Int, artist: String, album: String, date: Int, listened: Bool, url: String) {
-        self.id = id
-        self.artist = artist
-        self.album = album
-        self.date = date
-        self.url = url
-        self.listened = listened
-    }
-}
 

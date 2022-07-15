@@ -10,6 +10,8 @@ import SwiftUI
 @main
 struct ThousandAlbumsApp: App {
 //    let x: Void = ItunesComparator.singleton.getItunesJson()
+//    let y: Void = ItunesComparator.singleton.problemCounter()
+    let z: Void = CustomDecodeEncode.decodingProf()
     var body: some Scene {
         WindowGroup {
             ThousandListView()

@@ -3002,7 +3002,7 @@
     {
         "date": 1977,
         "id": 376,
-        "album": "Never Mind The Bollocks…",
+        "album": "Never Mind The Bollocks",
         "url": "",
         "listened": false,
         "artist": "The Sex Pistols"
@@ -3074,7 +3074,7 @@
     {
         "date": 1977,
         "id": 385,
-        "album": "Talking Heads \"77",
+        "album": "Talking Heads 77",
         "url": "",
         "listened": false,
         "artist": "Talking Heads"
@@ -3333,7 +3333,7 @@
         "album": "Siembra",
         "url": "",
         "listened": false,
-        "artist": "Ruben Blades & Willie Colón"
+        "artist": "Ruben Blades & Willie Colon"
     },
     {
         "date": 1978,
@@ -3378,7 +3378,7 @@
     {
         "date": 1978,
         "id": 423,
-        "album": "Third/Sister Lovers",
+        "album": "Third Sister Lovers",
         "url": "",
         "listened": false,
         "artist": "Big Star"
@@ -3498,7 +3498,7 @@
     {
         "date": 1979,
         "id": 438,
-        "album": "Metal Box/Second Edition",
+        "album": "Metal Box Second Edition",
         "url": "",
         "listened": false,
         "artist": "Public Image"
@@ -3546,7 +3546,7 @@
     {
         "date": 1979,
         "id": 444,
-        "album": "Risqué",
+        "album": "Risque",
         "url": "",
         "listened": false,
         "artist": "Chic"
@@ -3637,7 +3637,7 @@
         "album": "Ace of Spades",
         "url": "",
         "listened": false,
-        "artist": "Motörhead"
+        "artist": "Motorhead"
     },
     {
         "date": 1980,
@@ -3893,7 +3893,7 @@
         "album": "No Sleep 'til Hammersmith",
         "url": "",
         "listened": false,
-        "artist": "Motörhead"
+        "artist": "Motorhead"
     },
     {
         "date": 1981,

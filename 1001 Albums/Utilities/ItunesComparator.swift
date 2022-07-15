@@ -29,12 +29,7 @@ class ItunesComparator {
     
     func getItunesJson() {
         getClassicObjects()
-        // https://itunes.apple.com/search?entity=album&term=the+who+who's+next
         /* service */ print("Start ->", Date().description(with: .current))
-        /* service */ let testArray = [
-            Classic1001Object(id: 235, artist: "The Bee Gees", album: "Trafalgar", date: 1971, listened: false, url: ""),
-            Classic1001Object(id: 237, artist: "The Who", album: "Who's Next", date: 1971, listened: false, url: ""),
-            Classic1001Object(id: 269, artist: "The Isley Brothers", album: "3+3", date: 1973, listened: false, url: "")]
         // main loop
     mainLoop: for var i in classicObjects {
             // prepare
@@ -87,7 +82,7 @@ class ItunesComparator {
                 }
             }
             task.resume()
-            sleep(1)
+//            sleep(1)
         }
        /* service */ print("classic objects after loop\n", classicObjectsAfterLoop)
        /* service */ print("after loop array contains \(classicObjectsAfterLoop.count) elements")
@@ -112,32 +107,24 @@ class ItunesComparator {
             print(error)
         }
     }
+    
+    func problemCounter() {
+        var counter = 0
+        var arratWithId = [Int]()
+        for i in classicObjectsAfterLoop {
+            if i.compareProblem == true {
+                counter += 1
+                arratWithId.append(i.id)
+            }
+        }
+        print("""
+
+we have -> \(classicObjectsAfterLoop.count) classic objects after loop
+\(counter) of them with problem
+their id ->
+\(arratWithId
+)
+""")
+    }
 }
 
-struct ItunesResponseObjectMain: Codable {
-    var resultCount: Int
-    var results: [ItunesResponseObjectResults]
-}
-
-struct ItunesResponseObjectResults: Codable {
-      var wrapperType            : String
-      var collectionType         : String
-      var artistId               : Int
-      var collectionId           : Int
-      var amgArtistId            : Int?
-      var artistName             : String
-      var collectionName         : String
-      var collectionCensoredName : String
-      var artistViewUrl          : String?
-      var collectionViewUrl      : String
-      var artworkUrl60           : String
-      var artworkUrl100          : String
-      var collectionPrice        : Double?
-      var collectionExplicitness : String
-      var trackCount             : Int
-      var copyright              : String
-      var country                : String
-      var currency               : String
-      var releaseDate            : String
-      var primaryGenreName       : String
-}
