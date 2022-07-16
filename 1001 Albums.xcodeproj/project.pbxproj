@@ -11,6 +11,7 @@
 		D00D570B287A1CBB00FEA948 /* ItunesParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00D570A287A1CBB00FEA948 /* ItunesParser.swift */; };
 		D00D570F287A2F8F00FEA948 /* WriteFileToPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00D570E287A2F8F00FEA948 /* WriteFileToPath.swift */; };
 		D02CE0F42881C6A100CAAD46 /* CustomDecodeEncode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02CE0F32881C6A100CAAD46 /* CustomDecodeEncode.swift */; };
+		D02CE0F62883507F00CAAD46 /* ItunesComparator2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02CE0F52883507F00CAAD46 /* ItunesComparator2.swift */; };
 		D03B0C2A28816FBF00322E64 /* JSONObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03B0C2928816FBF00322E64 /* JSONObjects.swift */; };
 		D076696B2879825B00631D79 /* ThousandListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D076696A2879825B00631D79 /* ThousandListView.swift */; };
 		D0853F70287D5E910079BC38 /* JsonToJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0853F6F287D5E910079BC38 /* JsonToJson.swift */; };
@@ -29,6 +30,7 @@
 		D00D570A287A1CBB00FEA948 /* ItunesParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesParser.swift; sourceTree = "<group>"; };
 		D00D570E287A2F8F00FEA948 /* WriteFileToPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteFileToPath.swift; sourceTree = "<group>"; };
 		D02CE0F32881C6A100CAAD46 /* CustomDecodeEncode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDecodeEncode.swift; sourceTree = "<group>"; };
+		D02CE0F52883507F00CAAD46 /* ItunesComparator2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesComparator2.swift; sourceTree = "<group>"; };
 		D03B0C2928816FBF00322E64 /* JSONObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONObjects.swift; sourceTree = "<group>"; };
 		D076696A2879825B00631D79 /* ThousandListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThousandListView.swift; sourceTree = "<group>"; };
 		D0853F6F287D5E910079BC38 /* JsonToJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonToJson.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				D0853F73287DC0AB0079BC38 /* ItunesComparator.swift */,
 				D03B0C2928816FBF00322E64 /* JSONObjects.swift */,
 				D02CE0F32881C6A100CAAD46 /* CustomDecodeEncode.swift */,
+				D02CE0F52883507F00CAAD46 /* ItunesComparator2.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 				EC7ADED3285B1D9800F45B1A /* ThousandAlbumsApp.swift in Sources */,
 				D00D5703287A046100FEA948 /* JsonDecode.swift in Sources */,
 				D0853F70287D5E910079BC38 /* JsonToJson.swift in Sources */,
+				D02CE0F62883507F00CAAD46 /* ItunesComparator2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

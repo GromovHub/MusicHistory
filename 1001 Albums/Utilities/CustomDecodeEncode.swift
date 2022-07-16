@@ -44,6 +44,8 @@ class CustomDecodeEncode {
                     id = String(Int(try container.decode(Int.self, forKey: .id)))
                     url = [try container.decode(String.self, forKey: .url)]
                     listened = (try container.decode(Bool.self, forKey: .listened)) == true ? 1 : 0
+                    
+                    // remember nested container
                 }
                 
                 func encode(to encoder: Encoder) throws {
@@ -51,6 +53,7 @@ class CustomDecodeEncode {
                     try container.encode(id, forKey: .id)
                     try container.encode(url, forKey: .testKey)
                     try container.encode(Date().description(with: .current), forKey: .url)
+                    
                 }
             }
             
