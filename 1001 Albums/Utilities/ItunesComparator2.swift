@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+class Tyvgdhv {
+    func getGyftgh() -> Result<Int, Error> {
+        .success(5)
+    }
+}

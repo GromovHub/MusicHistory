@@ -1,6 +1,7 @@
 import Foundation
+import Darwin
 var flag: Bool = false
-let url = URL(string: "https://itunes.apple.com/search?entity=album&term=kanye")!
+let url = URL(string: "https://itunes.apple.com/search?entity=album&term=haircut+100+pelican+west")!
 let publisher = URLSession.shared.dataTaskPublisher(for: url)
     
     
@@ -19,5 +20,7 @@ var x = publisher.sink(
         flag = true
     }
 )
-//Thread.sleep(forTimeInterval: 0.5)
+Thread.sleep(forTimeInterval: 0.5)
 print(flag)
+
+

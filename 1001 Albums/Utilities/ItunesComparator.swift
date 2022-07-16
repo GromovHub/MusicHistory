@@ -32,6 +32,14 @@ class ItunesComparator {
         /* service */ print("Start ->", Date().description(with: .current))
         // main loop
     mainLoop: for var i in classicObjects {
+//        if i.id < 800 {
+//            continue
+//        }
+        // empty data handler
+        if i.id % 10 == 0 {
+            print("hold your breath")
+            Thread.sleep(forTimeInterval: Double.random(in: 5...20))
+        }
             // prepare
             let specificAlbumRequest: String = (i.artist + " " + i.album).replacingOccurrences(of: " ", with: "+").lowercased()
             let urlString = "https://itunes.apple.com/search?entity=album&term=\(specificAlbumRequest)"
@@ -43,6 +51,7 @@ class ItunesComparator {
 //                /* service */ print(String(decoding: data!, as: UTF8.self), "\n\n\n")
                 // decoding itunes data
                 guard let itunesData = data else { print("guard invalid itunes data or not internet"); self.writeToFile(); return }
+//                /* service */ print(String(decoding: itunesData, as: UTF8.self))
                 do {
                     let itunesResponseObject = try JSONDecoder().decode(ItunesResponseObjectMain.self, from: itunesData)
                     /* service */ print("id: \(i.id) \(i.artist) -> itunes objects decoded")
@@ -54,7 +63,7 @@ class ItunesComparator {
                         self.classicObjectsAfterLoop.append(i)
                         /* service */ print("id: \(i.id) \(i.artist) -> results == 0 and append to array")
                     } else {
-                        /* service */ print("id: \(i.id) \(i.artist) -> results > 0")
+                        /* service */ print("id: \(i.id) \(i.artist) -> results \(itunesResponseObject.results.count)")
                         var matchesCounter = 0
                 compareLoop: for j in itunesResponseObject.results {
                             /* service */ print("id: \(i.id) \(i.artist) -> compare loop started")
@@ -83,6 +92,7 @@ class ItunesComparator {
             }
             task.resume()
 //            sleep(1)
+        Thread.sleep(forTimeInterval: 1.0)
         }
        /* service */ print("classic objects after loop\n", classicObjectsAfterLoop)
        /* service */ print("after loop array contains \(classicObjectsAfterLoop.count) elements")
