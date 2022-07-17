@@ -13,6 +13,8 @@
 		D02CE0F42881C6A100CAAD46 /* CustomDecodeEncode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02CE0F32881C6A100CAAD46 /* CustomDecodeEncode.swift */; };
 		D02CE0F62883507F00CAAD46 /* ItunesComparator2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02CE0F52883507F00CAAD46 /* ItunesComparator2.swift */; };
 		D02CE0F828837E6900CAAD46 /* Classic1001ObjectAfterLoop1.json in Resources */ = {isa = PBXBuildFile; fileRef = D02CE0F728837E6900CAAD46 /* Classic1001ObjectAfterLoop1.json */; };
+		D02CE0FA2884178700CAAD46 /* TestView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02CE0F92884178700CAAD46 /* TestView1.swift */; };
+		D02CE0FC288441F600CAAD46 /* Classic1001ObjectAfterLoop2.json in Resources */ = {isa = PBXBuildFile; fileRef = D02CE0FB288441F600CAAD46 /* Classic1001ObjectAfterLoop2.json */; };
 		D03B0C2A28816FBF00322E64 /* JSONObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03B0C2928816FBF00322E64 /* JSONObjects.swift */; };
 		D076696B2879825B00631D79 /* ThousandListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D076696A2879825B00631D79 /* ThousandListView.swift */; };
 		D0853F70287D5E910079BC38 /* JsonToJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0853F6F287D5E910079BC38 /* JsonToJson.swift */; };
@@ -33,6 +35,8 @@
 		D02CE0F32881C6A100CAAD46 /* CustomDecodeEncode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDecodeEncode.swift; sourceTree = "<group>"; };
 		D02CE0F52883507F00CAAD46 /* ItunesComparator2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesComparator2.swift; sourceTree = "<group>"; };
 		D02CE0F728837E6900CAAD46 /* Classic1001ObjectAfterLoop1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Classic1001ObjectAfterLoop1.json; sourceTree = "<group>"; };
+		D02CE0F92884178700CAAD46 /* TestView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView1.swift; sourceTree = "<group>"; };
+		D02CE0FB288441F600CAAD46 /* Classic1001ObjectAfterLoop2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Classic1001ObjectAfterLoop2.json; sourceTree = "<group>"; };
 		D03B0C2928816FBF00322E64 /* JSONObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONObjects.swift; sourceTree = "<group>"; };
 		D076696A2879825B00631D79 /* ThousandListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThousandListView.swift; sourceTree = "<group>"; };
 		D0853F6F287D5E910079BC38 /* JsonToJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonToJson.swift; sourceTree = "<group>"; };
@@ -87,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				D076696A2879825B00631D79 /* ThousandListView.swift */,
+				D02CE0F92884178700CAAD46 /* TestView1.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -97,6 +102,7 @@
 				D0CA3E7C2878483000B735B6 /* Dirty1001Object.json */,
 				D0853F71287D7CA00079BC38 /* Classic1001Object.json */,
 				D02CE0F728837E6900CAAD46 /* Classic1001ObjectAfterLoop1.json */,
+				D02CE0FB288441F600CAAD46 /* Classic1001ObjectAfterLoop2.json */,
 			);
 			path = JSON;
 			sourceTree = "<group>";
@@ -205,6 +211,7 @@
 				EC424B78285B2A920092B071 /* README.md in Resources */,
 				EC7ADEDA285B1D9900F45B1A /* Preview Assets.xcassets in Resources */,
 				EC7ADED7285B1D9900F45B1A /* Assets.xcassets in Resources */,
+				D02CE0FC288441F600CAAD46 /* Classic1001ObjectAfterLoop2.json in Resources */,
 				D0CA3E7D2878483000B735B6 /* Dirty1001Object.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,6 +229,7 @@
 				D076696B2879825B00631D79 /* ThousandListView.swift in Sources */,
 				D02CE0F42881C6A100CAAD46 /* CustomDecodeEncode.swift in Sources */,
 				D03B0C2A28816FBF00322E64 /* JSONObjects.swift in Sources */,
+				D02CE0FA2884178700CAAD46 /* TestView1.swift in Sources */,
 				D00D570F287A2F8F00FEA948 /* WriteFileToPath.swift in Sources */,
 				EC7ADED3285B1D9800F45B1A /* ThousandAlbumsApp.swift in Sources */,
 				D00D5703287A046100FEA948 /* JsonDecode.swift in Sources */,

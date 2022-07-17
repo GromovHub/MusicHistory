@@ -24,3 +24,4 @@ Thread.sleep(forTimeInterval: 0.5)
 print(flag)
 
 
+ItunesComparator.singleton.getItunesJson()

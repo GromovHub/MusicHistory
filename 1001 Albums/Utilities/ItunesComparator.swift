@@ -32,7 +32,7 @@ class ItunesComparator {
         /* service */ print("Start ->", Date().description(with: .current))
         // main loop
     mainLoop: for var i in classicObjects {
-//        if i.id < 800 {
+//        if i.id > 18 {
 //            continue
 //        }
         // empty data handler
@@ -59,29 +59,32 @@ class ItunesComparator {
                     if itunesResponseObject.resultCount == 0 {
                         i.compareProblem = true
                         /* service */ print("id: \(i.id) compare problem")
-                        i.url = "no results"
+                        i.url = ["no results"]
                         self.classicObjectsAfterLoop.append(i)
                         /* service */ print("id: \(i.id) \(i.artist) -> results == 0 and append to array")
                     } else {
                         /* service */ print("id: \(i.id) \(i.artist) -> results \(itunesResponseObject.results.count)")
-                        var matchesCounter = 0
+                        var matchCounter = 0
                 compareLoop: for j in itunesResponseObject.results {
                             /* service */ print("id: \(i.id) \(i.artist) -> compare loop started")
-                        matchesCounter = 0
+
                         if i.artist.lowercased().contains(j.artistName.lowercased())
                             && j.collectionName.lowercased().contains(i.album.lowercased()) {
-                            i.url += j.collectionViewUrl
-                            // refactoring append multi url
-                            i.url += " "
+                          
+                            matchCounter += 1
+                            if matchCounter > 1 || matchCounter == 0 {
+                                i.compareProblem = true
+                            }
+                            
+                            i.url.append(j.collectionViewUrl)
+//                            i.url += j.collectionViewUrl
+                           
+//                            i.url += " "
                             /* service */ print("some url found and appended to url property")
-                            matchesCounter += 1
+                           
                         } else {
                             /* service */ print("no matches")
                         }
-                        }
-                        if matchesCounter != 1 {
-                            i.compareProblem = true
-                            /* service */ print("id: \(i.id) \(i.artist) compare problem")
                         }
                         /* service */ print("compare loop finished and object with id \(i.id) appended")
                         self.classicObjectsAfterLoop.append(i)
@@ -94,7 +97,7 @@ class ItunesComparator {
 //            sleep(1)
         Thread.sleep(forTimeInterval: 1.0)
         }
-       /* service */ print("classic objects after loop\n", classicObjectsAfterLoop)
+//       /* service */ print("classic objects after loop\n", classicObjectsAfterLoop)
        /* service */ print("after loop array contains \(classicObjectsAfterLoop.count) elements")
        /* service */ print("End ->", Date().description(with: .current))
         
