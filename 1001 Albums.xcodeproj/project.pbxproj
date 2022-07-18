@@ -10,6 +10,8 @@
 		D00D5703287A046100FEA948 /* JsonDecode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00D5702287A046100FEA948 /* JsonDecode.swift */; };
 		D00D570B287A1CBB00FEA948 /* ItunesParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00D570A287A1CBB00FEA948 /* ItunesParser.swift */; };
 		D00D570F287A2F8F00FEA948 /* WriteFileToPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00D570E287A2F8F00FEA948 /* WriteFileToPath.swift */; };
+		D021DFA42885DAA1002D5E84 /* CompletionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D021DFA32885DAA1002D5E84 /* CompletionHandler.swift */; };
+		D021DFA62885E795002D5E84 /* PicturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D021DFA52885E795002D5E84 /* PicturesView.swift */; };
 		D02CE0F42881C6A100CAAD46 /* CustomDecodeEncode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02CE0F32881C6A100CAAD46 /* CustomDecodeEncode.swift */; };
 		D02CE0F62883507F00CAAD46 /* ItunesComparator2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02CE0F52883507F00CAAD46 /* ItunesComparator2.swift */; };
 		D02CE0F828837E6900CAAD46 /* Classic1001ObjectAfterLoop1.json in Resources */ = {isa = PBXBuildFile; fileRef = D02CE0F728837E6900CAAD46 /* Classic1001ObjectAfterLoop1.json */; };
@@ -32,6 +34,8 @@
 		D00D5702287A046100FEA948 /* JsonDecode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonDecode.swift; sourceTree = "<group>"; };
 		D00D570A287A1CBB00FEA948 /* ItunesParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesParser.swift; sourceTree = "<group>"; };
 		D00D570E287A2F8F00FEA948 /* WriteFileToPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteFileToPath.swift; sourceTree = "<group>"; };
+		D021DFA32885DAA1002D5E84 /* CompletionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletionHandler.swift; sourceTree = "<group>"; };
+		D021DFA52885E795002D5E84 /* PicturesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicturesView.swift; sourceTree = "<group>"; };
 		D02CE0F32881C6A100CAAD46 /* CustomDecodeEncode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDecodeEncode.swift; sourceTree = "<group>"; };
 		D02CE0F52883507F00CAAD46 /* ItunesComparator2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesComparator2.swift; sourceTree = "<group>"; };
 		D02CE0F728837E6900CAAD46 /* Classic1001ObjectAfterLoop1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Classic1001ObjectAfterLoop1.json; sourceTree = "<group>"; };
@@ -75,6 +79,7 @@
 				D03B0C2928816FBF00322E64 /* JSONObjects.swift */,
 				D02CE0F32881C6A100CAAD46 /* CustomDecodeEncode.swift */,
 				D02CE0F52883507F00CAAD46 /* ItunesComparator2.swift */,
+				D021DFA32885DAA1002D5E84 /* CompletionHandler.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -92,6 +97,7 @@
 			children = (
 				D076696A2879825B00631D79 /* ThousandListView.swift */,
 				D02CE0F92884178700CAAD46 /* TestView1.swift */,
+				D021DFA52885E795002D5E84 /* PicturesView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -223,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D021DFA42885DAA1002D5E84 /* CompletionHandler.swift in Sources */,
 				D00D570B287A1CBB00FEA948 /* ItunesParser.swift in Sources */,
 				D0853F74287DC0AB0079BC38 /* ItunesComparator.swift in Sources */,
 				D0CA3E7F2878486100B735B6 /* JSONViewModel.swift in Sources */,
@@ -234,6 +241,7 @@
 				EC7ADED3285B1D9800F45B1A /* ThousandAlbumsApp.swift in Sources */,
 				D00D5703287A046100FEA948 /* JsonDecode.swift in Sources */,
 				D0853F70287D5E910079BC38 /* JsonToJson.swift in Sources */,
+				D021DFA62885E795002D5E84 /* PicturesView.swift in Sources */,
 				D02CE0F62883507F00CAAD46 /* ItunesComparator2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -15,7 +15,8 @@ struct ThousandAlbumsApp: App {
     var body: some Scene {
         WindowGroup {
 //            ThousandListView()
-            TestView1()
+//            TestView1()
+            PicturesView()
             
         }
     }
