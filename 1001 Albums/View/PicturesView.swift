@@ -38,15 +38,10 @@ class PicturesViewModel: ObservableObject {
 
 struct PicturesView: View {
     @StateObject var vm = PicturesViewModel()
-    @State var images = [UIImage]()
     var body: some View {
-        ScrollView {
-            VStack {
-                ForEach(vm.getImages(), id: \.self) { i in
-                    Image(uiImage: i)
-                }
-            }.onAppear {
-//                images = vm.getImages()
+        List {
+            ForEach(vm.getImages(), id: \.self) { i in
+                Image(uiImage: i)
             }
         }
     }
