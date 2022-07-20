@@ -16,7 +16,9 @@ struct ThousandAlbumsApp: App {
         WindowGroup {
 //            ThousandListView()
 //            TestView1()
-            PicturesView()
+//            PicturesView()
+//            AsyncImageDownloader()
+            ViewPublishTest()
             
         }
     }
