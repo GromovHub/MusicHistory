@@ -8,6 +8,7 @@ class ClassWithAsyncFunc: ObservableObject {
     @Published var results: [Int] = []
     func getImagesAsync(id: Int) async {
         do {
+            
             let (data, _) = try await URLSession.shared.data(from: URL(string: "https://picsum.photos/200")!)
             print(id, data)
     //        await MainActor.run {

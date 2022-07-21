@@ -9,12 +9,17 @@ import SwiftUI
 class PublishTest: ObservableObject {
     @Published var results = [Int]()
     func addResult() async {
+        Thread.sleep(forTimeInterval: 0.5)
+        await MainActor.run {
             self.results.append(Int.random(in: 0...9999))
-            sleep(1)
+            
+        }
+        
     }
     func addResult2() {
         Task {
             await addResult()
+            print("add result 2")
         }
     }
 }
@@ -31,6 +36,8 @@ struct ViewPublishTest: View {
                     Text("\(i)")
                 }
             }
+        }.task {
+            await vm.addResult()
         }
     }
 }

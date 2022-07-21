@@ -24,7 +24,6 @@ class AsyncImageDownloaderModel {
     }
 }
 
-@MainActor
 class AsyncImageDownloaderViewModel: ObservableObject {
     init() {}
     @Published var model = AsyncImageDownloaderModel()
@@ -37,7 +36,10 @@ class AsyncImageDownloaderViewModel: ObservableObject {
                 guard let image = UIImage(data: i) else {
                     continue
                 }
-                self.results.append(image)
+                await MainActor.run {
+                    self.results.append(image)
+                }
+                
             }
         }
     }
@@ -65,7 +67,7 @@ struct AsyncImageDownloader: View {
                 }.navigationTitle("Images from picsum")
             }
         }
-        .onAppear {
+        .task {
             vm.fetchImages()
         }
     }
