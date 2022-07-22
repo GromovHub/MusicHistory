@@ -14,6 +14,7 @@
 		D021DFA62885E795002D5E84 /* PicturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D021DFA52885E795002D5E84 /* PicturesView.swift */; };
 		D021DFA8288814A8002D5E84 /* AsyncImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D021DFA7288814A8002D5E84 /* AsyncImageDownloader.swift */; };
 		D021DFAA288828A1002D5E84 /* ViewPublishTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D021DFA9288828A1002D5E84 /* ViewPublishTest.swift */; };
+		D021DFAC288A7BEC002D5E84 /* AsyncLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D021DFAB288A7BEC002D5E84 /* AsyncLet.swift */; };
 		D02CE0F42881C6A100CAAD46 /* CustomDecodeEncode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02CE0F32881C6A100CAAD46 /* CustomDecodeEncode.swift */; };
 		D02CE0F62883507F00CAAD46 /* ItunesComparator2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02CE0F52883507F00CAAD46 /* ItunesComparator2.swift */; };
 		D02CE0F828837E6900CAAD46 /* Classic1001ObjectAfterLoop1.json in Resources */ = {isa = PBXBuildFile; fileRef = D02CE0F728837E6900CAAD46 /* Classic1001ObjectAfterLoop1.json */; };
@@ -40,6 +41,7 @@
 		D021DFA52885E795002D5E84 /* PicturesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicturesView.swift; sourceTree = "<group>"; };
 		D021DFA7288814A8002D5E84 /* AsyncImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageDownloader.swift; sourceTree = "<group>"; };
 		D021DFA9288828A1002D5E84 /* ViewPublishTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPublishTest.swift; sourceTree = "<group>"; };
+		D021DFAB288A7BEC002D5E84 /* AsyncLet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLet.swift; sourceTree = "<group>"; };
 		D02CE0F32881C6A100CAAD46 /* CustomDecodeEncode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDecodeEncode.swift; sourceTree = "<group>"; };
 		D02CE0F52883507F00CAAD46 /* ItunesComparator2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesComparator2.swift; sourceTree = "<group>"; };
 		D02CE0F728837E6900CAAD46 /* Classic1001ObjectAfterLoop1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Classic1001ObjectAfterLoop1.json; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				D02CE0F32881C6A100CAAD46 /* CustomDecodeEncode.swift */,
 				D02CE0F52883507F00CAAD46 /* ItunesComparator2.swift */,
 				D021DFA32885DAA1002D5E84 /* CompletionHandler.swift */,
+				D021DFAB288A7BEC002D5E84 /* AsyncLet.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 				D021DFA62885E795002D5E84 /* PicturesView.swift in Sources */,
 				D021DFA8288814A8002D5E84 /* AsyncImageDownloader.swift in Sources */,
 				D02CE0F62883507F00CAAD46 /* ItunesComparator2.swift in Sources */,
+				D021DFAC288A7BEC002D5E84 /* AsyncLet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
