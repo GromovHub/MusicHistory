@@ -18,7 +18,7 @@ class AsyncLet {
     }
     
     func asyncHello() async {
-        Thread.sleep(forTimeInterval: 1)
+        Thread.sleep(forTimeInterval: 0.3)
         let x = Int.random(in: 0...100)
         print("async hello", x)
     }
@@ -29,13 +29,31 @@ class AsyncLet {
         print("asyncInt executed")
         return x
     }
-    func asyncCall() {
-        Task {
-            async let x = asyncInt()
-            async let y = asyncInt()
-            let (a,b) = await (x,y)
-            result.append(contentsOf: [a,b])
+    
+    func taskGroup() async {
+        await withTaskGroup(of: Int.self) { group in
+            for i in 0...10 {
+                group.addTask {
+                    let x = await self.asyncInt()
+                    print("task", i, "with", x)
+                    return x
+                }
+                for await j in group {
+                    result.append(j)
+                }
+                
+            }
         }
+    }
+    
+    func asyncCall() {
+//        Task {
+//
+//            async let x = asyncInt()
+//            async let y = asyncInt()
+//            let (a,b) = await (x,y)
+//            result.append(contentsOf: [a,b])
+//        }
 
 //        Task {
 //            let x = await asyncInt()
@@ -43,5 +61,10 @@ class AsyncLet {
 //            let y = await asyncInt()
 //            result.append(y)
 //        }
+    
+        Task {
+            await taskGroup()
+        }
+        
     }
 }
