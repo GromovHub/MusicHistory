@@ -32,6 +32,7 @@ class AsyncLet {
     
     func taskGroup() async {
         await withTaskGroup(of: Int.self) { group in
+            var tempArray = [Int]()
             for i in 0...10 {
                 group.addTask {
                     let x = await self.asyncInt()
@@ -39,10 +40,10 @@ class AsyncLet {
                     return x
                 }
                 for await j in group {
-                    result.append(j)
+                    tempArray.append(j)
                 }
-                
             }
+            result.append(contentsOf: tempArray)
         }
     }
     

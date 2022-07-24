@@ -18,7 +18,8 @@ struct ThousandAlbumsApp: App {
 //            TestView1()
 //            PicturesView()
 //            AsyncImageDownloader()
-            ViewPublishTest()
+//            ViewPublishTest()
+            LazyVGridView()
             
         }
     }
