@@ -47,6 +47,29 @@ class AsyncLet {
         }
     }
     
+    func getDataClassic() {
+        URLSession.shared.dataTask(with: URL(string: "https://picsum.photos/300")!) { data, resp, err in
+            if let data = data {
+//                self.result.append(data)
+                print(data)
+            } else {
+                print("let data error")
+            }
+        }.resume()
+    }
+    
+    func getDataContinuation() async -> Data {
+        return await withCheckedContinuation { cont in
+            URLSession.shared.dataTask(with: URL(string: "https://picsum.photos/300")!) { data, resp, err in
+                if let data = data {
+                    cont.resume(returning: data)
+                    
+                }
+            }.resume()
+        }
+    }
+
+    
     func asyncCall() {
 //        Task {
 //

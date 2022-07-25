@@ -21,6 +21,8 @@ struct LazyVGridView: View {
                     }
                 }
             }
+        }.onAppear {
+            print("show")
         }
     }
 }
