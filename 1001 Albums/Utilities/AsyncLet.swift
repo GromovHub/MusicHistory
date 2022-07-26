@@ -91,4 +91,29 @@ class AsyncLet {
         }
         
     }
+    
+    func printHello(sec: Int) async {
+        sleep(UInt32(sec))
+        print("printed", sec)
+    }
+    func callLet() {
+        Task {
+//            async let x = await printHello(sec: 3)
+//            async let y = await printHello(sec: 1)
+//            let (x1,x2) = await (x,y)
+            
+            await withTaskGroup(of: Void.self, body: { group in
+                group.addTask {
+                    await self.printHello(sec: 5)
+                }
+                group.addTask {
+                    await self.printHello(sec: 1)
+                }
+            })
+        }
+        
+       
+
+
+    }
 }
