@@ -92,9 +92,10 @@ class AsyncLet {
         
     }
     
-    func printHello(sec: Int) async {
-        sleep(UInt32(sec))
+    func printHello(sec: Int) async -> Int {
+        Thread.sleep(forTimeInterval: TimeInterval(sec))
         print("printed", sec)
+        return sec
     }
     func callLet() {
         Task {
@@ -102,18 +103,60 @@ class AsyncLet {
 //            async let y = await printHello(sec: 1)
 //            let (x1,x2) = await (x,y)
             
-            await withTaskGroup(of: Void.self, body: { group in
-                group.addTask {
-                    await self.printHello(sec: 5)
+            await withTaskGroup(of: Int.self, body: { group in
+                group.addTask(priority: .userInitiated) {
+                    await self.printHello(sec: 3)
                 }
-                group.addTask {
+                group.addTask(priority: .userInitiated) {
                     await self.printHello(sec: 1)
+                }
+                for await i in group {
+                    print(i)
                 }
             })
         }
-        
-       
-
-
+    }
+    
+    func callAsyncHello3Sec() {
+        Task(priority: .low) {
+            await printHello(sec: 3)
+        }
+    }
+    func callAsyncHello1Sec() {
+        Task(priority: .high) {
+            await printHello(sec: 1)
+        }
+    }
+    
+    func callTest() {
+        callAsyncHello3Sec()
+        callAsyncHello1Sec()
+    }
+    
+    func printHelloGCD(sec: Int) {
+        DispatchQueue.global().async {
+            Thread.sleep(forTimeInterval: TimeInterval(sec))
+            print("GCD", sec)
+        }
+    }
+    
+    func callGCD() {
+        printHelloGCD(sec: 3)
+        printHelloGCD(sec: 1)
+    }
+    
+    func callTaskDet() {
+        Task {
+            print(Thread.current)
+            await self.printHello(sec: 2)
+        }
+        Task.detached {
+            await MainActor.run(body: {
+                print(Thread.current)
+//                await self.printHello(sec: 1)
+                print("1")
+            })
+            
+        }
     }
 }

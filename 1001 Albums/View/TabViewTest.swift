@@ -7,9 +7,33 @@
 
 import SwiftUI
 
+class HomeViewViewModel: ObservableObject {
+    @Published var toggleFlag = false {
+        didSet {
+            print("vm changed to", self.toggleFlag)
+        }
+    }
+}
+
 struct HomeView: View {
+    @StateObject var vm = HomeViewViewModel()
+    @State var flag = false
+    
     var body: some View {
-        Color.pink.ignoresSafeArea().opacity(0.3)
+        ZStack {
+            Color.pink.ignoresSafeArea().opacity(0.3)
+            VStack {
+                Toggle(isOn: $vm.toggleFlag) {
+                    Text("var vm")
+                }
+                Toggle("var flag", isOn: $flag)
+            }
+            .padding()
+            
+        }.onChange(of: flag) { newValue in
+            print("flag changed to", newValue)
+        }
+        
     }
 }
 struct SecondView: View {
@@ -39,3 +63,5 @@ struct TabViewTest_Previews: PreviewProvider {
         TabViewTest()
     }
 }
+
+
