@@ -1,43 +1,24 @@
+import Combine
 import Foundation
-
-//{
-//    didSet {
-//        print(array)
-//    }
-//}
-class Playground777 {
+class Test100500 {
+    static let shared = Test100500()
     init() {
-       
+    var url = URL(string: "")!
+        URLSession.shared.dataTaskPublisher(for: url)
+            .receive(on: RunLoop.main)
+            .tryMap { (data, resp) in
+                    print(data)
+            }
+            .decode(type: <#T##Decodable.Protocol#>, decoder: <#T##TopLevelDecoder#>)
+            .store(in: <#T##Set<Combine.AnyCancellable>#>)
     }
-    var array: [Int] = []
-    static let shared = Playground777()
-    let timer = Timer.publish(every: 0.1, on: .main, in: .default)
-        .autoconnect()
-        .sink { date in
-            print(date)
-//                print(array)
-        }
-        
-    func appenToArray() {
-        for i in 1...10 {
-            Thread.sleep(forTimeInterval: 1)
-            array.append(i)
+    @Published var vari = 1 {
+        didSet {
+            print("did", vari)
         }
     }
-    func appendOne() {
-        Thread.sleep(forTimeInterval: 1.0)
-        array.append(Int.random(in: 0...100))
-    }
-//    func play() {
-//        timer
-//            .autoconnect()
-//            .sink { date in
-//                print(date)
-////                print(array)
-//            }
-//
-//    }
-}
 
-var x = Playground777()
-x.timer.autoconnect()
+}
+//Test100500()
+Test100500.shared
+
