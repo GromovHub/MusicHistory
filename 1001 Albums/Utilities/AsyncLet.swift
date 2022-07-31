@@ -148,7 +148,7 @@ class AsyncLet {
     func callTaskDet() {
         Task {
             print(Thread.current)
-            await self.printHello(sec: 2)
+//            await self.printHello(sec: 2)
         }
         Task.detached {
             await MainActor.run(body: {
