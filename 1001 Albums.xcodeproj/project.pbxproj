@@ -21,6 +21,7 @@
 		D02CE0FA2884178700CAAD46 /* TestView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02CE0F92884178700CAAD46 /* TestView1.swift */; };
 		D02CE0FC288441F600CAAD46 /* Classic1001ObjectAfterLoop2.json in Resources */ = {isa = PBXBuildFile; fileRef = D02CE0FB288441F600CAAD46 /* Classic1001ObjectAfterLoop2.json */; };
 		D03B0C2A28816FBF00322E64 /* JSONObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03B0C2928816FBF00322E64 /* JSONObjects.swift */; };
+		D04D949628992749006E8570 /* TestPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04D949528992749006E8570 /* TestPublisher.swift */; };
 		D068C65E289664B100AD722A /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D068C65D289664B100AD722A /* SignUpView.swift */; };
 		D076696B2879825B00631D79 /* ThousandListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D076696A2879825B00631D79 /* ThousandListView.swift */; };
 		D0853F70287D5E910079BC38 /* JsonToJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0853F6F287D5E910079BC38 /* JsonToJson.swift */; };
@@ -51,6 +52,7 @@
 		D02CE0F92884178700CAAD46 /* TestView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView1.swift; sourceTree = "<group>"; };
 		D02CE0FB288441F600CAAD46 /* Classic1001ObjectAfterLoop2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Classic1001ObjectAfterLoop2.json; sourceTree = "<group>"; };
 		D03B0C2928816FBF00322E64 /* JSONObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONObjects.swift; sourceTree = "<group>"; };
+		D04D949528992749006E8570 /* TestPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPublisher.swift; sourceTree = "<group>"; };
 		D068C65D289664B100AD722A /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		D076696A2879825B00631D79 /* ThousandListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThousandListView.swift; sourceTree = "<group>"; };
 		D0853F6F287D5E910079BC38 /* JsonToJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonToJson.swift; sourceTree = "<group>"; };
@@ -91,10 +93,24 @@
 				D03B0C2928816FBF00322E64 /* JSONObjects.swift */,
 				D02CE0F32881C6A100CAAD46 /* CustomDecodeEncode.swift */,
 				D02CE0F52883507F00CAAD46 /* ItunesComparator2.swift */,
-				D021DFA32885DAA1002D5E84 /* CompletionHandler.swift */,
-				D021DFAB288A7BEC002D5E84 /* AsyncLet.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D04D949728993558006E8570 /* Garbage */ = {
+			isa = PBXGroup;
+			children = (
+				D021DFA32885DAA1002D5E84 /* CompletionHandler.swift */,
+				D021DFAB288A7BEC002D5E84 /* AsyncLet.swift */,
+				D021DFA52885E795002D5E84 /* PicturesView.swift */,
+				D021DFA7288814A8002D5E84 /* AsyncImageDownloader.swift */,
+				D021DFA9288828A1002D5E84 /* ViewPublishTest.swift */,
+				D0AC5D3E288D3BC900BBF7BD /* LazyVGridView.swift */,
+				D0AC5D40288FE27900BBF7BD /* TabViewTest.swift */,
+				D068C65D289664B100AD722A /* SignUpView.swift */,
+				D04D949528992749006E8570 /* TestPublisher.swift */,
+			);
+			path = Garbage;
 			sourceTree = "<group>";
 		};
 		D0CA3E8528797F9800B735B6 /* ViewModel */ = {
@@ -110,12 +126,6 @@
 			children = (
 				D076696A2879825B00631D79 /* ThousandListView.swift */,
 				D02CE0F92884178700CAAD46 /* TestView1.swift */,
-				D021DFA52885E795002D5E84 /* PicturesView.swift */,
-				D021DFA7288814A8002D5E84 /* AsyncImageDownloader.swift */,
-				D021DFA9288828A1002D5E84 /* ViewPublishTest.swift */,
-				D0AC5D3E288D3BC900BBF7BD /* LazyVGridView.swift */,
-				D0AC5D40288FE27900BBF7BD /* TabViewTest.swift */,
-				D068C65D289664B100AD722A /* SignUpView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -155,6 +165,7 @@
 				EC7ADED2285B1D9800F45B1A /* ThousandAlbumsApp.swift */,
 				D0CA3E8528797F9800B735B6 /* ViewModel */,
 				D0CA3E8628797FBA00B735B6 /* View */,
+				D04D949728993558006E8570 /* Garbage */,
 				D0CA3E8728797FC600B735B6 /* JSON */,
 				D00D5701287A044500FEA948 /* Utilities */,
 				D0CA3E8228789E9600B735B6 /* MyPlayground.playground */,
@@ -249,6 +260,7 @@
 			files = (
 				D021DFA42885DAA1002D5E84 /* CompletionHandler.swift in Sources */,
 				D00D570B287A1CBB00FEA948 /* ItunesParser.swift in Sources */,
+				D04D949628992749006E8570 /* TestPublisher.swift in Sources */,
 				D021DFAA288828A1002D5E84 /* ViewPublishTest.swift in Sources */,
 				D0853F74287DC0AB0079BC38 /* ItunesComparator.swift in Sources */,
 				D0CA3E7F2878486100B735B6 /* JSONViewModel.swift in Sources */,

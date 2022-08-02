@@ -21,7 +21,8 @@ struct ThousandAlbumsApp: App {
 //            ViewPublishTest()
 //            LazyVGridView()
 //            TabViewTest()
-            SignUpView()
+//            SignUpView()
+            TestPublisher()
             
         }
     }
