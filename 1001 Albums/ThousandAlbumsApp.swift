@@ -6,12 +6,22 @@
 //
 
 import SwiftUI
+import FirebaseCore
+
+class AppDelegate: NSObject, UIApplicationDelegate {
+    func application(_ application: UIApplication,
+                     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+        FirebaseApp.configure()
+        return true
+    }
+}
 
 @main
 struct ThousandAlbumsApp: App {
 //    let x: Void = ItunesComparator.singleton.getItunesJson()
 //    let y: Void = ItunesComparator.singleton.problemCounter()
 //    let z: Void = CustomDecodeEncode.decodingProf()
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     var body: some Scene {
         WindowGroup {
 //            ThousandListView()
@@ -22,7 +32,8 @@ struct ThousandAlbumsApp: App {
 //            LazyVGridView()
 //            TabViewTest()
 //            SignUpView()
-            TestPublisher()
+//            TestPublisher()
+            FirebaseTest()
             
         }
     }
