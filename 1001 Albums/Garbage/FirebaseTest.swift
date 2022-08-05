@@ -8,6 +8,8 @@
 import SwiftUI
 import Firebase
 
+
+
 struct FirebaseTest: View {
     var body: some View {
         FSignUpView()
@@ -20,6 +22,7 @@ struct FHomeView: View {
     }
 }
 struct FSignInView: View {
+    @Environment(\.presentationMode) var presentationMode
     var body: some View {
         Text("signin")
     }
@@ -28,7 +31,7 @@ struct FSignUpView: View {
     @State var userEmail = ""
     @State var userPassword = ""
     @State var signUpProcessing = false
-    @State var navigationFlag = false
+    @State var successFlag = false
     func signUpUser(userEmail: String, userPassword: String) {
         signUpProcessing = true
         Auth.auth().createUser(withEmail: userEmail, password: userPassword) { authResult, error in
@@ -45,7 +48,7 @@ struct FSignUpView: View {
             case .some(_):
                 print("User created")
                             signUpProcessing = false
-                navigationFlag = true
+                successFlag = true
                 
                            
             }
@@ -58,6 +61,7 @@ struct FSignUpView: View {
                 TextField("password", text: $userPassword)
                 Button("signup") {
                     signUpUser(userEmail: userEmail, userPassword: userPassword)
+                    
                 }
             }.navigationTitle("SignUp")
         }
