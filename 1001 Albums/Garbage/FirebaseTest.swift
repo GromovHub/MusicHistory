@@ -8,30 +8,48 @@
 import SwiftUI
 import Firebase
 
-
+class FirebaseTestViewModel: ObservableObject {
+    init() {
+        
+    }
+    
+    @Published var successFlag = false
+}
 
 struct FirebaseTest: View {
+    @StateObject var vm = FirebaseTestViewModel()
     var body: some View {
-        FSignUpView()
+        if vm.successFlag {
+            FHomeView()
+        } else {
+            FSignUpView(vm: vm)
+        }
+        
     }
 }
 
 struct FHomeView: View {
+    @Environment(\.presentationMode) var presentationMode
     var body: some View {
-        Text("home")
+        VStack {
+            Text("home")
+            Button("go back") {
+                presentationMode.wrappedValue.dismiss()
+            }
+        }
     }
 }
 struct FSignInView: View {
-    @Environment(\.presentationMode) var presentationMode
     var body: some View {
         Text("signin")
     }
 }
 struct FSignUpView: View {
+    @StateObject var vm: FirebaseTestViewModel
     @State var userEmail = ""
     @State var userPassword = ""
     @State var signUpProcessing = false
-    @State var successFlag = false
+   
     func signUpUser(userEmail: String, userPassword: String) {
         signUpProcessing = true
         Auth.auth().createUser(withEmail: userEmail, password: userPassword) { authResult, error in
@@ -48,9 +66,7 @@ struct FSignUpView: View {
             case .some(_):
                 print("User created")
                             signUpProcessing = false
-                successFlag = true
-                
-                           
+                vm.successFlag = true
             }
         }
     }
@@ -63,6 +79,9 @@ struct FSignUpView: View {
                     signUpUser(userEmail: userEmail, userPassword: userPassword)
                     
                 }
+//                .fullScreenCover(isPresented: $successFlag) {
+//                    FHomeView()
+//                }
             }.navigationTitle("SignUp")
         }
         
