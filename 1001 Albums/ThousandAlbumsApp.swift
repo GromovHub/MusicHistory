@@ -32,10 +32,10 @@ struct ThousandAlbumsApp: App {
 //            AsyncImageDownloader()
 //            ViewPublishTest()
 //            LazyVGridView()
-//            TabViewTest()
+            TabViewTest()
 //            SignUpView()
 //            TestPublisher()
-            FirebaseTest()
+//            FirebaseTest()
             
         }
     }

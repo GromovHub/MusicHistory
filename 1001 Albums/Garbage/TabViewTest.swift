@@ -43,17 +43,22 @@ struct SecondView: View {
 }
 
 struct TabViewTest: View {
-    
+    @State var tabViewId: Int = 1
     var body: some View {
-        TabView {
+        TabView(selection: $tabViewId) {
             HomeView()
                 .tabItem {
                     Label("Home", systemImage: "house")
                 }
+                .tag(1)
             SecondView()
                 .tabItem {
                     Label("Second", systemImage: "book")
                 }
+                .tag(2)
+        }
+        .onChange(of: tabViewId) { newValue in
+            print(newValue)
         }
     }
 }

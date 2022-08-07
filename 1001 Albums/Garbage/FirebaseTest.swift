@@ -13,14 +13,15 @@ class FirebaseTestViewModel: ObservableObject {
         
     }
     
-    @Published var successFlag = false
+    @Published var successFlag = true
+    @Published var fullCoverActive = false
 }
 
 struct FirebaseTest: View {
     @StateObject var vm = FirebaseTestViewModel()
     var body: some View {
         if vm.successFlag {
-            FHomeView()
+            FHomeView(vm: vm)
         } else {
             FSignUpView(vm: vm)
         }
@@ -30,11 +31,24 @@ struct FirebaseTest: View {
 
 struct FHomeView: View {
     @Environment(\.presentationMode) var presentationMode
+    @StateObject var vm: FirebaseTestViewModel
     var body: some View {
         VStack {
             Text("home")
             Button("go back") {
                 presentationMode.wrappedValue.dismiss()
+            }
+            Button("open cover") {
+                vm.fullCoverActive.toggle()
+            }
+            .fullScreenCover(isPresented: $vm.fullCoverActive) {
+//                VStack {
+//                    Text("You are in full screen cover")
+//                    Button("close cover") {
+//                        fullCoverActive.toggle()
+//                    }
+//                }
+                FSignUpView(vm: vm)
             }
         }
     }
@@ -67,6 +81,7 @@ struct FSignUpView: View {
                 print("User created")
                             signUpProcessing = false
                 vm.successFlag = true
+                vm.fullCoverActive.toggle()
             }
         }
     }
