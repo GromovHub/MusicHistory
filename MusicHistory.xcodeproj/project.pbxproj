@@ -23,12 +23,6 @@
 		D03B0C2A28816FBF00322E64 /* JSONObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03B0C2928816FBF00322E64 /* JSONObjects.swift */; };
 		D04D949628992749006E8570 /* TestPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04D949528992749006E8570 /* TestPublisher.swift */; };
 		D04D9499289A4CC6006E8570 /* FirebaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04D9498289A4CC6006E8570 /* FirebaseTest.swift */; };
-		D04D949C289A51FA006E8570 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = D04D949B289A51FA006E8570 /* FirebaseAuth */; };
-		D04D949E289A51FA006E8570 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = D04D949D289A51FA006E8570 /* FirebaseAuthCombine-Community */; };
-		D04D94A0289A51FA006E8570 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = D04D949F289A51FA006E8570 /* FirebaseDatabase */; };
-		D04D94A2289A51FA006E8570 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D04D94A1289A51FA006E8570 /* FirebaseDatabaseSwift */; };
-		D04D94A4289A51FA006E8570 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = D04D94A3289A51FA006E8570 /* FirebaseStorage */; };
-		D04D94A6289A51FA006E8570 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = D04D94A5289A51FA006E8570 /* FirebaseStorageCombine-Community */; };
 		D04D94A8289A53B5006E8570 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D04D94A7289A53B5006E8570 /* GoogleService-Info.plist */; };
 		D068C65E289664B100AD722A /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D068C65D289664B100AD722A /* SignUpView.swift */; };
 		D076696B2879825B00631D79 /* ThousandListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D076696A2879825B00631D79 /* ThousandListView.swift */; };
@@ -39,6 +33,12 @@
 		D0AC5D41288FE27900BBF7BD /* TabViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AC5D40288FE27900BBF7BD /* TabViewTest.swift */; };
 		D0CA3E7D2878483000B735B6 /* Dirty1001Object.json in Resources */ = {isa = PBXBuildFile; fileRef = D0CA3E7C2878483000B735B6 /* Dirty1001Object.json */; };
 		D0CA3E7F2878486100B735B6 /* JSONViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CA3E7E2878486100B735B6 /* JSONViewModel.swift */; };
+		D0DAA35E28B109E6005D1420 /* MusicHistoryMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DAA35D28B109E6005D1420 /* MusicHistoryMainView.swift */; };
+		D0DAA36328B10A7D005D1420 /* MusicHistoryMainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DAA36228B10A7D005D1420 /* MusicHistoryMainViewModel.swift */; };
+		D0DAA36628B10C15005D1420 /* ClassicToArtist.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DAA36528B10C15005D1420 /* ClassicToArtist.swift */; };
+		D0DAA36828B10C7F005D1420 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DAA36728B10C7F005D1420 /* Artist.swift */; };
+		D0DC0D1C28B11B0A00B8E832 /* ArtistJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = D0DC0D1B28B11B0A00B8E832 /* ArtistJSON.json */; };
+		D0DC0D1E28B11DFB00B8E832 /* ArtistModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DC0D1D28B11DFB00B8E832 /* ArtistModel.swift */; };
 		EC424B78285B2A920092B071 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = EC424B77285B2A920092B071 /* README.md */; };
 		EC7ADED3285B1D9800F45B1A /* ThousandAlbumsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7ADED2285B1D9800F45B1A /* ThousandAlbumsApp.swift */; };
 		EC7ADED7285B1D9900F45B1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC7ADED6285B1D9900F45B1A /* Assets.xcassets */; };
@@ -73,6 +73,12 @@
 		D0CA3E7C2878483000B735B6 /* Dirty1001Object.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Dirty1001Object.json; sourceTree = "<group>"; };
 		D0CA3E7E2878486100B735B6 /* JSONViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONViewModel.swift; sourceTree = "<group>"; };
 		D0CA3E8228789E9600B735B6 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D0DAA35D28B109E6005D1420 /* MusicHistoryMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicHistoryMainView.swift; sourceTree = "<group>"; };
+		D0DAA36228B10A7D005D1420 /* MusicHistoryMainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicHistoryMainViewModel.swift; sourceTree = "<group>"; };
+		D0DAA36528B10C15005D1420 /* ClassicToArtist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicToArtist.swift; sourceTree = "<group>"; };
+		D0DAA36728B10C7F005D1420 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		D0DC0D1B28B11B0A00B8E832 /* ArtistJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ArtistJSON.json; sourceTree = "<group>"; };
+		D0DC0D1D28B11DFB00B8E832 /* ArtistModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistModel.swift; sourceTree = "<group>"; };
 		D0DC7B172880683300481AD5 /* 1001 Albums.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "1001 Albums.entitlements"; sourceTree = "<group>"; };
 		EC424B77285B2A920092B071 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		EC7ADECF285B1D9800F45B1A /* Music History.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Music History.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,12 +92,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D04D94A2289A51FA006E8570 /* FirebaseDatabaseSwift in Frameworks */,
-				D04D94A0289A51FA006E8570 /* FirebaseDatabase in Frameworks */,
-				D04D949C289A51FA006E8570 /* FirebaseAuth in Frameworks */,
-				D04D94A4289A51FA006E8570 /* FirebaseStorage in Frameworks */,
-				D04D94A6289A51FA006E8570 /* FirebaseStorageCombine-Community in Frameworks */,
-				D04D949E289A51FA006E8570 /* FirebaseAuthCombine-Community in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,11 +158,71 @@
 			path = JSON;
 			sourceTree = "<group>";
 		};
+		D0DAA35B28B1096B005D1420 /* v1 */ = {
+			isa = PBXGroup;
+			children = (
+				D04D94A7289A53B5006E8570 /* GoogleService-Info.plist */,
+				D0DC7B172880683300481AD5 /* 1001 Albums.entitlements */,
+				D0CA3E8228789E9600B735B6 /* MyPlayground.playground */,
+				D00D5701287A044500FEA948 /* Utilities */,
+				D0CA3E8628797FBA00B735B6 /* View */,
+				D04D949728993558006E8570 /* Garbage */,
+				D0CA3E8728797FC600B735B6 /* JSON */,
+				D0CA3E8528797F9800B735B6 /* ViewModel */,
+			);
+			path = v1;
+			sourceTree = "<group>";
+		};
+		D0DAA35C28B109B8005D1420 /* v2 */ = {
+			isa = PBXGroup;
+			children = (
+				D0DAA36428B10AEC005D1420 /* Test */,
+				D0DAA36128B10A64005D1420 /* Model */,
+				D0DAA36028B10A3E005D1420 /* ViewModel */,
+				D0DAA35F28B10A08005D1420 /* View */,
+			);
+			path = v2;
+			sourceTree = "<group>";
+		};
+		D0DAA35F28B10A08005D1420 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D0DAA35D28B109E6005D1420 /* MusicHistoryMainView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D0DAA36028B10A3E005D1420 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D0DAA36228B10A7D005D1420 /* MusicHistoryMainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D0DAA36128B10A64005D1420 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D0DC0D1B28B11B0A00B8E832 /* ArtistJSON.json */,
+				D0DAA36728B10C7F005D1420 /* Artist.swift */,
+				D0DC0D1D28B11DFB00B8E832 /* ArtistModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D0DAA36428B10AEC005D1420 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				D0DAA36528B10C15005D1420 /* ClassicToArtist.swift */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
 		EC7ADEC6285B1D9800F45B1A = {
 			isa = PBXGroup;
 			children = (
 				EC424B77285B2A920092B071 /* README.md */,
-				EC7ADED1285B1D9800F45B1A /* 1001 Albums */,
+				EC7ADED1285B1D9800F45B1A /* MusicHistory */,
 				EC7ADED0285B1D9800F45B1A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -175,22 +235,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EC7ADED1285B1D9800F45B1A /* 1001 Albums */ = {
+		EC7ADED1285B1D9800F45B1A /* MusicHistory */ = {
 			isa = PBXGroup;
 			children = (
-				D0DC7B172880683300481AD5 /* 1001 Albums.entitlements */,
-				D04D94A7289A53B5006E8570 /* GoogleService-Info.plist */,
 				EC7ADED2285B1D9800F45B1A /* ThousandAlbumsApp.swift */,
-				D0CA3E8528797F9800B735B6 /* ViewModel */,
-				D0CA3E8628797FBA00B735B6 /* View */,
-				D04D949728993558006E8570 /* Garbage */,
-				D0CA3E8728797FC600B735B6 /* JSON */,
-				D00D5701287A044500FEA948 /* Utilities */,
-				D0CA3E8228789E9600B735B6 /* MyPlayground.playground */,
+				D0DAA35C28B109B8005D1420 /* v2 */,
+				D0DAA35B28B1096B005D1420 /* v1 */,
 				EC7ADED6285B1D9900F45B1A /* Assets.xcassets */,
 				EC7ADED8285B1D9900F45B1A /* Preview Content */,
 			);
-			path = "1001 Albums";
+			path = MusicHistory;
 			sourceTree = "<group>";
 		};
 		EC7ADED8285B1D9900F45B1A /* Preview Content */ = {
@@ -204,9 +258,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EC7ADECE285B1D9800F45B1A /* 1001 Albums */ = {
+		EC7ADECE285B1D9800F45B1A /* MusicHistory */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EC7ADEDD285B1D9900F45B1A /* Build configuration list for PBXNativeTarget "1001 Albums" */;
+			buildConfigurationList = EC7ADEDD285B1D9900F45B1A /* Build configuration list for PBXNativeTarget "MusicHistory" */;
 			buildPhases = (
 				EC7ADECB285B1D9800F45B1A /* Sources */,
 				EC7ADECC285B1D9800F45B1A /* Frameworks */,
@@ -216,14 +270,8 @@
 			);
 			dependencies = (
 			);
-			name = "1001 Albums";
+			name = MusicHistory;
 			packageProductDependencies = (
-				D04D949B289A51FA006E8570 /* FirebaseAuth */,
-				D04D949D289A51FA006E8570 /* FirebaseAuthCombine-Community */,
-				D04D949F289A51FA006E8570 /* FirebaseDatabase */,
-				D04D94A1289A51FA006E8570 /* FirebaseDatabaseSwift */,
-				D04D94A3289A51FA006E8570 /* FirebaseStorage */,
-				D04D94A5289A51FA006E8570 /* FirebaseStorageCombine-Community */,
 			);
 			productName = "1001 Albums";
 			productReference = EC7ADECF285B1D9800F45B1A /* Music History.app */;
@@ -244,7 +292,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EC7ADECA285B1D9800F45B1A /* Build configuration list for PBXProject "1001 Albums" */;
+			buildConfigurationList = EC7ADECA285B1D9800F45B1A /* Build configuration list for PBXProject "MusicHistory" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -254,13 +302,12 @@
 			);
 			mainGroup = EC7ADEC6285B1D9800F45B1A;
 			packageReferences = (
-				D04D949A289A51FA006E8570 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = EC7ADED0285B1D9800F45B1A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EC7ADECE285B1D9800F45B1A /* 1001 Albums */,
+				EC7ADECE285B1D9800F45B1A /* MusicHistory */,
 			);
 		};
 /* End PBXProject section */
@@ -277,6 +324,7 @@
 				EC7ADEDA285B1D9900F45B1A /* Preview Assets.xcassets in Resources */,
 				EC7ADED7285B1D9900F45B1A /* Assets.xcassets in Resources */,
 				D02CE0FC288441F600CAAD46 /* Classic1001ObjectAfterLoop2.json in Resources */,
+				D0DC0D1C28B11B0A00B8E832 /* ArtistJSON.json in Resources */,
 				D0CA3E7D2878483000B735B6 /* Dirty1001Object.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,6 +339,7 @@
 				D021DFA42885DAA1002D5E84 /* CompletionHandler.swift in Sources */,
 				D00D570B287A1CBB00FEA948 /* ItunesParser.swift in Sources */,
 				D04D949628992749006E8570 /* TestPublisher.swift in Sources */,
+				D0DAA35E28B109E6005D1420 /* MusicHistoryMainView.swift in Sources */,
 				D021DFAA288828A1002D5E84 /* ViewPublishTest.swift in Sources */,
 				D0853F74287DC0AB0079BC38 /* ItunesComparator.swift in Sources */,
 				D0CA3E7F2878486100B735B6 /* JSONViewModel.swift in Sources */,
@@ -300,7 +349,9 @@
 				D03B0C2A28816FBF00322E64 /* JSONObjects.swift in Sources */,
 				D04D9499289A4CC6006E8570 /* FirebaseTest.swift in Sources */,
 				D02CE0FA2884178700CAAD46 /* TestView1.swift in Sources */,
+				D0DC0D1E28B11DFB00B8E832 /* ArtistModel.swift in Sources */,
 				D00D570F287A2F8F00FEA948 /* WriteFileToPath.swift in Sources */,
+				D0DAA36628B10C15005D1420 /* ClassicToArtist.swift in Sources */,
 				EC7ADED3285B1D9800F45B1A /* ThousandAlbumsApp.swift in Sources */,
 				D00D5703287A046100FEA948 /* JsonDecode.swift in Sources */,
 				D0853F70287D5E910079BC38 /* JsonToJson.swift in Sources */,
@@ -308,7 +359,9 @@
 				D021DFA8288814A8002D5E84 /* AsyncImageDownloader.swift in Sources */,
 				D068C65E289664B100AD722A /* SignUpView.swift in Sources */,
 				D02CE0F62883507F00CAAD46 /* ItunesComparator2.swift in Sources */,
+				D0DAA36828B10C7F005D1420 /* Artist.swift in Sources */,
 				D021DFAC288A7BEC002D5E84 /* AsyncLet.swift in Sources */,
+				D0DAA36328B10A7D005D1420 /* MusicHistoryMainViewModel.swift in Sources */,
 				D0AC5D3F288D3BC900BBF7BD /* LazyVGridView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +467,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -425,7 +479,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -436,13 +490,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
-				CODE_SIGN_ENTITLEMENTS = "1001 Albums/1001 Albums.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"1001 Albums/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = ZT525LAF69;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -471,13 +525,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
-				CODE_SIGN_ENTITLEMENTS = "1001 Albums/1001 Albums.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"1001 Albums/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = ZT525LAF69;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -503,7 +557,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EC7ADECA285B1D9800F45B1A /* Build configuration list for PBXProject "1001 Albums" */ = {
+		EC7ADECA285B1D9800F45B1A /* Build configuration list for PBXProject "MusicHistory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EC7ADEDB285B1D9900F45B1A /* Debug */,
@@ -512,7 +566,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EC7ADEDD285B1D9900F45B1A /* Build configuration list for PBXNativeTarget "1001 Albums" */ = {
+		EC7ADEDD285B1D9900F45B1A /* Build configuration list for PBXNativeTarget "MusicHistory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EC7ADEDE285B1D9900F45B1A /* Debug */,
@@ -522,50 +576,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		D04D949A289A51FA006E8570 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 9.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		D04D949B289A51FA006E8570 /* FirebaseAuth */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D04D949A289A51FA006E8570 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAuth;
-		};
-		D04D949D289A51FA006E8570 /* FirebaseAuthCombine-Community */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D04D949A289A51FA006E8570 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = "FirebaseAuthCombine-Community";
-		};
-		D04D949F289A51FA006E8570 /* FirebaseDatabase */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D04D949A289A51FA006E8570 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseDatabase;
-		};
-		D04D94A1289A51FA006E8570 /* FirebaseDatabaseSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D04D949A289A51FA006E8570 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseDatabaseSwift;
-		};
-		D04D94A3289A51FA006E8570 /* FirebaseStorage */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D04D949A289A51FA006E8570 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseStorage;
-		};
-		D04D94A5289A51FA006E8570 /* FirebaseStorageCombine-Community */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D04D949A289A51FA006E8570 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = "FirebaseStorageCombine-Community";
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EC7ADEC7285B1D9800F45B1A /* Project object */;
 }
