@@ -15,7 +15,8 @@ struct MainRowView: View {
             Text("\(artist.id)")
                 .font(.caption)
                 .foregroundColor(.gray)
-                .padding()
+                .frame(width: 40, alignment: .center)
+//                .padding()
             VStack(alignment: .leading) {
                 Text(artist.artist)
                 Text(artist.album)
@@ -24,10 +25,13 @@ struct MainRowView: View {
             Spacer()
             Group {
                 Text("\(String(artist.date))")
+                    .font(.footnote)
+                    .foregroundColor(.gray)
                 Toggle(isOn: $vm.artists[artist.id - 1].listened) {
                     Text("toggle")
                 }
                 .toggleStyle(ToggleStyle1())
+                .frame(width: 40)
                     
             }
             .onTapGesture {

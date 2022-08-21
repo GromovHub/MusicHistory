@@ -9,12 +9,27 @@ import SwiftUI
 
 struct MusicHistoryMainView: View {
     @StateObject private var vm = MusicHistoryMainViewModel()
+    @State var forText: String = ""
     var body: some View {
         NavigationView {
-            List(vm.artists) {
-                MainRowView(artist: $0, vm: vm)
+            List(vm.artists) { artist in
+                NavigationLink {
+                    //dest
+                    ProgressView()
+                    Text("плати деньги чмо")
+                } label: {
+                    MainRowView(artist: artist, vm: vm)
+                }
             }
             .navigationTitle("MusicHistory")
+            .searchable(text: $forText)
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    // show sheet with sort actions
+                    Text("Filter")
+                        .foregroundColor(.accentColor)
+                }
+            }
         }
         
     }
