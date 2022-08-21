@@ -10,9 +10,18 @@ import Foundation
 class MusicHistoryMainViewModel: ObservableObject {
     
     init() {
-        artists = ArtistModel().getArtists()
         print("MusicHistoryMainViewModel created")
+        getArtists()
+    }
+    @Published var model: ArtistModel = ArtistModel()
+    @Published var artists: [Artist] = [Artist]()
+    
+    func getArtists() {
+        artists = model.getArtists()
     }
     
-    var artists: [Artist]
+    func changeListened(for id: Int, to status: Bool) {
+        model.changeStatus(artistId: id, newStatus: status)
+        getArtists()
+    }
 }

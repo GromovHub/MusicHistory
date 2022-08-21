@@ -13,7 +13,7 @@ class ArtistModel {
         print("ArtistModel created")
     }
     
-    private var allAtrists = [Artist]()
+    private(set) var allAtrists = [Artist]()
     
     private func createArtists() {
         do {
@@ -27,5 +27,11 @@ class ArtistModel {
     
     func getArtists() -> [Artist] {
         return allAtrists
+    }
+    func changeStatus(artistId: Int, newStatus: Bool) {
+        allAtrists[artistId - 1].listened = newStatus
+        allAtrists[artistId - 1].artist = "NEWNEWNEW"
+        
+        print("called")
     }
 }

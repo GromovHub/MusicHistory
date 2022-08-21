@@ -12,7 +12,7 @@ struct MusicHistoryMainView: View {
     var body: some View {
         NavigationView {
             List(vm.artists) {
-                Text($0.artist)
+                MainRowView(artist: $0, vm: vm)
             }
             .navigationTitle("MusicHistory")
         }

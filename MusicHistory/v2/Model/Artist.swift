@@ -9,8 +9,8 @@ import Foundation
 
 struct Artist: Codable, Identifiable {
     let id: Int
-    let artist: String
+    var artist: String
     let album: String
     let date: Int
-    let listened: Bool
+    var listened: Bool
 }
