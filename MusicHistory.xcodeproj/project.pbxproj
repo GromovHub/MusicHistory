@@ -31,6 +31,12 @@
 		D0853F74287DC0AB0079BC38 /* ItunesComparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0853F73287DC0AB0079BC38 /* ItunesComparator.swift */; };
 		D0AC5D3F288D3BC900BBF7BD /* LazyVGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AC5D3E288D3BC900BBF7BD /* LazyVGridView.swift */; };
 		D0AC5D41288FE27900BBF7BD /* TabViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AC5D40288FE27900BBF7BD /* TabViewTest.swift */; };
+		D0BA3A4C28B383CB00B4AFCA /* UserDefaultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BA3A4B28B383CB00B4AFCA /* UserDefaultsView.swift */; };
+		D0BA3A4E28B388D200B4AFCA /* AppStorageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BA3A4D28B388D200B4AFCA /* AppStorageView.swift */; };
+		D0BA3A5028B396D200B4AFCA /* AppStorageCustomTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BA3A4F28B396D200B4AFCA /* AppStorageCustomTypeView.swift */; };
+		D0BA3A5228B3A05000B4AFCA /* AppStorageCustomTypeView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BA3A5128B3A05000B4AFCA /* AppStorageCustomTypeView2.swift */; };
+		D0BA3A5528B3A93800B4AFCA /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BA3A5428B3A93800B4AFCA /* IntroView.swift */; };
+		D0BA3A5728B3B01100B4AFCA /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BA3A5628B3B01100B4AFCA /* OnboardingView.swift */; };
 		D0CA3E7D2878483000B735B6 /* Dirty1001Object.json in Resources */ = {isa = PBXBuildFile; fileRef = D0CA3E7C2878483000B735B6 /* Dirty1001Object.json */; };
 		D0CA3E7F2878486100B735B6 /* JSONViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CA3E7E2878486100B735B6 /* JSONViewModel.swift */; };
 		D0CEE42D28B20775008FB44D /* MainRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CEE42C28B20775008FB44D /* MainRowView.swift */; };
@@ -72,6 +78,12 @@
 		D0853F73287DC0AB0079BC38 /* ItunesComparator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesComparator.swift; sourceTree = "<group>"; };
 		D0AC5D3E288D3BC900BBF7BD /* LazyVGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGridView.swift; sourceTree = "<group>"; };
 		D0AC5D40288FE27900BBF7BD /* TabViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewTest.swift; sourceTree = "<group>"; };
+		D0BA3A4B28B383CB00B4AFCA /* UserDefaultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsView.swift; sourceTree = "<group>"; };
+		D0BA3A4D28B388D200B4AFCA /* AppStorageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageView.swift; sourceTree = "<group>"; };
+		D0BA3A4F28B396D200B4AFCA /* AppStorageCustomTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageCustomTypeView.swift; sourceTree = "<group>"; };
+		D0BA3A5128B3A05000B4AFCA /* AppStorageCustomTypeView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageCustomTypeView2.swift; sourceTree = "<group>"; };
+		D0BA3A5428B3A93800B4AFCA /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
+		D0BA3A5628B3B01100B4AFCA /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		D0CA3E7C2878483000B735B6 /* Dirty1001Object.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Dirty1001Object.json; sourceTree = "<group>"; };
 		D0CA3E7E2878486100B735B6 /* JSONViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONViewModel.swift; sourceTree = "<group>"; };
 		D0CA3E8228789E9600B735B6 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -134,6 +146,15 @@
 			path = Garbage;
 			sourceTree = "<group>";
 		};
+		D0BA3A5328B3A92700B4AFCA /* onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				D0BA3A5428B3A93800B4AFCA /* IntroView.swift */,
+				D0BA3A5628B3B01100B4AFCA /* OnboardingView.swift */,
+			);
+			path = onboarding;
+			sourceTree = "<group>";
+		};
 		D0CA3E8528797F9800B735B6 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,7 +201,7 @@
 		D0DAA35C28B109B8005D1420 /* v2 */ = {
 			isa = PBXGroup;
 			children = (
-				D0DAA36428B10AEC005D1420 /* Test */,
+				D0DAA36428B10AEC005D1420 /* Temp */,
 				D0DAA36128B10A64005D1420 /* Model */,
 				D0DAA36028B10A3E005D1420 /* ViewModel */,
 				D0DAA35F28B10A08005D1420 /* View */,
@@ -216,12 +237,17 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		D0DAA36428B10AEC005D1420 /* Test */ = {
+		D0DAA36428B10AEC005D1420 /* Temp */ = {
 			isa = PBXGroup;
 			children = (
+				D0BA3A5328B3A92700B4AFCA /* onboarding */,
 				D0DAA36528B10C15005D1420 /* ClassicToArtist.swift */,
+				D0BA3A4B28B383CB00B4AFCA /* UserDefaultsView.swift */,
+				D0BA3A4D28B388D200B4AFCA /* AppStorageView.swift */,
+				D0BA3A4F28B396D200B4AFCA /* AppStorageCustomTypeView.swift */,
+				D0BA3A5128B3A05000B4AFCA /* AppStorageCustomTypeView2.swift */,
 			);
-			path = Test;
+			path = Temp;
 			sourceTree = "<group>";
 		};
 		EC7ADEC6285B1D9800F45B1A = {
@@ -355,9 +381,12 @@
 				D02CE0F42881C6A100CAAD46 /* CustomDecodeEncode.swift in Sources */,
 				D03B0C2A28816FBF00322E64 /* JSONObjects.swift in Sources */,
 				D04D9499289A4CC6006E8570 /* FirebaseTest.swift in Sources */,
+				D0BA3A5728B3B01100B4AFCA /* OnboardingView.swift in Sources */,
+				D0BA3A5528B3A93800B4AFCA /* IntroView.swift in Sources */,
 				D02CE0FA2884178700CAAD46 /* TestView1.swift in Sources */,
 				D0DC0D1E28B11DFB00B8E832 /* ArtistModel.swift in Sources */,
 				D00D570F287A2F8F00FEA948 /* WriteFileToPath.swift in Sources */,
+				D0BA3A4E28B388D200B4AFCA /* AppStorageView.swift in Sources */,
 				D0DAA36628B10C15005D1420 /* ClassicToArtist.swift in Sources */,
 				EC7ADED3285B1D9800F45B1A /* ThousandAlbumsApp.swift in Sources */,
 				D00D5703287A046100FEA948 /* JsonDecode.swift in Sources */,
@@ -368,8 +397,11 @@
 				D02CE0F62883507F00CAAD46 /* ItunesComparator2.swift in Sources */,
 				D0CEE42F28B20E5E008FB44D /* ToggleStyle.swift in Sources */,
 				D0DAA36828B10C7F005D1420 /* Artist.swift in Sources */,
+				D0BA3A5028B396D200B4AFCA /* AppStorageCustomTypeView.swift in Sources */,
+				D0BA3A4C28B383CB00B4AFCA /* UserDefaultsView.swift in Sources */,
 				D021DFAC288A7BEC002D5E84 /* AsyncLet.swift in Sources */,
 				D0DAA36328B10A7D005D1420 /* MusicHistoryMainViewModel.swift in Sources */,
+				D0BA3A5228B3A05000B4AFCA /* AppStorageCustomTypeView2.swift in Sources */,
 				D0AC5D3F288D3BC900BBF7BD /* LazyVGridView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

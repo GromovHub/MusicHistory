@@ -11,7 +11,7 @@ import SwiftUI
 struct ThousandAlbumsApp: App {
     var body: some Scene {
         WindowGroup {
-            MusicHistoryMainView()
+            IntroView()
         }
     }
 }
