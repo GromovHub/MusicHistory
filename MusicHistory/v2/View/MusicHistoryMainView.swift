@@ -16,22 +16,32 @@ struct MusicHistoryMainView: View {
                 NavigationLink {
                     //dest
                     ProgressView()
-                    Text("плати деньги чмо")
+                    Text("pay or get out")
                 } label: {
-                    MainRowView(artist: artist, vm: vm)
+                    MainRowView(artist: artist)
                 }
             }
             .navigationTitle("MusicHistory")
             .searchable(text: $forText)
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
-                    // show sheet with sort actions
-                    Text("Filter")
-                        .foregroundColor(.accentColor)
+                    Menu {
+                        Menu("Listened") {
+                            Button("Only Listened", action: {})
+                            Button("Only Non Listened", action: {})
+                            Button("Show All", action: {})
+                        }
+                        Menu("Low High") {
+                            Button("Low To High", action: {})
+                            Button("High To Low", action: {})
+                        }
+                        Button("Default", action: {})
+                    } label: {
+                        Label("Sort", systemImage: "arrow.up.arrow.down")
+                    }
                 }
             }
         }
-        
     }
 }
 

@@ -31,7 +31,7 @@
         "date": 1956,
         "id": 5,
         "album": "Songs For Swingin Lovers",
-        "listened": true,
+        "listened": false,
         "artist": "Frank Sinatra"
     },
     {
@@ -1620,14 +1620,14 @@
         "date": 1971,
         "id": 232,
         "album": "The Allman Brothers at Fillmore East",
-        "listened": false,
+        "listened": true,
         "artist": "The Allman Brothers"
     },
     {
         "date": 1971,
         "id": 233,
         "album": "The Yes Album",
-        "listened": false,
+        "listened": true,
         "artist": "Yes"
     },
     {

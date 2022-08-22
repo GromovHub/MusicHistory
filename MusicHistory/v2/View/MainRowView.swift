@@ -8,38 +8,33 @@
 import SwiftUI
 
 struct MainRowView: View {
-    let artist: Artist
-    @ObservedObject var vm: MusicHistoryMainViewModel
+    @State var artist: Artist
     var body: some View {
         HStack {
             Text("\(artist.id)")
                 .font(.caption)
                 .foregroundColor(.gray)
-                .frame(width: 40, alignment: .center)
-//                .padding()
+                .frame(width: 30, alignment: .center)
+//                .border(.black)
             VStack(alignment: .leading) {
                 Text(artist.artist)
                 Text(artist.album)
                     .font(.footnote)
             }
+//            .border(.black)
             Spacer()
             Group {
                 Text("\(String(artist.date))")
                     .font(.footnote)
                     .foregroundColor(.gray)
-                Toggle(isOn: $vm.artists[artist.id - 1].listened) {
-                    Text("toggle")
+                Image(systemName: artist.listened ? "circle.fill" : "circle")
+                    .foregroundColor(.accentColor)
+                    .frame(width: 40)
+                    .onTapGesture {
+                        artist.listened.toggle()
+                        print(artist)
                 }
-                .toggleStyle(ToggleStyle1())
-                .frame(width: 40)
-                    
             }
-            .onTapGesture {
-                vm.changeListened(for: 1, to: false)
-                print(artist.self)
-                print("hey")
-            }
-
         }
     }
 }
@@ -47,7 +42,7 @@ struct MainRowView: View {
 struct MainRowView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-//            MainRowView(artist: Artist(id: 1, artist: "Mike", album: "Album name", date: 1950, listened: false), listened: false, vm: MusicHistoryMainViewModel())
+            MainRowView(artist: Artist(id: 100, artist: "David", album: "Fortune", date: 1950, listened: true))
         }
     }
 }
