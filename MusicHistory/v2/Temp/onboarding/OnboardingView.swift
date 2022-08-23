@@ -6,6 +6,19 @@
 //
 
 import SwiftUI
+import Combine
+
+class VM: ObservableObject {
+    init() {
+        $gender
+            .sink { i in
+                print(i)
+            }
+            .store(in: &canc)
+    }
+    var canc = Set<AnyCancellable>()
+    @Published var gender = ""
+}
 
 struct OnboardingView: View {
     /*
@@ -14,10 +27,25 @@ struct OnboardingView: View {
      2 - add age
      3 - add gender
      */
-    @State var onboardingState = 3
+    @State var onboardingState = 0
+    
+    let transition: AnyTransition = .asymmetric(insertion: .move(edge: .trailing), removal: .move(edge: .leading))
+    
+    // inputs
     @State var name = ""
     @State var age: Double = 50
     @State var gender = ""
+    // for alert
+    @State var alertTitle = ""
+    @State var showAlert = false
+    // app storage
+    //    @Binding var currentUserSignedIn: Bool
+    @AppStorage("name") var currentUserName: String?
+    @AppStorage("age") var currentUserAge: Int?
+    @AppStorage("gender") var currentUserGender: String?
+    @AppStorage("signed_in") var currentUserSignedIn = false
+
+    
     var body: some View {
         ZStack {
             // content
@@ -27,12 +55,16 @@ struct OnboardingView: View {
                     ScrollView {
                         welcomeSection
                     }
+                    .transition(transition)
                 case 1:
                     addNameSection
+                        .transition(transition)
                 case 2:
                     addAgeSection
+                        .transition(transition)
                 case 3:
                     addGenderSection
+                        .transition(transition)
                 default:
                     RoundedRectangle(cornerRadius: 25)
                         .foregroundColor(.green)
@@ -45,23 +77,26 @@ struct OnboardingView: View {
             }
             .padding()
         }
+        .alert(Text("\(alertTitle)"), isPresented: $showAlert) {
+            //
+        }
     }
     
 }
 
-struct OnboardingView_Previews: PreviewProvider {
-    static var previews: some View {
-        OnboardingView()
-            .background(.cyan)
-    }
-}
+//struct OnboardingView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        OnboardingView()
+//            .background(.cyan)
+//    }
+//}
 
 // MARK: - Components
 
 extension OnboardingView {
     
       private var bottomButton: some View {
-            Text("Sign in")
+          Text(onboardingState == 0 ? "SIGN UP" : onboardingState == 3 ? "FINISH" : "NEXT")
                 .font(.headline)
                 .foregroundColor(.blue)
                 .frame(maxWidth: .infinity)
@@ -69,8 +104,7 @@ extension OnboardingView {
                 .background(.white)
                 .cornerRadius(10)
                 .onTapGesture {
-                    // action
-                    self.onboardingState = 1
+                    handleNextButtonPressed()
                 }
     }
     
@@ -134,6 +168,7 @@ extension OnboardingView {
                 .fontWeight(.semibold)
                 .foregroundColor(.white)
             Slider(value: $age, in: 18...100, step: 1)
+                .tint(.white)
             Spacer()
             Spacer()
         }
@@ -143,7 +178,7 @@ extension OnboardingView {
     private var addGenderSection: some View {
         VStack(spacing: 20) {
             Spacer()
-            Text("What's your gender?")
+            Text(gender.count > 1 ? gender : "What's your gender?")
                 .font(.largeTitle)
                 .fontWeight(.semibold)
                 .foregroundColor(.white)
@@ -163,6 +198,7 @@ extension OnboardingView {
                 .background(.white)
                 .cornerRadius(10)
             }
+            .pickerStyle(.segmented)
             Spacer()
             Spacer()
         }
@@ -170,5 +206,49 @@ extension OnboardingView {
     }
 }
 
+// MARK: Functions
 
+extension OnboardingView {
+    
+    func handleNextButtonPressed() {
+        //check inputs
+        switch onboardingState {
+        case 1:
+            guard name.count >= 3 else {
+                showAlert(title: "Input name")
+                return }
+        case 3:
+            guard gender.count > 1 else {
+                showAlert(title: "Select your gender")
+                return
+            }
+        default: break
+        }
+        
+        // go to next section
+        if onboardingState == 3 {
+            // sign in
+            signedIn()
+//            currentUserSignedIn.toggle()
+        } else {
+            withAnimation(.default) {
+                onboardingState += 1
+            }
+        }
+    }
+    
+    func showAlert(title: String) {
+        alertTitle = title
+        showAlert.toggle()
+    }
+    
+    func signedIn() {
+        currentUserName = name
+        currentUserAge = Int(age)
+        currentUserGender = gender
+        withAnimation(.spring()) {
+            currentUserSignedIn = true
+        }
+    }
+}
 

@@ -24,6 +24,7 @@
 		D04D949628992749006E8570 /* TestPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04D949528992749006E8570 /* TestPublisher.swift */; };
 		D04D9499289A4CC6006E8570 /* FirebaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04D9498289A4CC6006E8570 /* FirebaseTest.swift */; };
 		D04D94A8289A53B5006E8570 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D04D94A7289A53B5006E8570 /* GoogleService-Info.plist */; };
+		D052465528B5107500D235CC /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D052465428B5107500D235CC /* ProfileView.swift */; };
 		D068C65E289664B100AD722A /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D068C65D289664B100AD722A /* SignUpView.swift */; };
 		D076696B2879825B00631D79 /* ThousandListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D076696A2879825B00631D79 /* ThousandListView.swift */; };
 		D0853F70287D5E910079BC38 /* JsonToJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0853F6F287D5E910079BC38 /* JsonToJson.swift */; };
@@ -71,6 +72,7 @@
 		D04D949528992749006E8570 /* TestPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPublisher.swift; sourceTree = "<group>"; };
 		D04D9498289A4CC6006E8570 /* FirebaseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseTest.swift; sourceTree = "<group>"; };
 		D04D94A7289A53B5006E8570 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D052465428B5107500D235CC /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		D068C65D289664B100AD722A /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		D076696A2879825B00631D79 /* ThousandListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThousandListView.swift; sourceTree = "<group>"; };
 		D0853F6F287D5E910079BC38 /* JsonToJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonToJson.swift; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 			children = (
 				D0BA3A5428B3A93800B4AFCA /* IntroView.swift */,
 				D0BA3A5628B3B01100B4AFCA /* OnboardingView.swift */,
+				D052465428B5107500D235CC /* ProfileView.swift */,
 			);
 			path = onboarding;
 			sourceTree = "<group>";
@@ -396,6 +399,7 @@
 				D068C65E289664B100AD722A /* SignUpView.swift in Sources */,
 				D02CE0F62883507F00CAAD46 /* ItunesComparator2.swift in Sources */,
 				D0CEE42F28B20E5E008FB44D /* ToggleStyle.swift in Sources */,
+				D052465528B5107500D235CC /* ProfileView.swift in Sources */,
 				D0DAA36828B10C7F005D1420 /* Artist.swift in Sources */,
 				D0BA3A5028B396D200B4AFCA /* AppStorageCustomTypeView.swift in Sources */,
 				D0BA3A4C28B383CB00B4AFCA /* UserDefaultsView.swift in Sources */,

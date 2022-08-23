@@ -18,10 +18,12 @@ struct IntroView: View {
             .ignoresSafeArea()
             
             if currentUserSignedIn {
-                Text("Profile view")
+                ProfileView()
+                    .transition(.move(edge: .bottom))
             } else {
-                //Onboarding view
+//                OnboardingView(currentUserSignedIn: $currentUserSignedIn)
                 OnboardingView()
+                    .transition(.move(edge: .top))
             }
         }
     }
