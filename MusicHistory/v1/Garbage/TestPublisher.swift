@@ -7,7 +7,7 @@
 
 import SwiftUI
 import Combine
-
+// MARK: ViewModel
 class TestPublisherViewModel: ObservableObject {
     init() {
         numberPublisher
@@ -20,12 +20,17 @@ class TestPublisherViewModel: ObservableObject {
             .store(in: &cancel)
         printNumber()
 //        numberPublisherFunc()
+        textPrinterFunc()
+        textPrinter.sink { value in
+            print("#new printer computed property", value)
+        }
+        .store(in: &cancel)
         
     }
     
     @Published var number = ""
-        
     @Published var customColor = Color.blue
+    
     var cancel = Set<AnyCancellable>()
     var flag = true.description
     
@@ -36,9 +41,10 @@ class TestPublisherViewModel: ObservableObject {
             .sink { i in
                 print(i)
                 if let number = Int(self.number), number > 100 {
+                    // turn off subscriber
                     for ii in self.cancel {
                         self.cancel.first?.cancel()
-                        print("subscriber is dead", ii)
+                        print("subscriber is dead", ii.hashValue)
                     }
                     
                 }
@@ -84,11 +90,32 @@ class TestPublisherViewModel: ObservableObject {
                  }
             .eraseToAnyPublisher()
     }
+    // only publisher
+    var textPrinter: AnyPublisher<String, Never> {
+        $number
+            .map{$0}
+            .eraseToAnyPublisher()
+    }
+    func textPrinterFunc() {
+        $number
+            .map {
+                guard let value = Int($0) else {
+                    print("guard fail")
+                    return "guard fail"
+                }
+                return value
+            }
+        //without use value
+//            .sink{_ in print("#newprinter2")}
+        // with use value
+            .sink{print("#newprinter2", $0)}
+            .store(in: &cancel)
+    }
     
    
     
 }
-
+// MARK: View
 struct TestPublisher: View {
     @StateObject private var vm = TestPublisherViewModel()
     var body: some View {
