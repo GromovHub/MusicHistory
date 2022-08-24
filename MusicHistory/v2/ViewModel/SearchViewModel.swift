@@ -44,7 +44,7 @@ final class SearchViewModel: ObservableObject {
             return }
         Task {
             await MainActor.run { [weak self] in
-                self?.searchResults = results.results ?? [ItunesJson(id: 1514, artistName: "Black Sabbath", collectionNameString: "Collapse", collectionViewUrl: "https://music.apple.com/us/album/jack-johnson-and-friends-sing-a-longs-and/1469577723?uo=4", artworkUrl100: "https://is3-ssl.mzstatic.com/image/thumb/Music115/v4/08/11/d2/0811d2b3-b4d5-dc22-1107-3625511844b5/00602537869770.rgb.jpg/100x100bb.jpg", releaseDate: "1950", wrapperType: nil, collectionType: nil, artistId: nil, collectionId: nil, amgArtistId: nil, collectionCensoredName: nil, artistViewUrl: nil, artworkUrl60: nil, collectionPrice: nil, collectionExplicitness: nil, trackCount: nil, copyright: nil, country: nil, currency: nil, primaryGenreName: nil)]
+                self?.searchResults = results.results ?? [ItunesJson.shared]
             }
         }
     }

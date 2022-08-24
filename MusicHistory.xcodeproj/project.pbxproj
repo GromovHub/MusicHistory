@@ -141,6 +141,24 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+		D04ACDB928B69E5D009844F6 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				D0DAA35D28B109E6005D1420 /* MusicHistoryMainView.swift */,
+				D0CEE42C28B20775008FB44D /* MainRowView.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		D04ACDBA28B69E6A009844F6 /* SearchView */ = {
+			isa = PBXGroup;
+			children = (
+				D0B1A8D828B5F8EA0009763D /* SearchCellView.swift */,
+				D0B1A8D228B5F5CF0009763D /* SearchView.swift */,
+			);
+			path = SearchView;
+			sourceTree = "<group>";
+		};
 		D04D949728993558006E8570 /* Garbage */ = {
 			isa = PBXGroup;
 			children = (
@@ -199,6 +217,7 @@
 		D0DAA35B28B1096B005D1420 /* v1 */ = {
 			isa = PBXGroup;
 			children = (
+				D0DAA36428B10AEC005D1420 /* Temp */,
 				D04D94A7289A53B5006E8570 /* GoogleService-Info.plist */,
 				D0DC7B172880683300481AD5 /* 1001 Albums.entitlements */,
 				D0CA3E8228789E9600B735B6 /* MyPlayground.playground */,
@@ -214,7 +233,6 @@
 		D0DAA35C28B109B8005D1420 /* v2 */ = {
 			isa = PBXGroup;
 			children = (
-				D0DAA36428B10AEC005D1420 /* Temp */,
 				D0DAA36128B10A64005D1420 /* Model */,
 				D0DAA36028B10A3E005D1420 /* ViewModel */,
 				D0DAA35F28B10A08005D1420 /* View */,
@@ -225,11 +243,8 @@
 		D0DAA35F28B10A08005D1420 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				D0DAA35D28B109E6005D1420 /* MusicHistoryMainView.swift */,
-				D0CEE42C28B20775008FB44D /* MainRowView.swift */,
-				D0CEE42E28B20E5E008FB44D /* ToggleStyle.swift */,
-				D0B1A8D228B5F5CF0009763D /* SearchView.swift */,
-				D0B1A8D828B5F8EA0009763D /* SearchCellView.swift */,
+				D04ACDBA28B69E6A009844F6 /* SearchView */,
+				D04ACDB928B69E5D009844F6 /* MainView */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -264,6 +279,7 @@
 				D0BA3A4F28B396D200B4AFCA /* AppStorageCustomTypeView.swift */,
 				D0BA3A5128B3A05000B4AFCA /* AppStorageCustomTypeView2.swift */,
 				D0B1A8D028B55AF50009763D /* AsyncView.swift */,
+				D0CEE42E28B20E5E008FB44D /* ToggleStyle.swift */,
 			);
 			path = Temp;
 			sourceTree = "<group>";
@@ -565,8 +581,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -600,8 +616,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (

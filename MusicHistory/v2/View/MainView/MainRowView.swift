@@ -9,26 +9,31 @@ import SwiftUI
 
 struct MainRowView: View {
     @State var artist: Artist
+    @State var orientation = UIDevice.current.orientation.rawValue
     var body: some View {
         HStack {
             Text("\(artist.id)")
                 .font(.caption)
                 .foregroundColor(.gray)
                 .frame(width: 30, alignment: .center)
-//                .border(.black)
+                .lineLimit(1)
+                .minimumScaleFactor(0.5)
             VStack(alignment: .leading) {
                 Text(artist.artist)
+                    .lineLimit(2)
+                    .truncationMode(.tail)
                 Text(artist.album)
+                    .lineLimit(2)
+                    .truncationMode(.tail)
                     .font(.footnote)
             }
-//            .border(.black)
             Spacer()
             Group {
                 Text("\(String(artist.date))")
                     .font(.footnote)
                     .foregroundColor(.gray)
                 Image(systemName: artist.listened ? "circle.fill" : "circle")
-                    .foregroundColor(.accentColor)
+                    .foregroundColor(orientation == 4 ? .cyan : .accentColor)
                     .frame(width: 40)
                     .onTapGesture {
                         artist.listened.toggle()
