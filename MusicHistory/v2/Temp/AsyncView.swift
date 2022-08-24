@@ -36,12 +36,14 @@ struct AsyncView: View {
     
     func getAsync() async {
         name = ""
-        Thread.sleep(forTimeInterval: TimeInterval(Double.random(in: 0...3)))
+        print("get start")
+//        Thread.sleep(forTimeInterval: TimeInterval(Double.random(in: 0...3)))
+        Thread.sleep(forTimeInterval: 3)
         guard let (data, resp) = try? await URLSession.shared.data(from: URL(string: "https://v2.jokeapi.dev/joke/Any?safe-mode")!) else {
             name = "error"
             return}
         name = "\(String(decoding: data, as: UTF8.self))\n\(resp.description)"
-        print("get")
+        print("get end")
     }
 }
 

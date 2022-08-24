@@ -14,9 +14,7 @@ struct MusicHistoryMainView: View {
         NavigationView {
             List(vm.artists) { artist in
                 NavigationLink {
-                    //dest
-                    ProgressView()
-                    Text("pay or get out")
+                    SearchView(artist: artist)
                 } label: {
                     MainRowView(artist: artist)
                 }

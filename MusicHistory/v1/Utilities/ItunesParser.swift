@@ -92,11 +92,11 @@ func printResults() {
 // MARK: - Welcome
 struct Welcome: Codable {
     let resultCount: Int
-    fileprivate let results: [ItunesResult]
+    fileprivate let results: [ItunesResult1]
 }
 
 // MARK: - Result
-fileprivate struct ItunesResult: Codable {
+fileprivate struct ItunesResult1: Codable {
     let wrapperType: WrapperType
     let collectionType: CollectionType
     let artistID, collectionID: Int

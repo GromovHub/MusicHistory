@@ -33,6 +33,10 @@
 		D0AC5D3F288D3BC900BBF7BD /* LazyVGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AC5D3E288D3BC900BBF7BD /* LazyVGridView.swift */; };
 		D0AC5D41288FE27900BBF7BD /* TabViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AC5D40288FE27900BBF7BD /* TabViewTest.swift */; };
 		D0B1A8D128B55AF50009763D /* AsyncView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B1A8D028B55AF50009763D /* AsyncView.swift */; };
+		D0B1A8D328B5F5CF0009763D /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B1A8D228B5F5CF0009763D /* SearchView.swift */; };
+		D0B1A8D528B5F6830009763D /* ItunesJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B1A8D428B5F6830009763D /* ItunesJson.swift */; };
+		D0B1A8D728B5F7890009763D /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B1A8D628B5F7890009763D /* SearchViewModel.swift */; };
+		D0B1A8D928B5F8EA0009763D /* SearchCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B1A8D828B5F8EA0009763D /* SearchCellView.swift */; };
 		D0BA3A4C28B383CB00B4AFCA /* UserDefaultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BA3A4B28B383CB00B4AFCA /* UserDefaultsView.swift */; };
 		D0BA3A4E28B388D200B4AFCA /* AppStorageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BA3A4D28B388D200B4AFCA /* AppStorageView.swift */; };
 		D0BA3A5028B396D200B4AFCA /* AppStorageCustomTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BA3A4F28B396D200B4AFCA /* AppStorageCustomTypeView.swift */; };
@@ -82,6 +86,10 @@
 		D0AC5D3E288D3BC900BBF7BD /* LazyVGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGridView.swift; sourceTree = "<group>"; };
 		D0AC5D40288FE27900BBF7BD /* TabViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewTest.swift; sourceTree = "<group>"; };
 		D0B1A8D028B55AF50009763D /* AsyncView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncView.swift; sourceTree = "<group>"; };
+		D0B1A8D228B5F5CF0009763D /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		D0B1A8D428B5F6830009763D /* ItunesJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesJson.swift; sourceTree = "<group>"; };
+		D0B1A8D628B5F7890009763D /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		D0B1A8D828B5F8EA0009763D /* SearchCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCellView.swift; sourceTree = "<group>"; };
 		D0BA3A4B28B383CB00B4AFCA /* UserDefaultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsView.swift; sourceTree = "<group>"; };
 		D0BA3A4D28B388D200B4AFCA /* AppStorageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageView.swift; sourceTree = "<group>"; };
 		D0BA3A4F28B396D200B4AFCA /* AppStorageCustomTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageCustomTypeView.swift; sourceTree = "<group>"; };
@@ -220,6 +228,8 @@
 				D0DAA35D28B109E6005D1420 /* MusicHistoryMainView.swift */,
 				D0CEE42C28B20775008FB44D /* MainRowView.swift */,
 				D0CEE42E28B20E5E008FB44D /* ToggleStyle.swift */,
+				D0B1A8D228B5F5CF0009763D /* SearchView.swift */,
+				D0B1A8D828B5F8EA0009763D /* SearchCellView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -228,6 +238,7 @@
 			isa = PBXGroup;
 			children = (
 				D0DAA36228B10A7D005D1420 /* MusicHistoryMainViewModel.swift */,
+				D0B1A8D628B5F7890009763D /* SearchViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -238,6 +249,7 @@
 				D0DC0D1B28B11B0A00B8E832 /* ArtistJSON.json */,
 				D0DAA36728B10C7F005D1420 /* Artist.swift */,
 				D0DC0D1D28B11DFB00B8E832 /* ArtistModel.swift */,
+				D0B1A8D428B5F6830009763D /* ItunesJson.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -385,8 +397,10 @@
 				D076696B2879825B00631D79 /* ThousandListView.swift in Sources */,
 				D0AC5D41288FE27900BBF7BD /* TabViewTest.swift in Sources */,
 				D02CE0F42881C6A100CAAD46 /* CustomDecodeEncode.swift in Sources */,
+				D0B1A8D928B5F8EA0009763D /* SearchCellView.swift in Sources */,
 				D03B0C2A28816FBF00322E64 /* JSONObjects.swift in Sources */,
 				D04D9499289A4CC6006E8570 /* FirebaseTest.swift in Sources */,
+				D0B1A8D528B5F6830009763D /* ItunesJson.swift in Sources */,
 				D0BA3A5728B3B01100B4AFCA /* OnboardingView.swift in Sources */,
 				D0BA3A5528B3A93800B4AFCA /* IntroView.swift in Sources */,
 				D02CE0FA2884178700CAAD46 /* TestView1.swift in Sources */,
@@ -394,10 +408,12 @@
 				D0B1A8D128B55AF50009763D /* AsyncView.swift in Sources */,
 				D00D570F287A2F8F00FEA948 /* WriteFileToPath.swift in Sources */,
 				D0BA3A4E28B388D200B4AFCA /* AppStorageView.swift in Sources */,
+				D0B1A8D328B5F5CF0009763D /* SearchView.swift in Sources */,
 				D0DAA36628B10C15005D1420 /* ClassicToArtist.swift in Sources */,
 				EC7ADED3285B1D9800F45B1A /* ThousandAlbumsApp.swift in Sources */,
 				D00D5703287A046100FEA948 /* JsonDecode.swift in Sources */,
 				D0853F70287D5E910079BC38 /* JsonToJson.swift in Sources */,
+				D0B1A8D728B5F7890009763D /* SearchViewModel.swift in Sources */,
 				D021DFA62885E795002D5E84 /* PicturesView.swift in Sources */,
 				D021DFA8288814A8002D5E84 /* AsyncImageDownloader.swift in Sources */,
 				D068C65E289664B100AD722A /* SignUpView.swift in Sources */,

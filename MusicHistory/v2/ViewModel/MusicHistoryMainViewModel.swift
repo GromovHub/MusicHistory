@@ -24,4 +24,6 @@ class MusicHistoryMainViewModel: ObservableObject {
         model.changeStatus(artistId: id, newStatus: status)
         getArtists()
     }
+    
+    
 }

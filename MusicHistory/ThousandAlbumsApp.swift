@@ -11,9 +11,7 @@ import SwiftUI
 struct ThousandAlbumsApp: App {
     var body: some Scene {
         WindowGroup {
-//            IntroView()
-            AsyncView()
-//            MusicHistoryMainView()
+            MusicHistoryMainView()
                 .onAppear {
         #if DEBUG
                     UserDefaults.standard.set(false, forKey: "_UIConstraintBasedLayoutLogUnsatisfiable")
