@@ -20,7 +20,6 @@ final class SearchViewModel: ObservableObject {
     }
     
     @Published var searchTerm = ""
-    
     @Published var searchResults = [ItunesJson]() // remove duplicates? sort?
     var cancellables = Set<AnyCancellable>()
     
@@ -30,7 +29,7 @@ final class SearchViewModel: ObservableObject {
         var urlComponents = URLComponents(string: baseUrl)
         let myQueryItems = [URLQueryItem(name: "term", value: searchTerm),
                            URLQueryItem(name: "entity", value: "album"),
-                           URLQueryItem(name: "limit", value: "10")]
+                           URLQueryItem(name: "limit", value: "15")]
         urlComponents?.queryItems = myQueryItems
         guard let url = urlComponents?.url else { return }
         print(url.description)

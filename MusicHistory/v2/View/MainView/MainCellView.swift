@@ -1,5 +1,5 @@
 //
-//  MainRowView.swift
+//  MainCellView.swift
 //  MusicHistory
 //
 //  Created by Vitaly Gromov on 8/21/22.
@@ -7,9 +7,9 @@
 
 import SwiftUI
 
-struct MainRowView: View {
+struct MainCellView: View {
     @State var artist: Artist
-    @State var orientation = UIDevice.current.orientation.rawValue
+    @State var vm: MainViewViewModel
     var body: some View {
         HStack {
             Text("\(artist.id)")
@@ -33,21 +33,23 @@ struct MainRowView: View {
                     .font(.footnote)
                     .foregroundColor(.gray)
                 Image(systemName: artist.listened ? "circle.fill" : "circle")
-                    .foregroundColor(orientation == 4 ? .cyan : .accentColor)
+                    .foregroundColor(.accentColor)
                     .frame(width: 40)
                     .onTapGesture {
                         artist.listened.toggle()
-                        print(artist)
+                        vm.changeStatusInLocalJson(forArtist: artist.id, to: artist.listened)
+//                        print(artist)
+                        
                 }
             }
         }
     }
 }
 
-struct MainRowView_Previews: PreviewProvider {
+struct MainCellView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-            MainRowView(artist: Artist(id: 100, artist: "David", album: "Fortune", date: 1950, listened: true))
+//            MainCellView(artist: Artist(id: 100, artist: "David", album: "Fortune", date: 1950, listened: true))
         }
     }
 }

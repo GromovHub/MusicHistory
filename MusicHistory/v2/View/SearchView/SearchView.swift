@@ -14,18 +14,34 @@ struct SearchView: View {
     
     var body: some View {
         VStack {
-                List(searchVM.searchResults) {
-                    SearchCellView(jsonObject: $0)
+                List(searchVM.searchResults) { json in
+                    SearchCellView(jsonObject: json)
+                }
+                .overlay {
+                    if searchVM.searchResults.count == 0 {
+                       VStack(alignment: .center, spacing: 10) {
+                           Text("No Suggestions")
+                               .font(.largeTitle)
+                               .foregroundColor(.gray)
+                               .opacity(0.5)
+                           Text("Please check your Internet connection or change search term (pull down this text)")
+                               .font(.body)
+                               .foregroundColor(.gray)
+                               .multilineTextAlignment(.center)
+                               .opacity(0.5)
+                               .frame(width: 200)
+                       }
+                    }
                 }
                 .listStyle(.automatic)
-                .navigationTitle("Itunes Search")
                 .searchable(text: $searchVM.searchTerm, placement: .automatic)
-                .onAppear {
-                    searchVM.searchTerm = artist.artist + " " + artist.album
-                }
-                .task {
-                    await searchVM.searchTerm()
-                }
+            }
+        .navigationTitle("iTunes Search")
+        .onAppear {
+            searchVM.searchTerm = artist.artist + " " + artist.album
+        }
+        .task {
+            await searchVM.searchTerm()
         }
        
     }
@@ -36,3 +52,4 @@ struct SearchView_Previews: PreviewProvider {
         SearchView(artist: Artist(id: 100, artist: "Elton", album: "Super Album", date: 1970, listened: false))
     }
 }
+

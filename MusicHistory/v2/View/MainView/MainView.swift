@@ -1,5 +1,5 @@
 //
-//  MusicHistoryMainView.swift
+//  MainView.swift
 //  1001 Albums
 //
 //  Created by Vitaly Gromov on 8/20/22.
@@ -7,8 +7,8 @@
 
 import SwiftUI
 
-struct MusicHistoryMainView: View {
-    @StateObject private var vm = MusicHistoryMainViewModel()
+struct MainView: View {
+    @StateObject private var vm = MainViewViewModel()
     @State var forText: String = ""
     var body: some View {
         NavigationView {
@@ -16,24 +16,30 @@ struct MusicHistoryMainView: View {
                 NavigationLink {
                     SearchView(artist: artist)
                 } label: {
-                    MainRowView(artist: artist)
+                    MainCellView(artist: artist, vm: vm)
                 }
             }
-            .navigationTitle("MusicHistory")
+            .navigationTitle("Music History")
             .searchable(text: $forText)
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Menu {
                         Menu("Listened") {
-                            Button("Only Listened", action: {})
+                            Button("Only Listened", action: {
+                                
+                            })
                             Button("Only Non Listened", action: {})
                             Button("Show All", action: {})
                         }
                         Menu("Low High") {
                             Button("Low To High", action: {})
-                            Button("High To Low", action: {})
+                            Button("High To Low", action: {
+                                vm.changeStatusInLocalJson(forArtist: 1, to: true)
+                            })
                         }
-                        Button("Default", action: {})
+                        Button("Default", action: {
+                            print(vm.artists[0])
+                        })
                     } label: {
                         Label("Sort", systemImage: "arrow.up.arrow.down")
                     }
@@ -43,8 +49,8 @@ struct MusicHistoryMainView: View {
     }
 }
 
-struct MusicHistoryMainView_Previews: PreviewProvider {
+struct MainView_Previews: PreviewProvider {
     static var previews: some View {
-        MusicHistoryMainView()
+        MainView()
     }
 }

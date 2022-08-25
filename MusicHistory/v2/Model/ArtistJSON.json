@@ -3,14 +3,14 @@
         "date": 1955,
         "id": 1,
         "album": "In The Wee Small Hours",
-        "listened": true,
+        "listened": false,
         "artist": "Frank Sinatra"
     },
     {
         "date": 1956,
         "id": 2,
         "album": "Birth of the Cool",
-        "listened": true,
+        "listened": false,
         "artist": "Miles Davis"
     },
     {
@@ -24,7 +24,7 @@
         "date": 1956,
         "id": 4,
         "album": "Elvis Presley",
-        "listened": true,
+        "listened": false,
         "artist": "Elvis Presley"
     },
     {
@@ -38,1596 +38,1596 @@
         "date": 1956,
         "id": 6,
         "album": "Tragic Songs Of Life",
-        "listened": true,
+        "listened": false,
         "artist": "The Louvin Brothers"
     },
     {
         "date": 1957,
         "id": 7,
         "album": "Brilliant Corners",
-        "listened": true,
+        "listened": false,
         "artist": "Thelonious Monk"
     },
     {
         "date": 1957,
         "id": 8,
         "album": "Here's Little Richard",
-        "listened": true,
+        "listened": false,
         "artist": "Little Richard"
     },
     {
         "date": 1957,
         "id": 9,
         "album": "Kenya",
-        "listened": true,
+        "listened": false,
         "artist": "Machito"
     },
     {
         "date": 1957,
         "id": 10,
         "album": "Palo Congo",
-        "listened": true,
+        "listened": false,
         "artist": "Sabu"
     },
     {
         "date": 1957,
         "id": 11,
         "album": "The Chirping Crickets",
-        "listened": true,
+        "listened": false,
         "artist": "The Crickets"
     },
     {
         "date": 1957,
         "id": 12,
         "album": "The Atomic Mr Basie",
-        "listened": true,
+        "listened": false,
         "artist": "Count Basie"
     },
     {
         "date": 1957,
         "id": 13,
         "album": "The Wildest",
-        "listened": true,
+        "listened": false,
         "artist": "Louis Prima"
     },
     {
         "date": 1957,
         "id": 14,
         "album": "This is Fats Domino",
-        "listened": true,
+        "listened": false,
         "artist": "Fats Domino"
     },
     {
         "date": 1958,
         "id": 15,
         "album": "Dance Mania",
-        "listened": true,
+        "listened": false,
         "artist": "Tito Puente"
     },
     {
         "date": 1958,
         "id": 16,
         "album": "Jack Takes the Floor",
-        "listened": true,
+        "listened": false,
         "artist": "Ramblin Jack Elliott"
     },
     {
         "date": 1958,
         "id": 17,
         "album": "Lady in Satin",
-        "listened": true,
+        "listened": false,
         "artist": "Billie Holiday"
     },
     {
         "date": 1958,
         "id": 18,
         "album": "Live at Mister Kelly's",
-        "listened": true,
+        "listened": false,
         "artist": "Sarah Vaughan"
     },
     {
         "date": 1959,
         "id": 19,
         "album": "George Gershwin Songbook",
-        "listened": true,
+        "listened": false,
         "artist": "Ella Fitzgerald"
     },
     {
         "date": 1959,
         "id": 20,
         "album": "Gunfighter Ballads And Trail Songs",
-        "listened": true,
+        "listened": false,
         "artist": "Marty Robbins"
     },
     {
         "date": 1959,
         "id": 21,
         "album": "Kind of Blue",
-        "listened": true,
+        "listened": false,
         "artist": "Miles Davis"
     },
     {
         "date": 1959,
         "id": 22,
         "album": "The Genius of Ray Charles",
-        "listened": true,
+        "listened": false,
         "artist": "Ray Charles"
     },
     {
         "date": 1959,
         "id": 23,
         "album": "Time Out",
-        "listened": true,
+        "listened": false,
         "artist": "Dave Brubeck Quartet"
     },
     {
         "date": 1960,
         "id": 24,
         "album": "A Date with the Everly Brothers",
-        "listened": true,
+        "listened": false,
         "artist": "The Everly Bothers"
     },
     {
         "date": 1960,
         "id": 25,
         "album": "Elvis is Back!",
-        "listened": true,
+        "listened": false,
         "artist": "Elvis Presley"
     },
     {
         "date": 1960,
         "id": 26,
         "album": "Joan Baez",
-        "listened": true,
+        "listened": false,
         "artist": "Joan Baez"
     },
     {
         "date": 1960,
         "id": 27,
         "album": "Miriam Makeba",
-        "listened": true,
+        "listened": false,
         "artist": "Miriam Makeba"
     },
     {
         "date": 1960,
         "id": 28,
         "album": "Muddy Waters at Newport",
-        "listened": true,
+        "listened": false,
         "artist": "Muddy Waters"
     },
     {
         "date": 1961,
         "id": 29,
         "album": "Back at the Chicken Shack",
-        "listened": true,
+        "listened": false,
         "artist": "Jimmy Smith"
     },
     {
         "date": 1961,
         "id": 30,
         "album": "Sunday at the Village Vanguard",
-        "listened": true,
+        "listened": false,
         "artist": "Bill Evans"
     },
     {
         "date": 1962,
         "id": 31,
         "album": "Green Onions",
-        "listened": true,
+        "listened": false,
         "artist": "Booker T & The MGs"
     },
     {
         "date": 1962,
         "id": 32,
         "album": "Jazz Samba",
-        "listened": true,
+        "listened": false,
         "artist": "Stan Getz/Charlie Byrd"
     },
     {
         "date": 1962,
         "id": 33,
         "album": "Modern Sounds In Country And Western Music",
-        "listened": true,
+        "listened": false,
         "artist": "Ray Charles"
     },
     {
         "date": 1963,
         "id": 34,
         "album": "A Christmas Gift To You",
-        "listened": true,
+        "listened": false,
         "artist": "Phil Spector"
     },
     {
         "date": 1963,
         "id": 35,
         "album": "Live at the Apollo",
-        "listened": true,
+        "listened": false,
         "artist": "James Brown"
     },
     {
         "date": 1963,
         "id": 36,
         "album": "Live At The Harlem Square Club",
-        "listened": true,
+        "listened": false,
         "artist": "Sam Cooke"
     },
     {
         "date": 1963,
         "id": 37,
         "album": "Night Life",
-        "listened": true,
+        "listened": false,
         "artist": "Ray Price"
     },
     {
         "date": 1963,
         "id": 38,
         "album": "The Black Saint and the Sinner Lady",
-        "listened": true,
+        "listened": false,
         "artist": "Charles Mingus"
     },
     {
         "date": 1963,
         "id": 39,
         "album": "With The Beatles",
-        "listened": true,
+        "listened": false,
         "artist": "The Beatles"
     },
     {
         "date": 1964,
         "id": 40,
         "album": "A Girl Called Dusty",
-        "listened": true,
+        "listened": false,
         "artist": "Dusty Springfield"
     },
     {
         "date": 1964,
         "id": 41,
         "album": "A Hard Day's Night",
-        "listened": true,
+        "listened": false,
         "artist": "The Beatles"
     },
     {
         "date": 1964,
         "id": 42,
         "album": "A Love Supreme",
-        "listened": true,
+        "listened": false,
         "artist": "John Coltrane"
     },
     {
         "date": 1964,
         "id": 43,
         "album": "Bert Jansch",
-        "listened": true,
+        "listened": false,
         "artist": "Bert Jansch"
     },
     {
         "date": 1964,
         "id": 44,
         "album": "Getz/Gilberto",
-        "listened": true,
+        "listened": false,
         "artist": "Stan Getz/Joao Gilberto"
     },
     {
         "date": 1964,
         "id": 45,
         "album": "Olympia 64",
-        "listened": true,
+        "listened": false,
         "artist": "Jacques Brel"
     },
     {
         "date": 1964,
         "id": 46,
         "album": "Rock & Soul",
-        "listened": true,
+        "listened": false,
         "artist": "Solomon Burke"
     },
     {
         "date": 1964,
         "id": 47,
         "album": "The Freewheelin Bob Dylan",
-        "listened": true,
+        "listened": false,
         "artist": "Bob Dylan"
     },
     {
         "date": 1964,
         "id": 48,
         "album": "The Rolling Stones",
-        "listened": true,
+        "listened": false,
         "artist": "The Rolling Stones"
     },
     {
         "date": 1965,
         "id": 49,
         "album": "Bringing It All Back Home",
-        "listened": true,
+        "listened": false,
         "artist": "Bob Dylan"
     },
     {
         "date": 1965,
         "id": 50,
         "album": "Here Are The Sonics",
-        "listened": true,
+        "listened": false,
         "artist": "The Sonics"
     },
     {
         "date": 1965,
         "id": 51,
         "album": "Highway 61 Revisited",
-        "listened": true,
+        "listened": false,
         "artist": "Bob Dylan"
     },
     {
         "date": 1965,
         "id": 52,
         "album": "I've Got A Tiger By The Tail",
-        "listened": true,
+        "listened": false,
         "artist": "Buck Owens"
     },
     {
         "date": 1965,
         "id": 53,
         "album": "Live At The Regal",
-        "listened": true,
+        "listened": false,
         "artist": "BB King"
     },
     {
         "date": 1965,
         "id": 54,
         "album": "Live At The Star Club, Hamburg",
-        "listened": true,
+        "listened": false,
         "artist": "Jerry Lee Lewis"
     },
     {
         "date": 1965,
         "id": 55,
         "album": "Mr Tambourine Man",
-        "listened": true,
+        "listened": false,
         "artist": "The Byrds"
     },
     {
         "date": 1965,
         "id": 56,
         "album": "My Generation",
-        "listened": true,
+        "listened": false,
         "artist": "The Who"
     },
     {
         "date": 1965,
         "id": 57,
         "album": "Otis Blue",
-        "listened": true,
+        "listened": false,
         "artist": "Otis Redding"
     },
     {
         "date": 1965,
         "id": 58,
         "album": "Rubber Soul",
-        "listened": true,
+        "listened": false,
         "artist": "The Beatles"
     },
     {
         "date": 1965,
         "id": 59,
         "album": "Today!",
-        "listened": true,
+        "listened": false,
         "artist": "The Beach Boys"
     },
     {
         "date": 1966,
         "id": 60,
         "album": "Aftermath",
-        "listened": true,
+        "listened": false,
         "artist": "The Rolling Stones"
     },
     {
         "date": 1966,
         "id": 61,
         "album": "Black Monk Time",
-        "listened": true,
+        "listened": false,
         "artist": "The Monks"
     },
     {
         "date": 1966,
         "id": 62,
         "album": "Blonde On Blonde",
-        "listened": true,
+        "listened": false,
         "artist": "Bob Dylan"
     },
     {
         "date": 1966,
         "id": 63,
         "album": "Bluesbreakers with Eric Clapton",
-        "listened": true,
+        "listened": false,
         "artist": "John Mayall's Bluesbreakers"
     },
     {
         "date": 1966,
         "id": 64,
         "album": "Face to Face",
-        "listened": true,
+        "listened": false,
         "artist": "The Kinks"
     },
     {
         "date": 1966,
         "id": 65,
         "album": "Fifth Dimension",
-        "listened": true,
+        "listened": false,
         "artist": "The Byrds"
     },
     {
         "date": 1966,
         "id": 66,
         "album": "Freak Out!",
-        "listened": true,
-        "artist": "Frank Zappa and the Mothers of Invention"
+        "listened": false,
+        "artist": "The Mothers of Invention"
     },
     {
         "date": 1966,
         "id": 67,
         "album": "Fred Neil",
-        "listened": true,
+        "listened": false,
         "artist": "Fred Neil"
     },
     {
         "date": 1966,
         "id": 68,
         "album": "Mamas And The Papas",
-        "listened": true,
+        "listened": false,
         "artist": "Mamas And The Papas"
     },
     {
         "date": 1966,
         "id": 69,
         "album": "Midnight Ride",
-        "listened": true,
+        "listened": false,
         "artist": "Paul Revere and the Raiders"
     },
     {
         "date": 1966,
         "id": 70,
         "album": "Parsley, Sage, Rosemary and Thyme",
-        "listened": true,
+        "listened": false,
         "artist": "Simon & Garfunkel"
     },
     {
         "date": 1966,
         "id": 71,
         "album": "Pet Sounds",
-        "listened": true,
+        "listened": false,
         "artist": "The Beach Boys"
     },
     {
         "date": 1966,
         "id": 72,
         "album": "Revolver",
-        "listened": true,
+        "listened": false,
         "artist": "The Beatles"
     },
     {
         "date": 1966,
         "id": 73,
         "album": "Sunshine Superman",
-        "listened": true,
+        "listened": false,
         "artist": "Donovan"
     },
     {
         "date": 1966,
         "id": 74,
         "album": "The Psychedelic Sounds of the 13th Floor Elevators",
-        "listened": true,
+        "listened": false,
         "artist": "The 13th Floor Elevators"
     },
     {
         "date": 1966,
         "id": 75,
         "album": "Wild is the Wind",
-        "listened": true,
+        "listened": false,
         "artist": "Nina Simone"
     },
     {
         "date": 1966,
         "id": 76,
         "album": "Yardbirds",
-        "listened": true,
+        "listened": false,
         "artist": "The Yardbirds"
     },
     {
         "date": 1967,
         "id": 77,
         "album": "Are You Experienced?",
-        "listened": true,
+        "listened": false,
         "artist": "The Jimi Hendrix Experience"
     },
     {
         "date": 1967,
         "id": 78,
         "album": "Axis: Bold As Love",
-        "listened": true,
+        "listened": false,
         "artist": "The Jimi Hendrix Experience"
     },
     {
         "date": 1967,
         "id": 79,
         "album": "Buffalo Springfield Again",
-        "listened": true,
+        "listened": false,
         "artist": "Buffalo Springfield"
     },
     {
         "date": 1967,
         "id": 80,
         "album": "Chelsea Girl",
-        "listened": true,
+        "listened": false,
         "artist": "Nico"
     },
     {
         "date": 1967,
         "id": 81,
         "album": "Da Capo",
-        "listened": true,
+        "listened": false,
         "artist": "Love"
     },
     {
         "date": 1967,
         "id": 82,
         "album": "Disraeli Gears",
-        "listened": true,
+        "listened": false,
         "artist": "Cream"
     },
     {
         "date": 1967,
         "id": 83,
         "album": "Don't Come Home A-Drinkin",
-        "listened": true,
+        "listened": false,
         "artist": "Loretta Lynn"
     },
     {
         "date": 1967,
         "id": 84,
         "album": "Electric Music For The Mind And Body",
-        "listened": true,
+        "listened": false,
         "artist": "Country Joe And The Fish"
     },
     {
         "date": 1967,
         "id": 85,
         "album": "Forever Changes",
-        "listened": true,
+        "listened": false,
         "artist": "Love"
     },
     {
         "date": 1967,
         "id": 87,
         "album": "Goodbye And Hello",
-        "listened": true,
+        "listened": false,
         "artist": "Tim Buckley"
     },
     {
         "date": 1967,
         "id": 88,
         "album": "Groovin",
-        "listened": true,
+        "listened": false,
         "artist": "The Young Rascals"
     },
     {
         "date": 1967,
         "id": 89,
         "album": "Headquarters",
-        "listened": true,
+        "listened": false,
         "artist": "The Monkees"
     },
     {
         "date": 1967,
         "id": 86,
         "album": "Francis Albert Sinatra & Antonio Carlos Jobim",
-        "listened": true,
+        "listened": false,
         "artist": "Francis Albert Sinatra & Antonio Carlos Jobim"
     },
     {
         "date": 1967,
         "id": 90,
         "album": "I Had Too Much to Dream Last Night",
-        "listened": true,
+        "listened": false,
         "artist": "The Electric Prunes"
     },
     {
         "date": 1967,
         "id": 91,
         "album": "I Never Loved a Man the Way That I Love You",
-        "listened": true,
+        "listened": false,
         "artist": "Aretha Franklin"
     },
     {
         "date": 1967,
         "id": 92,
         "album": "I'm A Lonesome Fugitive",
-        "listened": true,
+        "listened": false,
         "artist": "Merle Haggard"
     },
     {
         "date": 1967,
         "id": 93,
         "album": "Moby Grape",
-        "listened": true,
+        "listened": false,
         "artist": "Moby Grape"
     },
     {
         "date": 1967,
         "id": 94,
         "album": "Safe As Milk",
-        "listened": true,
+        "listened": false,
         "artist": "Captain Beefheart and His Magic Band"
     },
     {
         "date": 1967,
         "id": 95,
         "album": "Sgt Pepper's Lonely Hearts Club Band",
-        "listened": true,
+        "listened": false,
         "artist": "The Beatles"
     },
     {
         "date": 1967,
         "id": 97,
         "album": "Surrealistic Pillow",
-        "listened": true,
+        "listened": false,
         "artist": "Jefferson Airplane"
     },
     {
         "date": 1967,
         "id": 96,
         "album": "Something Else by The Kinks",
-        "listened": true,
+        "listened": false,
         "artist": "The Kinks"
     },
     {
         "date": 1967,
         "id": 98,
         "album": "The Doors",
-        "listened": true,
+        "listened": false,
         "artist": "The Doors"
     },
     {
         "date": 1967,
         "id": 99,
         "album": "The Piper at the Gates of Dawn",
-        "listened": true,
+        "listened": false,
         "artist": "Pink Floyd"
     },
     {
         "date": 1967,
         "id": 100,
         "album": "The Velvet Underground & Nico",
-        "listened": true,
+        "listened": false,
         "artist": "The Velvet Underground"
     },
     {
         "date": 1967,
         "id": 101,
         "album": "The Who Sell Out",
-        "listened": true,
+        "listened": false,
         "artist": "The Who"
     },
     {
         "date": 1967,
         "id": 102,
         "album": "Triangle",
-        "listened": true,
+        "listened": false,
         "artist": "The Beau Brummels"
     },
     {
         "date": 1967,
         "id": 103,
         "album": "We're Only in it for the Money",
-        "listened": true,
+        "listened": false,
         "artist": "The Mothers of Invention"
     },
     {
         "date": 1967,
         "id": 104,
         "album": "White Light/White Heat",
-        "listened": true,
+        "listened": false,
         "artist": "The Velvet Underground"
     },
     {
         "date": 1967,
         "id": 105,
         "album": "Younger Than Yesterday",
-        "listened": true,
+        "listened": false,
         "artist": "The Byrds"
     },
     {
         "date": 1968,
         "id": 106,
         "album": "Aretha: Lady Soul",
-        "listened": true,
+        "listened": false,
         "artist": "Aretha Franklin"
     },
     {
         "date": 1968,
         "id": 107,
         "album": "Beach Samba",
-        "listened": true,
+        "listened": false,
         "artist": "Astrud Gilberto"
     },
     {
         "date": 1968,
         "id": 108,
         "album": "Beggars Banquet",
-        "listened": true,
+        "listened": false,
         "artist": "The Rolling Stones"
     },
     {
         "date": 1968,
         "id": 109,
         "album": "Bookends",
-        "listened": true,
+        "listened": false,
         "artist": "Simon & Garfunkel"
     },
     {
         "date": 1968,
         "id": 110,
         "album": "Caetano Veloso",
-        "listened": true,
+        "listened": false,
         "artist": "Caetano Veloso"
     },
     {
         "date": 1968,
         "id": 111,
         "album": "Cheap Thrills",
-        "listened": true,
+        "listened": false,
         "artist": "Big Brother and the Holding Company"
     },
     {
         "date": 1968,
         "id": 112,
         "album": "Electric Ladyland",
-        "listened": true,
+        "listened": false,
         "artist": "The Jimi Hendrix Experience"
     },
     {
         "date": 1968,
         "id": 113,
         "album": "Eli And The Thirteenth Confession",
-        "listened": true,
+        "listened": false,
         "artist": "Laura Nyro"
     },
     {
         "date": 1968,
         "id": 114,
         "album": "Happy Sad",
-        "listened": true,
+        "listened": false,
         "artist": "Tim Buckley"
     },
     {
         "date": 1968,
         "id": 115,
         "album": "In-a-gadda-da-vida",
-        "listened": true,
+        "listened": false,
         "artist": "Iron Butterfly"
     },
     {
         "date": 1968,
         "id": 116,
         "album": "Johnny Cash at Folsom Prison",
-        "listened": true,
+        "listened": false,
         "artist": "Johnny Cash"
     },
     {
         "date": 1968,
         "id": 117,
         "album": "Music from Big Pink",
-        "listened": true,
+        "listened": false,
         "artist": "The Band"
     },
     {
         "date": 1968,
         "id": 118,
         "album": "Oar",
-        "listened": true,
+        "listened": false,
         "artist": "Alexander Skip Spence"
     },
     {
         "date": 1968,
         "id": 119,
         "album": "Odessey And Oracle",
-        "listened": true,
+        "listened": false,
         "artist": "The Zombies"
     },
     {
         "date": 1968,
         "id": 120,
         "album": "Ogden's Nut Gone Flake",
-        "listened": true,
+        "listened": false,
         "artist": "The Small Faces"
     },
     {
         "date": 1968,
         "id": 121,
         "album": "Os Mutantes",
-        "listened": true,
+        "listened": false,
         "artist": "Os Mutantes"
     },
     {
         "date": 1968,
         "id": 122,
         "album": "Scott 2",
-        "listened": true,
+        "listened": false,
         "artist": "Scott Walker"
     },
     {
         "date": 1968,
         "id": 123,
         "album": "SF Sorrow",
-        "listened": true,
+        "listened": false,
         "artist": "The Pretty Things"
     },
     {
         "date": 1968,
         "id": 124,
         "album": "Songs Of Leonard Cohen",
-        "listened": true,
+        "listened": false,
         "artist": "Leonard Cohen"
     },
     {
         "date": 1968,
         "id": 125,
         "album": "Sweetheart Of The Rodeo",
-        "listened": true,
+        "listened": false,
         "artist": "The Byrds"
     },
     {
         "date": 1968,
         "id": 126,
         "album": "The Beatles (White Album)",
-        "listened": true,
+        "listened": false,
         "artist": "The Beatles"
     },
     {
         "date": 1968,
         "id": 127,
         "album": "The Call of the Valley",
-        "listened": true,
+        "listened": false,
         "artist": "Shivkumar Sharma/Brijbushan Kabra/Hariprasad Chaurasia"
     },
     {
         "date": 1968,
         "id": 128,
         "album": "The Hangman's Beautiful Daughter",
-        "listened": true,
+        "listened": false,
         "artist": "The Incredible String Band"
     },
     {
         "date": 1968,
         "id": 129,
         "album": "The Notorious Byrd Brothers",
-        "listened": true,
+        "listened": false,
         "artist": "The Byrds"
     },
     {
         "date": 1968,
         "id": 130,
         "album": "The Sounds of India",
-        "listened": true,
+        "listened": false,
         "artist": "Ravi Shankar"
     },
     {
         "date": 1968,
         "id": 131,
         "album": "The United States Of America",
-        "listened": true,
+        "listened": false,
         "artist": "The United States Of America"
     },
     {
         "date": 1968,
         "id": 132,
         "album": "Tommy",
-        "listened": true,
+        "listened": false,
         "artist": "The Who"
     },
     {
         "date": 1968,
         "id": 133,
         "album": "Traffic",
-        "listened": true,
+        "listened": false,
         "artist": "Traffic"
     },
     {
         "date": 1968,
         "id": 134,
         "album": "Truth",
-        "listened": true,
+        "listened": false,
         "artist": "Jeff Beck Group"
     },
     {
         "date": 1968,
         "id": 135,
         "album": "Village Green Preservation Society",
-        "listened": true,
+        "listened": false,
         "artist": "The Kinks"
     },
     {
         "date": 1968,
         "id": 136,
         "album": "Vincebus Eruptum",
-        "listened": true,
+        "listened": false,
         "artist": "Blue Cheer"
     },
     {
         "date": 1969,
         "id": 137,
         "album": "Abbey Road",
-        "listened": true,
+        "listened": false,
         "artist": "The Beatles"
     },
     {
         "date": 1969,
         "id": 138,
         "album": "Arthur, or the Decline and Fall of the British Empire",
-        "listened": true,
+        "listened": false,
         "artist": "The Kinks"
     },
     {
         "date": 1969,
         "id": 139,
         "album": "Astral Weeks",
-        "listened": true,
+        "listened": false,
         "artist": "Van Morrison"
     },
     {
         "date": 1969,
         "id": 140,
         "album": "Basket Of Light",
-        "listened": true,
+        "listened": false,
         "artist": "Pentangle"
     },
     {
         "date": 1969,
         "id": 141,
         "album": "Bayou Country",
-        "listened": true,
+        "listened": false,
         "artist": "Creedence Clearwater Revival"
     },
     {
         "date": 1969,
         "id": 142,
         "album": "Blood, Sweat And Tears",
-        "listened": true,
+        "listened": false,
         "artist": "Blood, Sweat And Tears"
     },
     {
         "date": 1969,
         "id": 143,
         "album": "Chicago Transit Authority",
-        "listened": true,
+        "listened": false,
         "artist": "Chicago"
     },
     {
         "date": 1969,
         "id": 144,
         "album": "Cloud Nine",
-        "listened": true,
+        "listened": false,
         "artist": "The Temptations"
     },
     {
         "date": 1969,
         "id": 145,
         "album": "Crosby, Stills And Nash",
-        "listened": true,
+        "listened": false,
         "artist": "Crosby, Stills And Nash"
     },
     {
         "date": 1969,
         "id": 146,
         "album": "Dusty in Memphis",
-        "listened": true,
+        "listened": false,
         "artist": "Dusty Springfield"
     },
     {
         "date": 1969,
         "id": 147,
         "album": "Elephant Mountain",
-        "listened": true,
+        "listened": false,
         "artist": "The Youngbloods"
     },
     {
         "date": 1969,
         "id": 148,
         "album": "Everybody Knows This Is Nowhere",
-        "listened": true,
+        "listened": false,
         "artist": "Neil Young"
     },
     {
         "date": 1969,
         "id": 149,
         "album": "Five Leaves Left",
-        "listened": true,
+        "listened": false,
         "artist": "Nick Drake"
     },
     {
         "date": 1969,
         "id": 150,
         "album": "From Elvis in Memphis",
-        "listened": true,
+        "listened": false,
         "artist": "Elvis Presley"
     },
     {
         "date": 1969,
         "id": 151,
         "album": "Green River",
-        "listened": true,
+        "listened": false,
         "artist": "Creedence Clearwater Revival"
     },
     {
         "date": 1969,
         "id": 152,
         "album": "Gris Gris",
-        "listened": true,
+        "listened": false,
         "artist": "Dr John"
     },
     {
         "date": 1969,
         "id": 153,
         "album": "Happy Trails",
-        "listened": true,
+        "listened": false,
         "artist": "Quicksilver Messenger Service"
     },
     {
         "date": 1969,
         "id": 154,
         "album": "Hot Buttered Soul",
-        "listened": true,
+        "listened": false,
         "artist": "Isaac Hayes"
     },
     {
         "date": 1969,
         "id": 155,
         "album": "Hot Rats",
-        "listened": true,
+        "listened": false,
         "artist": "Frank Zappa"
     },
     {
         "date": 1969,
         "id": 156,
         "album": "In A Silent Way",
-        "listened": true,
+        "listened": false,
         "artist": "Miles Davis"
     },
     {
         "date": 1969,
         "id": 157,
         "album": "In The Court of the Crimson King",
-        "listened": true,
+        "listened": false,
         "artist": "King Crimson"
     },
     {
         "date": 1969,
         "id": 158,
         "album": "Johnny Cash at San Quentin",
-        "listened": true,
+        "listened": false,
         "artist": "Johnny Cash"
     },
     {
         "date": 1969,
         "id": 159,
         "album": "Kick Out The Jams",
-        "listened": true,
+        "listened": false,
         "artist": "The MC5"
     },
     {
         "date": 1969,
         "id": 160,
         "album": "Led Zeppelin I",
-        "listened": true,
+        "listened": false,
         "artist": "Led Zeppelin"
     },
     {
         "date": 1969,
         "id": 161,
         "album": "Led Zeppelin II",
-        "listened": true,
+        "listened": false,
         "artist": "Led Zeppelin"
     },
     {
         "date": 1969,
         "id": 162,
         "album": "Let It Bleed",
-        "listened": true,
+        "listened": false,
         "artist": "The Rolling Stones"
     },
     {
         "date": 1969,
         "id": 163,
         "album": "Liege And Lief",
-        "listened": true,
+        "listened": false,
         "artist": "Fairport Convention"
     },
     {
         "date": 1969,
         "id": 164,
         "album": "Odessa",
-        "listened": true,
+        "listened": false,
         "artist": "The Bee Gees"
     },
     {
         "date": 1969,
         "id": 165,
         "album": "Scott 4",
-        "listened": true,
+        "listened": false,
         "artist": "Scott Walker"
     },
     {
         "date": 1969,
         "id": 166,
         "album": "Songs From A Room",
-        "listened": true,
+        "listened": false,
         "artist": "Leonard Cohen"
     },
     {
         "date": 1969,
         "id": 167,
         "album": "Stand!",
-        "listened": true,
+        "listened": false,
         "artist": "Sly & The Family Stone"
     },
     {
         "date": 1969,
         "id": 168,
         "album": "The Band",
-        "listened": true,
+        "listened": false,
         "artist": "The Band"
     },
     {
         "date": 1969,
         "id": 169,
         "album": "The Gilded Palace of Sin",
-        "listened": true,
+        "listened": false,
         "artist": "The Flying Burrito Brothers"
     },
     {
         "date": 1969,
         "id": 170,
         "album": "The Stooges",
-        "listened": true,
+        "listened": false,
         "artist": "The Stooges"
     },
     {
         "date": 1969,
         "id": 171,
         "album": "The Velvet Underground",
-        "listened": true,
+        "listened": false,
         "artist": "The Velvet Underground"
     },
     {
         "date": 1969,
         "id": 172,
         "album": "Trout Mask Replica",
-        "listened": true,
+        "listened": false,
         "artist": "Captain Beefheart and His Magic Band"
     },
     {
         "date": 1969,
         "id": 173,
         "album": "Unhalfbricking",
-        "listened": true,
+        "listened": false,
         "artist": "Fairport Convention"
     },
     {
         "date": 1970,
         "id": 174,
         "album": "Abraxas",
-        "listened": true,
+        "listened": false,
         "artist": "Santana"
     },
     {
         "date": 1970,
         "id": 175,
         "album": "After The Goldrush",
-        "listened": true,
+        "listened": false,
         "artist": "Neil Young"
     },
     {
         "date": 1970,
         "id": 176,
         "album": "All Things Must Pass",
-        "listened": true,
+        "listened": false,
         "artist": "George Harrison"
     },
     {
         "date": 1970,
         "id": 177,
         "album": "American Beauty",
-        "listened": true,
+        "listened": false,
         "artist": "The Grateful Dead"
     },
     {
         "date": 1970,
         "id": 178,
         "album": "Ananda Shankar",
-        "listened": true,
+        "listened": false,
         "artist": "Ananda Shankar"
     },
     {
         "date": 1970,
         "id": 179,
         "album": "Bitches Brew",
-        "listened": true,
+        "listened": false,
         "artist": "Miles Davis"
     },
     {
         "date": 1970,
         "id": 180,
         "album": "Black Sabbath",
-        "listened": true,
+        "listened": false,
         "artist": "Black Sabbath"
     },
     {
         "date": 1970,
         "id": 181,
         "album": "Bridge Over Troubled Water",
-        "listened": true,
+        "listened": false,
         "artist": "Simon & Garfunkel"
     },
     {
         "date": 1970,
         "id": 182,
         "album": "Bryter Later",
-        "listened": true,
+        "listened": false,
         "artist": "Nick Drake"
     },
     {
         "date": 1970,
         "id": 183,
         "album": "Close To You",
-        "listened": true,
+        "listened": false,
         "artist": "The Carpenters"
     },
     {
         "date": 1970,
         "id": 184,
         "album": "Deep Purple in Rock",
-        "listened": true,
+        "listened": false,
         "artist": "Deep Purple"
     },
     {
         "date": 1970,
         "id": 185,
         "album": "Deja Vu",
-        "listened": true,
+        "listened": false,
         "artist": "Crosby, Stills, Nash & Young"
     },
     {
         "date": 1970,
         "id": 186,
         "album": "Fun House",
-        "listened": true,
+        "listened": false,
         "artist": "Iggy Pop & The Stooges"
     },
     {
         "date": 1970,
         "id": 187,
         "album": "Gasoline Alley",
-        "listened": true,
+        "listened": false,
         "artist": "Rod Stewart"
     },
     {
         "date": 1970,
         "id": 188,
         "album": "John Barleycorn Must Die",
-        "listened": true,
+        "listened": false,
         "artist": "Traffic"
     },
     {
         "date": 1970,
         "id": 189,
         "album": "John Lennon/Plastic Ono Band",
-        "listened": true,
+        "listened": false,
         "artist": "John Lennon"
     },
     {
         "date": 1970,
         "id": 190,
         "album": "Layla And Other Assorted Lovesongs",
-        "listened": true,
+        "listened": false,
         "artist": "Derek And The Dominos"
     },
     {
         "date": 1970,
         "id": 191,
         "album": "Led Zeppelin III",
-        "listened": true,
+        "listened": false,
         "artist": "Led Zeppelin"
     },
     {
         "date": 1970,
         "id": 192,
         "album": "Live at Leeds",
-        "listened": true,
+        "listened": false,
         "artist": "The Who"
     },
     {
         "date": 1970,
         "id": 193,
         "album": "Live/Dead",
-        "listened": true,
+        "listened": false,
         "artist": "The Grateful Dead"
     },
     {
         "date": 1970,
         "id": 194,
         "album": "McCartney",
-        "listened": true,
+        "listened": false,
         "artist": "McCartney"
     },
     {
         "date": 1970,
         "id": 195,
         "album": "Moondance",
-        "listened": true,
+        "listened": false,
         "artist": "Van Morrison"
     },
     {
         "date": 1970,
         "id": 196,
         "album": "Morrison Hotel",
-        "listened": true,
+        "listened": false,
         "artist": "The Doors"
     },
     {
         "date": 1970,
         "id": 197,
         "album": "Paranoid",
-        "listened": true,
+        "listened": false,
         "artist": "Black Sabbath"
     },
     {
         "date": 1970,
         "id": 198,
         "album": "Stephen Stills",
-        "listened": true,
+        "listened": false,
         "artist": "Stephen Stills"
     },
     {
         "date": 1970,
         "id": 199,
         "album": "Sweet Baby James",
-        "listened": true,
+        "listened": false,
         "artist": "James Taylor"
     },
     {
         "date": 1970,
         "id": 200,
         "album": "Tea for the Tillerman",
-        "listened": true,
+        "listened": false,
         "artist": "Cat Stevens"
     },
     {
         "date": 1970,
         "id": 201,
         "album": "The Madcap Laughs",
-        "listened": true,
+        "listened": false,
         "artist": "Syd Barrett"
     },
     {
         "date": 1970,
         "id": 202,
         "album": "Third",
-        "listened": true,
+        "listened": false,
         "artist": "Soft Machine"
     },
     {
         "date": 1970,
         "id": 203,
         "album": "Twelve Dreams of Doctor Sardonicus",
-        "listened": true,
+        "listened": false,
         "artist": "Spirit"
     },
     {
         "date": 1971,
         "id": 204,
         "album": "A Nod's As Good As Wink",
-        "listened": true,
+        "listened": false,
         "artist": "The Faces"
     },
     {
         "date": 1971,
         "id": 205,
         "album": "American Pie",
-        "listened": true,
+        "listened": false,
         "artist": "Don McLean"
     },
     {
         "date": 1971,
         "id": 206,
         "album": "Aqualung",
-        "listened": true,
+        "listened": false,
         "artist": "Jethro Tull"
     },
     {
         "date": 1971,
         "id": 207,
         "album": "Blue",
-        "listened": true,
+        "listened": false,
         "artist": "Joni Mitchell"
     },
     {
         "date": 1971,
         "id": 208,
         "album": "Coat Of Many Colors",
-        "listened": true,
+        "listened": false,
         "artist": "Dolly Parton"
     },
     {
         "date": 1971,
         "id": 209,
         "album": "Cosmo's Factory",
-        "listened": true,
+        "listened": false,
         "artist": "Creedence Clearwater Revival"
     },
     {
         "date": 1971,
         "id": 210,
         "album": "Electric Warrior",
-        "listened": true,
+        "listened": false,
         "artist": "T Rex"
     },
     {
         "date": 1971,
         "id": 211,
         "album": "Every Picture Tells A Story",
-        "listened": true,
+        "listened": false,
         "artist": "Rod Stewart"
     },
     {
         "date": 1971,
         "id": 212,
         "album": "Fragile",
-        "listened": true,
+        "listened": false,
         "artist": "Yes"
     },
     {
         "date": 1971,
         "id": 213,
         "album": "Histoire de Melody Nelson",
-        "listened": true,
+        "listened": false,
         "artist": "Serge Gainsbourg"
     },
     {
         "date": 1971,
         "id": 214,
         "album": "If Only I Could Remember My Name",
-        "listened": true,
+        "listened": false,
         "artist": "David Crosby"
     },
     {
         "date": 1971,
         "id": 215,
         "album": "Imagine",
-        "listened": true,
+        "listened": false,
         "artist": "John Lennon"
     },
     {
         "date": 1971,
         "id": 216,
         "album": "LA Woman",
-        "listened": true,
+        "listened": false,
         "artist": "The Doors"
     },
     {
         "date": 1971,
         "id": 217,
         "album": "Led Zeppelin IV (Four Symbols)",
-        "listened": true,
+        "listened": false,
         "artist": "Led Zeppelin"
     },
     {
         "date": 1971,
         "id": 218,
         "album": "Live With Ginger Baker",
-        "listened": true,
+        "listened": false,
         "artist": "Fela Kuti"
     },
     {
         "date": 1971,
         "id": 219,
         "album": "Madman Across The Water",
-        "listened": true,
+        "listened": false,
         "artist": "Elton John"
     },
     {
         "date": 1971,
         "id": 220,
         "album": "Maggot Brain",
-        "listened": true,
+        "listened": false,
         "artist": "Funkadelic"
     },
     {
         "date": 1971,
         "id": 221,
         "album": "Nilsson Schmilsson",
-        "listened": true,
+        "listened": false,
         "artist": "Harry Nilsson"
     },
     {
         "date": 1971,
         "id": 222,
         "album": "Pearl",
-        "listened": true,
+        "listened": false,
         "artist": "Janis Joplin"
     },
     {
         "date": 1971,
         "id": 223,
         "album": "Pictures at an Exhibition",
-        "listened": true,
+        "listened": false,
         "artist": "Emerson, Lake & Palmer"
     },
     {
         "date": 1971,
         "id": 224,
         "album": "Shaft",
-        "listened": true,
+        "listened": false,
         "artist": "Isaac Hayes"
     },
     {
         "date": 1971,
         "id": 225,
         "album": "Songs of Love and Hate",
-        "listened": true,
+        "listened": false,
         "artist": "Leonard Cohen"
     },
     {
         "date": 1971,
         "id": 226,
         "album": "Sticky Fingers",
-        "listened": true,
+        "listened": false,
         "artist": "The Rolling Stones"
     },
     {
         "date": 1971,
         "id": 227,
         "album": "Surf's Up",
-        "listened": true,
+        "listened": false,
         "artist": "The Beach Boys"
     },
     {
         "date": 1971,
         "id": 228,
         "album": "Tago Mago",
-        "listened": true,
+        "listened": false,
         "artist": "Can"
     },
     {
         "date": 1971,
         "id": 229,
         "album": "Tapestry",
-        "listened": true,
+        "listened": false,
         "artist": "Carole King"
     },
     {
         "date": 1971,
         "id": 230,
         "album": "Tarkus",
-        "listened": true,
+        "listened": false,
         "artist": "Emerson, Lake & Palmer"
     },
     {
         "date": 1971,
         "id": 231,
         "album": "Teenage Head",
-        "listened": true,
+        "listened": false,
         "artist": "The Flamin Groovies"
     },
     {
         "date": 1971,
         "id": 232,
         "album": "The Allman Brothers at Fillmore East",
-        "listened": true,
+        "listened": false,
         "artist": "The Allman Brothers"
     },
     {
         "date": 1971,
         "id": 233,
         "album": "The Yes Album",
-        "listened": true,
+        "listened": false,
         "artist": "Yes"
     },
     {
