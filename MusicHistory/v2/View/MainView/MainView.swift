@@ -20,19 +20,18 @@ struct MainView: View {
                     MainCellView(artist: artist, vm: vm)
                 }
             }
+            .onAppear {
+                // clear SearchViewModel after back to MainView
+                svm.searchResults = []
+            }
             .navigationTitle("Music History")
-            .searchable(text: $forText)
+            .searchable(text: $vm.mainViewSearchText)
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Menu {
-                        Menu("Listened") {
-                            Button("Only Listened") { vm.sortBy(how: .onlyListened) }
-                            Button("Only Non Listened") { vm.sortBy(how: .onlyNonListened) }
-                        }
-                        Menu("Low High") {
-                            Button("Low To High") { vm.sortBy(how: .lowToHigh) }
-                            Button("High To Low") { vm.sortBy(how: .highToLow) }
-                        }
+                        Button("Only Listened") { vm.sortBy(how: .onlyListened) }
+                        Button("Only Non Listened") { vm.sortBy(how: .onlyNonListened) }
+                        Button("High To Low") { vm.sortBy(how: .highToLow) }
                         Button("Default") { vm.sortBy(how: .showDefault) }
                     } label: {
                         Label("Sort", systemImage: "arrow.up.arrow.down")

@@ -11,7 +11,6 @@ struct SearchView: View {
     
     var artist: Artist
     @StateObject var searchVM: SearchViewModel
-    
     var body: some View {
         VStack {
                 List(searchVM.searchResults) { json in
@@ -33,7 +32,7 @@ struct SearchView: View {
                        }
                     }
                 }
-                .listStyle(.automatic)
+                .listStyle(.plain)
                 .searchable(text: $searchVM.searchTerm, placement: .automatic)
             }
         .navigationTitle("iTunes Search")

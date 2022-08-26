@@ -38,8 +38,6 @@ struct MainCellView: View {
                     .onTapGesture {
                         artist.listened.toggle()
                         vm.changeStatusInLocalJson(forArtist: artist.id, to: artist.listened)
-//                        print(artist)
-                        
                 }
             }
         }
