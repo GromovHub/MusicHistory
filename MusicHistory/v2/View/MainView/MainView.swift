@@ -9,12 +9,13 @@ import SwiftUI
 
 struct MainView: View {
     @StateObject private var vm = MainViewViewModel()
+    @StateObject private var svm = SearchViewModel()
     @State var forText: String = ""
     var body: some View {
         NavigationView {
             List(vm.artists) { artist in
                 NavigationLink {
-                    SearchView(artist: artist)
+                    SearchView(artist: artist, searchVM: svm)
                 } label: {
                     MainCellView(artist: artist, vm: vm)
                 }
@@ -25,21 +26,14 @@ struct MainView: View {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Menu {
                         Menu("Listened") {
-                            Button("Only Listened", action: {
-                                
-                            })
-                            Button("Only Non Listened", action: {})
-                            Button("Show All", action: {})
+                            Button("Only Listened") { vm.sortBy(how: .onlyListened) }
+                            Button("Only Non Listened") { vm.sortBy(how: .onlyNonListened) }
                         }
                         Menu("Low High") {
-                            Button("Low To High", action: {})
-                            Button("High To Low", action: {
-                                vm.changeStatusInLocalJson(forArtist: 1, to: true)
-                            })
+                            Button("Low To High") { vm.sortBy(how: .lowToHigh) }
+                            Button("High To Low") { vm.sortBy(how: .highToLow) }
                         }
-                        Button("Default", action: {
-                            print(vm.artists[0])
-                        })
+                        Button("Default") { vm.sortBy(how: .showDefault) }
                     } label: {
                         Label("Sort", systemImage: "arrow.up.arrow.down")
                     }

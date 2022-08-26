@@ -9,8 +9,8 @@ import SwiftUI
 
 struct SearchView: View {
     
-    @StateObject var searchVM = SearchViewModel()
     var artist: Artist
+    @StateObject var searchVM: SearchViewModel
     
     var body: some View {
         VStack {
@@ -40,16 +40,16 @@ struct SearchView: View {
         .onAppear {
             searchVM.searchTerm = artist.artist + " " + artist.album
         }
-        .task {
+        .task { 
             await searchVM.searchTerm()
         }
        
     }
 }
 
-struct SearchView_Previews: PreviewProvider {
-    static var previews: some View {
-        SearchView(artist: Artist(id: 100, artist: "Elton", album: "Super Album", date: 1970, listened: false))
-    }
-}
+//struct SearchView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        SearchView(artist: Artist(id: 100, artist: "Elton", album: "Super Album", date: 1970, listened: false))
+//    }
+//}
 

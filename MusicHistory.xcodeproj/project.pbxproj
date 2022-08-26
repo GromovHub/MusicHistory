@@ -10,6 +10,8 @@
 		D00D5703287A046100FEA948 /* JsonDecode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00D5702287A046100FEA948 /* JsonDecode.swift */; };
 		D00D570B287A1CBB00FEA948 /* ItunesParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00D570A287A1CBB00FEA948 /* ItunesParser.swift */; };
 		D00D570F287A2F8F00FEA948 /* WriteFileToPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00D570E287A2F8F00FEA948 /* WriteFileToPath.swift */; };
+		D01CCEFA28B7E7BF006B80D4 /* AppStorage2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01CCEF928B7E7BF006B80D4 /* AppStorage2.swift */; };
+		D01CCEFC28B8033F006B80D4 /* userdef.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01CCEFB28B8033F006B80D4 /* userdef.swift */; };
 		D021DFA42885DAA1002D5E84 /* CompletionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D021DFA32885DAA1002D5E84 /* CompletionHandler.swift */; };
 		D021DFA62885E795002D5E84 /* PicturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D021DFA52885E795002D5E84 /* PicturesView.swift */; };
 		D021DFA8288814A8002D5E84 /* AsyncImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D021DFA7288814A8002D5E84 /* AsyncImageDownloader.swift */; };
@@ -63,6 +65,8 @@
 		D00D5702287A046100FEA948 /* JsonDecode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonDecode.swift; sourceTree = "<group>"; };
 		D00D570A287A1CBB00FEA948 /* ItunesParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesParser.swift; sourceTree = "<group>"; };
 		D00D570E287A2F8F00FEA948 /* WriteFileToPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteFileToPath.swift; sourceTree = "<group>"; };
+		D01CCEF928B7E7BF006B80D4 /* AppStorage2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorage2.swift; sourceTree = "<group>"; };
+		D01CCEFB28B8033F006B80D4 /* userdef.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userdef.swift; sourceTree = "<group>"; };
 		D021DFA32885DAA1002D5E84 /* CompletionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletionHandler.swift; sourceTree = "<group>"; };
 		D021DFA52885E795002D5E84 /* PicturesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicturesView.swift; sourceTree = "<group>"; };
 		D021DFA7288814A8002D5E84 /* AsyncImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageDownloader.swift; sourceTree = "<group>"; };
@@ -281,6 +285,8 @@
 				D0BA3A5128B3A05000B4AFCA /* AppStorageCustomTypeView2.swift */,
 				D0B1A8D028B55AF50009763D /* AsyncView.swift */,
 				D0CEE42E28B20E5E008FB44D /* ToggleStyle.swift */,
+				D01CCEF928B7E7BF006B80D4 /* AppStorage2.swift */,
+				D01CCEFB28B8033F006B80D4 /* userdef.swift */,
 			);
 			path = Temp;
 			sourceTree = "<group>";
@@ -425,6 +431,7 @@
 				D0DC0D1E28B11DFB00B8E832 /* LocalJsonModel.swift in Sources */,
 				D0B1A8D128B55AF50009763D /* AsyncView.swift in Sources */,
 				D00D570F287A2F8F00FEA948 /* WriteFileToPath.swift in Sources */,
+				D01CCEFC28B8033F006B80D4 /* userdef.swift in Sources */,
 				D0BA3A4E28B388D200B4AFCA /* AppStorageView.swift in Sources */,
 				D0B1A8D328B5F5CF0009763D /* SearchView.swift in Sources */,
 				D0DAA36628B10C15005D1420 /* ClassicToArtist.swift in Sources */,
@@ -434,6 +441,7 @@
 				D0B1A8D728B5F7890009763D /* SearchViewModel.swift in Sources */,
 				D021DFA62885E795002D5E84 /* PicturesView.swift in Sources */,
 				D021DFA8288814A8002D5E84 /* AsyncImageDownloader.swift in Sources */,
+				D01CCEFA28B7E7BF006B80D4 /* AppStorage2.swift in Sources */,
 				D068C65E289664B100AD722A /* SignUpView.swift in Sources */,
 				D02CE0F62883507F00CAAD46 /* ItunesComparator2.swift in Sources */,
 				D0CEE42F28B20E5E008FB44D /* ToggleStyle.swift in Sources */,

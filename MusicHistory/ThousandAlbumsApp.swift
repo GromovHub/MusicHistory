@@ -12,6 +12,7 @@ struct ThousandAlbumsApp: App {
     var body: some Scene {
         WindowGroup {
             MainView()
+//            userdef()
                 .onAppear {
         #if DEBUG
                     UserDefaults.standard.set(false, forKey: "_UIConstraintBasedLayoutLogUnsatisfiable")

@@ -11,29 +11,53 @@ import SwiftUI
 
 class LocalJsonModel: ObservableObject {
     init() {
-            createArtists()
         print("LocalJsonModel created")
+            createArtists()
     }
     
     private(set) var allAtrists = [Artist]()
+    private var allArtistsData = Data()
     
     private func createArtists() {
-        do {
+        if let artistArrayData = UserDefaults.standard.data(forKey: "user_listened") {
+            do {
+                let data = try JSONDecoder().decode([Artist].self, from: artistArrayData)
+                allAtrists = data
+                print("data restore from user defaults")
+            } catch {
+                print(error)
+            }
+        } else {
             guard let path = Bundle.main.path(forResource: "ArtistJSON", ofType: "json") else { return }
-            // data from path or from @appstorage ?
             guard let dataFromPath = try? Data(contentsOf: URL(fileURLWithPath: path)) else { return }
-            try allAtrists = JSONDecoder().decode([Artist].self, from: dataFromPath)
-        } catch {
-            print(error)
+            guard let data = try? JSONDecoder().decode([Artist].self, from: dataFromPath) else { return }
+            allAtrists = data
+            print("data from path passed")
         }
     }
     
     func getArtists() -> [Artist] {
         return allAtrists
     }
+    
     func changeStatus(artistId: Int, newStatus: Bool) {
-        allAtrists[artistId - 1].listened = newStatus
-        print("#from LocalJsonModel# status for artist \(artistId) changed to \(newStatus)\n", allAtrists[artistId - 1].self)
+        // change status
+        var artistIndex: Int = 0
+        allAtrists.indices.forEach { if (allAtrists[$0].id == artistId) { artistIndex = $0 } }
+        allAtrists[artistIndex].listened = newStatus
+        print("#from LocalJsonModel# status for artist \(artistId) changed to \(newStatus)\n", allAtrists[artistIndex].self)
+        
+//        allAtrists[artistId - 1].listened = newStatus
+//        print("#from LocalJsonModel# status for artist \(artistId) changed to \(newStatus)\n", allAtrists[artistId - 1].self)
+        
+       // save new data
+        do {
+            let data = try JSONEncoder().encode(allAtrists)
+            UserDefaults.standard.set(data, forKey: "user_listened")
+            print("data saved to user defaults")
+        } catch {
+            print(error)
+        }
     }
 }
 
