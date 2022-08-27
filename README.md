@@ -8,6 +8,7 @@
 * Localizable
 * UserDefaults
 * Searchable
+* DateFormatter
 
 [Info](https://en.wikipedia.org/wiki/1001_Albums_You_Must_Hear_Before_You_Die)
 

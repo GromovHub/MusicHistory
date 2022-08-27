@@ -43,7 +43,7 @@ final class MainViewViewModel: ObservableObject {
                 } else {
                     self.getArtistsFromlocaljson()
                     self.artists = self.artists.filter { artist in
-                        (artist.artist + " " + artist.album).lowercased()
+                        "\(artist.artist) \(artist.album) \(artist.id) \(artist.date)".lowercased()
                             .contains(value.lowercased())
                     }
                 }

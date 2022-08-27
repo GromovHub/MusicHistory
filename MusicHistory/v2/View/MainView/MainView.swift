@@ -18,7 +18,6 @@ struct MainView: View {
     // MARK: - View
     @StateObject private var vm = MainViewViewModel()
     @StateObject private var svm = SearchViewModel()
-    @State var forText: String = ""
     var body: some View {
         NavigationView {
             List(vm.artists) { artist in
