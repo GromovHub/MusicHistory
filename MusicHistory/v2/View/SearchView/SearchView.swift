@@ -8,7 +8,12 @@
 import SwiftUI
 
 struct SearchView: View {
-    
+    // MARK: - Localizable
+    let navigationTitleSearch: LocalizedStringKey =  "navigationTitleSearch"
+    let searchPromptSearch: LocalizedStringKey =  "searchPromptSearch"
+    let noSuggestions: LocalizedStringKey =  "noSuggestions"
+    let noSuggestionsHint: LocalizedStringKey =  "noSuggestionsHint"
+    // MARK: - View
     var artist: Artist
     @StateObject var searchVM: SearchViewModel
     var body: some View {
@@ -18,24 +23,28 @@ struct SearchView: View {
                 }
                 .overlay {
                     if searchVM.searchResults.count == 0 {
-                       VStack(alignment: .center, spacing: 10) {
-                           Text("No Suggestions")
-                               .font(.largeTitle)
-                               .foregroundColor(.gray)
-                               .opacity(0.5)
-                           Text("Please check your Internet connection or change search term (pull down this text)")
-                               .font(.body)
-                               .foregroundColor(.gray)
-                               .multilineTextAlignment(.center)
-                               .opacity(0.5)
-                               .frame(width: 200)
-                       }
+                        ScrollView {
+                            VStack(alignment: .center, spacing: 10) {
+                                Spacer(minLength: UIScreen.main.bounds.height/3)
+                                Text(noSuggestions)
+                                    .font(.largeTitle)
+                                    .foregroundColor(.gray)
+                                    .opacity(0.5)
+                                Text(noSuggestionsHint)
+                                    .font(.body)
+                                    .foregroundColor(.gray)
+                                    .multilineTextAlignment(.center)
+                                    .opacity(0.5)
+                                    .frame(width: 200)
+                                Spacer()
+                            }
+                        }
                     }
                 }
                 .listStyle(.plain)
-                .searchable(text: $searchVM.searchTerm, placement: .automatic)
+                .searchable(text: $searchVM.searchTerm, prompt: searchPromptSearch)
             }
-        .navigationTitle("iTunes Search")
+        .navigationTitle(navigationTitleSearch)
         .onAppear {
             searchVM.searchTerm = artist.artist + " " + artist.album
         }

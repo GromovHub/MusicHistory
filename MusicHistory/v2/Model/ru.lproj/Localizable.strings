@@ -1,0 +1,12 @@
+// MainView
+"navigationTitleMain" = "История музыки";
+"searchPromptMain" = "Поиск";
+"btnOnlyListened" = "Только прослушанные";
+"btnOnlyNonListened" = "Только непрослушанные";
+"btnHighToLow" = "От новых c cтарым";
+"btnDefault" = "По умолчанию";
+// SearchView
+"navigationTitleSearch" = "Поиск в iTunes";
+"searchPromptSearch" = "Поиск";
+"noSuggestions" = "Нет совпадений";
+"noSuggestionsHint" = "Пожалуйста, проверьте ваше соединение или измените поисковый запрос\n(потяните этот текст вниз)";

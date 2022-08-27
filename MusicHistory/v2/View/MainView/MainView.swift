@@ -8,6 +8,14 @@
 import SwiftUI
 
 struct MainView: View {
+    // MARK: - Localizable
+    let navigationTitleMain: LocalizedStringKey = "navigationTitleMain"
+    let searchPromptMain: LocalizedStringKey = "searchPromptMain"
+    let btnOnlyListened: LocalizedStringKey = "btnOnlyListened"
+    let btnOnlyNonListened: LocalizedStringKey = "btnOnlyNonListened"
+    let btnHighToLow: LocalizedStringKey = "btnHighToLow"
+    let btnDefault: LocalizedStringKey = "btnDefault"
+    // MARK: - View
     @StateObject private var vm = MainViewViewModel()
     @StateObject private var svm = SearchViewModel()
     @State var forText: String = ""
@@ -24,15 +32,15 @@ struct MainView: View {
                 // clear SearchViewModel after back to MainView
                 svm.searchResults = []
             }
-            .navigationTitle("Music History")
-            .searchable(text: $vm.mainViewSearchText)
+            .navigationTitle(navigationTitleMain)
+            .searchable(text: $vm.mainViewSearchText, prompt: searchPromptMain)
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Menu {
-                        Button("Only Listened") { vm.sortBy(how: .onlyListened) }
-                        Button("Only Non Listened") { vm.sortBy(how: .onlyNonListened) }
-                        Button("High To Low") { vm.sortBy(how: .highToLow) }
-                        Button("Default") { vm.sortBy(how: .showDefault) }
+                        Button(btnOnlyListened) { vm.sortBy(how: .onlyListened) }
+                        Button(btnOnlyNonListened) { vm.sortBy(how: .onlyNonListened) }
+                        Button(btnHighToLow) { vm.sortBy(how: .highToLow) }
+                        Button(btnDefault) { vm.sortBy(how: .showDefault) }
                     } label: {
                         Label("Sort", systemImage: "arrow.up.arrow.down")
                     }
@@ -47,3 +55,6 @@ struct MainView_Previews: PreviewProvider {
         MainView()
     }
 }
+
+
+

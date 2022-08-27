@@ -13,11 +13,12 @@ final class MainViewViewModel: ObservableObject {
     
     init() {
         print("MusicHistoryMainViewModel created")
-            getArtistsFromlocaljson()
+        getArtistsFromlocaljson()
         searchOnMainViewPublisher()
     }
-    @Published private var localJsonModel: LocalJsonModel = LocalJsonModel()
+    
     // @Published private var cloudModel: CloudObject
+    @Published private var localJsonModel: LocalJsonModel = LocalJsonModel()
     @Published private(set) var artists: [Artist] = [Artist]()
     @Published var mainViewSearchText = ""
     var cancellables = Set<AnyCancellable>()
@@ -28,21 +29,22 @@ final class MainViewViewModel: ObservableObject {
     
     func changeStatusInLocalJson(forArtist id: Int, to status: Bool) {
             localJsonModel.changeStatus(artistId: id, newStatus: status)
-//            getArtistsFromlocaljson()
     }
     
     func searchOnMainViewPublisher() {
         $mainViewSearchText
             .dropFirst()
             .debounce(for: 0.5, scheduler: RunLoop.main)
-            .sink { value in
+            .sink { [weak self] value in
+                guard let self = self else { return }
                 if value == "" {
                     self.getArtistsFromlocaljson()
                     return
                 } else {
+                    self.getArtistsFromlocaljson()
                     self.artists = self.artists.filter { artist in
-                        (artist.artist + " " + artist.album)
-                            .contains(value)
+                        (artist.artist + " " + artist.album).lowercased()
+                            .contains(value.lowercased())
                     }
                 }
             }

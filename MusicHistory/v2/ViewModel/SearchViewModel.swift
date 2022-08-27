@@ -20,7 +20,7 @@ final class SearchViewModel: ObservableObject {
     }
     
     @Published var searchTerm = ""
-    @Published var searchResults = [ItunesJson]() // remove duplicates? sort?
+    @Published var searchResults = [ItunesJson]()
     var cancellables = Set<AnyCancellable>()
     
     func searchTerm() async {
@@ -34,7 +34,6 @@ final class SearchViewModel: ObservableObject {
         guard let url = urlComponents?.url else { return }
         print(url.description)
         // fetch
-        
         guard let (data, _) = try? await URLSession.shared.data(from: url) else {
             print("data fetch error")
             return }
@@ -43,7 +42,8 @@ final class SearchViewModel: ObservableObject {
             return }
         Task {
             await MainActor.run { [weak self] in
-                self?.searchResults = results.results ?? [ItunesJson.shared]
+                guard let self = self else {return}
+                self.searchResults = results.results ?? [ItunesJson.shared]
             }
         }
     }

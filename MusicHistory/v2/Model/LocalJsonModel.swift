@@ -23,7 +23,7 @@ class LocalJsonModel: ObservableObject {
             do {
                 let data = try JSONDecoder().decode([Artist].self, from: artistArrayData)
                 allAtrists = data
-                print("data restore from user defaults")
+                print("data restored from user defaults")
             } catch {
                 print(error)
             }
@@ -32,7 +32,7 @@ class LocalJsonModel: ObservableObject {
             guard let dataFromPath = try? Data(contentsOf: URL(fileURLWithPath: path)) else { return }
             guard let data = try? JSONDecoder().decode([Artist].self, from: dataFromPath) else { return }
             allAtrists = data
-            print("data from path passed")
+            print("data passed from local path ")
         }
     }
     
@@ -46,10 +46,6 @@ class LocalJsonModel: ObservableObject {
         allAtrists.indices.forEach { if (allAtrists[$0].id == artistId) { artistIndex = $0 } }
         allAtrists[artistIndex].listened = newStatus
         print("#from LocalJsonModel# status for artist \(artistId) changed to \(newStatus)\n", allAtrists[artistIndex].self)
-        
-//        allAtrists[artistId - 1].listened = newStatus
-//        print("#from LocalJsonModel# status for artist \(artistId) changed to \(newStatus)\n", allAtrists[artistId - 1].self)
-        
        // save new data
         do {
             let data = try JSONEncoder().encode(allAtrists)

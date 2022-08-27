@@ -5,6 +5,9 @@
 * Async/Await
 * REST API
 * Custom JSON Decoder
+* Localizable
+* UserDefaults
+* Searchable
 
 [Info](https://en.wikipedia.org/wiki/1001_Albums_You_Must_Hear_Before_You_Die)
 
