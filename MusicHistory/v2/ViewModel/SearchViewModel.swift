@@ -32,7 +32,7 @@ final class SearchViewModel: ObservableObject {
                            URLQueryItem(name: "limit", value: "15")]
         urlComponents?.queryItems = myQueryItems
         guard let url = urlComponents?.url else { return }
-        print(url.description)
+        print("#fetch url",url.description)
         // fetch
         guard let (data, _) = try? await URLSession.shared.data(from: url) else {
             print("data fetch error")
@@ -52,7 +52,7 @@ final class SearchViewModel: ObservableObject {
         $searchTerm
             .debounce(for: 0.5, scheduler: RunLoop.main)
             .sink { value in
-                print("#sub", value)
+                print("#search to", value)
                 Task { [weak self] in
                     await self?.searchTerm()
                 }

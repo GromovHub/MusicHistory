@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D060F4E028BB93E10018A10D /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D060F4DF28BB93E10018A10D /* InfoView.swift */; };
+		D060F4E328BB9DCE0018A10D /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D060F4E228BB9DCE0018A10D /* WelcomeView.swift */; };
 		D0A66CE728BA419C000D7443 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0A66CE928BA419C000D7443 /* Localizable.strings */; };
 		D0A66CF228BA4C1C000D7443 /* MusicHistoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A66CF128BA4C1C000D7443 /* MusicHistoryTests.swift */; };
 		D0B1A8D328B5F5CF0009763D /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B1A8D228B5F5CF0009763D /* SearchView.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D060F4DF28BB93E10018A10D /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		D060F4E228BB9DCE0018A10D /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		D08EEBF728B78AD200824E57 /* MusicHistory.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MusicHistory.entitlements; sourceTree = "<group>"; };
 		D0A66CE828BA419C000D7443 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D0A66CEA28BA41AF000D7443 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -94,6 +98,15 @@
 			path = SearchView;
 			sourceTree = "<group>";
 		};
+		D060F4E128BB9D3B0018A10D /* AdditionalViews */ = {
+			isa = PBXGroup;
+			children = (
+				D060F4DF28BB93E10018A10D /* InfoView.swift */,
+				D060F4E228BB9DCE0018A10D /* WelcomeView.swift */,
+			);
+			path = AdditionalViews;
+			sourceTree = "<group>";
+		};
 		D0A66CF028BA4C1C000D7443 /* MusicHistoryTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +128,7 @@
 		D0DAA35F28B10A08005D1420 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D060F4E128BB9D3B0018A10D /* AdditionalViews */,
 				D04ACDBA28B69E6A009844F6 /* SearchView */,
 				D04ACDB928B69E5D009844F6 /* MainView */,
 			);
@@ -303,6 +317,8 @@
 				D0B1A8D528B5F6830009763D /* ItunesJson.swift in Sources */,
 				D0DC0D1E28B11DFB00B8E832 /* LocalJsonModel.swift in Sources */,
 				D0B1A8D328B5F5CF0009763D /* SearchView.swift in Sources */,
+				D060F4E028BB93E10018A10D /* InfoView.swift in Sources */,
+				D060F4E328BB9DCE0018A10D /* WelcomeView.swift in Sources */,
 				EC7ADED3285B1D9800F45B1A /* ThousandAlbumsApp.swift in Sources */,
 				D0B1A8D728B5F7890009763D /* SearchViewModel.swift in Sources */,
 				D0DAA36828B10C7F005D1420 /* Artist.swift in Sources */,
@@ -495,7 +511,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = MusicHistory/MusicHistory.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = ZT525LAF69;
 				ENABLE_PREVIEWS = YES;
@@ -531,7 +547,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = MusicHistory/MusicHistory.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = ZT525LAF69;
 				ENABLE_PREVIEWS = YES;
