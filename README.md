@@ -1,4 +1,7 @@
 # Music History App
+
+You can alredy test this app - [Apple TestFlight](https://testflight.apple.com/join/9kRsZpQu)
+
 * SwiftUI
 * MVVM
 * Combine
@@ -10,6 +13,6 @@
 * Searchable
 * DateFormatter
 
-[Info](https://en.wikipedia.org/wiki/1001_Albums_You_Must_Hear_Before_You_Die)
+[About collection](https://en.wikipedia.org/wiki/1001_Albums_You_Must_Hear_Before_You_Die)
 
 ![preview](https://github.com/GromovHub/MusicHistory/blob/main/preview2.png)
