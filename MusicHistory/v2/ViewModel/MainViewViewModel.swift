@@ -21,6 +21,8 @@ final class MainViewViewModel: ObservableObject {
     @Published private var localJsonModel: LocalJsonModel = LocalJsonModel()
     @Published private(set) var artists: [Artist] = [Artist]()
     @Published var mainViewSearchText = ""
+    @AppStorage("show_welcome") var showWelcome = true
+    @Published var showInfo = false
     var cancellables = Set<AnyCancellable>()
     
     func getArtistsFromlocaljson() {

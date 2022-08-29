@@ -9,103 +9,39 @@ import SwiftUI
 
 struct WelcomeView: View {
     @AppStorage("show_welcome") var showWelcome = true
+    // image property
+    @State private var angle = 10.0
+    @State private var rotateX = 100.0
+    @State private var rotateY = -100.0
     
-    @State private var angle = 12.0
-    @State private var rotateX = 90.0
-    @State private var rotateY = -45.0
-    
-    let btGradient = LinearGradient(colors: [Color.blue, Color.white], startPoint: .topLeading, endPoint: .bottomTrailing)
-    let snGradient = LinearGradient(colors: [Color.red, Color.white], startPoint: .topLeading, endPoint: .bottomTrailing)
-    let bsGradient = LinearGradient(colors: [Color.purple, Color.white], startPoint: .topLeading, endPoint: .bottomTrailing)
-    let gridItem = GridItem(.adaptive(minimum: 30, maximum: 180), spacing: 100, alignment: .top)
-    
-    let flexItem = GridItem(.flexible(minimum: 10, maximum: 100), spacing: 10, alignment: .center)
-    let adaptItem = GridItem(.adaptive(minimum: 10, maximum: 200), spacing: 10, alignment: .center)
     var body: some View {
         VStack {
-            HStack {
-                Text("Welcome")
-                    .font(.largeTitle)
-                    .fontWeight(.bold)
-                    
-                Spacer()
-            }.padding()
-            
-            ScrollView(.horizontal, showsIndicators: false) {
-                HStack {
-                    //bt
-                    ZStack {
-                        btGradient
-                            .frame(width: 100, height: 100)
-                            .cornerRadius(25)
-                        Image("beatles")
-                            .resizable()
-                            .frame(width: 80, height: 80, alignment: .center)
-                            .cornerRadius(15)
-                            .shadow(radius: 5)
+            ZStack {
+                ScrollView {
+                        ZStack {
+                            previewImage2
+                                .offset(x: 70, y: 0)
+                            previewImage3
+                                .offset(x: 0, y: 10)
+                            previewImage
+                                .offset(x: -70, y: 20)
                     }
-                    .rotation3DEffect(.degrees(angle), axis: (x: CGFloat(rotateX), y: CGFloat(rotateY), z: 0.0))
-
-                    .animation(Animation.timingCurve(0.12, 0, 0.39, 0).repeatForever(autoreverses: true).speed(0.2), value: angle)
-                    //sinatra
-                    ZStack {
-                        snGradient
-                            .frame(width: 100, height: 100)
-                            .cornerRadius(25)
-                        Image("frank")
-                            .resizable()
-                            .frame(width: 80, height: 80, alignment: .center)
-                            .cornerRadius(15)
-                            .shadow(radius: 5)
+                        .padding(.vertical, 30)
+                    previewText
+                    Group {
+                        historicalSequence
+                        saveProgress
+                        exploreDifferent
                     }
-                    .rotation3DEffect(.degrees(angle), axis: (x: CGFloat(rotateX), y: CGFloat(rotateY), z: 0.0))
-                    .animation(Animation.timingCurve(0.12, 0, 0.39, 0).repeatForever(autoreverses: true).speed(0.2), value: angle)
-                    //bs (200:160)
-                    scrElement
-                    ZStack {
-                        bsGradient
-                            .frame(width: 100, height: 100)
-                            .cornerRadius(25)
-                        Image("bs")
-                            .resizable()
-                            .frame(width: 80, height: 80, alignment: .center)
-                            .cornerRadius(15)
-                            .shadow(radius: 5)
-                    }
-                    .rotation3DEffect(.degrees(angle), axis: (x: CGFloat(rotateX), y: CGFloat(rotateY), z: 0.0))
-                    .animation(Animation.timingCurve(0.12, 0, 0.39, 0).repeatForever(autoreverses: true).speed(0.2), value: angle)
-//            .animation(Animation.easeInOut(duration: 3).repeatForever(autoreverses: true))
-            .onAppear {
-                angle = -12.0
-                rotateX = -45.0
-                rotateX = -90.0
+                    .padding()
+                }
+                VStack {
+                    Spacer()
+                    closeButton
                 }
             }
-            }
-            ZStack {
-                RoundedRectangle(cornerRadius: 10)
-                    .frame(maxWidth: .infinity, maxHeight: .infinity)
-                    .foregroundColor(.gray)
-                    .opacity(0.1)
-                Text("Description")
-                    .font(.system(size: 50))
-                    .rotationEffect(Angle(degrees: 40))
-            }
-            .padding()
-            Spacer()
-            Button {
-                showWelcome = false
-            } label: {
-                Text("Start")
-                    .font(.headline)
-                    .foregroundColor(.white)
-                    .frame(height: 55)
-                    .frame(maxWidth: .infinity)
-                    .background(Color.accentColor)
-                    .cornerRadius(10)
-                    .padding()
-            }
         }
+        .ignoresSafeArea(.all, edges: .bottom)
     }
 }
 
@@ -115,22 +51,134 @@ struct WelcomeView_Previews: PreviewProvider {
     }
 }
 
+// MARK: - Components
+
 extension WelcomeView {
-    var scrElement: some View {
-        //bt
+    private var previewImage: some View {
         ZStack {
-            btGradient
-                .frame(width: 100, height: 100)
-                .cornerRadius(25)
-            Image("beatles")
-                .resizable()
-                .frame(width: 80, height: 80, alignment: .center)
-                .cornerRadius(15)
-                .shadow(radius: 5)
+            LinearGradient(colors: [Color.purple, Color.white], startPoint: .topLeading, endPoint: .bottomTrailing)
+                .frame(width: 150, height: 150)
+                .cornerRadius(20)
+                    Image("bs")
+                        .resizable()
+                        .frame(width: 120, height: 120, alignment: .center)
+                        .cornerRadius(20)
+                        .shadow(radius: 10)
         }
         .rotation3DEffect(.degrees(angle), axis: (x: CGFloat(rotateX), y: CGFloat(rotateY), z: 0.0))
-
-        .animation(Animation.timingCurve(0.12, 0, 0.39, 0).repeatForever(autoreverses: true).speed(0.2), value: angle)
-        .padding()
+        .animation(.easeInOut(duration: 2.0).repeatForever(autoreverses: true), value: angle)
+        .onAppear {
+            angle = -10.0
+            rotateX = -100.0
+            rotateX = -100.0
+        }
+    }
+    private var previewImage2: some View {
+        ZStack {
+            LinearGradient(colors: [Color.blue, Color.white], startPoint: .topLeading, endPoint: .bottomTrailing)
+                .frame(width: 150, height: 150)
+                .cornerRadius(20)
+                    Image("beatles")
+                        .resizable()
+                        .frame(width: 120, height: 120, alignment: .center)
+                        .cornerRadius(20)
+                        .shadow(radius: 10)
+        }
+        .rotation3DEffect(.degrees(angle), axis: (x: CGFloat(rotateX), y: CGFloat(rotateY), z: 0.0))
+        .animation(.easeInOut(duration: 2.0).repeatForever(autoreverses: true), value: angle)
+        .onAppear {
+            angle = -10.0
+            rotateX = -100.0
+            rotateX = -100.0
+        }
+    }
+    private var previewImage3: some View {
+        ZStack {
+            LinearGradient(colors: [Color.red, Color.white], startPoint: .topLeading, endPoint: .bottomTrailing)
+                .frame(width: 150, height: 150)
+                .cornerRadius(20)
+                    Image("frank")
+                        .resizable()
+                        .frame(width: 120, height: 120, alignment: .center)
+                        .cornerRadius(20)
+                        .shadow(radius: 10)
+        }
+        .rotation3DEffect(.degrees(angle), axis: (x: CGFloat(rotateX), y: CGFloat(rotateY), z: 0.0))
+        .animation(.easeInOut(duration: 2.0).repeatForever(autoreverses: true), value: angle)
+        .onAppear {
+            angle = -10.0
+            rotateX = -100.0
+            rotateX = -100.0
+        }
+    }
+    private var previewText: some View {
+        Text("Welcome to\nMusic History")
+            .font(.system(size: 40))
+            .fontWeight(.heavy)
+            .multilineTextAlignment(.center)
+    }
+    private var historicalSequence: some View {
+        HStack {
+            Image(systemName: "person.2")
+                .foregroundColor(.accentColor)
+                .font(.system(size: 30))
+                .frame(width: 60, height: 50, alignment: .center)
+            VStack(alignment: .leading) {
+                Text("Historical Sequence")
+                    .font(.headline)
+                Text("Some text some text some text some text some text some text some text")
+                    .foregroundColor(.gray)
+            }
+        }
+    }
+    private var saveProgress: some View {
+        HStack {
+            Image(systemName: "list.bullet.rectangle.portrait")
+                .foregroundColor(.accentColor)
+                .font(.system(size: 30))
+                .frame(width: 60, height: 50, alignment: .center)
+            VStack(alignment: .leading) {
+                Text("Save Progress")
+                    .font(.headline)
+                Text("Some text some text some text some text some text some text some text")
+                    .foregroundColor(.gray)
+            }
+        }
+    }
+    private var exploreDifferent: some View {
+        HStack {
+            Image(systemName: "aqi.medium")
+                .foregroundColor(.accentColor)
+                .font(.system(size: 30))
+                .frame(width: 60, height: 50, alignment: .center)
+            VStack(alignment: .leading) {
+                Text("Explore Different")
+                    .font(.headline)
+                Text("Some text some text some text some text some text some text some text")
+                    .foregroundColor(.gray)
+            }
+        }
+    }
+    private var closeButton: some View {
+        ZStack {
+            Rectangle()
+                .frame(height: 150)
+                .frame(maxWidth: .infinity)
+                .foregroundColor(.white)
+                .blur(radius: 20, opaque: true)
+            Text("Continue")
+                .font(.title2)
+                .fontWeight(.semibold)
+                .foregroundColor(.white)
+                .frame(height: 55)
+                .frame(maxWidth: .infinity)
+                .background(Color.accentColor)
+                .cornerRadius(15)
+                .padding(.horizontal)
+                .offset(y: -30)
+                .onTapGesture {
+                    showWelcome.toggle()
+                }
+        }
     }
 }

@@ -15,15 +15,12 @@ struct MainView: View {
     let btnOnlyNonListened: LocalizedStringKey = "btnOnlyNonListened"
     let btnHighToLow: LocalizedStringKey = "btnHighToLow"
     let btnDefault: LocalizedStringKey = "btnDefault"
+    let btnFilter: LocalizedStringKey = "btnFilter"
     // MARK: - View
     @StateObject private var vm = MainViewViewModel()
     @StateObject private var svm = SearchViewModel()
-    @State private var sheetFlag = false
-    @AppStorage("show_welcome") var showWelcome = true
+    
     var body: some View {
-        if showWelcome {
-            WelcomeView()
-        } else {
             NavigationView {
                 List(vm.artists) { artist in
                     NavigationLink {
@@ -46,22 +43,26 @@ struct MainView: View {
                             Button(btnHighToLow) { vm.sortBy(how: .highToLow) }
                             Button(btnDefault) { vm.sortBy(how: .showDefault) }
                         } label: {
-                            Label("Sort", systemImage: "arrow.up.arrow.down")
+                            Text(btnFilter)
+                                .foregroundColor(.accentColor)
+//                            Label("Sort", systemImage: "arrow.up.arrow.down")
                         }
                     }
                     ToolbarItem(placement: .navigationBarLeading) {
                         Button {
-                            sheetFlag.toggle()
+                            vm.showInfo.toggle()
                         } label: {
-                            Label("Info", systemImage: "info")
+                            Label("Info", systemImage: "info.circle")
                         }
                     }
                 }
             }
-            .sheet(isPresented: $sheetFlag) {
+            .sheet(isPresented: $vm.showWelcome) {
+                WelcomeView()
+            }
+            .sheet(isPresented: $vm.showInfo) {
                 InfoView()
             }
-        }
     }
 }
 

@@ -9,11 +9,12 @@ import SwiftUI
 
 struct InfoView: View {
     @AppStorage("show_welcome") var showWelcome = true
+    let infoTitle: LocalizedStringKey = "infoTitle"
     let version = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "(no version info)"
     let build = Bundle.main.object(forInfoDictionaryKey: "CFBundleVersion") as? String ?? "(no build info)"
     var body: some View {
         VStack {
-            Label("Info", systemImage: "info.circle")
+            Text(infoTitle)
                 .font(.headline)
             Spacer()
             ZStack {

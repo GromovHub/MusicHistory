@@ -5,8 +5,12 @@
 "btnOnlyNonListened" = "Only Non Listened";
 "btnHighToLow" = "High To Low";
 "btnDefault" = "Default";
+"btnFilter" = "Filter";
 // SearchView
 "navigationTitleSearch" = "iTunes Search";
 "searchPromptSearch" = "Search";
 "noSuggestions" = "No Suggestions";
 "noSuggestionsHint" = "Please check your connection or change search term\n(pull down this text)";
+// InfoView
+"infoTitle" = "About App";
+// WelcomeView

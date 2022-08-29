@@ -5,8 +5,12 @@
 "btnOnlyNonListened" = "Только непрослушанные";
 "btnHighToLow" = "От новых c cтарым";
 "btnDefault" = "По умолчанию";
+"btnFilter" = "Фильтр";
 // SearchView
 "navigationTitleSearch" = "Поиск в iTunes";
 "searchPromptSearch" = "Поиск";
 "noSuggestions" = "Нет совпадений";
 "noSuggestionsHint" = "Пожалуйста, проверьте ваше соединение или измените поисковый запрос\n(потяните этот текст вниз)";
+// InfoView
+"infoTitle" = "O приложении";
+// WelcomeView
