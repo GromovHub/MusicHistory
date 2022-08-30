@@ -8,12 +8,24 @@
 import SwiftUI
 
 struct WelcomeView: View {
+    // MARK: - State
     @AppStorage("show_welcome") var showWelcome = true
-    // image property
+    @AppStorage("main_sheet_flag") var mainSheetFlag = false
+    var locate = Locale.current.languageCode
+    // MARK: - Animation Property
     @State private var angle = 10.0
     @State private var rotateX = 100.0
     @State private var rotateY = -100.0
-    
+    // MARK: - Localizable
+    let welcomeTitle: LocalizedStringKey = "welcomeTitle"
+    let historicalTitle: LocalizedStringKey = "historicalTitle"
+    let historicalDespription: LocalizedStringKey = "historicalDespription"
+    let saveTitle: LocalizedStringKey = "saveTitle"
+    let saveDescription: LocalizedStringKey = "saveDescription"
+    let exploreTitle: LocalizedStringKey = "exploreTitle"
+    let exploreDescription: LocalizedStringKey = "exploreDescription"
+    let btnClose: LocalizedStringKey = "btnClose"
+    // MARK: - View
     var body: some View {
         VStack {
             ZStack {
@@ -26,14 +38,17 @@ struct WelcomeView: View {
                             previewImage
                                 .offset(x: -70, y: 20)
                     }
+                        .frame(maxWidth: .infinity)
                         .padding(.vertical, 30)
                     previewText
+                    // Features
                     Group {
                         historicalSequence
                         saveProgress
                         exploreDifferent
                     }
-                    .padding()
+                    .padding(.horizontal)
+                    .padding(.vertical, 10)
                 }
                 VStack {
                     Spacer()
@@ -59,7 +74,7 @@ extension WelcomeView {
             LinearGradient(colors: [Color.purple, Color.white], startPoint: .topLeading, endPoint: .bottomTrailing)
                 .frame(width: 150, height: 150)
                 .cornerRadius(20)
-                    Image("bs")
+                    Image("bs200")
                         .resizable()
                         .frame(width: 120, height: 120, alignment: .center)
                         .cornerRadius(20)
@@ -78,7 +93,7 @@ extension WelcomeView {
             LinearGradient(colors: [Color.blue, Color.white], startPoint: .topLeading, endPoint: .bottomTrailing)
                 .frame(width: 150, height: 150)
                 .cornerRadius(20)
-                    Image("beatles")
+                    Image("beatles200")
                         .resizable()
                         .frame(width: 120, height: 120, alignment: .center)
                         .cornerRadius(20)
@@ -97,7 +112,7 @@ extension WelcomeView {
             LinearGradient(colors: [Color.red, Color.white], startPoint: .topLeading, endPoint: .bottomTrailing)
                 .frame(width: 150, height: 150)
                 .cornerRadius(20)
-                    Image("frank")
+                    Image("frank200")
                         .resizable()
                         .frame(width: 120, height: 120, alignment: .center)
                         .cornerRadius(20)
@@ -112,8 +127,8 @@ extension WelcomeView {
         }
     }
     private var previewText: some View {
-        Text("Welcome to\nMusic History")
-            .font(.system(size: 40))
+        Text(welcomeTitle)
+            .font(.system(size: locate == "en" ? 40 : 30))
             .fontWeight(.heavy)
             .multilineTextAlignment(.center)
     }
@@ -122,42 +137,48 @@ extension WelcomeView {
             Image(systemName: "person.2")
                 .foregroundColor(.accentColor)
                 .font(.system(size: 30))
-                .frame(width: 60, height: 50, alignment: .center)
+                .frame(width: 80, height: 50, alignment: .center)
             VStack(alignment: .leading) {
-                Text("Historical Sequence")
+                Text(historicalTitle)
                     .font(.headline)
-                Text("Some text some text some text some text some text some text some text")
+                Text(historicalDespription)
                     .foregroundColor(.gray)
             }
+            Spacer()
         }
+        .frame(maxWidth: .infinity)
     }
     private var saveProgress: some View {
         HStack {
             Image(systemName: "list.bullet.rectangle.portrait")
                 .foregroundColor(.accentColor)
                 .font(.system(size: 30))
-                .frame(width: 60, height: 50, alignment: .center)
+                .frame(width: 80, height: 50, alignment: .center)
             VStack(alignment: .leading) {
-                Text("Save Progress")
+                Text(saveTitle)
                     .font(.headline)
-                Text("Some text some text some text some text some text some text some text")
+                Text(saveDescription)
                     .foregroundColor(.gray)
             }
+            Spacer()
         }
+        .frame(maxWidth: .infinity)
     }
     private var exploreDifferent: some View {
         HStack {
             Image(systemName: "aqi.medium")
                 .foregroundColor(.accentColor)
                 .font(.system(size: 30))
-                .frame(width: 60, height: 50, alignment: .center)
+                .frame(width: 80, height: 50, alignment: .center)
             VStack(alignment: .leading) {
-                Text("Explore Different")
+                Text(exploreTitle)
                     .font(.headline)
-                Text("Some text some text some text some text some text some text some text")
+                Text(exploreDescription)
                     .foregroundColor(.gray)
             }
+            Spacer()
         }
+        .frame(maxWidth: .infinity)
     }
     private var closeButton: some View {
         ZStack {
@@ -166,7 +187,7 @@ extension WelcomeView {
                 .frame(maxWidth: .infinity)
                 .foregroundColor(.white)
                 .blur(radius: 20, opaque: true)
-            Text("Continue")
+            Text(btnClose)
                 .font(.title2)
                 .fontWeight(.semibold)
                 .foregroundColor(.white)
@@ -178,6 +199,7 @@ extension WelcomeView {
                 .offset(y: -30)
                 .onTapGesture {
                     showWelcome.toggle()
+                    mainSheetFlag.toggle()
                 }
         }
     }

@@ -13,4 +13,13 @@
 "noSuggestionsHint" = "Please check your connection or change search term\n(pull down this text)";
 // InfoView
 "infoTitle" = "About App";
+"supportMe" = "Support me on";
 // WelcomeView
+"welcomeTitle" = "Welcome to\nMusic History";
+"historicalTitle" = "Historical Sequence";
+"historicalDespription" = "Watch the evolution of genres.";
+"saveTitle" = "Save Progress";
+"saveDescription" = "Mark what you have listened to.";
+"exploreTitle" = "Explore Different";
+"exploreDescription" = "Listen to Remastered and Deluxe versions of different years.";
+"btnClose" = "Continue";

@@ -8,23 +8,27 @@
 import SwiftUI
 
 struct InfoView: View {
+    // MARK: - Data
     @AppStorage("show_welcome") var showWelcome = true
+    // MARK: - Localizable
     let infoTitle: LocalizedStringKey = "infoTitle"
+    let supportMe: LocalizedStringKey = "supportMe"
+    // MARK: - Version
     let version = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "(no version info)"
     let build = Bundle.main.object(forInfoDictionaryKey: "CFBundleVersion") as? String ?? "(no build info)"
+    // MARK: - View
     var body: some View {
         VStack {
             Text(infoTitle)
                 .font(.headline)
             Spacer()
-            ZStack {
-                RoundedRectangle(cornerRadius: 10)
-                    .frame(maxWidth: .infinity, maxHeight: .infinity)
-                    .foregroundColor(.gray)
-                    .opacity(0.1)
-                Text("Description")
-                    .font(.system(size: 50))
-                    .rotationEffect(Angle(degrees: 40))
+            Text(supportMe)
+            Link(destination: URL(string: "https://github.com/GromovHub/MusicHistory")!) {
+                Image("GitHub_Logo")
+                    .resizable()
+                    .scaledToFit()
+                    .background(.white)
+                    .cornerRadius(10)
             }
             .padding()
             Spacer()

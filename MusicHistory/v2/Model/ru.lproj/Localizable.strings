@@ -13,4 +13,13 @@
 "noSuggestionsHint" = "Пожалуйста, проверьте ваше соединение или измените поисковый запрос\n(потяните этот текст вниз)";
 // InfoView
 "infoTitle" = "O приложении";
+"supportMe" = "Поддержите меня на ресурсе";
 // WelcomeView
+"welcomeTitle" = " Добро пожаловать в\nMusic History";
+"historicalTitle" = "Историческая последовательность";
+"historicalDespription" = "Наблюдайте за эволюцией жанров.";
+"saveTitle" = "Сохраняйте прогресс";
+"saveDescription" = "Отмечайте прослушанных исполнителей.";
+"exploreTitle" = "Исследуйте новое";
+"exploreDescription" = "Слушайте Remastered и Deluxe версии разных лет.";
+"btnClose" = "Продолжить";

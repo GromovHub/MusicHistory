@@ -16,22 +16,30 @@ struct MainView: View {
     let btnHighToLow: LocalizedStringKey = "btnHighToLow"
     let btnDefault: LocalizedStringKey = "btnDefault"
     let btnFilter: LocalizedStringKey = "btnFilter"
-    // MARK: - View
+    // MARK: - ViewModel
     @StateObject private var vm = MainViewViewModel()
     @StateObject private var svm = SearchViewModel()
-    
+    // MARK: - State
+    @AppStorage("main_sheet_flag") var mainSheetFlag = false
+    @AppStorage("show_welcome") var showWelcome = true
+    // MARK: - View
     var body: some View {
             NavigationView {
                 List(vm.artists) { artist in
                     NavigationLink {
-                        SearchView(artist: artist, searchVM: svm)
+                        withAnimation(Animation.easeInOut(duration: 1.0)) {
+                            SearchView(artist: artist, searchVM: svm)
+                        }
                     } label: {
                         MainCellView(artist: artist, vm: vm)
                     }
                 }
                 .onAppear {
                     // clear SearchViewModel after back to MainView
-                    svm.searchResults = []
+                    withAnimation(Animation.easeInOut(duration: 1.0)) {
+                        svm.searchResults = []
+                    }
+                  
                 }
                 .navigationTitle(navigationTitleMain)
                 .searchable(text: $vm.mainViewSearchText, prompt: searchPromptMain)
@@ -45,23 +53,23 @@ struct MainView: View {
                         } label: {
                             Text(btnFilter)
                                 .foregroundColor(.accentColor)
-//                            Label("Sort", systemImage: "arrow.up.arrow.down")
                         }
                     }
                     ToolbarItem(placement: .navigationBarLeading) {
                         Button {
-                            vm.showInfo.toggle()
+                            mainSheetFlag.toggle()
                         } label: {
                             Label("Info", systemImage: "info.circle")
                         }
                     }
                 }
             }
-            .sheet(isPresented: $vm.showWelcome) {
-                WelcomeView()
-            }
-            .sheet(isPresented: $vm.showInfo) {
-                InfoView()
+            .sheet(isPresented: $mainSheetFlag) {
+                if showWelcome {
+                    WelcomeView()
+                } else {
+                    InfoView()
+                }
             }
     }
 }
