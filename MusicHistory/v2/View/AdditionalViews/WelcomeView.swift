@@ -29,7 +29,7 @@ struct WelcomeView: View {
     var body: some View {
         VStack {
             ZStack {
-                ScrollView {
+                ScrollView(.vertical) {
                         ZStack {
                             previewImage2
                                 .offset(x: 70, y: 0)

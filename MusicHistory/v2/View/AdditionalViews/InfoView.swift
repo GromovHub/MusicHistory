@@ -8,8 +8,13 @@
 import SwiftUI
 
 struct InfoView: View {
-    // MARK: - Data
+    // MARK: - State
     @AppStorage("show_welcome") var showWelcome = true
+    @AppStorage("main_sheet_flag") var mainSheetFlag = false
+    @ObservedObject var vm: MainViewViewModel
+    @State var deleteAlertFlag = false
+    @State var restartAlertFlag = false
+    
     // MARK: - Localizable
     let infoTitle: LocalizedStringKey = "infoTitle"
     let supportMe: LocalizedStringKey = "supportMe"
@@ -19,8 +24,18 @@ struct InfoView: View {
     // MARK: - View
     var body: some View {
         VStack {
-            Text(infoTitle)
-                .font(.headline)
+            HStack {
+                Text("Close")
+                    .foregroundColor(.accentColor)
+                    .onTapGesture {
+                        mainSheetFlag.toggle()
+                    }
+                Spacer()
+            }
+            .padding(.leading)
+                Text(infoTitle)
+                    .font(.headline)
+            
             Spacer()
             Text(supportMe)
             Link(destination: URL(string: "https://github.com/GromovHub/MusicHistory")!) {
@@ -32,6 +47,24 @@ struct InfoView: View {
             }
             .padding()
             Spacer()
+                Button("Delete My Data") {
+                    deleteAlertFlag.toggle()
+                    }
+                .padding(.bottom)
+                .buttonStyle(.borderedProminent)
+                .alert("Are you sure?", isPresented: $deleteAlertFlag) {
+                    Button("Delete", role: .destructive) {
+                        vm.cleanUserData()
+                        vm.saveLastSort(how: .showDefault)
+                        restartAlertFlag.toggle()
+                    }
+                    Button("Cancel", role: .cancel) {}
+                }
+                .alert("Please restart the App", isPresented: $restartAlertFlag) {
+                    Button("Ok") {
+                        mainSheetFlag.toggle()
+                    }
+                }
             Group {
                 Text("Version \(version)")
                 Text("Build \(build)")
@@ -44,11 +77,12 @@ struct InfoView: View {
                 }
         }
         .padding(.vertical)
+        
     }
 }
 
 struct InfoView_Previews: PreviewProvider {
     static var previews: some View {
-        InfoView()
+        InfoView(vm: MainViewViewModel())
     }
 }

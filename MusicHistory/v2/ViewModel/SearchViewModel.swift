@@ -19,7 +19,7 @@ final class SearchViewModel: ObservableObject {
         print("SearchViewModel object is destroyed", self.uid)
     }
     
-    @Published var searchTerm = ""
+    @Published var searchTermValue = ""
     @Published var searchResults = [ItunesJson]()
     var cancellables = Set<AnyCancellable>()
     
@@ -27,7 +27,7 @@ final class SearchViewModel: ObservableObject {
         //url composer
         let baseUrl = "https://itunes.apple.com/search"
         var urlComponents = URLComponents(string: baseUrl)
-        let myQueryItems = [URLQueryItem(name: "term", value: searchTerm),
+        let myQueryItems = [URLQueryItem(name: "term", value: searchTermValue),
                            URLQueryItem(name: "entity", value: "album"),
                            URLQueryItem(name: "limit", value: "15")]
         urlComponents?.queryItems = myQueryItems
@@ -37,19 +37,27 @@ final class SearchViewModel: ObservableObject {
         guard let (data, _) = try? await URLSession.shared.data(from: url) else {
             print("data fetch error")
             return }
-        guard let results = try? JSONDecoder().decode(ItunesResult.self, from: data) else {
-            print("data decode error")
-            return }
-        Task {
-            await MainActor.run { [weak self] in
-                guard let self = self else {return}
-                self.searchResults = results.results ?? [ItunesJson.shared]
+        do {
+            let results = try JSONDecoder().decode(ItunesResult.self, from: data)
+            Task {
+                await MainActor.run { [weak self] in
+                    guard let self = self else {return}
+                    self.searchResults = results.results ?? [ItunesJson.shared]
+                    print("#fetched data passed into searchResults ")
+                }
             }
+        } catch {
+            print("data decode error")
+            print(error)
         }
+//        guard let results = try? JSONDecoder().decode(ItunesResult.self, from: data) else {
+//            print("data decode error")
+//            return }
+        
     }
     
     func termSubscriber() {
-        $searchTerm
+        $searchTermValue
             .debounce(for: 0.5, scheduler: RunLoop.main)
             .sink { value in
                 print("#search to", value)

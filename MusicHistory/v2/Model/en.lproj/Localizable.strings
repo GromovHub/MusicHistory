@@ -10,7 +10,7 @@
 "navigationTitleSearch" = "iTunes Search";
 "searchPromptSearch" = "Search";
 "noSuggestions" = "No Suggestions";
-"noSuggestionsHint" = "Please check your connection or change search term\n(pull down this text)";
+"noSuggestionsHint" = "Please check your connection or\nchange search term\n(pull down this text)";
 // InfoView
 "infoTitle" = "About App";
 "supportMe" = "Support me on";
@@ -23,3 +23,6 @@
 "exploreTitle" = "Explore Different";
 "exploreDescription" = "Listen to Remastered and Deluxe versions of different years.";
 "btnClose" = "Continue";
+// landscapeHello
+"landscapeHelloTitle" = "Welcome to\nMusic History";
+"landscapeHelloDescription" = "Please select an artist from the left-hand menu.";

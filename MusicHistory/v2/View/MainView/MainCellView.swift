@@ -9,12 +9,12 @@ import SwiftUI
 
 struct MainCellView: View {
     @State var artist: Artist
-    @State var vm: MainViewViewModel
+    @ObservedObject var vm: MainViewViewModel
     var body: some View {
         HStack {
             Text("\(artist.id)")
                 .font(.caption)
-                .foregroundColor(.gray)
+                .foregroundColor(.secondary)
                 .frame(width: 30, alignment: .center)
                 .lineLimit(1)
                 .minimumScaleFactor(0.5)
@@ -26,15 +26,18 @@ struct MainCellView: View {
                     .lineLimit(2)
                     .truncationMode(.tail)
                     .font(.footnote)
+                    .foregroundColor(.secondary)
             }
             Spacer()
             Group {
                 Text("\(String(artist.date))")
                     .font(.footnote)
-                    .foregroundColor(.gray)
+                    .foregroundColor(.secondary)
                 Image(systemName: artist.listened ? "circle.fill" : "circle")
                     .foregroundColor(.accentColor)
                     .frame(width: 40)
+                    .background(.white)
+                    .clipShape(Circle())
                     .onTapGesture {
                         artist.listened.toggle()
                         vm.changeStatusInLocalJson(forArtist: artist.id, to: artist.listened)

@@ -16,6 +16,8 @@ struct MainView: View {
     let btnHighToLow: LocalizedStringKey = "btnHighToLow"
     let btnDefault: LocalizedStringKey = "btnDefault"
     let btnFilter: LocalizedStringKey = "btnFilter"
+    let landscapeHelloTitle: LocalizedStringKey = "landscapeHelloTitle"
+    let landscapeHelloDescription: LocalizedStringKey = "landscapeHelloDescription"
     // MARK: - ViewModel
     @StateObject private var vm = MainViewViewModel()
     @StateObject private var svm = SearchViewModel()
@@ -33,13 +35,6 @@ struct MainView: View {
                     } label: {
                         MainCellView(artist: artist, vm: vm)
                     }
-                }
-                .onAppear {
-                    // clear SearchViewModel after back to MainView
-                    withAnimation(Animation.easeInOut(duration: 1.0)) {
-                        svm.searchResults = []
-                    }
-                  
                 }
                 .navigationTitle(navigationTitleMain)
                 .searchable(text: $vm.mainViewSearchText, prompt: searchPromptMain)
@@ -63,20 +58,35 @@ struct MainView: View {
                         }
                     }
                 }
+                // welcome view for lanscape mode
+                landscapeHello
             }
             .sheet(isPresented: $mainSheetFlag) {
                 if showWelcome {
                     WelcomeView()
                 } else {
-                    InfoView()
+                    InfoView(vm: vm)
                 }
             }
     }
 }
-
+// MARK: - Preview
 struct MainView_Previews: PreviewProvider {
     static var previews: some View {
         MainView()
+    }
+}
+
+// MARK: - Components
+extension MainView {
+    private var landscapeHello: some View {
+        VStack {
+            Text(landscapeHelloTitle)
+                .font(.largeTitle)
+            Text(landscapeHelloDescription)
+                .font(.headline)
+                .padding()
+        }
     }
 }
 

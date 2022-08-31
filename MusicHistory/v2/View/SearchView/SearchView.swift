@@ -19,27 +19,32 @@ struct SearchView: View {
     // MARK: - View
     var body: some View {
         VStack {
-                List(searchVM.searchResults) { json in
-                    SearchCellView(jsonObject: json)
-                }
-                .overlay {
-                    if searchVM.searchResults.count == 0 {
-                            noSuggestionsView
-                    }
-                }
-                .listStyle(.plain)
-                .searchable(text: $searchVM.searchTerm, prompt: searchPromptSearch)
+            List(searchVM.searchResults) { json in
+                SearchCellView(jsonObject: json)
             }
+            .overlay {
+                if searchVM.searchResults.count == 0 {
+                    noSuggestionsView
+                        .transition(
+                            AnyTransition.asymmetric(
+                                insertion: AnyTransition.opacity.animation(Animation.default.delay(1)),
+                                removal: AnyTransition.opacity)
+                        )
+                }
+                
+            }
+            .listStyle(.plain)
+            .searchable(text: $searchVM.searchTermValue, prompt: searchPromptSearch)
+        }
         .navigationTitle(navigationTitleSearch)
         .onAppear {
-            
-                searchVM.searchTerm = artist.artist + " " + artist.album
-            
+            searchVM.searchTermValue = artist.artist + " " + artist.album
         }
-        .task { 
+        .task {
+            searchVM.searchResults = []
             await searchVM.searchTerm()
         }
-       
+        
     }
 }
 
@@ -58,7 +63,7 @@ extension SearchView {
     private var noSuggestionsView: some View {
         ScrollView {
             VStack(alignment: .center, spacing: 10) {
-                Spacer(minLength: UIScreen.main.bounds.height/3)
+//                Spacer(minLength: UIScreen.main.bounds.height/3)
                 Text(noSuggestions)
                     .font(.largeTitle)
                     .foregroundColor(.gray)
@@ -71,6 +76,7 @@ extension SearchView {
                     .frame(width: 200)
                 Spacer()
             }
+            .offset(y: 100)
         }
     }
 }
