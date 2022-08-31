@@ -10,14 +10,18 @@ import SwiftUI
 struct InfoView: View {
     // MARK: - State
     @AppStorage("show_welcome") var showWelcome = true
-    @AppStorage("main_sheet_flag") var mainSheetFlag = false
+    @AppStorage("main_sheet_flag") var mainSheetFlag = true
     @ObservedObject var vm: MainViewViewModel
     @State var deleteAlertFlag = false
     @State var restartAlertFlag = false
-    
     // MARK: - Localizable
     let infoTitle: LocalizedStringKey = "infoTitle"
     let supportMe: LocalizedStringKey = "supportMe"
+    let btnDeleteMyData: LocalizedStringKey = "btnDeleteMyData"
+    let alertDeleteQuestion: LocalizedStringKey = "alertDeleteQuestion"
+    let btnDelete: LocalizedStringKey = "btnDelete"
+    let btnCancel: LocalizedStringKey = "btnCancel"
+    let alertRestartQuestion: LocalizedStringKey = "alertRestartQuestion"
     // MARK: - Version
     let version = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "(no version info)"
     let build = Bundle.main.object(forInfoDictionaryKey: "CFBundleVersion") as? String ?? "(no build info)"
@@ -25,7 +29,8 @@ struct InfoView: View {
     var body: some View {
         VStack {
             HStack {
-                Text("Close")
+                //change to image
+                Image(systemName: "chevron.backward")
                     .foregroundColor(.accentColor)
                     .onTapGesture {
                         mainSheetFlag.toggle()
@@ -47,20 +52,20 @@ struct InfoView: View {
             }
             .padding()
             Spacer()
-                Button("Delete My Data") {
+                Button(btnDeleteMyData) {
                     deleteAlertFlag.toggle()
                     }
                 .padding(.bottom)
                 .buttonStyle(.borderedProminent)
-                .alert("Are you sure?", isPresented: $deleteAlertFlag) {
-                    Button("Delete", role: .destructive) {
+                .alert(alertDeleteQuestion, isPresented: $deleteAlertFlag) {
+                    Button(btnDelete, role: .destructive) {
                         vm.cleanUserData()
                         vm.saveLastSort(how: .showDefault)
                         restartAlertFlag.toggle()
                     }
-                    Button("Cancel", role: .cancel) {}
+                    Button(btnCancel, role: .cancel) {}
                 }
-                .alert("Please restart the App", isPresented: $restartAlertFlag) {
+                .alert(alertRestartQuestion, isPresented: $restartAlertFlag) {
                     Button("Ok") {
                         mainSheetFlag.toggle()
                     }

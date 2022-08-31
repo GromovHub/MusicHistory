@@ -10,7 +10,7 @@ import SwiftUI
 struct WelcomeView: View {
     // MARK: - State
     @AppStorage("show_welcome") var showWelcome = true
-    @AppStorage("main_sheet_flag") var mainSheetFlag = false
+    @AppStorage("main_sheet_flag") var mainSheetFlag = true
     var locate = Locale.current.languageCode
     // MARK: - Animation Property
     @State private var angle = 10.0

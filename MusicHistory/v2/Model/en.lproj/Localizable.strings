@@ -14,6 +14,11 @@
 // InfoView
 "infoTitle" = "About App";
 "supportMe" = "Support me on";
+"btnDeleteMyData" = "Delete My Data";
+"alertDeleteQuestion" = "Are you sure?";
+"btnDelete" = "Delete";
+"btnCancel" = "Cancel";
+"alertRestartQuestion" = "Please restart the App";
 // WelcomeView
 "welcomeTitle" = "Welcome to\nMusic History";
 "historicalTitle" = "Historical Sequence";

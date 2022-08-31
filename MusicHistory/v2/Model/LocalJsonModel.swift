@@ -34,6 +34,13 @@ class LocalJsonModel: ObservableObject {
                     print("data passed from local path ")
                 
             }
+        } else {
+            // create data from local json
+                guard let path = Bundle.main.path(forResource: "ArtistJSON", ofType: "json") else { return }
+                guard let dataFromPath = try? Data(contentsOf: URL(fileURLWithPath: path)) else { return }
+                guard let data = try? JSONDecoder().decode([Artist].self, from: dataFromPath) else { return }
+                allAtrists = data
+                print("data passed from local path ")
         }
     }
     

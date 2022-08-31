@@ -22,7 +22,7 @@ struct MainView: View {
     @StateObject private var vm = MainViewViewModel()
     @StateObject private var svm = SearchViewModel()
     // MARK: - State
-    @AppStorage("main_sheet_flag") var mainSheetFlag = false
+    @AppStorage("main_sheet_flag") var mainSheetFlag = true
     @AppStorage("show_welcome") var showWelcome = true
     // MARK: - View
     var body: some View {

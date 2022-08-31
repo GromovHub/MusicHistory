@@ -50,7 +50,7 @@ struct MainCellView: View {
 struct MainCellView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-//            MainCellView(artist: Artist(id: 100, artist: "David", album: "Fortune", date: 1950, listened: true))
+            MainCellView(artist: Artist(id: 100, artist: "David", album: "Fortune", date: 1950, listened: true), vm: MainViewViewModel())
         }
     }
 }

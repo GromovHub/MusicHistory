@@ -14,6 +14,11 @@
 // InfoView
 "infoTitle" = "O приложении";
 "supportMe" = "Поддержите меня на ресурсе";
+"btnDeleteMyData" = "Удалить мои данные";
+"alertDeleteQuestion" = "Вы уверены?";
+"btnDelete" = "Удалить";
+"btnCancel" = "Отмена";
+"alertRestartQuestion" = "Пожалуйста, перезагрузите приложение";
 // WelcomeView
 "welcomeTitle" = "Добро пожаловать в\nMusic History";
 "historicalTitle" = "Историческая последовательность";
