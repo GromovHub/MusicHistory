@@ -1,6 +1,8 @@
 # Music History App
 
-You can alredy test this app - [Apple TestFlight](https://testflight.apple.com/join/9kRsZpQu)
+You can already test this app - [Apple TestFlight](https://testflight.apple.com/join/9kRsZpQu)
+
+[store](https://apps.apple.com/ru/app/music-history-app/id1642058279?l=en)
 
 * SwiftUI
 * MVVM
@@ -14,5 +16,3 @@ You can alredy test this app - [Apple TestFlight](https://testflight.apple.com/j
 * DateFormatter
 
 [About collection](https://en.wikipedia.org/wiki/1001_Albums_You_Must_Hear_Before_You_Die)
-
-![preview](https://github.com/GromovHub/MusicHistory/blob/main/preview3.png)
