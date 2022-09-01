@@ -7,6 +7,7 @@
 
 import XCTest
 @testable import Music_History
+
 class MusicHistoryTests: XCTestCase {
     
 
@@ -27,24 +28,5 @@ class MusicHistoryTests: XCTestCase {
         XCTAssertEqual(vm.searchResults.count, 0)
         XCTAssertTrue(vm.searchResults.isEmpty)
     }
-    
-    func test_delete() {
-        let vm = LocalJsonModel()
-        vm.changeStatus(artistId: 8, newStatus: true)
-        if let x = vm.allAtrists.firstIndex(where: { artist in
-            artist.listened == false
-        }) {
-            print(x)
-        }
-        
-        if let y = vm.allAtrists.first(where: {!$0.listened}) {
-            print(y)
-        }
-        
-        for i in 1...200 {
-            vm.changeStatus(artistId: i, newStatus: true)
-        }
-    }
-    
     
 }

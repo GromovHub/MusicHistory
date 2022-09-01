@@ -50,10 +50,6 @@ final class SearchViewModel: ObservableObject {
             print("data decode error")
             print(error)
         }
-//        guard let results = try? JSONDecoder().decode(ItunesResult.self, from: data) else {
-//            print("data decode error")
-//            return }
-        
     }
     
     func termSubscriber() {
