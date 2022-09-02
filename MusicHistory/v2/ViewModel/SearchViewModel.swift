@@ -13,17 +13,20 @@ final class SearchViewModel: ObservableObject {
     var uid = UUID()
     init() {
         termSubscriber()
-        print("SearchViewModel object is created", self.uid)
+        emptyResultsSubscriber()
+        print("#SearchViewModel object is created", self.uid)
     }
     deinit {
-        print("SearchViewModel object is destroyed", self.uid)
+        print("#SearchViewModel object is destroyed", self.uid)
     }
     
     @Published var searchTermValue = ""
     @Published var searchResults = [ItunesJson]()
     var cancellables = Set<AnyCancellable>()
     
-    func searchTerm() async {
+    @Published var emptyResults = false
+    
+    func searchByTerm() async {
         //url composer
         let baseUrl = "https://itunes.apple.com/search"
         var urlComponents = URLComponents(string: baseUrl)
@@ -34,31 +37,46 @@ final class SearchViewModel: ObservableObject {
         guard let url = urlComponents?.url else { return }
         print("#fetch url",url.description)
         // fetch
-        guard let (data, _) = try? await URLSession.shared.data(from: url) else {
-            print("data fetch error")
-            return }
         do {
+            let (data, _) = try await URLSession.shared.data(from: url)
+            print("#data fetch +")
             let results = try JSONDecoder().decode(ItunesResult.self, from: data)
+            print("#data decode +")
             Task {
                 await MainActor.run { [weak self] in
                     guard let self = self else {return}
                     self.searchResults = results.results ?? [ItunesJson.shared]
-                    print("#fetched data passed into searchResults ")
+                    print("#fetched data passed into searchResults", searchResults.count)
                 }
             }
         } catch {
-            print("data decode error")
+            print("#data fetch/decode error")
             print(error)
         }
     }
     
     func termSubscriber() {
         $searchTermValue
+            .dropFirst()
+            .sink { value in
+                    print("#search to", value)
+                    print("#called from sub")
+                    Task {
+                        await self.searchByTerm()
+                    }
+            }
+            .store(in: &cancellables)
+    }
+    
+    func emptyResultsSubscriber() {
+        $searchResults
+            .dropFirst()
             .debounce(for: 0.5, scheduler: RunLoop.main)
             .sink { value in
-                print("#search to", value)
-                Task { [weak self] in
-                    await self?.searchTerm()
+                if value.isEmpty {
+                    self.emptyResults = true
+                } else {
+                    self.emptyResults = false
                 }
             }
             .store(in: &cancellables)

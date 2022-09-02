@@ -37,7 +37,8 @@ struct MainView: View {
                     }
                 }
                 .navigationTitle(navigationTitleMain)
-                .searchable(text: $vm.mainViewSearchText, prompt: searchPromptMain)
+                .searchable(text: $vm.mainViewSearchText, placement: .navigationBarDrawer(displayMode: .automatic), prompt: searchPromptMain)
+                .animation(.easeIn(duration: 1), value: vm.artists)
                 .toolbar {
                     ToolbarItem(placement: .navigationBarTrailing) {
                         Menu {

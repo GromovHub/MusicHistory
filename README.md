@@ -28,7 +28,10 @@ You can already test newest build of this app - [Apple TestFlight](https://testf
 * Async/Await
 * REST API
 * Custom JSON Decoder
+* Unit Tests
 * Localizable
 * UserDefaults
 * Searchable
 * DateFormatter
+* Rotation3DEffect
+* URLComponents

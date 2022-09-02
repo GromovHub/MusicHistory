@@ -11,7 +11,7 @@ import SwiftUI
 
 class LocalJsonModel: ObservableObject {
     init() {
-        print("LocalJsonModel created")
+        print("#LocalJsonModel created")
             createArtists()
     }
     
@@ -23,24 +23,13 @@ class LocalJsonModel: ObservableObject {
             do {
                 let data = try JSONDecoder().decode([Artist].self, from: artistArrayData)
                 allAtrists = data
-                print("data restored from user defaults")
+                print("#data restored from user defaults")
             } catch {
-                print("user defaults data error\n", error)
-                // create data from local json
-                    guard let path = Bundle.main.path(forResource: "ArtistJSON", ofType: "json") else { return }
-                    guard let dataFromPath = try? Data(contentsOf: URL(fileURLWithPath: path)) else { return }
-                    guard let data = try? JSONDecoder().decode([Artist].self, from: dataFromPath) else { return }
-                    allAtrists = data
-                    print("data passed from local path ")
-                
+                print("#user defaults data error\n", error)
+                createDataFromLocalJson()
             }
         } else {
-            // create data from local json
-                guard let path = Bundle.main.path(forResource: "ArtistJSON", ofType: "json") else { return }
-                guard let dataFromPath = try? Data(contentsOf: URL(fileURLWithPath: path)) else { return }
-                guard let data = try? JSONDecoder().decode([Artist].self, from: dataFromPath) else { return }
-                allAtrists = data
-                print("data passed from local path ")
+                createDataFromLocalJson()
         }
     }
     
@@ -58,7 +47,7 @@ class LocalJsonModel: ObservableObject {
         do {
             let data = try JSONEncoder().encode(allAtrists)
             UserDefaults.standard.set(data, forKey: "user_listened")
-            print("data saved to user defaults")
+            print("#data saved to user defaults")
         } catch {
             print(error)
         }
@@ -74,13 +63,52 @@ class LocalJsonModel: ObservableObject {
                 print(pathToSave?.description ?? "invalid path")
                 
             } catch {
-                print("backup failed \n",error)
+                print("#backup failed \n",error)
             }
     }
     
     func clearUserData() {
         UserDefaults.standard.set(Data(), forKey: "user_listened")
-        print("user data erased")
+        print("#user data erased")
+    }
+    
+    func createDataFromLocalJson() {
+        guard let path = Bundle.main.path(forResource: "ArtistJSON", ofType: "json") else { return }
+        guard let dataFromPath = try? Data(contentsOf: URL(fileURLWithPath: path)) else { return }
+        guard let data = try? JSONDecoder().decode([Artist].self, from: dataFromPath) else { return }
+        allAtrists = data
+        print("#data passed from local path ")
+    }
+    /*
+     if Artist .name or .album changed i must rebase local UserDefaults
+     */
+    func rebaseData() -> Bool {
+        // get old data in Data
+        guard let oldDataData = UserDefaults.standard.data(forKey: "user_listened") else {
+            print("rebase error / no user dafaults data")
+            return false
+        }
+        do {
+            // encode old data to [Artist]
+            let oldDataArray = try JSONDecoder().decode([Artist].self, from: oldDataData)
+            // load new JSON
+            createDataFromLocalJson()
+            // restore user progress
+            oldDataArray.forEach { oldArtist in
+                if oldArtist.listened == true {
+                    changeStatus(artistId: oldArtist.id, newStatus: true)
+                    print("#", oldArtist.id)
+                }
+            }
+            // save new data
+            let data = try JSONEncoder().encode(allAtrists)
+            UserDefaults.standard.set(data, forKey: "user_listened")
+            print("#data saved to user defaults")
+            return true
+        } catch {
+            print("#rebase error", error)
+            return false
+        }
     }
 }
 

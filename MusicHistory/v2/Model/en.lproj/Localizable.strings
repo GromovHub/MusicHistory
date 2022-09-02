@@ -1,6 +1,6 @@
 // MainView
 "navigationTitleMain" = "Music History";
-"searchPromptMain" = "Search";
+"searchPromptMain" = "Name, Year, Ordinal";
 "btnOnlyListened" = "Only Listened";
 "btnOnlyNonListened" = "Only Non Listened";
 "btnHighToLow" = "High To Low";
@@ -10,7 +10,7 @@
 "navigationTitleSearch" = "iTunes Search";
 "searchPromptSearch" = "Search";
 "noSuggestions" = "No Suggestions";
-"noSuggestionsHint" = "Please check your connection or\nchange search term\n(pull down this text)";
+"noSuggestionsHint" = "Please check your connection or\nchange search term";
 // InfoView
 "infoTitle" = "About App";
 "supportMe" = "Support me on";
@@ -18,7 +18,10 @@
 "alertDeleteQuestion" = "Are you sure?";
 "btnDelete" = "Delete";
 "btnCancel" = "Cancel";
-"alertRestartQuestion" = "Please restart the App";
+"alertRestartQuestion" = "Please relaunch the App";
+"btnRebase" = "Rebase Data";
+"rebaseTitleSuccess" = "Success!\nPlease relaunch App";
+"rebaseTitleFail" = "Fail";
 // WelcomeView
 "welcomeTitle" = "Welcome to\nMusic History";
 "historicalTitle" = "Historical Sequence";

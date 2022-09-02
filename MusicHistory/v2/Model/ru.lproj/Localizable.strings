@@ -1,6 +1,6 @@
 // MainView
 "navigationTitleMain" = "История музыки";
-"searchPromptMain" = "Поиск";
+"searchPromptMain" = "Имя, год, порядковый номер";
 "btnOnlyListened" = "Только прослушанные";
 "btnOnlyNonListened" = "Только непрослушанные";
 "btnHighToLow" = "От новых c cтарым";
@@ -10,7 +10,7 @@
 "navigationTitleSearch" = "Поиск в iTunes";
 "searchPromptSearch" = "Поиск";
 "noSuggestions" = "Нет совпадений";
-"noSuggestionsHint" = "Проверьте ваше соединение или\nизмените поисковый запрос\n(потяните этот текст вниз)";
+"noSuggestionsHint" = "Проверьте ваше соединение или\nизмените поисковый запрос";
 // InfoView
 "infoTitle" = "O приложении";
 "supportMe" = "Поддержите меня на ресурсе";
@@ -19,6 +19,9 @@
 "btnDelete" = "Удалить";
 "btnCancel" = "Отмена";
 "alertRestartQuestion" = "Пожалуйста, перезагрузите приложение";
+"btnRebase" = "Обновить список";
+"rebaseTitleSuccess" = "Успешно!\nПожалуйста, перезагрузите приложение";
+"rebaseTitleFail" = "Ошибка";
 // WelcomeView
 "welcomeTitle" = "Добро пожаловать в\nMusic History";
 "historicalTitle" = "Историческая последовательность";

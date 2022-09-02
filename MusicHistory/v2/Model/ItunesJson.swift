@@ -12,7 +12,7 @@ struct ItunesResult: Codable {
     let results: [ItunesJson]?
 }
 
-struct ItunesJson: Codable, Identifiable {
+struct ItunesJson: Codable, Identifiable, Equatable {
     let id: Int?
     let wrapperType: String?
     let collectionType: String?

@@ -25,16 +25,12 @@ struct SearchView: View {
             .overlay {
                 if searchVM.searchResults.count == 0 {
                     noSuggestionsView
-                        .transition(
-                            AnyTransition.asymmetric(
-                                insertion: AnyTransition.opacity.animation(Animation.default.delay(1)),
-                                removal: AnyTransition.opacity)
-                        )
                 }
                 
             }
             .listStyle(.plain)
-            .searchable(text: $searchVM.searchTermValue, prompt: searchPromptSearch)
+            .searchable(text: $searchVM.searchTermValue, placement: .navigationBarDrawer(displayMode: .always), prompt: searchPromptSearch)
+            .animation(.easeIn, value: searchVM.searchResults)
         }
         .navigationTitle(navigationTitleSearch)
         .onAppear {
@@ -42,7 +38,7 @@ struct SearchView: View {
         }
         .task {
             searchVM.searchResults = []
-            await searchVM.searchTerm()
+//            await searchVM.searchTerm()
         }
         
     }

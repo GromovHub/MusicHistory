@@ -14,6 +14,8 @@ struct InfoView: View {
     @ObservedObject var vm: MainViewViewModel
     @State var deleteAlertFlag = false
     @State var restartAlertFlag = false
+    @State var rebaseFlag = false
+    @State var rebaseAlertFlag = false
     // MARK: - Localizable
     let infoTitle: LocalizedStringKey = "infoTitle"
     let supportMe: LocalizedStringKey = "supportMe"
@@ -22,6 +24,9 @@ struct InfoView: View {
     let btnDelete: LocalizedStringKey = "btnDelete"
     let btnCancel: LocalizedStringKey = "btnCancel"
     let alertRestartQuestion: LocalizedStringKey = "alertRestartQuestion"
+    let btnRebase: LocalizedStringKey = "btnRebase"
+    let rebaseTitleSuccess: LocalizedStringKey = "rebaseTitleSuccess"
+    let rebaseTitleFail: LocalizedStringKey = "rebaseTitleFail"
     // MARK: - Version
     let version = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "(no version info)"
     let build = Bundle.main.object(forInfoDictionaryKey: "CFBundleVersion") as? String ?? "(no build info)"
@@ -52,11 +57,11 @@ struct InfoView: View {
             }
             .padding()
             Spacer()
+            HStack {
                 Button(btnDeleteMyData) {
                     deleteAlertFlag.toggle()
                     }
-                .padding(.bottom)
-                .buttonStyle(.borderedProminent)
+                .tint(.red)
                 .alert(alertDeleteQuestion, isPresented: $deleteAlertFlag) {
                     Button(btnDelete, role: .destructive) {
                         vm.cleanUserData()
@@ -70,6 +75,19 @@ struct InfoView: View {
                         mainSheetFlag.toggle()
                     }
                 }
+                Button(btnRebase) {
+                    rebaseFlag = vm.rebase()
+                    rebaseAlertFlag.toggle()
+                }
+                .alert(rebaseFlag ? rebaseTitleSuccess : rebaseTitleFail, isPresented: $rebaseAlertFlag) {
+                    Button("Ok") {
+                        mainSheetFlag.toggle()
+                    }
+                }
+            }
+            .buttonStyle(.borderedProminent)
+            .padding(.bottom)
+                
             Group {
                 Text("Version \(version)")
                 Text("Build \(build)")

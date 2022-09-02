@@ -12,7 +12,7 @@ import Combine
 final class MainViewViewModel: ObservableObject {
     
     init() {
-        print("MusicHistoryMainViewModel created")
+        print("#MusicHistoryMainViewModel created")
         getArtistsFromlocaljson()
         restoreLastSort()
         searchOnMainViewPublisher()
@@ -113,6 +113,10 @@ final class MainViewViewModel: ObservableObject {
         } catch {
             print(error)
         }
+    }
+    
+    func rebase() -> Bool {
+        localJsonModel.rebaseData()
     }
     
     enum SortVar: Codable {
