@@ -10,7 +10,7 @@ Music History is an application for step-by-step listening to music. You can tra
 
 # TestFlight
 
-You can already test newest build of this app - [Apple TestFlight](https://testflight.apple.com/join/9kRsZpQu)
+You can already test newest build of this app (iOS 15.0) - [Apple TestFlight](https://testflight.apple.com/join/9kRsZpQu)
 
 # Preview
 ![preview](https://github.com/GromovHub/MusicHistory/blob/main/Assets/Preview.png)

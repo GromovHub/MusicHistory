@@ -19,7 +19,7 @@
 "btnDelete" = "Delete";
 "btnCancel" = "Cancel";
 "alertRestartQuestion" = "Please relaunch the App";
-"btnRebase" = "Rebase Data";
+"btnRebase" = "Update Collection";
 "rebaseTitleSuccess" = "Success!\nPlease relaunch App";
 "rebaseTitleFail" = "Fail";
 // WelcomeView

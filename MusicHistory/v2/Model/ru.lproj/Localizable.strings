@@ -19,7 +19,7 @@
 "btnDelete" = "Удалить";
 "btnCancel" = "Отмена";
 "alertRestartQuestion" = "Пожалуйста, перезагрузите приложение";
-"btnRebase" = "Обновить список";
+"btnRebase" = "Обновить коллекцию";
 "rebaseTitleSuccess" = "Успешно!\nПожалуйста, перезагрузите приложение";
 "rebaseTitleFail" = "Ошибка";
 // WelcomeView
