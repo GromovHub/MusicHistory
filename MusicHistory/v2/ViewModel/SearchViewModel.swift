@@ -31,8 +31,9 @@ final class SearchViewModel: ObservableObject {
         let baseUrl = "https://itunes.apple.com/search"
         var urlComponents = URLComponents(string: baseUrl)
         let myQueryItems = [URLQueryItem(name: "term", value: searchTermValue),
-                           URLQueryItem(name: "entity", value: "album"),
-                           URLQueryItem(name: "limit", value: "15")]
+                            URLQueryItem(name: "entity", value: "album"),
+                            URLQueryItem(name: "country", value: "gb"),
+                            URLQueryItem(name: "limit", value: "20")]
         urlComponents?.queryItems = myQueryItems
         guard let url = urlComponents?.url else { return }
         print("#fetch url",url.description)
@@ -50,14 +51,16 @@ final class SearchViewModel: ObservableObject {
                 }
             }
         } catch {
-            print("#data fetch/decode error")
+            print("#data fetch/decode error", searchTermValue)
             print(error)
+            searchResults = []
         }
     }
     
     func termSubscriber() {
         $searchTermValue
             .dropFirst()
+            .debounce(for: 0.5, scheduler: RunLoop.main)
             .sink { value in
                     print("#search to", value)
                     print("#called from sub")

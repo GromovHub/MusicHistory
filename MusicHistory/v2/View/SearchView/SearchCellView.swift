@@ -37,6 +37,9 @@ struct SearchCellView: View {
                 Text(formatDate(stringItunesDate:jsonObject.releaseDate ?? "error"))
                     .font(.caption)
                     .foregroundColor(Color.gray)
+                Text(jsonObject.primaryGenreName ?? "")
+                    .font(.caption)
+                    .foregroundColor(Color.gray)
             }
             Spacer(minLength: 20)
             Link(destination: URL(string: jsonObject.collectionViewUrl!)!) {

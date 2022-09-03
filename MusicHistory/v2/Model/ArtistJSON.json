@@ -165,7 +165,7 @@
         "id": 24,
         "album": "A Date with the Everly Brothers",
         "listened": false,
-        "artist": "The Everly Bothers"
+        "artist": "The Everly Brothers"
     },
     {
         "date": 1960,
@@ -233,7 +233,7 @@
     {
         "date": 1963,
         "id": 34,
-        "album": "A Christmas Gift To You",
+        "album": "A Christmas Gift",
         "listened": false,
         "artist": "Phil Spector"
     },
@@ -625,14 +625,14 @@
     {
         "date": 1967,
         "id": 90,
-        "album": "I Had Too Much to Dream Last Night",
+        "album": "I Had Too Much to Dream",
         "listened": false,
         "artist": "The Electric Prunes"
     },
     {
         "date": 1967,
         "id": 91,
-        "album": "I Never Loved a Man the Way That I Love You",
+        "album": "I Never Loved",
         "listened": false,
         "artist": "Aretha Franklin"
     },

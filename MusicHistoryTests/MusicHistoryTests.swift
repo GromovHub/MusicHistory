@@ -52,6 +52,38 @@ class MusicHistoryTests: XCTestCase {
         XCTAssertGreaterThan(vm.searchResults.count, 0)
     }
     
+    func test_SearchViewModel_searchResults_NotEqualZero_WithIdFrom1To100_BadButWorks() {
+        // Given
+        let jsonModel = LocalJsonModel()
+        let exp: XCTestExpectation = XCTestExpectation()
+        let loopCoutFrom = 0
+        let loopCountTo = 100
+        var invalidArtistId = [Int]()
+        var resultCount = 0
+        
+        // When
+        for i in loopCoutFrom..<loopCountTo {
+            let svm = SearchViewModel()
+            svm.$searchResults
+                .dropFirst()
+                .debounce(for: 2, scheduler: RunLoop.main)
+                .sink { results in
+                    print("RESULTS GOT FOR --- id: \(jsonModel.allAtrists[i].id), \(jsonModel.allAtrists[i].artist) ---", svm.searchResults.count)
+                    if results.count == 0 { invalidArtistId.append(jsonModel.allAtrists[i].id) }
+                    resultCount += 1
+                    if resultCount == (loopCountTo - loopCoutFrom) {
+                        exp.fulfill() }
+                }
+                .store(in: &cancellables)
+            
+            svm.searchTermValue = jsonModel.allAtrists[i].artist + " " + jsonModel.allAtrists[i].album
+        }
+        
+        // Then
+        wait(for: [exp], timeout: 10)
+        XCTAssertEqual(invalidArtistId, [])
+        print("\n\n", invalidArtistId,"\n\n")
+    }
     
     
 }
