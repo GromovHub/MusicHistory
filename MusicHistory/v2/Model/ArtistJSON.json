@@ -823,7 +823,7 @@
         "id": 118,
         "album": "Oar",
         "listened": false,
-        "artist": "Alexander Skip Spence"
+        "artist": "Skip Spence"
     },
     {
         "date": 1968,
@@ -884,9 +884,9 @@
     {
         "date": 1968,
         "id": 127,
-        "album": "The Call of the Valley",
+        "album": "Valley",
         "listened": false,
-        "artist": "Shivkumar Sharma/Brijbushan Kabra/Hariprasad Chaurasia"
+        "artist": "Shivkumar Sharma Hariprasad Chaurasia"
     },
     {
         "date": 1968,
@@ -935,7 +935,7 @@
         "id": 134,
         "album": "Truth",
         "listened": false,
-        "artist": "Jeff Beck Group"
+        "artist": "Jeff Beck"
     },
     {
         "date": 1968,
@@ -1269,7 +1269,7 @@
     {
         "date": 1970,
         "id": 182,
-        "album": "Bryter Later",
+        "album": "Bryter Layter",
         "listened": false,
         "artist": "Nick Drake"
     },
@@ -1297,9 +1297,9 @@
     {
         "date": 1970,
         "id": 186,
-        "album": "Fun House",
+        "album": "Funhouse",
         "listened": false,
-        "artist": "Iggy Pop & The Stooges"
+        "artist": "The Stooges"
     },
     {
         "date": 1970,
@@ -1514,7 +1514,7 @@
     {
         "date": 1971,
         "id": 217,
-        "album": "Led Zeppelin IV (Four Symbols)",
+        "album": "IV",
         "listened": false,
         "artist": "Led Zeppelin"
     },
@@ -1752,7 +1752,7 @@
     {
         "date": 1972,
         "id": 251,
-        "album": "No.1 Record",
+        "album": "Record",
         "listened": false,
         "artist": "Big Star"
     },
@@ -1922,7 +1922,7 @@
         "id": 275,
         "album": "Bongo Rock",
         "listened": false,
-        "artist": "Michael Viner's Incredible Bongo Band"
+        "artist": "Incredible Bongo Band"
     },
     {
         "date": 1973,
@@ -1976,7 +1976,7 @@
     {
         "date": 1973,
         "id": 283,
-        "album": "Grevious Angel",
+        "album": "Grievous Angel",
         "listened": false,
         "artist": "Gram Parsons"
     },
@@ -2025,7 +2025,7 @@
     {
         "date": 1973,
         "id": 290,
-        "album": "nnervisions",
+        "album": "Innervisions",
         "listened": false,
         "artist": "Stevie Wonder"
     },
@@ -2048,7 +2048,7 @@
         "id": 293,
         "album": "Raw Power",
         "listened": false,
-        "artist": "Iggy Pop & The Stooges"
+        "artist": "The Stooges"
     },
     {
         "date": 1973,
@@ -2151,7 +2151,7 @@
     {
         "date": 1974,
         "id": 308,
-        "album": "Fullfillingness First Finale",
+        "album": "First Finale",
         "listened": false,
         "artist": "Stevie Wonder"
     },
@@ -2279,7 +2279,7 @@
         "id": 326,
         "album": "Winter in America",
         "listened": false,
-        "artist": "Gill Scott-Heron"
+        "artist": "Scott Heron"
     },
     {
         "date": 1975,
@@ -2333,9 +2333,9 @@
     {
         "date": 1975,
         "id": 342,
-        "album": "Shalimar / College Girl",
+        "album": "Sholay",
         "listened": false,
-        "artist": "R.D.Burman / Bappi Lahiri"
+        "artist": "R.D.Burman"
     },
     {
         "date": 1975,
@@ -2403,7 +2403,7 @@
     {
         "date": 1976,
         "id": 356,
-        "album": "Hejeira",
+        "album": "Hejira",
         "listened": false,
         "artist": "Joni Mitchell"
     },
@@ -2522,9 +2522,9 @@
     {
         "date": 1977,
         "id": 367,
-        "album": "Cest Chic",
+        "album": "Chic",
         "listened": false,
-        "artist": "Chic Manish"
+        "artist": "Chic"
     },
     {
         "date": 1977,
@@ -2592,9 +2592,9 @@
     {
         "date": 1977,
         "id": 377,
-        "album": "New Boots & Panties",
+        "album": "New Boots",
         "listened": false,
-        "artist": "Ian Dury & the Blockheads"
+        "artist": "Ian Dury"
     },
     {
         "date": 1977,
@@ -2641,7 +2641,7 @@
     {
         "date": 1978,
         "id": 395,
-        "album": "Ambient no.1: Music for Airports",
+        "album": "Ambient",
         "listened": false,
         "artist": "Brian Eno"
     },
@@ -2732,14 +2732,14 @@
     {
         "date": 1979,
         "id": 438,
-        "album": "Metal Box Second Edition",
+        "album": "Metal Box",
         "listened": false,
         "artist": "Public Image"
     },
     {
         "date": 1979,
         "id": 443,
-        "album": "Regatta De Blanc",
+        "album": "Reggatta",
         "listened": false,
         "artist": "The Police"
     },
@@ -3105,7 +3105,7 @@
         "id": 491,
         "album": "The Poet",
         "listened": false,
-        "artist": "Bobbie Womack"
+        "artist": "Bobby Womack"
     },
     {
         "date": 1981,
@@ -3476,7 +3476,7 @@
         "id": 544,
         "album": "She's So Unusual",
         "listened": false,
-        "artist": "Cindy Lauper"
+        "artist": "Cyndi Lauper"
     },
     {
         "date": 1984,

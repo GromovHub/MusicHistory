@@ -8,19 +8,20 @@ Music History is an application for step-by-step listening to music. You can tra
 
 [About collection](https://en.wikipedia.org/wiki/1001_Albums_You_Must_Hear_Before_You_Die)
 
-# TestFlight
+## TestFlight
 
 You can already test newest build of this app (iOS 15.0) - [Apple TestFlight](https://testflight.apple.com/join/9kRsZpQu)
 
-# Preview
+## Preview
+
 ![preview](https://github.com/GromovHub/MusicHistory/blob/main/Assets/Preview.png)
 
-# Requirements
+## Requirements
 
 * iOS 15.5+
 * Xcode 13+
 
-# Keywords
+## Keywords
 
 * SwiftUI
 * MVVM
