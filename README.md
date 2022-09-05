@@ -18,7 +18,7 @@ You can already test newest build of this app (iOS 15.0) - [Apple TestFlight](ht
 
 ## Requirements
 
-* iOS 15.5+
+* iOS 15.0+
 * Xcode 13+
 
 ## Keywords
