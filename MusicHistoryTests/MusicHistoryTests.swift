@@ -55,7 +55,7 @@ class MusicHistoryTests: XCTestCase {
     func test_SearchViewModel_searchResults_NotEqualZero_WithIdFromXToY_BadButWorks() {
         // Given
 
-        let loopRange = 450..<500
+        let loopRange = 0..<100
         
         let exp: XCTestExpectation = XCTestExpectation()
         let jsonModel = LocalJsonModel()

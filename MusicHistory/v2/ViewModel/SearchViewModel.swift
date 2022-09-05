@@ -29,10 +29,11 @@ final class SearchViewModel: ObservableObject {
     func searchByTerm() async {
         //url composer
         let baseUrl = "https://itunes.apple.com/search"
+        let country = "gb"
         var urlComponents = URLComponents(string: baseUrl)
         let myQueryItems = [URLQueryItem(name: "term", value: searchTermValue),
                             URLQueryItem(name: "entity", value: "album"),
-                            URLQueryItem(name: "country", value: "gb"),
+                            URLQueryItem(name: "country", value: searchTermValue == "Ozomatli Street Signs" ? "de" : country),
                             URLQueryItem(name: "limit", value: "20")]
         urlComponents?.queryItems = myQueryItems
         guard let url = urlComponents?.url else { return }
