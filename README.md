@@ -1,4 +1,4 @@
-# Music History App
+# SwiftUI Music History App
 
 [![roundedIcon](https://github.com/GromovHub/MusicHistory/blob/main/Assets/roundedIcon180.png)](https://github.com/GromovHub/MusicHistory/)
 
